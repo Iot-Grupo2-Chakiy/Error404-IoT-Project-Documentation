@@ -278,3 +278,22 @@ Debe tener una interfaz amigable, clara y empática, con diseño pensado para pe
 
 <div id='1.2.2.3.'><h5> 1.2.2.3. Lean UX Hypothesis Statements.</h5></div>
 
+
+
+
+
+
+
+<div id='7.'><h2>Bibliografía</h2></div>
+
+Organización Mundial de la Salud (OMS). (2021). Asma. Recuperado de [https://www.who.int/es/news-room/fact-sheets/detail/asthma]
+
+UNICEF. (2020). El entorno saludable: clave para la salud infantil. Recuperado de [https://www.unicef.org]
+
+GINA - Global Initiative for Asthma. (2023). Global Strategy for Asthma Management and Prevention. Recuperado de [https://ginasthma.org]
+
+Science Magazine. (2020). Digital health adoption in emerging countries: A systematic review. Recuperado de [https://www.science.org]
+
+
+<div id='8.'><h2>Anexos</h2></div>
+
