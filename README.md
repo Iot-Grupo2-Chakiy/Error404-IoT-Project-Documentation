@@ -142,3 +142,69 @@ URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-
 6. [**Conclusiones**](#6.)<br>
 7. [**Bibliografía**](#7.)<br>
 8. [**Anexos**](#8.)<br>
+
+
+
+
+<div id='1.'><h2>Capítulo I: Introducción</h2></div>
+<div id='1.1.'><h3> 1.1 Startup Profile</h3></div>
+En esta sección se presenta la descripción del startup y los perfiles de los miembros del equipo.
+
+<div id='1.1.1.'><h4> 1.1.1. Descripción del startup</h4></div>
+
+
+**Misión:** .
+
+**Visión:** .
+
+<div id='1.1.2.'><h4> 1.1.2. Perfiles de los integrantes del equipo</h4></div>
+
+|                                                                                                                                                                                                          Descripción de los perfiles de los integrantes del equipo                                                                                                                                                                                                           |                                                              Foto del integrante                                                              |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|
+| Mi nombre es **Paolo César Guillen Luna**, estudiante de la carrera de Ingeniería de Software, en la UPC y fanático de los videojuegos. Me considero alguien creativo y con determinación en alcanzar sus metas, dentro del campo del desarrollo de software, me gustaría especializarme en lo que es el testing de este, razón por la cual aparte de seguir la malla curricular de mi carrera también ando aprendiendo herramientas diversas como Playwright, Cypress, etc. |   <img src="resources/teamMembersPhotos/paoloPhoto.jpg"/>   |
+| Mi nombre es **Diego André Cantoral Paredes** y soy estudiante de la carrera de Ingeniería de Software. Desde siempre me interesaron los temas tecnológicos y sobre todo las computadoras, por lo que desarrollé una afición a los videojuegos y luego a la programación. Me considero una persona responsable, creativa y siempre dispuesto a ayudar a mis compañeros.|   <img src="resources/teamMembersPhotos/diegoPhoto.PNG"/>   |
+|Mi nombre es **Amner Levi Llamo Sánchez**, soy estudiante del quinto ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.|<img src='resources/teamMembersPhotos/Amner.jpeg'/>|
+| | <img src='resources/teamMembersPhotos/sebastianCachis.png'/> |
+| | <img src='resources/teamMembersPhotos/eliasyauri.png'/> |
+
+
+<div id='1.2.'><h3> 1.2. Solution Profile</h3></div>
+<div id='1.2.1.'><h4> 1.2.1. Antecedentes y Problemática</h4></div>
+
+##### What (Qué)
+###### ¿Cuál es el problema?
+
+##### When (Cuando)
+###### ¿Cuándo sucede el problema?
+
+##### Where (Dónde)
+###### ¿A dónde se dirige?
+
+###### ¿Dónde surge el problema?
+
+##### Who (Quién)
+###### ¿Quiénes están involucrados? ¿Quién lo utilizará?
+
+##### Why (Por qué)
+###### ¿Cuál es la causa del problema?
+
+#### 2H
+##### How (Cómo)
+###### ¿Cómo se utilizará el producto?
+
+
+###### ¿?
+
+
+##### How much (Cuánto)
+###### ¿Cuál es la magnitud del problema?
+
+
+###### ¿?
+
+
+
+<div id='1.2.2.'><h4> 1.2.2. Lean UX Process</h4></div>
+<div id='1.2.2.1.'><h5> 1.2.2.1. Lean UX Problem Statements</h5></div>
+
+##### **Problem Statement:** 
