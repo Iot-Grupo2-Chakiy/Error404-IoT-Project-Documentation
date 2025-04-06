@@ -151,11 +151,15 @@ URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-
 En esta sección se presenta la descripción del startup y los perfiles de los miembros del equipo.
 
 <div id='1.1.1.'><h4> 1.1.1. Descripción del startup</h4></div>
+Nuestra startup, Error 404, tiene como misión ofrecer soluciones digitales innovadoras que mejoren la calidad de vida de las personas. A diferencia de otras empresas tecnológicas que apuntan exclusivamente a grandes corporativos, nosotros tenemos una visión inclusiva: queremos ser la opción para todos, desde personas que recién descubren el mundo digital hasta usuarios avanzados que buscan herramientas eficientes para facilitar su día a día.
+
+Para lograrlo, desarrollamos plataformas y dispositivos inteligentes basados en tecnologías como el Internet de las Cosas (IoT) y automatización, con el objetivo de resolver problemas cotidianos de manera práctica y accesible. Creemos que la tecnología no solo debe ser funcional, sino también humana, cercana y útil para el bienestar integral.
 
 
-**Misión:** .
+**Misión:** . Desarrollar soluciones digitales innovadoras que utilicen tecnologías emergentes, como IoT, para mejorar la calidad de vida de las personas, promoviendo la inclusión tecnológica en todos los niveles de la sociedad.
 
-**Visión:** .
+
+**Visión:** . Error 404 aspira a convertirse en una startup referente en soluciones tecnológicas aplicadas a la vida cotidiana, reconocida por su capacidad de innovación, su impacto social positivo y su compromiso con una tecnología centrada en las personas.
 
 <div id='1.1.2.'><h4> 1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
