@@ -14,7 +14,7 @@
 |             Nombre              | Código de alumno |
 |:-------------------------------:|:----------------:|
 |    Guillen Luna, Paolo César    |    U202124343    |
-|  |        |
+| Sebastian Nicolas, Cachis Gonzales |    U202210846    |
 |   Llamo Sánchez, Amner Levi     |    U20221C376    |
 |  Cantoral Paredes, Diego André  |    U20201F568    |
 |   |        |
@@ -23,6 +23,7 @@
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
 | 06/04/2024 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
+| 06/04/2024 | 1.0     |  Sebastian Cachis  | Desarrollo de Hypothesis Statements y UX Canvas |
 
 
 ## Project Report Collaboration Insights
@@ -168,7 +169,7 @@ Para lograrlo, desarrollamos plataformas y dispositivos inteligentes basados en 
 | Mi nombre es **Paolo César Guillen Luna**, estudiante de la carrera de Ingeniería de Software, en la UPC y fanático de los videojuegos. Me considero alguien creativo y con determinación en alcanzar sus metas, dentro del campo del desarrollo de software, me gustaría especializarme en lo que es el testing de este, razón por la cual aparte de seguir la malla curricular de mi carrera también ando aprendiendo herramientas diversas como Playwright, Cypress, etc. |   <img src="resources/teamMembersPhotos/paoloPhoto.jpg"/>   |
 | Mi nombre es **Diego André Cantoral Paredes** y soy estudiante de la carrera de Ingeniería de Software. Desde siempre me interesaron los temas tecnológicos y sobre todo las computadoras, por lo que desarrollé una afición a los videojuegos y luego a la programación. Me considero una persona responsable, creativa y siempre dispuesto a ayudar a mis compañeros.|   <img src="resources/teamMembersPhotos/diegoPhoto.PNG"/>   |
 |Mi nombre es **Amner Levi Llamo Sánchez**, soy estudiante del quinto ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.|<img src='resources/teamMembersPhotos/Amner.jpeg'/>|
-| | <img src='resources/teamMembersPhotos/sebastianCachis.png'/> |
+|Mi nombre es **Sebastian Nicolas Cachis Gonzales**, soy estudiante de séptimo ciclo de ingeniería de software en la UPC. Me considero una persona proactiva, organizada, meticulosa y muy enfocada en mis estudios, tanto grupales como individuales. Tengo facilidad para entender y ejemplificar los distintos temas que vemos, teniendo soltura para explicar. | <img src='resources/teamMembersPhotos/sebastianCachis.png'/> |
 | | <img src='resources/teamMembersPhotos/eliasyauri.png'/> |
 
 
@@ -276,13 +277,46 @@ Debe tener una interfaz amigable, clara y empática, con diseño pensado para pe
 **Creemos que** implementar un sistema de alertas en tiempo real ante condiciones críticas permitirá respuestas rápidas que prevengan crisis respiratorias, especialmente en niños.
 
 
-<div id='1.2.2.3.'><h5> 1.2.2.3. Lean UX Hypothesis Statements.</h5></div>
+<div id='1.2.2.5.'><h5> 1.2.2.5. Lean UX Hypothesis Statements.</h5></div>
+
+Hipótesis 1: Sensores para evitar crisis asmáticas
+
+**Creemos que** al integrar sensores de calidad del aire y humedad en el hogar, los usuarios podrán evitar crisis asmáticas antes de que ocurran, mejorando su calidad de vida.
+**Sabremos que hemos tenido éxito cuando** los usuarios reporten una disminución en la frecuencia de crisis respiratorias y manifiesten sentirse más seguros en sus hogares.
+
+Hipótesis 2: Encendido remoto del sistema
 
 
+**Creemos que** al permitir el encendido remoto de deshumidificadores y otros dispositivos, los usuarios podrán preparar el ambiente antes de llegar a casa, asegurando un entorno saludable desde el inicio.
+**Sabremos que hemos tenido éxito cuando** los usuarios utilicen frecuentemente esta función y expresen satisfacción con las condiciones del ambiente al llegar a casa.
+
+Hipótesis 3: Historial de condiciones ambientales
 
 
+**Creemos que** al incluir un historial de condiciones ambientales, los usuarios podrán identificar patrones que afectan su salud respiratoria y tomar decisiones preventivas más informadas.
+**Sabremos que hemos tenido éxito cuando** los usuarios consulten regularmente el historial y realicen ajustes en sus rutinas o configuraciones basados en los datos registrados.
+
+Hipótesis 4: Contenido educativo dentro de la app
 
 
+**Creemos que** incluir una sección educativa con consejos y guías fomentará una comunidad más informada y comprometida con el autocuidado.
+**Sabremos que hemos tenido éxito cuando** los usuarios accedan frecuentemente a esta sección y demuestren cambios positivos en sus hábitos relacionados al ambiente del hogar.
+
+Hipótesis 5: Alertas en tiempo real
+
+
+**Creemos que** implementar un sistema de alertas en tiempo real ante condiciones críticas permitirá respuestas rápidas que prevengan crisis respiratorias, especialmente en niños.
+**Sabremos que hemos tenido éxito cuando** los usuarios reaccionen ante las alertas y estas acciones se correlacionen con una disminución en episodios respiratorios reportados.
+
+<div id='1.2.2.6.'><h5> 1.2.2.6. Lean UX Canvas.</h5></div>
+
+<img src='resources/LeanUXCanvas.png'/>
+
+<div id='1.3.'><h3> 1.3. Segmento Objetivo</h3></div>
+
+Adultos que sufren de asma o afecciones respiratorias: Personas que necesitan un entorno controlado y saludable en su hogar para mejorar su calidad de vida y reducir los síntomas relacionados con el asma.
+
+Niños y padres de niños con asma, así como personas que padecieron asma en su niñez: Padres o cuidadores que buscan garantizar un ambiente seguro y saludable para sus hijos, o adultos que vivieron con asma durante su infancia y desean mantener un entorno controlado para prevenir futuros episodios.
 
 <div id='7.'><h2>Bibliografía</h2></div>
 
