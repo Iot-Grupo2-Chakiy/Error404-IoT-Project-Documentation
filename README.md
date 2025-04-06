@@ -2,12 +2,13 @@
 <h2 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h2>
 <img src="resources/UPCPng.png" width=50%" style="text-align: center;"/>
 <h4 style="text-align: center;"> Ingeniería de Software </h4>
-<h4 style="text-align: center;"> Aplicaciones Web </h4>
-<h4 style="text-align: center;"> Ciclo 2024-01 </h4>
-<h4 style="text-align: center;"> Sección: WS53 </h4>
-<h4 style="text-align: center;"> Docente: Angel Augusto Velasquez Nuñez </h4>
+<h4 style="text-align: center;"> Desarrollo de Soluciones IoT </h4>
+<h4 style="text-align: center;"> Ciclo 2025-10 </h4>
+<h4 style="text-align: center;"> Código del Curso:  </h4>
+<h4 style="text-align: center;"> NRC:  </h4>
+<h4 style="text-align: center;"> Docente: León Baca, Marco Antonio </h4>
 <h4 style="text-align: center;"> Startup:  Error 404 </h4>
-<h4 style="text-align: center;"> Producto: Chaquitaclla  </h4>
+<h4 style="text-align: center;"> Producto: Chaki'y  </h4>
 
 ## Team Members
 |             Nombre              | Código de alumno |
