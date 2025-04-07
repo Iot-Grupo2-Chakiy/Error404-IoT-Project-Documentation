@@ -318,6 +318,83 @@ Adultos que sufren de asma o afecciones respiratorias: Personas que necesitan un
 
 Niños y padres de niños con asma, así como personas que padecieron asma en su niñez: Padres o cuidadores que buscan garantizar un ambiente seguro y saludable para sus hijos, o adultos que vivieron con asma durante su infancia y desean mantener un entorno controlado para prevenir futuros episodios.
 
+<div id='2.'><h2>Capítulo II: Requirements Elicitation & Analysis</h2></div>
+<div id='2.1.'><h3> 2.1 Competidores</h3></div>
+
+|Competitive Analysis Landscape|   |   |   |   |   |
+|--------------------------------|---|---|---|---|---|
+|¿Por qué llevar a cabo este análisis?|Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.|   |   |   |   |
+|(En la cabecera colocar por cada competidor nombre y logo)|   |Chaki'y|AirVisual <img src='resources/AirVisualLogo.jpg'/> |Awair <img src='resources/AwairLogo.png'/>|Nest Thermostat (Google) <img src='resources/NestThermostatLogo.webp'/>|
+|Perfil|Overview|Solución IoT para controlar el aire, humedad y temperatura en hogares de personas con asma.|Sensor de calidad del aire para monitorear contaminación y condiciones ambientales.|Dispositivo IoT para monitorear y controlar la calidad del aire y el ambiente en el hogar.|Termostato inteligente que regula temperatura y humedad para optimizar el hogar.|
+|                                |Ventaja competitiva ¿Qué valor ofrece a los clientes?|Proporciona un control automático y preventivo del ambiente para mejorar la salud respiratoria de personas con asma.|Ofrece monitoreo en tiempo real de la calidad del aire para crear un ambiente más saludable.|Brinda control y monitoreo del ambiente para mejorar el bienestar general del hogar.|Regula temperatura y humedad de manera inteligente, optimizando el confort y la eficiencia energética.|
+|Perfil de Marketing|Mercado objetivo|Familias con niños asmáticos, adultos con asma y cuidadores que buscan un ambiente controlado en casa.|Personas preocupadas por la calidad del aire, en hogares urbanos o áreas con alta contaminación.|Hogares interesados en mejorar el bienestar ambiental y la calidad del aire en espacios cerrados.|Propietarios de viviendas que buscan eficiencia energética y automatización del hogar para mejorar el confort.|
+|                                |Estrategias de marketing|Enfoque en educación sobre salud respiratoria, alianzas con médicos y clínicas, marketing en redes sociales dirigido a padres y cuidadores.|Publicidad en plataformas relacionadas con la sostenibilidad y la salud ambiental, marketing de contenido sobre la calidad del aire.|Estrategias de influencers en el bienestar y hogar, campañas de concienciación sobre la calidad del aire en interiores.|Publicidad centrada en la eficiencia energética y el ahorro, promoción de la integración con dispositivos Google y otros productos smart home.|
+|Perfil de Producto|Productos & Servicios|Plataforma IoT para monitoreo y control de calidad del aire, humedad y temperatura en hogares de personas con asma. Servicios de integración con dispositivos como deshumidificadores y purificadores.|Sensor de calidad del aire con app que muestra datos sobre contaminación, temperatura y humedad. Servicios de monitoreo ambiental en tiempo real.|Dispositivo IoT para monitoreo de la calidad del aire, temperatura y humedad en interiores, con una app para controlar y gestionar el ambiente.|Termostato inteligente para regular temperatura y humedad, optimizando la eficiencia energética y la comodidad del hogar. Servicios de integración con otros dispositivos smart home.|
+|                                |Precios & Costos|El producto posee deshumidificador y sensores por lo que se estima un precio aproximadamente de 140 dolares.|Este sensor de calidad del aire tiene un precio aproximado de $199.|El dispositivo para monitorear la calidad del aire tiene un costo aproximado de $199.|El termostato inteligente tiene un precio aproximado de $130.|
+|                                |Canales de distribución (Web y/o Móvil)|Plataforma disponible en web y móvil para monitorear y controlar la calidad del aire, temperatura y humedad en el hogar, mediante dispositivos IoT, dirigida a personas con afecciones respiratorias.|Aplicación móvil para la gestión agrícola, proporcionando herramientas para monitoreo de cultivos, control de plagas y análisis de datos en tiempo real, mejorando la eficiencia en la agricultura.|Plataforma disponible en web y móvil para la reserva de espacios de estacionamiento en garajes privados, facilitando a los usuarios la búsqueda y reserva de lugares disponibles de forma rápida y conveniente.|Plataforma financiera en web y móvil que ofrece asesoramiento personalizado y servicios de inversión para empresas y tiendas independientes, con el objetivo de optimizar el ahorro y maximizar el crecimiento financiero.|
+|Análisis SWOT|Fortalezas|Plataforma web y móvil que permite monitorear y controlar la calidad del aire, temperatura y humedad en el hogar mediante dispositivos IoT, dirigida a personas con afecciones respiratorias.|Dispositivo y app móvil para monitoreo de calidad del aire en tiempo real, proporcionando alertas sobre la contaminación ambiental y recomendaciones para mejorar la salud respiratoria.|Sensor de calidad del aire que se conecta a una app móvil para brindar información sobre la calidad del aire interior, ayudando a mejorar el ambiente y la salud respiratoria en el hogar o en el trabajo.|Termostato inteligente con conexión a una app móvil que permite controlar la temperatura de la vivienda de forma eficiente, optimizando el uso de energía y mejorando el confort interior.|
+|                                |Debilidades|Dependencia de la conectividad y la infraestructura IoT, requiere dispositivos adicionales para funcionar completamente.|	Puede depender de la calidad de la red de sensores en ciertas ubicaciones; algunos usuarios pueden encontrar la app difícil de usar.|	Limitado en cuanto a la cantidad de datos que puede procesar comparado con dispositivos más avanzados; costoso para algunos usuarios.|Requiere conexión Wi-Fi constante y podría no ser compatible con todos los sistemas HVAC. Además, no se adapta a todas las configuraciones de hogar.|
+|                                |Oportunidades|Expansión a mercados con alta prevalencia de afecciones respiratorias, desarrollo de nuevos sensores IoT y asociaciones con instituciones de salud.|	Creciente conciencia sobre la contaminación del aire, expansión a mercados internacionales y adopción en hogares y oficinas.|Creciente demanda de soluciones para mejorar la calidad del aire en interiores, posibles asociaciones con empresas de salud y bienestar.|Expansión de hogares inteligentes y ecosistemas IoT, oportunidades en hogares y oficinas para mejorar la eficiencia energética.|
+|                                |Amenazas|Competencia creciente en el mercado de dispositivos IoT para la salud, barreras de adopción tecnológica en ciertos segmentos.|	Competencia con dispositivos más avanzados de monitoreo ambiental, fluctuaciones en la demanda debido a la percepción de costo elevado.|Avances rápidos en tecnologías de monitoreo de aire, nuevos competidores con funcionalidades más económicas o avanzadas.|	Competencia en el mercado de termostatos inteligentes (incluyendo opciones más económicas), posibles problemas con la compatibilidad de dispositivos en hogares antiguos.|
+
+<div id='2.1.1.'><h4> 2.1.1. Análisis competitivo</h4></div>
+
+Chaki'y se diferencia de sus competidores al integrar IoT para monitorear y automatizar dispositivos como deshumidificadores y purificadores, mejorando la calidad del aire y la temperatura en el hogar de personas con afecciones respiratorias. A diferencia de AirVisual y Awair, que se centran solo en el monitoreo de la calidad del aire, Chaki'y ofrece una solución más completa al automatizar la respuesta a los cambios ambientales. Nest Thermostat, aunque optimiza la temperatura y la eficiencia energética, no está diseñado para abordar específicamente las necesidades de personas con afecciones respiratorias.
+
+El mercado objetivo de Chaki'y está enfocado en personas con afecciones respiratorias, como niños y adultos con asma, y sus cuidadores. En contraste, AirVisual y Awair están dirigidos a usuarios interesados en la calidad del aire en general, sin un enfoque especializado en problemas respiratorios. Nest Thermostat está destinado a quienes buscan eficiencia energética, pero no se centra en las necesidades de los usuarios con problemas respiratorios.
+
+En términos de precios, Chaki'y ofrece una versión gratuita que facilita su acceso a un público más amplio, mientras que los competidores AirVisual, Awair y Nest Thermostat son productos premium, lo que limita su accesibilidad. Chaki'y tiene una ventaja competitiva al ser más accesible, especialmente para aquellos que no están seguros de realizar una inversión inicial.
+
+Chaki'y tiene una gran oportunidad de capitalizar su enfoque especializado en afecciones respiratorias y su integración con dispositivos IoT para crear un ambiente más saludable. Aunque AirVisual y Awair son productos avanzados en el monitoreo del aire, la automatización de Chaki'y le da una ventaja clara. Nest Thermostat, con su enfoque en eficiencia energética, representa una amenaza, pero su falta de enfoque en la calidad del aire lo hace menos adecuado para personas con afecciones respiratorias. En general, Chaki'y está bien posicionado para liderar este nicho de mercado.
+
+<div id='2.1.2.'><h4> 2.1.2. Estrategias y tácticas frente a competidores</h4></div>
+
+Chaki'y debe destacarse de sus competidores como AirVisual, Awair y Nest Thermostat mediante su diferenciación como una solución IoT integral para la mejora de la calidad del aire y el control de la temperatura, orientada específicamente a personas con afecciones respiratorias. Su enfoque en automatizar dispositivos como deshumidificadores y purificadores, junto con su modelo accesible de precios, la posiciona como una alternativa más completa frente a competidores que solo ofrecen monitoreo. Además, Chaki'y debe continuar promoviendo su nicho de mercado, centrado en el bienestar respiratorio, y utilizar estrategias de precios con opciones gratuitas y premium para atraer a una mayor variedad de usuarios.
+
+En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas sobre la importancia de la calidad del aire, aprovechar alianzas estratégicas con organizaciones de salud para aumentar su credibilidad, y continuar invirtiendo en la automatización de su tecnología. También puede incentivar la adopción a través de pruebas gratuitas y aprovechar testimonios de usuarios satisfechos. Finalmente, debe desarrollar campañas de marketing dirigidas específicamente a personas con afecciones respiratorias, destacando cómo su solución mejora la calidad de vida de los usuarios. Estas estrategias permitirán a Chaki'y competir eficazmente en el mercado, atraer a nuevos usuarios y fortalecer su posición frente a competidores.
+
+<div id='2.2.'><h3> 2.2 Entrevistas</h3></div>
+<div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas</h4></div>
+
+### Segmento 1: Adultos que sufren de asma o problemas respiratorios
+
+1. ¿Cuánto tiempo hace que tienes asma o alguna afección respiratoria?
+2. ¿Cómo manejas tus síntomas asmáticos a lo largo del día?
+3. ¿Qué herramientas o dispositivos usas actualmente para controlar el ambiente de tu hogar (temperatura, humedad, calidad del aire)?
+4. ¿Con qué frecuencia te encuentras con crisis asmáticas o problemas respiratorios debido a factores ambientales?
+5. ¿Crees que el monitoreo de la calidad del aire y la temperatura en tu hogar ayudaría a reducir tus síntomas?
+6. ¿Estarías dispuesto a usar una aplicación móvil que controle la calidad del aire y la temperatura de tu hogar?
+7. ¿Qué características valoras más en una herramienta que te ayude a gestionar tu condición respiratoria?
+8. ¿Cómo te sentirías al integrar dispositivos inteligentes en tu hogar para mejorar tu salud respiratoria?
+9. ¿Estarías dispuesto a pagar por una herramienta como Chaki'y si mejora tu calidad de vida?
+
+### Segmento 2: Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez
+
+1. ¿Recuerdas cómo tus padres manejaron las crisis asmáticas que tuviste en la niñez?
+2. ¿Qué tipo de soluciones usaban tus padres para mejorar la calidad del aire en tu hogar durante esos episodios?
+3. ¿Crees que los padres de hoy enfrentan los mismos retos para controlar el asma de sus hijos que los padres de tu generación?
+4. ¿Crees que una herramienta como Chaki'y, que monitorea el aire y la temperatura, sería útil para los padres de niños asmáticos hoy en día?
+5. ¿Cómo manejabas el control de tu salud respiratoria cuando eras más joven? ¿Qué tecnología utilizabas (si alguna)?
+6. ¿Qué opinas de las soluciones tecnológicas actuales para el control del asma infantil?
+7. ¿Estarías dispuesto a usar una aplicación móvil como Chaki'y para monitorear la calidad del aire en casa de tus hijos?
+8. ¿Qué características consideras más importantes en una herramienta que los padres puedan usar para gestionar la salud respiratoria de sus hijos?
+9. ¿Crees que los padres actuales estarían dispuestos a pagar por un dispositivo o aplicación que controle el ambiente de su hogar y mejore la salud respiratoria de sus hijos?
+
+<div id='2.2.2.'><h4> 2.2.2. Registro de entrevistas</h4></div>
+<div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
+<div id='2.3.'><h3> 2.3 Needfinding</h3></div>
+<div id='2.3.1.'><h4> 2.3.1. User Personas</h4></div>
+<div id='2.3.2.'><h4> 2.3.2. User Task Matrix</h4></div>
+<div id='2.3.3.'><h4> 2.3.3. User Journey Mapping</h4></div>
+<div id='2.3.4.'><h4> 2.3.4. Empathy Mapping</h4></div>
+<div id='2.3.5.'><h4> 2.3.5. As-is Scenario Mapping</h4></div>
+<div id='2.4.'><h3> 2.4 Ubiquitous Language</h3></div>
+
+
+
+
+
+
 <div id='7.'><h2>Bibliografía</h2></div>
 
 Organización Mundial de la Salud (OMS). (2021). Asma. Recuperado de [https://www.who.int/es/news-room/fact-sheets/detail/asthma]
