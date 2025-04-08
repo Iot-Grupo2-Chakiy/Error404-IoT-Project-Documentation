@@ -17,13 +17,14 @@
 | Sebastian Nicolas, Cachis Gonzales |    U202210846    |
 |   Llamo Sánchez, Amner Levi     |    U20221C376    |
 |  Cantoral Paredes, Diego André  |    U20201F568    |
-|   |        |
+|       Elias Yauri Paucar        |    U202211817    |
 
 ## Registro de versiones del informe
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
 | 06/04/2024 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
 | 06/04/2024 | 1.0     |  Sebastian Cachis  | Desarrollo de Hypothesis Statements y UX Canvas |
+| 07/04/2024 | 1.0     |  Elias Yauri  | Desarrollo del Registro de entrevistas |
 
 
 ## Project Report Collaboration Insights
@@ -170,7 +171,7 @@ Para lograrlo, desarrollamos plataformas y dispositivos inteligentes basados en 
 | Mi nombre es **Diego André Cantoral Paredes** y soy estudiante de la carrera de Ingeniería de Software. Desde siempre me interesaron los temas tecnológicos y sobre todo las computadoras, por lo que desarrollé una afición a los videojuegos y luego a la programación. Me considero una persona responsable, creativa y siempre dispuesto a ayudar a mis compañeros.|   <img src="resources/teamMembersPhotos/diegoPhoto.PNG"/>   |
 |Mi nombre es **Amner Levi Llamo Sánchez**, soy estudiante del quinto ciclo de ingeniería de software en la UPC. Me gusta jugar fútbol y videojuegos, por eso estoy constantemente investigando sobre nuevas tecnologías. Soy responsable con los trabajos que se me asignan; además soy tolerante y me adapto a las circunstancias del equipo.|<img src='resources/teamMembersPhotos/Amner.jpeg'/>|
 |Mi nombre es **Sebastian Nicolas Cachis Gonzales**, soy estudiante de séptimo ciclo de ingeniería de software en la UPC. Me considero una persona proactiva, organizada, meticulosa y muy enfocada en mis estudios, tanto grupales como individuales. Tengo facilidad para entender y ejemplificar los distintos temas que vemos, teniendo soltura para explicar. | <img src='resources/teamMembersPhotos/sebastianCachis.png'/> |
-| | <img src='resources/teamMembersPhotos/eliasyauri.png'/> |
+| Mi nombre es **Elias Yauri**, soy una persona muy participativa cuando se trata en el tema laboral y en el trabajo en equipo, siempre trato de que haya una comunicación constante con todos los miembros del grupo para que de esta forma podamos tener toda una buena afinidad como grupo y que el trabajo se realice de manera exitosa.  | <img src='resources/teamMembersPhotos/eliasyauri.jpeg'/> |
 
 
 <div id='1.2.'><h3> 1.2. Solution Profile</h3></div>
@@ -381,7 +382,24 @@ En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas so
 9. ¿Crees que los padres actuales estarían dispuestos a pagar por un dispositivo o aplicación que controle el ambiente de su hogar y mejore la salud respiratoria de sus hijos?
 
 <div id='2.2.2.'><h4> 2.2.2. Registro de entrevistas</h4></div>
+
+***Adultos que sufren de asma o problemas respiratorios***
+
+|Nombre entrevistado|Rodrigo Pisconti|
+|-|-|
+|Edad|20 años|
+|Departamento|Ica, Ica|
+|<img src="resources/interviewsPhotos/rodrigopisconti.png">|Rodrigo Pisconti, un joven de 20 años que sufrió de asma durante su niñez, actualmente sigue siendo sensible a factores ambientales como la humedad y el polvo. Aunque sus síntomas se han reducido, aún experimenta molestias respiratorias varias veces al mes. Usa un deshumidificador y medidores manuales de ambiente, pero no cuenta con tecnología automatizada. Mostró interés en una herramienta que le permita monitorear y controlar el ambiente de su hogar de forma preventiva. Destaca la importancia de la simplicidad, confiabilidad y automatización. Rodrigo se mostró dispuesto a integrar dispositivos inteligentes y pagar por una solución como Chaki’y si mejora su bienestar.|
+|Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EQ7Z-iPKJpNMiwI9G_hAp3gBT6usQq9D6iSu4Ut-Hm2ADg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=L2Kz8N]|
+
+***Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez***
+
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
+
+**Análisis del segmento de Adultos que sufren de asma o problemas respiratorios**
+
+**Análisis del segmento de Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez**
+
 <div id='2.3.'><h3> 2.3 Needfinding</h3></div>
 <div id='2.3.1.'><h4> 2.3.1. User Personas</h4></div>
 <div id='2.3.2.'><h4> 2.3.2. User Task Matrix</h4></div>
