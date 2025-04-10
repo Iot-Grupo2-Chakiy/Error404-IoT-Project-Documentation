@@ -394,6 +394,13 @@ En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas so
 
 ***Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez***
 
+|Nombre entrevistado|Carla Cachis|
+|-|-|
+|Edad|28 años|
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/carlacachis.png">|Carla Cachis, una señorita de 28 años, nos cuenta su experiencia cuando era niña y sufrió de asma. Ella nos contó que sus padres se lo detectaron a los 4 años, desde entonces sus padres tomaban precauciones para poder evitar que este fuera a más. Hacían uso de deshumidificadores y los dispositivos que tenían en esos años; cabe comentar que la oferta era escaza. Nos comenta que si estaría interesada en poder contar con un aplicativo, que pueda darte la información del porcentaje de humedad en tu hogar mediante notificaciones y que la aplicación sea gratuita, pero que su costo esté incluido en los productos y sensores |
+|Duración entrevista: 00:00-09:47    |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EU5EjdDTp9pGhGoEzsWx5FkBvXFCrdoFIzZ6YdkzQH4doQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KIQu3Y]|
+
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
 
 **Análisis del segmento de Adultos que sufren de asma o problemas respiratorios**
