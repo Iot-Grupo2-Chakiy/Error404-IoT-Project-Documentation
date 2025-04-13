@@ -410,18 +410,153 @@ Nombre entrevistado|Gian Sánchez|
 
 **Análisis del segmento de Adultos que sufren de asma o problemas respiratorios**
 
+Las entrevistas con adultos que sufren de asma o problemas respiratorios revelan varios puntos clave:
+
+- Impacto de factores ambientales: Los entrevistados, como Rodrigo y Gian, confirman que las condiciones ambientales (humedad, cambios de clima, contaminación) exacerban sus síntomas. Esto valida la problemática central que Chaki'y busca resolver.   
+
+- Necesidad de monitoreo y control: Ambos entrevistados expresan la necesidad de un mejor monitoreo del ambiente y la posibilidad de automatizar dispositivos para controlarlo. Gian, por ejemplo, menciona que a menudo no percibe los cambios ambientales hasta que aparecen los síntomas, lo que subraya la importancia de la detección temprana y la respuesta automática que Chaki'y ofrece.   
+
+- Valoración de la usabilidad y confiabilidad: La facilidad de uso, la confiabilidad y la automatización son características altamente valoradas por los usuarios. Los entrevistados muestran disposición a utilizar una aplicación móvil para controlar el ambiente, siempre que cumpla con estos requisitos.   
+
+- Disposición a pagar: Gian muestra una clara disposición a pagar por una solución que mejore su calidad de vida, lo que sugiere un mercado potencial para Chaki'y.
+
 **Análisis del segmento de Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez**
+
+La entrevista con Carla, quien sufrió de asma en la niñez, aporta la perspectiva de los padres y de quienes experimentaron la enfermedad desde jóvenes. Los hallazgos clave incluyen:   
+
+- Dificultades en el manejo temprano del asma: Carla destaca las limitaciones en las soluciones disponibles durante su infancia para manejar el asma, lo que resalta la necesidad de herramientas más avanzadas y accesibles como Chaki'y.   
+
+- Importancia de la información y la prevención: Carla valora la posibilidad de recibir notificaciones sobre el porcentaje de humedad en el hogar, lo que indica la importancia de la información oportuna y el enfoque preventivo en el manejo de las afecciones respiratorias.   
+
+- Consideraciones sobre el modelo de negocio: Carla sugiere un modelo de negocio en el que la aplicación sea gratuita y el costo se incluya en los productos (sensores, dispositivos), lo que proporciona información valiosa para la estrategia de comercialización de Chaki'y
 
 <div id='2.3.'><h3> 2.3 Needfinding</h3></div>
 <div id='2.3.1.'><h4> 2.3.1. User Personas</h4></div>
+
+**Análisis del segmento de Adultos que sufren de asma o problemas respiratorios**
+
+<img src='resources/user-persona-s1.png'/>
+
+**Análisis del segmento de Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez**
+
+<img src='resources/user-persona-s2.png'/>
+
 <div id='2.3.2.'><h4> 2.3.2. User Task Matrix</h4></div>
+
+**Análisis del segmento de Adultos que sufren de asma o problemas respiratorios**
+
+| Actividades                                            | Frecuencia | Importancia |
+|---------------------------------------------------------|------------|-------------|
+| **Monitoreo del ambiente:** |            |             |
+|   -   Verificar la calidad del aire (PM2.5, CO2, etc.)   | Alta       | Alta        |
+|   -   Consultar la temperatura y humedad                | Alta       | Alta        |
+|   -   Revisar el historial de condiciones ambientales    | Media      | Media       |
+| **Control de dispositivos:** |            |             |
+|   -   Activar/desactivar purificadores de aire         | Media      | Alta        |
+|   -   Ajustar la configuración de deshumidificadores     | Media      | Media       |
+|   -   Programar el funcionamiento automático de dispositivos | Baja       | Media       |
+| **Recepción y gestión de alertas:** |            |             |
+|   -   Recibir notificaciones sobre condiciones críticas  | Alta       | Alta        |
+|   -   Configurar preferencias de alertas                | Baja       | Media       |
+|   -   Revisar el registro de alertas y acciones tomadas | Baja       | Baja        |
+| **Mantenimiento y configuración:** |            |             |
+|   -   Verificar el estado de los sensores IoT           | Baja       | Media       |
+|   -   Configurar la conexión Wi-Fi                       | Baja       | Baja        |
+|   -   Actualizar la aplicación/firmware                 | Baja       | Baja        |
+| **Acceso a información y soporte:** |            |             |
+|   -   Consultar consejos y recomendaciones de salud     | Media      | Media       |
+|   -   Contactar con el soporte técnico                 | Baja       | Baja        |
+
+**Análisis del segmento de Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez**
+
+| Actividades                                               | Frecuencia | Importancia |
+|------------------------------------------------------------|------------|-------------|
+| **Monitoreo del ambiente de la habitación del niño:** |            |             |
+|   -   Verificar la calidad del aire (especialmente alérgenos) | Alta       | Alta        |
+|   -   Consultar la temperatura y humedad                    | Alta       | Alta        |
+|   -   Revisar el historial de condiciones durante la noche   | Media      | Alta        |
+| **Control de dispositivos en la habitación del niño:** |            |             |
+|   -   Activar/desactivar purificadores de aire             | Media      | Alta        |
+|   -   Ajustar la configuración de humidificadores/deshumidificadores | Media      | Media       |
+|   -   Programar modos de funcionamiento (noche, día)         | Media      | Media       |
+| **Recepción y gestión de alertas específicas:** |            |             |
+|   -   Recibir alertas sobre niveles de alérgenos elevados    | Alta       | Alta        |
+|   -   Recibir alertas sobre cambios bruscos de temperatura/humedad | Alta       | Alta        |
+|   -   Configurar alertas personalizadas (umbrales)            | Baja       | Media       |
+| **Comunicación con otros cuidadores (opcional):** |            |             |
+|   -   Compartir datos de monitoreo con el padre/madre/cuidador | Baja       | Baja        |
+| **Acceso a información y recursos para padres:** |            |             |
+|   -   Consultar información sobre el manejo del asma infantil | Media      | Alta        |
+|   -   Acceder a consejos para reducir alérgenos en el hogar   | Media      | Media       |
+|   -   Contactar con un profesional de la salud (opcional)   | Baja       | Baja        |
+
 <div id='2.3.3.'><h4> 2.3.3. User Journey Mapping</h4></div>
+
+**Análisis del segmento de Adultos que sufren de asma o problemas respiratorios**
+
+<img src='resources/User Journey Mapping1.png'/>
+
+**Análisis del segmento de Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez**
+
+<img src='resources/User Journey Mapping2.png'/>
+
 <div id='2.3.4.'><h4> 2.3.4. Empathy Mapping</h4></div>
+
+**Análisis del segmento de Adultos que sufren de asma o problemas respiratorios**
+
+<img src='resources/Empathy Mapping1.png'/>
+
+**Análisis del segmento de Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez**
+
+<img src='resources/Empathy Mapping2.png'/>
+
 <div id='2.3.5.'><h4> 2.3.5. As-is Scenario Mapping</h4></div>
+
+**Análisis del segmento de Adultos que sufren de asma o problemas respiratorios**
+
+| **Phase**    | **Inicio del ataque**                                                   | **Búsqueda de alivio**                                    | **Uso del inhalador**                             | **Evaluación de la situación**                             | **Recuperación**                                     | **Análisis posterior**                             |
+|--------------|-------------------------------------------------------------------------|-----------------------------------------------------------|---------------------------------------------------|------------------------------------------------------------|------------------------------------------------------|----------------------------------------------------|
+| **Doing**    | Comienza a sentir opresión en el pecho, tos y dificultad para respirar. | Busca su inhalador, se sienta, intenta mantener la calma. | Utiliza el inhalador siguiendo las instrucciones. | Evalúa si los síntomas disminuyen o si necesita más ayuda. | Descansa, evita esfuerzos, monitorea su respiración. | Reflexiona sobre las posibles causas del ataque.   |
+| **Thinking** | "Oh no, está empezando un ataque. ¿Por qué ahora?"                      | "Necesito mi inhalador. Espero que funcione rápido."      | "¿Está funcionando? ¿Cuánto tardará en pasar?"    | "¿Está mejorando? ¿Debería ir al hospital?"                | "Necesito relajarme. Esto me agota."                 | "¿Qué lo desencadenó? ¿Hay algo que pueda evitar?" |
+| **Feeling**  | Ansiedad, miedo, frustración.                                           | Urgencia, incomodidad física.                             | Esperanza, impaciencia.                           | Incertidumbre, preocupación.                               | Alivio (si mejora), debilidad.                       | Frustración, vulnerabilidad.                       |
+
+**Análisis del segmento de Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez**
+
+| **Phase**    | **Conciencia de la amenaza**                               | **Acción preventiva inicial**                                 | **Limpieza manual**                               | **Monitoreo de la situación**                 | **Reacción a los síntomas (si aparecen)**                                         | **Evaluación posterior**                                             |
+|--------------|------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------|-----------------------------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| **Doing**    | Nota que hay mucho polvo en la habitación del niño.        | Abre las ventanas para ventilar, busca un trapo para limpiar. | Limpia el polvo de los muebles y el suelo.        | Observa al niño y evalúa si muestra síntomas. | Administra el medicamento de rescate al niño, busca ayuda médica si es necesario. | Reflexiona sobre cómo mejorar la limpieza y prevención.              |
+| **Thinking** | "Hay demasiado polvo. Esto podría desencadenar un ataque." | "Necesito sacar este polvo de aquí rápido."                   | "Espero que esto sea suficiente. Es muy tedioso." | "¿Estará bien? Debo estar pendiente."         | "¡Oh no, está empezando a toser! Necesito actuar rápido."                         | "¿Cómo puedo evitar esto en el futuro? Necesito una solución mejor." |
+| **Feeling**  | Preocupación, alerta.                                      | Urgencia, responsabilidad.                                    | Esfuerzo físico, frustración.                     | Ansiedad, atención.                           | Pánico (si hay síntomas), determinación.                                          | Agotamiento, búsqueda de soluciones.                                 |
+
 <div id='2.4.'><h3> 2.4 Ubiquitous Language</h3></div>
 
+- Asma: Enfermedad crónica que afecta las vías respiratorias, causando inflamación y dificultad para respirar.
 
+- Afecciones Respiratorias: Término general que engloba diversas enfermedades o condiciones que afectan el sistema respiratorio, como bronquitis, alergias respiratorias, etc.
 
+- Calidad del Aire: Medida de la pureza del aire, considerando la presencia de contaminantes como partículas, gases y alérgenos.
+
+- Humedad: Cantidad de vapor de agua presente en el aire, que puede afectar la salud respiratoria.
+
+- Temperatura: Grado de calor o frío en el ambiente, que también influye en las condiciones respiratorias.
+
+- Monitoreo Ambiental: Proceso de medir y registrar continuamente las condiciones del aire (calidad, humedad, temperatura) en un espacio determinado.
+
+- Control Ambiental: Capacidad de ajustar o regular las condiciones del aire mediante el uso de dispositivos como purificadores, deshumidificadores, etc.
+
+- Sensores IoT: Dispositivos conectados a internet que recopilan datos sobre el ambiente y los transmiten al sistema.
+
+- Automatización: Capacidad del sistema para activar o desactivar dispositivos automáticamente según los datos de los sensores.
+
+- Alertas: Notificaciones enviadas a los usuarios sobre condiciones ambientales críticas que requieren atención.
+
+- Historial Ambiental: Registro de los datos de monitoreo a lo largo del tiempo, que permite identificar patrones y tendencias.
+
+- Dispositivos: Aparatos como purificadores de aire, deshumidificadores, extractores de aire, etc., que se utilizan para controlar el ambiente.
+
+- Aplicación (App): Plataforma de software (web o móvil) que permite a los usuarios acceder a los datos de monitoreo y controlar los dispositivos.
+
+- Bienestar Respiratorio: Estado de salud óptimo del sistema respiratorio, libre de síntomas y afecciones.    
 
 
 
