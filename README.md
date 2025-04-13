@@ -64,82 +64,7 @@ URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-
 3.2. [***User Stories***](#3.2.)<br>
 3.3. [***Impact Mapping***](#3.3.)<br>
 3.4. [***Product Backlog***](#3.4.)<br>
-4. [**Capítulo IV: Product Design.**](#4.)<br>
-4.1. [***Style Guidelines***](#4.1.)<br>
-4.1.1. [General Style Guidelines](#4.1.1.)<br>
-4.1.2. [Web Style Guidelines](#4.1.2.)<br>
-4.2. [***Information Architecture***](#4.2.)<br>
-4.2.1. [Organization Systems](#4.2.1.)<br>
-4.2.2. [Labeling Systems](#4.2.2.)<br>
-4.2.3. [SEO Tags and Meta Tags](#4.2.3.)<br>
-4.2.4. [Searching Systems](#4.2.4.)<br>
-4.2.5. [Navigation Systems](#4.2.5.)<br>
-4.3. [***Landing Page UI Design***](#4.3.)<br>
-4.3.1. [Landing Page Wireframe](#4.3.1.)<br>
-4.3.2. [Landing Page Mock-up](#4.3.2.)<br>
-4.4. [***Web Applications UX/UI Design***](#4.4.)<br>
-4.4.1. [Web Applications Wireframes](#4.4.1.)<br>
-4.4.2. [Web Applications Wireflow Diagrams](#4.4.2.)<br>
-4.4.3. [Web Applications Mock-ups](#4.4.3.)<br>
-4.4.4. [Web Applications User Flow Diagrams](#4.4.4.)<br>
-4.5. [***Web Applications Prototyping***](#4.5.)<br>
-4.6. [***Domain-Driven Software Architecture***](#4.6.)<br>
-4.6.1. [Software Architecture Context Diagram](#4.6.1.)<br>
-4.6.2. [Software Architecture Container Diagrams](#4.6.2.)<br>
-4.6.3. [Software Architecture Components Diagrams](#4.6.3.)<br>
-4.7. [***Software Object-Oriented Design***](#4.7.)<br>
-4.7.1. [Class Diagrams](#4.7.1.)<br>
-4.7.2. [Class Dictionary](#4.7.2.)<br>
-4.8. [***Database Design***](#4.8.)<br>
-4.8.1. [Database Diagram](#4.8.1.)<br>
-5. [**Capítulo V: Product Implementation, Validation & Deployment**](#5.)<br>
-5.1. [Software Configuration Management](#5.1.)<br>
-5.1.1. [Software Development Environment Configuration](#5.1.1.)<br>
-5.1.2. [Source Code Management](#5.1.2.)<br>
-5.1.3. [Source Code Style Guide & Conventions](#5.1.3.)<br>
-5.1.4. [Software Deployment Configuration](#5.1.4.)<br>
-5.2. [Landing Page, Services & Applications Implementation](#5.2.)<br>
-5.2.1. [Sprint 1](#5.2.1.)<br>
-5.2.1.1. [Sprint Planning 1](#5.2.1.1.)<br>
-5.2.1.2. [Sprint Backlog 1](#5.2.1.2.)<br>
-5.2.1.3. [Development Evidence for Sprint Review](#5.2.1.3.)<br>
-5.2.1.4. [Testing Suite Evidence for Sprint Review](#5.2.1.4.)<br>
-5.2.1.5. [Execution Evidence for Sprint Review](#5.2.1.5.)<br>
-5.2.1.6. [Services Documentation Evidence for Sprint Review](#5.2.1.6.)<br>
-5.2.1.7. [Software Deployment Evidence for Sprint Review](#5.2.1.7.)<br>
-5.2.1.8. [Team Collaboration Insights during Sprint](#5.2.1.8.)<br>
-5.2.2. [Sprint 2](#5.2.2.)<br>
-5.2.2.1.[Sprint Planning 2](#5.2.2.1.)<br>
-5.2.2.2.[Sprint Backlog 2](#5.2.2.2.)<br>
-5.2.2.3.[Development Evidence for Sprint Review](#5.2.2.3.)<br>
-5.2.2.4.[Testing Suite Evidence for Sprint Review](#5.2.2.4.)<br>
-5.2.2.5.[Execution Evidence for Sprint Review](#5.2.2.5.)<br>
-5.2.2.6.[Services Documentation Evidence for Sprint Review](#5.2.2.6.)<br>
-5.2.2.7.[Software Deployment Evidence for Sprint Review](#5.2.2.7.)<br>
-5.2.2.8.[Team Collaboration Insights during Sprint](#5.2.2.8.)<br>
-5.2.3. [Sprint 3](#5.2.3.)<br>
-5.2.3.1.[Sprint Planning 3](#5.2.3.1.)<br>
-5.2.3.2.[Sprint Backlog 3](#5.2.3.2.)<br>
-5.2.3.3.[Development Evidence for Sprint Review](#5.2.3.3.)<br>
-5.2.3.4.[Testing Suite Evidence for Sprint Review](#5.2.3.4.)<br>
-5.2.3.5.[Execution Evidence for Sprint Review](#5.2.3.5.)<br>
-5.2.3.6.[Services Documentation Evidence for Sprint Review](#5.2.3.6.)<br>
-5.2.3.7.[Software Deployment Evidence for Sprint Review](#5.2.3.7.)<br>
-5.2.3.8.[Team Collaboration Insights during Sprint](#5.2.3.8.)<br>
-5.2.4. [Sprint 4](#5.2.4.)<br>
-5.2.4.1. [Sprint Planning 4](#5.2.4.1.)<br>
-5.2.4.2. [Sprint Backlog 4](#5.2.4.2.)<br>
-5.2.4.3. [Development Evidence for Sprint Review](#5.2.4.3.)<br>
-5.2.4.4. [Testing Suite Evidence for Sprint Review](#5.2.4.4.)<br>
-5.2.4.5. [Execution Evidence for Sprint Review](#5.2.4.5.)<br>
-5.2.4.6. [Services Documentation Evidence for Sprint Review](#5.2.4.6.)<br>
-5.2.4.7. [Software Deployment Evidence for Sprint Review](#5.2.4.7.)<br>
-5.2.4.8. [Team Collaboration Insights during Sprint](#5.2.4.8.)<br>
-5.3. [Validation Interviews](#5.3.)<br>
-5.3.1.[Diseño de Entrevistas](#5.3.1.)<br>
-5.3.2.[Registro de Entrevistas](#5.3.2.)<br>
-5.3.3.[Evaluaciones según Heurísticas](#5.3.3.)<br>
-5.4. [Video About-the-Product](#5.4.)<br>
+
 6. [**Conclusiones**](#6.)<br>
 7. [**Bibliografía**](#7.)<br>
 8. [**Anexos**](#8.)<br>
@@ -323,21 +248,19 @@ Niños y padres de niños con asma, así como personas que padecieron asma en su
 <div id='2.'><h2>Capítulo II: Requirements Elicitation & Analysis</h2></div>
 <div id='2.1.'><h3> 2.1 Competidores</h3></div>
 
-|Competitive Analysis Landscape|   |   |   |   |   |
-|--------------------------------|---|---|---|---|---|
-|¿Por qué llevar a cabo este análisis?|Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.|   |   |   |   |
-|(En la cabecera colocar por cada competidor nombre y logo)|   |Chaki'y|AirVisual <img src='resources/AirVisualLogo.jpg'/> |Awair <img src='resources/AwairLogo.png'/>|Nest Thermostat (Google) <img src='resources/NestThermostatLogo.webp'/>|
-|Perfil|Overview|Solución IoT para controlar el aire, humedad y temperatura en hogares de personas con asma.|Sensor de calidad del aire para monitorear contaminación y condiciones ambientales.|Dispositivo IoT para monitorear y controlar la calidad del aire y el ambiente en el hogar.|Termostato inteligente que regula temperatura y humedad para optimizar el hogar.|
-|                                |Ventaja competitiva ¿Qué valor ofrece a los clientes?|Proporciona un control automático y preventivo del ambiente para mejorar la salud respiratoria de personas con asma.|Ofrece monitoreo en tiempo real de la calidad del aire para crear un ambiente más saludable.|Brinda control y monitoreo del ambiente para mejorar el bienestar general del hogar.|Regula temperatura y humedad de manera inteligente, optimizando el confort y la eficiencia energética.|
-|Perfil de Marketing|Mercado objetivo|Familias con niños asmáticos, adultos con asma y cuidadores que buscan un ambiente controlado en casa.|Personas preocupadas por la calidad del aire, en hogares urbanos o áreas con alta contaminación.|Hogares interesados en mejorar el bienestar ambiental y la calidad del aire en espacios cerrados.|Propietarios de viviendas que buscan eficiencia energética y automatización del hogar para mejorar el confort.|
-|                                |Estrategias de marketing|Enfoque en educación sobre salud respiratoria, alianzas con médicos y clínicas, marketing en redes sociales dirigido a padres y cuidadores.|Publicidad en plataformas relacionadas con la sostenibilidad y la salud ambiental, marketing de contenido sobre la calidad del aire.|Estrategias de influencers en el bienestar y hogar, campañas de concienciación sobre la calidad del aire en interiores.|Publicidad centrada en la eficiencia energética y el ahorro, promoción de la integración con dispositivos Google y otros productos smart home.|
-|Perfil de Producto|Productos & Servicios|Plataforma IoT para monitoreo y control de calidad del aire, humedad y temperatura en hogares de personas con asma. Servicios de integración con dispositivos como deshumidificadores y purificadores.|Sensor de calidad del aire con app que muestra datos sobre contaminación, temperatura y humedad. Servicios de monitoreo ambiental en tiempo real.|Dispositivo IoT para monitoreo de la calidad del aire, temperatura y humedad en interiores, con una app para controlar y gestionar el ambiente.|Termostato inteligente para regular temperatura y humedad, optimizando la eficiencia energética y la comodidad del hogar. Servicios de integración con otros dispositivos smart home.|
-|                                |Precios & Costos|El producto posee deshumidificador y sensores por lo que se estima un precio aproximadamente de 140 dolares.|Este sensor de calidad del aire tiene un precio aproximado de $199.|El dispositivo para monitorear la calidad del aire tiene un costo aproximado de $199.|El termostato inteligente tiene un precio aproximado de $130.|
-|                                |Canales de distribución (Web y/o Móvil)|Plataforma disponible en web y móvil para monitorear y controlar la calidad del aire, temperatura y humedad en el hogar, mediante dispositivos IoT, dirigida a personas con afecciones respiratorias.|Aplicación móvil para la gestión agrícola, proporcionando herramientas para monitoreo de cultivos, control de plagas y análisis de datos en tiempo real, mejorando la eficiencia en la agricultura.|Plataforma disponible en web y móvil para la reserva de espacios de estacionamiento en garajes privados, facilitando a los usuarios la búsqueda y reserva de lugares disponibles de forma rápida y conveniente.|Plataforma financiera en web y móvil que ofrece asesoramiento personalizado y servicios de inversión para empresas y tiendas independientes, con el objetivo de optimizar el ahorro y maximizar el crecimiento financiero.|
-|Análisis SWOT|Fortalezas|Plataforma web y móvil que permite monitorear y controlar la calidad del aire, temperatura y humedad en el hogar mediante dispositivos IoT, dirigida a personas con afecciones respiratorias.|Dispositivo y app móvil para monitoreo de calidad del aire en tiempo real, proporcionando alertas sobre la contaminación ambiental y recomendaciones para mejorar la salud respiratoria.|Sensor de calidad del aire que se conecta a una app móvil para brindar información sobre la calidad del aire interior, ayudando a mejorar el ambiente y la salud respiratoria en el hogar o en el trabajo.|Termostato inteligente con conexión a una app móvil que permite controlar la temperatura de la vivienda de forma eficiente, optimizando el uso de energía y mejorando el confort interior.|
-|                                |Debilidades|Dependencia de la conectividad y la infraestructura IoT, requiere dispositivos adicionales para funcionar completamente.|	Puede depender de la calidad de la red de sensores en ciertas ubicaciones; algunos usuarios pueden encontrar la app difícil de usar.|	Limitado en cuanto a la cantidad de datos que puede procesar comparado con dispositivos más avanzados; costoso para algunos usuarios.|Requiere conexión Wi-Fi constante y podría no ser compatible con todos los sistemas HVAC. Además, no se adapta a todas las configuraciones de hogar.|
-|                                |Oportunidades|Expansión a mercados con alta prevalencia de afecciones respiratorias, desarrollo de nuevos sensores IoT y asociaciones con instituciones de salud.|	Creciente conciencia sobre la contaminación del aire, expansión a mercados internacionales y adopción en hogares y oficinas.|Creciente demanda de soluciones para mejorar la calidad del aire en interiores, posibles asociaciones con empresas de salud y bienestar.|Expansión de hogares inteligentes y ecosistemas IoT, oportunidades en hogares y oficinas para mejorar la eficiencia energética.|
-|                                |Amenazas|Competencia creciente en el mercado de dispositivos IoT para la salud, barreras de adopción tecnológica en ciertos segmentos.|	Competencia con dispositivos más avanzados de monitoreo ambiental, fluctuaciones en la demanda debido a la percepción de costo elevado.|Avances rápidos en tecnologías de monitoreo de aire, nuevos competidores con funcionalidades más económicas o avanzadas.|	Competencia en el mercado de termostatos inteligentes (incluyendo opciones más económicas), posibles problemas con la compatibilidad de dispositivos en hogares antiguos.|
+||Chaki'y|AirVisual <img src='resources/AirVisualLogo.jpg'/> |Awair <img src='resources/AwairLogo.png'/>|Nest Thermostat (Google) <img src='resources/NestThermostatLogo.webp'/>|
+|:-:|:-:|:-:|:-:|:-:|
+|**Overview**|Solución IoT para controlar el aire, humedad y temperatura en hogares de personas con asma.	|Sensor de calidad del aire para monitorear contaminación y condiciones ambientales.	|Dispositivo IoT para monitorear y controlar la calidad del aire y el ambiente en el hogar.	|Termostato inteligente que regula temperatura y humedad para optimizar el hogar.|
+|**Ventajas Competitivas**|Proporciona un control automático y preventivo del ambiente para mejorar la salud respiratoria de personas con asma.	|Ofrece monitoreo en tiempo real de la calidad del aire para crear un ambiente más saludable.|Brinda control y monitoreo del ambiente para mejorar el bienestar general del hogar.	|Regula temperatura y humedad de manera inteligente, optimizando el confort y la eficiencia energética.|
+|**Mercado Objetivo**|Familias con niños asmáticos, adultos con asma y cuidadores.	|Personas preocupadas por la calidad del aire, en áreas urbanas o contaminadas.	|Hogares interesados en bienestar ambiental y calidad del aire.	|Propietarios que buscan eficiencia energética y automatización del hogar.|
+|**Estrategias de Marketing**|Educación sobre salud respiratoria, alianzas con médicos, marketing en redes sociales.	|Publicidad en plataformas de sostenibilidad, contenido sobre calidad del aire.	|Influencers en bienestar, campañas sobre aire en interiores.	|Publicidad sobre eficiencia energética e integración con ecosistema Google.|
+|**Productos & Servicios**|Plataforma IoT para control ambiental, integración con deshumidificadores y purificadores.	|Sensor con app para datos de contaminación, temperatura y humedad.	|Dispositivo con app para control del aire, temperatura y humedad.|Termostato inteligente con integración smart home.|
+|**Precios & Costos**|~$140 (incluye sensores y deshumidificador).	|~$199	|~$199	|~$130|
+|**Canales de distribución (WEB y/o Móvil)**|Plataforma web y móvil para monitoreo ambiental en hogares.	|App móvil para monitoreo ambiental en tiempo real.	|Plataforma web y móvil para monitoreo del aire.	|Plataforma web y móvil para control inteligente del hogar.|
+|**Fortalezas**|Monitoreo ambiental completo para personas con afecciones respiratorias.	|Alertas en tiempo real y recomendaciones de salud ambiental.	|Información en tiempo real sobre calidad del aire interior.	|Control eficiente de temperatura y humedad vía app.|
+|**Debilidades**|Dependencia de conectividad y dispositivos adicionales.	|Dependencia de red de sensores y posible dificultad de uso de la app.	|Limitado en procesamiento de datos, precio elevado.	|Requiere Wi-Fi y puede no ser compatible con todos los sistemas HVAC.|
+|**Oportunidades**|Expansión en mercados con alta prevalencia de asma, nuevos sensores, alianzas con salud.	|Conciencia creciente sobre contaminación, expansión internacional.	|Mayor demanda de soluciones ambientales, alianzas con salud y bienestar.	|Expansión de hogares inteligentes, integración IoT.|
+|**Amenazas**|Alta competencia IoT en salud, barreras tecnológicas.	|Competidores avanzados, percepción de precio alto.	|Nuevos competidores con soluciones más baratas o avanzadas.	|Competencia con opciones más económicas, problemas de compatibilidad.|
 
 <div id='2.1.1.'><h4> 2.1.1. Análisis competitivo</h4></div>
 
