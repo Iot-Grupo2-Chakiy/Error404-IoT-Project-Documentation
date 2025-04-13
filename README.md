@@ -31,7 +31,6 @@
 
 URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-Error-404]
 
-
 ## Contenido 
 1. [**Capítulo I: Introducción.**](#1.) <br>
 1.1. [***Startup Profile***](#1.1.) <br>
@@ -40,11 +39,11 @@ URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-
 1.2. [***Solution Profile***](#1.2.)<br>
 1.2.1. [Antecedentes y Problemática](#1.2.1.)<br>
 1.2.2. [Lean UX Process](#1.2.2.)<br>
-1.2.3. [Lean UX Problem Statements](#1.2.3.)<br>
-1.2.4. [Lean UX Assumptions](#1.2.4.)<br>
-1.2.5. [Lean UX Hypothesis Statements](#1.2.5.)<br>
-1.2.6. [Lean UX Canvas](#1.2.5.)<br>
-1.3. [***Segmentos objetivo***](#1.2.6.)<br>
+1.2.2.1. [Lean UX Problem Statements](#1.2.3.)<br>
+1.2.2.2. [Lean UX Assumptions](#1.2.4.)<br>
+1.2.2.3. [Lean UX Hypothesis Statements](#1.2.5.)<br>
+1.2.2.4.  [Lean UX Canvas](#1.2.5.)<br>
+1.3. [***Segmentos objetivo***](#1.3.)<br>
 2. [**Capítulo II: Requirements Elicitation & Analysis**](#2.)<br>
 2.1. [***Competidores***](#2.1.)<br>
 2.1.1. [Análisis competitivo](#2.1.1.)<br>
@@ -265,6 +264,8 @@ El sistema puede usarse de manera automática cuando los sensores detectan condi
 
 Debe tener una interfaz amigable, clara y empática, con diseño pensado para personas de todas las edades. Su comportamiento debe ser predecible, proactivo y seguro: debe actuar ante riesgos ambientales, proteger los datos del usuario y permitir una experiencia sin frustraciones. Además, debe transmitir confianza y tranquilidad en todo momento.
 
+<div id='1.2.2.2.'><h5> 1.2.2.2. Lean UX Assumptions.</h5></div>
+
 ##### **Feature Assumptions:**
 
 **Creemos que** al integrar sensores de calidad del aire y humedad, los usuarios podrán evitar crisis asmáticas antes de que ocurran, mejorando su calidad de vida.
@@ -278,7 +279,7 @@ Debe tener una interfaz amigable, clara y empática, con diseño pensado para pe
 **Creemos que** implementar un sistema de alertas en tiempo real ante condiciones críticas permitirá respuestas rápidas que prevengan crisis respiratorias, especialmente en niños.
 
 
-<div id='1.2.2.5.'><h5> 1.2.2.5. Lean UX Hypothesis Statements.</h5></div>
+<div id='1.2.2.3.'><h5> 1.2.2.3. Lean UX Hypothesis Statements.</h5></div>
 
 Hipótesis 1: Sensores para evitar crisis asmáticas
 
@@ -309,7 +310,7 @@ Hipótesis 5: Alertas en tiempo real
 **Creemos que** implementar un sistema de alertas en tiempo real ante condiciones críticas permitirá respuestas rápidas que prevengan crisis respiratorias, especialmente en niños.
 **Sabremos que hemos tenido éxito cuando** los usuarios reaccionen ante las alertas y estas acciones se correlacionen con una disminución en episodios respiratorios reportados.
 
-<div id='1.2.2.6.'><h5> 1.2.2.6. Lean UX Canvas.</h5></div>
+<div id='1.2.2.4.'><h5> 1.2.2.4. Lean UX Canvas.</h5></div>
 
 <img src='resources/LeanUXCanvas.png'/>
 
