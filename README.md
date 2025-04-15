@@ -487,8 +487,13 @@ La entrevista con Carla, quien sufrió de asma en la niñez, aporta la perspecti
 
 Se presenta el escenario ideal con nuestra solución de nuestro usuarios incluyendo nuestros 2 segmentos.
 
+<img src='resources/tobeAdult.png'/>
 
+La imagen muestra el escenario ideal de Adultos que sufren de asma o problemas respiratorios con los pasos y lo que hace, piensa y siente.
 
+<img src='resources/tobekid.png'/>
+
+La imagen muestra el escenario ideal de Niños / Padres con niños que sufren de asma o personas que sufrieron asma en su niñez con los pasos y lo que hace, piensa y siente.
 
 <div id='7.'><h2>Bibliografía</h2></div>
 
