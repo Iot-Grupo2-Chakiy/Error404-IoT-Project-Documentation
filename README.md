@@ -495,6 +495,9 @@ La imagen muestra el escenario ideal de Adultos que sufren de asma o problemas r
 
 La imagen muestra el escenario ideal de Niños / Padres con niños que sufren de asma o personas que sufrieron asma en su niñez con los pasos y lo que hace, piensa y siente.
 
+<div id='3.2.'><h3> 3.2 User Stories</h3></div>
+
+
 <div id='7.'><h2>Bibliografía</h2></div>
 
 Organización Mundial de la Salud (OMS). (2021). Asma. Recuperado de [https://www.who.int/es/news-room/fact-sheets/detail/asthma]
