@@ -480,7 +480,13 @@ La entrevista con Carla, quien sufrió de asma en la niñez, aporta la perspecti
 
 - Aplicación (App): Plataforma de software (web o móvil) que permite a los usuarios acceder a los datos de monitoreo y controlar los dispositivos.
 
-- Bienestar Respiratorio: Estado de salud óptimo del sistema respiratorio, libre de síntomas y afecciones.    
+- Bienestar Respiratorio: Estado de salud óptimo del sistema respiratorio, libre de síntomas y afecciones.
+
+<div id='3.'><h2>Capítulo III: Requirements Specification</h2></div>
+<div id='3.1.'><h3> 3.1 To-Be Scenario Mapping</h3></div>
+
+Se presenta el escenario ideal con nuestra solución de nuestro usuarios incluyendo nuestros 2 segmentos.
+
 
 
 
