@@ -270,7 +270,7 @@ Niños y padres de niños con asma, así como personas que padecieron asma en su
 <div id='2.'><h2>Capítulo II: Requirements Elicitation & Analysis</h2></div>
 <div id='2.1.'><h3> 2.1 Competidores</h3></div>
 
-||Chaki'y|AirVisual <img src='resources/AirVisualLogo.jpg'/> |Awair <img src='resources/AwairLogo.png'/>|Nest Thermostat (Google) <img src='resources/NestThermostatLogo.webp'/>|
+||Chaki'y <img src='resources/ChakiyLogo.svg'/>|AirVisual <img src='resources/AirVisualLogo.jpg'/> |Awair <img src='resources/AwairLogo.png'/>|Nest Thermostat (Google) <img src='resources/NestThermostatLogo.webp'/>|
 |:-:|:-:|:-:|:-:|:-:|
 |**Overview**|Solución IoT para controlar el aire, humedad y temperatura en hogares de personas con asma.	|Sensor de calidad del aire para monitorear contaminación y condiciones ambientales.	|Dispositivo IoT para monitorear y controlar la calidad del aire y el ambiente en el hogar.	|Termostato inteligente que regula temperatura y humedad para optimizar el hogar.|
 |**Ventajas Competitivas**|Proporciona un control automático y preventivo del ambiente para mejorar la salud respiratoria de personas con asma.	|Ofrece monitoreo en tiempo real de la calidad del aire para crear un ambiente más saludable.|Brinda control y monitoreo del ambiente para mejorar el bienestar general del hogar.	|Regula temperatura y humedad de manera inteligente, optimizando el confort y la eficiencia energética.|
