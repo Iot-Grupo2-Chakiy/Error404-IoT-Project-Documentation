@@ -626,38 +626,38 @@ La imagen muestra el escenario ideal de Niños / Padres con niños que sufren de
 | 2 | US02 | Visualización de humedad en tiempo real | Como padre de un niño con asma, quiero ver en tiempo real el nivel de humedad en la habitación de mi hijo para asegurarme de que se mantenga dentro de los rangos recomendados. | 5 |
 | 3 | US11 | Notificaciones por niveles críticos de humedad | Como adulto con asma, quiero recibir una notificación en mi teléfono si la humedad en mi habitación alcanza un nivel crítico para poder tomar medidas. | 3 |
 | 4 | US12 | Alertas por deterioro de calidad del aire | Como padre de un niño con asma, quiero recibir una alerta si la calidad del aire en la habitación de mi hijo empeora significativamente. | 3 |
-| 5 | US07 | Activación automática de purificador de aire | Quiero que el purificador se active automáticamente si la calidad del aire es mala. | 5 |
-| 6 | US01 | Visualización de temperatura en tiempo real | Ver temperatura en tiempo real para saber si es un factor que afecta mi respiración. | 3 |
-| 7 | US15 | Notificaciones push | Recibir notificaciones incluso si la app está cerrada. | 5 |
-| 8 | US05 | Actualización frecuente de datos de sensores | Que los sensores se actualicen frecuentemente para mantener precisión. | 5 |
-| 9 | US06 | Activación automática de deshumidificador | Encender el deshumidificador automáticamente si la humedad es alta. | 5 |
-| 10 | US08 | Configuración de rangos para automatización | Configurar rangos ideales para automatizar dispositivos. | 3 |
-| 11 | US16 | Control manual de dispositivos | Encender/apagar dispositivos desde la app. | 3 |
-| 12 | US04 | Vista general de condiciones ambientales | Tener una vista general de las condiciones en habitaciones monitoreadas. | 3 |
-| 13 | US10 | Desactivación temporal de automatización | Poder desactivar temporalmente la automatización de un dispositivo. | 3 |
-| 14 | US09 | Registro de activaciones automáticas | Ver en la app qué dispositivos se activaron automáticamente y cuándo. | 2 |
-| 15 | US13 | Personalización de tipos de alertas | Elegir qué tipo de alertas recibir para evitar notificaciones innecesarias. | 2 |
-| 16 | US14 | Configuración de umbrales para notificaciones | Configurar umbrales personalizados para temperatura, humedad y calidad de aire. | 3 |
-| 17 | US17 | Programación de horarios para dispositivos | Configurar horarios para activar dispositivos automáticamente. | 5 |
-| 18 | US20 | Ajuste de sensibilidad de sensores y umbrales | Ajustar sensibilidad y umbrales de sensores según mis necesidades. | 5 |
-| 19 | US18 | Personalización de nombres de dispositivos y sensores | Cambiar el nombre de sensores y dispositivos desde la app. | 2 |
-| 20 | US19 | Creación de rutinas personalizadas | Crear rutinas como “preparar habitación antes de llegar”. | 3 |
-| 21 | US21 | Visualización de historial ambiental | Ver historial de temperatura, humedad y calidad del aire. | 5 |
-| 22 | US22 | Visualización de gráficos y resúmenes de tendencias | Ver gráficos de tendencias del historial ambiental. | 3 |
-| 23 | TS01 | API para datos de sensores ambientales | Crear endpoints RESTful para obtener datos ambientales en tiempo real. | 3 |
-| 24 | TS04 | Servicio de automatización de dispositivos | Crear un servicio que gestione automatización basada en reglas configuradas. | 5 |
-| 25 | TS02 | Sistema de WebSockets para actualización en tiempo real | Implementar WebSockets para actualización en tiempo real sin refrescar. | 5 |
-| 26 | TS06 | Servicio de notificaciones | Implementar servicio de notificaciones push. | 3 |
-| 27 | TS05 | API para CRUD de dispositivos inteligentes | Endpoints para agregar y controlar dispositivos desde la app. | 3 |
-| 28 | TS11 | Servicio de programación de rutinas | Permitir programar tareas o dispositivos por horario. | 5 |
-| 29 | TS10 | Módulo de configuración de sensibilidad de sensores | Ajustar calibración y sensibilidad de sensores. | 3 |
-| 30 | TS03 | Base de datos de series temporales | Base de datos para almacenar eficientemente datos históricos de sensores. | 3 |
-| 31 | TS13 | API para gestión de habitaciones y espacios | Endpoints para gestionar habitaciones y asignar sensores/dispositivos. | 3 |
-| 32 | TS08 | API para exportación de datos históricos | Exportar datos históricos en CSV, PDF, etc. | 3 |
-| 33 | TS07 | Almacenamiento seguro de credenciales | Sistema seguro para almacenar credenciales de dispositivos. | 2 |
-| 34 | TS09 | Sistema de autenticación y autorización | Implementar autenticación y autorización con JWT. | 5 |
-| 35 | TS12 | Microservicio de geolocalización | Microservicio para rutinas basadas en ubicación. | 5 |
-| 36 | TS14 | Pipeline de procesamiento de datos en tiempo real | Detectar anomalías y patrones en tiempo real. | 5 |
+| 5 | US07 | Activación automática de purificador de aire | Como padre de un niño con asma, quiero que el purificador de aire en la habitación de mi hijo se active automáticamente cuando la calidad del aire descienda a un nivel no saludable para proteger su salud | 5 |
+| 6 | US01 | Visualización de temperatura en tiempo real | Como adulto con asma, quiero ver en tiempo real la temperatura de mi habitación para poder identificar si es un factor que afecta mi respiración. | 3 |
+| 7 | US15 | Notificaciones push | Como usuario de Chaki'y, quiero recibir notificaciones incluso cuando la aplicación no esté abierta (notificaciones push) para estar siempre informado. | 5 |
+| 8 | US05 | Actualización frecuente de datos de sensores | Como usuario de Chaki'y, quiero que los datos de los sensores se actualicen con frecuencia para tener información precisa en tiempo real. | 5 |
+| 9 | US06 | Activación automática de deshumidificador | Como adulto con asma, quiero que mi deshumidificador se encienda automáticamente cuando la humedad en mi habitación supere un umbral configurado para prevenir crisis respiratorias. | 5 |
+| 10 | US08 | Configuración de rangos para automatización | Como persona con afección respiratoria, quiero poder configurar rangos de temperatura y humedad ideales para que los dispositivos se activen automáticamente al salirse de estos rangos. | 3 |
+| 11 | US16 | Control manual de dispositivos | Como adulto con asma, quiero poder encender o apagar manualmente mi deshumidificador desde la aplicación para tener control directo sobre el ambiente. | 3 |
+| 12 | US04 | Vista general de condiciones ambientales | Como usuario de Chaki'y, quiero tener una vista general de las condiciones ambientales (temperatura, humedad, calidad del aire) de las habitaciones monitoreadas en la aplicación. | 3 |
+| 13 | US10 | Desactivación temporal de automatización | Como usuario de Chaki'y, quiero poder desactivar la automatización de un dispositivo específico temporalmente si lo necesito. | 3 |
+| 14 | US09 | Registro de activaciones automáticas | Como usuario de Chaki'y, quiero ver en la aplicación qué dispositivos se han activado automáticamente y cuándo para tener un registro de las acciones del sistema.| 2 |
+| 15 | US13 | Personalización de tipos de alertas | Como persona con afección respiratoria, quiero poder personalizar qué tipo de alertas quiero recibir (por temperatura, humedad, calidad del aire) para evitar notificaciones innecesarias. | 2 |
+| 16 | US14 | Configuración de umbrales para notificaciones | Como usuario de Chaki'y, quiero poder configurar umbrales para las notificaciones de temperatura, humedad y calidad del aire | 3 |
+| 17 | US17 | Programación de horarios para dispositivos | Como padre de un niño con asma, quiero poder configurar horarios para que el purificador de aire se active automáticamente durante la noche según la rutina de mi hijo. | 5 |
+| 18 | US20 | Ajuste de sensibilidad de sensores y umbrales | Como usuario de Chaki'y, quiero poder ajustar la sensibilidad de los sensores o los umbrales de activación de los dispositivos para adaptarlos a mis necesidades específicas. | 5 |
+| 19 | US18 | Personalización de nombres de dispositivos y sensores | Como persona con afección respiratoria, quiero poder personalizar el nombre de cada sensor y dispositivo para identificarlos fácilmente en la aplicación. | 2 |
+| 20 | US19 | Creación de rutinas personalizadas | Como usuario de Chaki'y, quiero crear rutinas personalizadas (por ejemplo, "preparar habitación antes de llegar") que activen o desactiven ciertos dispositivos. | 3 |
+| 21 | US21 | Visualización de historial ambiental | Como adulto con asma, quiero ver un historial de la temperatura, humedad y calidad del aire de mi habitación durante los últimos días para identificar patrones que puedan desencadenar mis síntomas. | 5 |
+| 22 | US22 | Visualización de gráficos y resúmenes de tendencias | Como persona con afección respiratoria, quiero poder ver gráficos o resúmenes del historial ambiental para entender mejor las tendencias. | 3 |
+| 23 | TS01 | API para datos de sensores ambientales | Como desarrollador del sistema Chaki'y Quiero crear endpoints RESTful para recuperar datos en tiempo real de los sensores Para proporcionar información ambiental actualizada a los usuarios | 3 |
+| 24 | TS04 | Servicio de automatización de dispositivos | Como desarrollador del sistema Chaki'y Quiero crear un servicio que gestione la automatización de dispositivos inteligentes Para responder a cambios en las condiciones ambientales según reglas configuradas | 5 |
+| 25 | TS02 | Sistema de WebSockets para actualización en tiempo real | Como desarrollador del sistema Chaki'y Quiero implementar un sistema de WebSockets Para enviar actualizaciones de datos ambientales en tiempo real a la interfaz de usuario sin necesidad de refrescar | 5 |
+| 26 | TS06 | Servicio de notificaciones | Como desarrollador del sistema Chaki'y Quiero implementar un servicio de notificaciones push Para alertar a los usuarios sobre condiciones ambientales críticas | 3 |
+| 27 | TS05 | API para CRUD de dispositivos inteligentes | Como desarrollador del sistema Chaki'y Quiero crear endpoints RESTful para administrar dispositivos inteligentes Para permitir a los usuarios conectar, configurar y controlar sus dispositivos | 3 |
+| 28 | TS11 | Servicio de programación de rutinas | Como desarrollador del sistema Chaki'y Quiero implementar un servicio de programación para rutinas y tareas automáticas Para que los dispositivos sigan horarios configurados por los usuarios | 5 |
+| 29 | TS10 | Módulo de configuración de sensibilidad de sensores | Como desarrollador del sistema Chaki'y Quiero crear un módulo que permita ajustar la sensibilidad y calibración de sensores Para que los usuarios puedan personalizar el comportamiento del sistema | 3 |
+| 30 | TS03 | Base de datos de series temporales | Como desarrollador del sistema Chaki'y Quiero implementar una base de datos de series temporales Para almacenar eficientemente los datos históricos de sensores ambientales | 3 |
+| 31 | TS13 | API para gestión de habitaciones y espacios | Como desarrollador del sistema Chaki'y Quiero crear endpoints para administrar habitaciones y espacios monitoreados Para organizar sensores y dispositivos en ubicaciones lógicas | 3 |
+| 32 | TS08 | API para exportación de datos históricos | Como desarrollador del sistema Chaki'y Quiero crear endpoints para exportar datos históricos en múltiples formatos Para que los usuarios puedan compartir información con profesionales médicos | 3 |
+| 33 | TS07 | Almacenamiento seguro de credenciales | Como desarrollador del sistema Chaki'y Quiero implementar un sistema de almacenamiento seguro para credenciales de dispositivos Para proteger la información sensible de los usuarios | 2 |
+| 34 | TS09 | Sistema de autenticación y autorización | Como desarrollador del sistema Chaki'y Quiero implementar un sistema de autenticación y autorización basado en JWT Para asegurar que solo usuarios autorizados accedan a funcionalidades y datos | 5 |
+| 35 | TS12 | Microservicio de geolocalización | Como desarrollador del sistema Chaki'y Quiero crear un microservicio para gestionar la geolocalización de usuarios Para activar rutinas basadas en ubicación y mejorar la experiencia contextual | 5 |
+| 36 | TS14 | Pipeline de procesamiento de datos en tiempo real | Como desarrollador del sistema Chaki'y Quiero implementar un pipeline de procesamiento de datos en tiempo real Para detectar anomalías y tendencias en los datos ambientales mientras ocurren| 5 |
 
 <div id='7.'><h2>Bibliografía</h2></div>
 
