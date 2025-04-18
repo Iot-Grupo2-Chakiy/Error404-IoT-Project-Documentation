@@ -304,6 +304,18 @@ En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas so
 <div id='2.2.'><h3> 2.2 Entrevistas</h3></div>
 <div id='2.2.1.'><h4> 2.2.1. Diseño de entrevistas</h4></div>
 
+  <p>En esta sección se procederá a detallar las preguntas para el método de recoleccion de
+  requisitos que son las entrevistas. Para la formulación se siguieron buenas prácicas tales como 
+  formulación de preguntas abiertas, así mismo obtenemos características demográficas con las entrevistas</p>  
+
+  <h4>PREGUNTAS GENERALES</h4>
+  <p>Bienvenido gracias por brindarnos esta entrevista (empieza con las preguntas generales) </p>
+  
+  * Nos gustaría saber su nombre, edad y ocupación
+  * ¿Qué tan acostumbrado está con el uso de tecnología en su vida diaria?
+  * Dentro de su vida diaria, ¿tiene incovenientes utilizando dichas herramientas digitales?
+  * Alguna vez tuvo que enfrentarse con una situación donde usted no entendía para nada como servía una aplicación, de ser así, ¿cómo sobrellevo ese problema?
+    
 ### Segmento 1: Adultos que sufren de asma o problemas respiratorios
 
 1. ¿Cuánto tiempo hace que tienes asma o alguna afección respiratoria?
