@@ -25,6 +25,7 @@
 | 06/04/2024 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
 | 06/04/2024 | 1.0     |  Sebastian Cachis  | Desarrollo de Hypothesis Statements y UX Canvas |
 | 07/04/2024 | 1.0     |  Elias Yauri  | Desarrollo del Registro de entrevistas |
+| 17/04/2024 | 1.0     |  Diego Cantoral | Desarrollo del Impact Mapping y Product Backlog |
 
 
 ## Project Report Collaboration Insights
@@ -601,7 +602,50 @@ La imagen muestra el escenario ideal de Niños / Padres con niños que sufren de
 | TS13 | API para gestión de habitaciones y espacios | **Como** desarrollador del sistema Chaki'y<br>**Quiero** crear endpoints para administrar habitaciones y espacios monitoreados<br>**Para** organizar sensores y dispositivos en ubicaciones lógicas | **Escenario 1: Creación de nueva habitación**<br>**Dado** que el endpoint "/api/v1/rooms" está disponible<br>**Cuando** se envía una solicitud POST con los datos de la nueva habitación (nombre, tipo, tamaño)<br>**Entonces** se crea la habitación en el sistema y se devuelve un código 201 con el ID asignado.<br><br>**Escenario 2: Asignación de dispositivos**<br>**Dado** que existen una habitación y un dispositivo en el sistema<br>**Cuando** se envía una solicitud PUT a "/api/v1/rooms/{room_id}/devices/{device_id}"<br>**Entonces** el dispositivo queda asociado a esa habitación y aparece en su panel de control. |
 | TS14 | Pipeline de procesamiento de datos en tiempo real | **Como** desarrollador del sistema Chaki'y<br>**Quiero** implementar un pipeline de procesamiento de datos en tiempo real<br>**Para** detectar anomalías y tendencias en los datos ambientales mientras ocurren | **Escenario 1: Detección de anomalías**<br>**Dado** que se están procesando datos en tiempo real<br>**Cuando** se detecta un cambio abrupto en algún parámetro ambiental (>30% en 5 minutos)<br>**Entonces** el sistema marca el evento como anomalía y genera una alerta prioritaria.<br><br>**Escenario 2: Análisis de tendencia**<br>**Dado** que se están recibiendo datos continuamente<br>**Cuando** se identifica una tendencia negativa sostenida (empeoramiento gradual por más de 1 hora)<br>**Entonces** el sistema notifica al usuario antes de que se alcancen valores críticos. |
 
+<div id='3.3.'><h3> 3.3. Impact Mapping</h3></div>
 
+<div id='3.4.'><h3> 3.4. Product Backlog</h3></div>
+
+ #### Para una correcta calificacion de los story points, optamos por seguir la escala de Fibonacci 
+
+| Orden | ID | Título | Descripción | Story Points |
+|-------|----|--------|-------------|---------------|
+| 1 | US03 | Visualización de calidad del aire en tiempo real | Como persona con afección respiratoria, quiero ver en tiempo real la calidad del aire en mi hogar para estar informado sobre posibles contaminantes. | 5 |
+| 2 | US02 | Visualización de humedad en tiempo real | Como padre de un niño con asma, quiero ver en tiempo real el nivel de humedad en la habitación de mi hijo para asegurarme de que se mantenga dentro de los rangos recomendados. | 5 |
+| 3 | US11 | Notificaciones por niveles críticos de humedad | Como adulto con asma, quiero recibir una notificación en mi teléfono si la humedad en mi habitación alcanza un nivel crítico para poder tomar medidas. | 3 |
+| 4 | US12 | Alertas por deterioro de calidad del aire | Como padre de un niño con asma, quiero recibir una alerta si la calidad del aire en la habitación de mi hijo empeora significativamente. | 3 |
+| 5 | US07 | Activación automática de purificador de aire | Quiero que el purificador se active automáticamente si la calidad del aire es mala. | 5 |
+| 6 | US01 | Visualización de temperatura en tiempo real | Ver temperatura en tiempo real para saber si es un factor que afecta mi respiración. | 3 |
+| 7 | US15 | Notificaciones push | Recibir notificaciones incluso si la app está cerrada. | 5 |
+| 8 | US05 | Actualización frecuente de datos de sensores | Que los sensores se actualicen frecuentemente para mantener precisión. | 5 |
+| 9 | US06 | Activación automática de deshumidificador | Encender el deshumidificador automáticamente si la humedad es alta. | 5 |
+| 10 | US08 | Configuración de rangos para automatización | Configurar rangos ideales para automatizar dispositivos. | 3 |
+| 11 | US16 | Control manual de dispositivos | Encender/apagar dispositivos desde la app. | 3 |
+| 12 | US04 | Vista general de condiciones ambientales | Tener una vista general de las condiciones en habitaciones monitoreadas. | 3 |
+| 13 | US10 | Desactivación temporal de automatización | Poder desactivar temporalmente la automatización de un dispositivo. | 3 |
+| 14 | US09 | Registro de activaciones automáticas | Ver en la app qué dispositivos se activaron automáticamente y cuándo. | 2 |
+| 15 | US13 | Personalización de tipos de alertas | Elegir qué tipo de alertas recibir para evitar notificaciones innecesarias. | 2 |
+| 16 | US14 | Configuración de umbrales para notificaciones | Configurar umbrales personalizados para temperatura, humedad y calidad de aire. | 3 |
+| 17 | US17 | Programación de horarios para dispositivos | Configurar horarios para activar dispositivos automáticamente. | 5 |
+| 18 | US20 | Ajuste de sensibilidad de sensores y umbrales | Ajustar sensibilidad y umbrales de sensores según mis necesidades. | 5 |
+| 19 | US18 | Personalización de nombres de dispositivos y sensores | Cambiar el nombre de sensores y dispositivos desde la app. | 2 |
+| 20 | US19 | Creación de rutinas personalizadas | Crear rutinas como “preparar habitación antes de llegar”. | 3 |
+| 21 | US21 | Visualización de historial ambiental | Ver historial de temperatura, humedad y calidad del aire. | 5 |
+| 22 | US22 | Visualización de gráficos y resúmenes de tendencias | Ver gráficos de tendencias del historial ambiental. | 3 |
+| 23 | TS01 | API para datos de sensores ambientales | Crear endpoints RESTful para obtener datos ambientales en tiempo real. | 3 |
+| 24 | TS04 | Servicio de automatización de dispositivos | Crear un servicio que gestione automatización basada en reglas configuradas. | 5 |
+| 25 | TS02 | Sistema de WebSockets para actualización en tiempo real | Implementar WebSockets para actualización en tiempo real sin refrescar. | 5 |
+| 26 | TS06 | Servicio de notificaciones | Implementar servicio de notificaciones push. | 3 |
+| 27 | TS05 | API para CRUD de dispositivos inteligentes | Endpoints para agregar y controlar dispositivos desde la app. | 3 |
+| 28 | TS11 | Servicio de programación de rutinas | Permitir programar tareas o dispositivos por horario. | 5 |
+| 29 | TS10 | Módulo de configuración de sensibilidad de sensores | Ajustar calibración y sensibilidad de sensores. | 3 |
+| 30 | TS03 | Base de datos de series temporales | Base de datos para almacenar eficientemente datos históricos de sensores. | 3 |
+| 31 | TS13 | API para gestión de habitaciones y espacios | Endpoints para gestionar habitaciones y asignar sensores/dispositivos. | 3 |
+| 32 | TS08 | API para exportación de datos históricos | Exportar datos históricos en CSV, PDF, etc. | 3 |
+| 33 | TS07 | Almacenamiento seguro de credenciales | Sistema seguro para almacenar credenciales de dispositivos. | 2 |
+| 34 | TS09 | Sistema de autenticación y autorización | Implementar autenticación y autorización con JWT. | 5 |
+| 35 | TS12 | Microservicio de geolocalización | Microservicio para rutinas basadas en ubicación. | 5 |
+| 36 | TS14 | Pipeline de procesamiento de datos en tiempo real | Detectar anomalías y patrones en tiempo real. | 5 |
 
 <div id='7.'><h2>Bibliografía</h2></div>
 
