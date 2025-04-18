@@ -623,6 +623,8 @@ La imagen muestra el escenario ideal de Niños / Padres con niños que sufren de
 
 <div id='3.3.'><h3> 3.3. Impact Mapping</h3></div>
 
+<img src="resources/ElImpactMapping.png"/>
+
 <div id='3.4.'><h3> 3.4. Product Backlog</h3></div>
 
  #### Para una correcta calificacion de los story points, optamos por seguir la escala de Fibonacci 
