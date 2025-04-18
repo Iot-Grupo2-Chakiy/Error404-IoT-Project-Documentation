@@ -378,6 +378,13 @@ En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas so
 |<img src="resources/interviewsPhotos/fernandoDaniel.png">|Fernando Daniel nos comenta que en su niñez sufría de crisis asmáticas las cuales sus padres trataban de calmar llevandolo al hospital, al vivir en una zona seca por provincia nos comenta que sus padres compraron un humidificador con el fin de salvaguardar su integridad, sin embargo el problema que presentaban es que por su corta edad, cuando Fernando se encontraba en casa solo o con familiares que no conocían de su condición, no podía preparar un lugar seguro para él por el desconocimiento de esta herramienta, actualmente nos comenta que tiene tíos los cuales tienen hijos con problemas respiratorios similares y que hasta el día de hoy siguen sufriendo ese problema que en caso no se encuentren ellos no saben que hacer más que llevar al niño al hospital para que se estabilice, al comentarle del producto, responde asertivamente con que si bien algunas personas pueden considerar invasiva esta aplicación porque capaz no estén tan familiarizados con tecnología IoT, puede ser muy útil si es que promocionada adecuadamente y es algo que recomendaría a sus familiares para que cuide mejor a sus hijos|
 |Duración entrevista:     |URL: []|
 
+|Nombre entrevistado|Daniel Valverde|
+|-|-|
+|Edad|22 años|
+|Departamento|Lima, Lima|
+||Daniel Valverde comenta que en su infancia solía presentar crisis asmáticas de vez en cuando, por lo que sus padres estaban constantemente al tanto de un posible ataque de asma. Las pocas veces que se le presentó una crisis asmática sus padres tuvieron que llevarlo al hospital y llegar hasta el punto de ser nebulizado para controlarlo y que su preocupación se agraviase por un cuadro bien fuerte de asma. Daniel nos comenta que a pesar de dichos problemas respiratorios, nunca consideró adecuar la condición del aire que respiraba en su casa, y debido a que vivía en un lugar con una altura considerable y seca, tenía la percepción que esos problemas no eran causados por la condición de aire con la que vivía. Considera que haber contado con un dispositivo tecnológico de IoT le hubiera ayudado a controlar de mejor manera sus problemas respiratorios y no tuviese que haber recurrido a instancias extremas, como ser hospitalizado, para que lo maneje adecuadamente. |
+|Duración entrevista:     |URL: []|
+
 
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
 
