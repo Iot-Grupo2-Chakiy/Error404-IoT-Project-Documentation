@@ -65,27 +65,28 @@ URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-
 3.2. [***User Stories***](#3.2.)<br>
 3.3. [***Impact Mapping***](#3.3.)<br>
 3.4. [***Product Backlog***](#3.4.)<br>
-4. [**Capítulo IV: Strategic-Level Software Design**](#4.)<br>
-4.1. [***Strategic-Level Attribute-Driven Design***](#4.1.)<br>
-4.1.1. [Design Purpose](#4.1.1.)<br>
-4.1.2. [Attribute-Driven Design Inputs](#4.1.2.)<br>
-4.1.2.1. [Primary Functionality (Primary User Stories)](#4.1.2.1.)<br>
-4.1.2.2. [Quality attribute Scenarios](#4.1.2.2.)<br>
-4.1.2.3. [Constraints](#4.1.2.3.)<br>
-4.1.3. [Architectural Drivers Backlog](#4.1.3.)<br>
-4.1.4. [Architectural Design Decisions](#4.1.4.)<br>
-4.1.5. [Quality Attribute Scenario Refinements](#4.1.5.)<br>
-4.2. [***Strategic-Level Domain-Driven Design***](#4.2.)<br>
-4.2.1. [EventStorming](#4.2.1.)<br>
-4.2.2. [Candidate Context Discovery](#4.2.2.)<br>
-4.2.3. [Domain Message Flows Modeling](#4.2.3.)<br>
-4.2.4. [Bounded Context Canvases](#4.2.4.)<br>
-4.2.5. [Context Mapping](#4.2.5.)<br>
-4.3. [***Software Architecture***](#4.3.)<br>
-4.3.1. [Software Architecture System Landscape Diagram](#4.3.1.)<br>
-4.3.2. [Software Architecture Context Level Diagrams](#4.3.2.)<br>
-4.3.3. [Software Architecture Container Level Diagrams](#4.3.3.)<br>
-4.3.4. [Software Architecture Deployment Diagrams](#4.3.4.)<br>
+4. [**Capítulo IV: Solution Software Design**](#4.)<br>
+4.1. [***Strategic-Level Domain-Driven Design***](#4.1.)<br>
+4.1.1. [EventStorming](#4.1.1.)<br>
+4.1.1.1. [Candidate Context Discovery](#4.1.1.1.)<br>
+4.1.1.2. [Domain Message Flows Modeling](#4.1.1.2.)<br>
+4.1.1.3. [Bounded Context Canvases](#4.1.1.3.)<br>
+4.1.2. [Context Mapping](#4.1.2.)<br>
+4.1.3. [Software Architecture](#4.1.3.)<br>
+4.1.3.1. [Software Architecture System Landscape Diagram](#4.1.3.1.)<br>
+4.1.3.2. [Software Architecture Context Level Diagrams](#4.1.3.2.)<br>
+4.1.3.3. [Software Architecture Container Level Diagrams](#4.1.3.3.)<br>
+4.1.3.4. [Software Architecture Deployment Diagrams](#4.1.3.4.)<br>
+4.2. [***Tactical-Level Domain-Driven Design***](#4.2.)<br>
+4.2.1. [Bounded Context: &lt;Bounded Context Name&gt;](#4.2.1.)<br>
+4.2.1.1. [Domain Layer](#4.2.1.1.)<br>
+4.2.1.2. [Interface Layer](#4.2.1.2.)<br>
+4.2.1.3. [Application Layer](#4.2.1.3.)<br>
+4.2.1.4. [Infrastructure Layer](#4.2.1.4.)<br>
+4.2.1.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.1.5.)<br>
+4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.1.6.)<br>
+4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.1.6.1.)<br>
+4.2.1.6.2. [Bounded Context Database Design Diagram](#4.2.1.6.2.)<br>
 
 
 8. [**Conclusiones**](#8.)<br>
@@ -668,53 +669,31 @@ La imagen muestra el escenario ideal de Niños / Padres con niños que sufren de
 | 35 | TS12 | Microservicio de geolocalización | Como desarrollador del sistema Chaki'y Quiero crear un microservicio para gestionar la geolocalización de usuarios Para activar rutinas basadas en ubicación y mejorar la experiencia contextual | 5 |
 | 36 | TS14 | Pipeline de procesamiento de datos en tiempo real | Como desarrollador del sistema Chaki'y Quiero implementar un pipeline de procesamiento de datos en tiempo real Para detectar anomalías y tendencias en los datos ambientales mientras ocurren| 5 |
 
+<div id="4."><h2>Capítulo IV: Solution Software Design</h2></div>
 
+<div id="4.1."><h3>4.1. Strategic-Level Domain-Driven Design</h3></div>
+<div id="4.1.1."><h4>4.1.1. EventStorming</h4></div>
+<div id="4.1.1.1."><h4>4.1.1.1. Candidate Context Discovery</h4></div>
+<div id="4.1.1.2."><h4>4.1.1.2. Domain Message Flows Modeling</h4></div>
+<div id="4.1.1.3."><h4>4.1.1.3. Bounded Context Canvases</h4></div>
+<div id="4.1.2."><h4>4.1.2. Context Mapping</h4></div>
+<div id="4.1.3."><h4>4.1.3. Software Architecture</h4></div>
+<div id="4.1.3.1."><h4>4.1.3.1. Software Architecture System Landscape Diagram</h4></div>
+<div id="4.1.3.2."><h4>4.1.3.2. Software Architecture Context Level Diagrams</h4></div>
+<div id="4.1.3.3."><h4>4.1.3.3. Software Architecture Container Level Diagrams</h4></div>
+<div id="4.1.3.4."><h4>4.1.3.4. Software Architecture Deployment Diagrams</h4></div>
 
-<div id="4."><h2>Capítulo IV: Strategic-Level Software Design</h2></div>
-<div id="4.1."><h3>4.1. Strategic-Level Attribute-Driven Design</h3></div>
-<div id="4.1.1."><h4>4.1.1. Design Purpose</h4></div>
+<div id="4.2."><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
+<div id="4.2.1."><h4>4.2.1. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
+<div id="4.2.1.1."><h4>4.2.1.1. Domain Layer</h4></div>
+<div id="4.2.1.2."><h4>4.2.1.2. Interface Layer</h4></div>
+<div id="4.2.1.3."><h4>4.2.1.3. Application Layer</h4></div>
+<div id="4.2.1.4."><h4>4.2.1.4. Infrastructure Layer</h4></div>
+<div id="4.2.1.5."><h4>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<div id="4.2.1.6."><h4>4.2.1.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
+<div id="4.2.1.6.1."><h4>4.2.1.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
+<div id="4.2.1.6.2."><h4>4.2.1.6.2. Bounded Context Database Design Diagram</h4></div>
 
-Nuestro enfoque de diseño para este nuevo producto se basa en una arquitectura monolítica modular. Aunque en un escenario ideal optaríamos por una arquitectura de microservicios, comenzar con una estructura monolítica nos permitirá avanzar de forma más ágil y obtener un prototipo funcional en menos tiempo.
-
-Este enfoque resulta especialmente útil dado que nuestro producto está dirigido a adultos que padecen asma o secuelas de enfermedades respiratorias, así como a padres y cuidadores de personas en situaciones similares. Con la ayuda de sensores instalados en el hogar, el sistema podrá detectar niveles de humedad que representen un riesgo para la salud (ya sea por exceso o por sequedad) y, en respuesta, activar automáticamente humidificadores o deshumidificadores, o bien notificar al usuario para que actúe manualmente si así lo prefiere.
-
-Apoyándonos en principios de Domain Driven Design, podremos delimitar claramente los módulos relacionados a las distintas funcionalidades del sistema y priorizar aquellos que forman el núcleo del producto. En caso de que el producto tenga buena aceptación, se considerará migrar a una arquitectura basada en microservicios para facilitar su escalabilidad y evolución.
-
-<div id="4.1.2."><h4>4.1.2. Attribute-Driven Design Inputs</h4></div>
-<div id="4.1.2.1."><h4>4.1.2.1. Primary Functionality (Primary User Stories)</h4></div>
-<div id="4.1.2.2."><h4>4.1.2.2. Quality Attribute Scenarios</h4></div>
-
-A continuación se presentan los escenarios para los atributos de calidad identificados en nuestra solución. Se define Quality Attribute Scenario cómo QAS.
-
-**Los siguientes QAS están siendo considerados en un entorno de pruebas académicos.** 
-QAS1 : El sistema procesa un alto volumen de solicitudes simultáneas sin afectar el rendimiento.
-
-**Performance - Throughput**
-| Elemento | Descripción |
-| :------: | :---------- |
-|Estímulo||
-|Fuente de estímulo||
-|Entorno(Medioambiente)||
-|Artefacto||
-|Respuesta||
-|Medida de respuesta||
-
-
-<div id="4.1.2.3."><h4>4.1.2.3. Constraints</h4></div>
-<div id="4.1.3."><h4>4.1.3. Architectural Drivers Backlog</h4></div>
-<div id="4.1.4."><h4>4.1.4. Architectural Design Decisions</h4></div>
-<div id="4.1.5."><h4>4.1.5. Quality Attribute Scenario Refinements</h4></div>
-<div id="4.2."><h3>4.2. Strategic-Level Domain-Driven Design</h3></div>
-<div id="4.2.1."><h4>4.2.1. EventStorming</h4></div>
-<div id="4.2.2."><h4>4.2.2. Candidate Context Discovery</h4></div>
-<div id="4.2.3."><h4>4.2.3. Domain Message Flows Modeling</h4></div>
-<div id="4.2.4."><h4>4.2.4. Bounded Context Canvases</h4></div>
-<div id="4.2.5."><h4>4.2.5. Context Mapping</h4></div>
-<div id="4.3."><h3>4.3. Software Architecture</h3></div>
-<div id="4.3.1."><h4>4.3.1. Software Architecture System Landscape Diagram</h4></div>
-<div id="4.3.1.1."><h4>4.3.1. Software Architecture Context Level Diagrams</h4></div>
-<div id="4.3.2."><h4>4.3.2. Software Architecture Container Level Diagrams</h4></div>
-<div id="4.3.3."><h4>4.3.3. Software Architecture Deployment Diagrams</h4></div>
 
 
 <div id='9.'><h2>Bibliografía</h2></div>
