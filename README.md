@@ -88,9 +88,9 @@ URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-
 4.3.4. [Software Architecture Deployment Diagrams](#4.3.4.)<br>
 
 
-6. [**Conclusiones**](#6.)<br>
-7. [**Bibliografía**](#7.)<br>
-8. [**Anexos**](#8.)<br>
+8. [**Conclusiones**](#8.)<br>
+9. [**Bibliografía**](#9.)<br>
+10. [**Anexos**](#10.)<br>
 
 
 
@@ -668,7 +668,39 @@ La imagen muestra el escenario ideal de Niños / Padres con niños que sufren de
 | 35 | TS12 | Microservicio de geolocalización | Como desarrollador del sistema Chaki'y Quiero crear un microservicio para gestionar la geolocalización de usuarios Para activar rutinas basadas en ubicación y mejorar la experiencia contextual | 5 |
 | 36 | TS14 | Pipeline de procesamiento de datos en tiempo real | Como desarrollador del sistema Chaki'y Quiero implementar un pipeline de procesamiento de datos en tiempo real Para detectar anomalías y tendencias en los datos ambientales mientras ocurren| 5 |
 
-<div id='7.'><h2>Bibliografía</h2></div>
+
+
+<div id="4."><h2>Capítulo IV: Strategic-Level Software Design</h2></div>
+<div id="4.1."><h3>4.1. Strategic-Level Attribute-Driven Design</h3></div>
+<div id="4.1.1."><h4>4.1.1. Design Purpose</h4></div>
+
+Nuestro enfoque de diseño para este nuevo producto se basa en una arquitectura monolítica modular. Aunque en un escenario ideal optaríamos por una arquitectura de microservicios, comenzar con una estructura monolítica nos permitirá avanzar de forma más ágil y obtener un prototipo funcional en menos tiempo.
+
+Este enfoque resulta especialmente útil dado que nuestro producto está dirigido a adultos que padecen asma o secuelas de enfermedades respiratorias, así como a padres y cuidadores de personas en situaciones similares. Con la ayuda de sensores instalados en el hogar, el sistema podrá detectar niveles de humedad que representen un riesgo para la salud (ya sea por exceso o por sequedad) y, en respuesta, activar automáticamente humidificadores o deshumidificadores, o bien notificar al usuario para que actúe manualmente si así lo prefiere.
+
+Apoyándonos en principios de Domain Driven Design, podremos delimitar claramente los módulos relacionados a las distintas funcionalidades del sistema y priorizar aquellos que forman el núcleo del producto. En caso de que el producto tenga buena aceptación, se considerará migrar a una arquitectura basada en microservicios para facilitar su escalabilidad y evolución.
+
+<div id="4.1.2."><h4>4.1.2. Attribute-Driven Design Inputs</h4></div>
+<div id="4.1.2.1."><h4>4.1.2.1. Primary Functionality (Primary User Stories)</h4></div>
+<div id="4.1.2.2."><h4>4.1.2.2. Quality Attribute Scenarios</h4></div>
+<div id="4.1.2.3."><h4>4.1.2.3. Constraints</h4></div>
+<div id="4.1.3."><h4>4.1.3. Architectural Drivers Backlog</h4></div>
+<div id="4.1.4."><h4>4.1.4. Architectural Design Decisions</h4></div>
+<div id="4.1.5."><h4>4.1.5. Quality Attribute Scenario Refinements</h4></div>
+<div id="4.2."><h3>4.2. Strategic-Level Domain-Driven Design</h3></div>
+<div id="4.2.1."><h4>4.2.1. EventStorming</h4></div>
+<div id="4.2.2."><h4>4.2.2. Candidate Context Discovery</h4></div>
+<div id="4.2.3."><h4>4.2.3. Domain Message Flows Modeling</h4></div>
+<div id="4.2.4."><h4>4.2.4. Bounded Context Canvases</h4></div>
+<div id="4.2.5."><h4>4.2.5. Context Mapping</h4></div>
+<div id="4.3."><h3>4.3. Software Architecture</h3></div>
+<div id="4.3.1."><h4>4.3.1. Software Architecture System Landscape Diagram</h4></div>
+<div id="4.3.1.1."><h4>4.3.1. Software Architecture Context Level Diagrams</h4></div>
+<div id="4.3.2."><h4>4.3.2. Software Architecture Container Level Diagrams</h4></div>
+<div id="4.3.3."><h4>4.3.3. Software Architecture Deployment Diagrams</h4></div>
+
+
+<div id='9.'><h2>Bibliografía</h2></div>
 
 Organización Mundial de la Salud (OMS). (2021). Asma. Recuperado de [https://www.who.int/es/news-room/fact-sheets/detail/asthma]
 
@@ -679,5 +711,5 @@ GINA - Global Initiative for Asthma. (2023). Global Strategy for Asthma Manageme
 Science Magazine. (2020). Digital health adoption in emerging countries: A systematic review. Recuperado de [https://www.science.org]
 
 
-<div id='8.'><h2>Anexos</h2></div>
+<div id='10.'><h2>Anexos</h2></div>
 
