@@ -674,6 +674,10 @@ La imagen muestra el escenario ideal de Niños / Padres con niños que sufren de
 <div id="4.1."><h3>4.1. Strategic-Level Domain-Driven Design</h3></div>
 <div id="4.1.1."><h4>4.1.1. EventStorming</h4></div>
 <div id="4.1.1.1."><h4>4.1.1.1. Candidate Context Discovery</h4></div>
+A partir del EventStorming realizado, descubrimos los 5 BC (Bounded context) principales de nuestro producto, siendo estos relacionados con la parte IoT, automatización de estos así como los posibles procesos manuales que pueden ocurrir dentro de la aplicación y como se relacionan con el negocio, lo que es importante mencionar es que estos BC están relacionados entre sí y es posible que unos usen funcionalidades de otros.
+
+<img src="resources/ElImpactMapping.png"/>
+
 <div id="4.1.1.2."><h4>4.1.1.2. Domain Message Flows Modeling</h4></div>
 Este modelo describe el flujo de mensajes entre los diferentes bounded contexts identificados en el proceso de Candidate Context Discovery, permitiendo visualizar la interacción entre contextos y los eventos que los conectan. A continuación se detallan los flujos más relevantes de dominio entre los cinco contextos definidos.
 
@@ -792,7 +796,7 @@ Se plantea esta separación para evitar acoplamientos directos con modelos exter
 <div id="4.1.3.4."><h4>4.1.3.4. Software Architecture Deployment Diagrams</h4></div>
 
 <div id="4.2."><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
-<div id="4.2.1."><h4>4.2.1. Bounded Context: &lt;Bounded Context Name&gt;</h4></div>
+<div id="4.2.1."><h4>4.2.1. Bounded Context: &lt;Sensor Management&gt;</h4></div>
 <div id="4.2.1.1."><h4>4.2.1.1. Domain Layer</h4></div>
 <div id="4.2.1.2."><h4>4.2.1.2. Interface Layer</h4></div>
 <div id="4.2.1.3."><h4>4.2.1.3. Application Layer</h4></div>
@@ -802,7 +806,47 @@ Se plantea esta separación para evitar acoplamientos directos con modelos exter
 <div id="4.2.1.6.1."><h4>4.2.1.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
 <div id="4.2.1.6.2."><h4>4.2.1.6.2. Bounded Context Database Design Diagram</h4></div>
 
+<div id="4.2.1."><h4>4.2.2. Bounded Context: &lt;Monitoring & Analysis&gt;</h4></div>
+<div id="4.2.1.1."><h4>4.2.2.1. Domain Layer</h4></div>
+<div id="4.2.1.2."><h4>4.2.2.2. Interface Layer</h4></div>
+<div id="4.2.1.3."><h4>4.2.2.3. Application Layer</h4></div>
+<div id="4.2.1.4."><h4>4.2.2.4. Infrastructure Layer</h4></div>
+<div id="4.2.1.5."><h4>4.2.2.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<div id="4.2.1.6."><h4>4.2.2.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
+<div id="4.2.1.6.1."><h4>4.2.2.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
+<div id="4.2.1.6.2."><h4>4.2.2.6.2. Bounded Context Database Design Diagram</h4></div>
 
+<div id="4.2.1."><h4>4.2.3. Bounded Context: &lt;Notifications & Alerts&gt;</h4></div>
+<div id="4.2.1.1."><h4>4.2.3.1. Domain Layer</h4></div>
+<div id="4.2.1.2."><h4>4.2.3.2. Interface Layer</h4></div>
+<div id="4.2.1.3."><h4>4.2.3.3. Application Layer</h4></div>
+<div id="4.2.1.4."><h4>4.2.3.4. Infrastructure Layer</h4></div>
+<div id="4.2.1.5."><h4>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<div id="4.2.1.6."><h4>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
+<div id="4.2.1.6.1."><h4>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
+<div id="4.2.1.6.2."><h4>4.2.3.6.2. Bounded Context Database Design Diagram</h4></div>
+
+
+<div id="4.2.1."><h4>4.2.4. Bounded Context: &lt;Automation Management&gt;</h4></div>
+<div id="4.2.1.1."><h4>4.2.4.1. Domain Layer</h4></div>
+<div id="4.2.1.2."><h4>4.2.4.2. Interface Layer</h4></div>
+<div id="4.2.1.3."><h4>4.2.4.3. Application Layer</h4></div>
+<div id="4.2.1.4."><h4>4.2.4.4. Infrastructure Layer</h4></div>
+<div id="4.2.1.5."><h4>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<div id="4.2.1.6."><h4>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
+<div id="4.2.1.6.1."><h4>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
+<div id="4.2.1.6.2."><h4>4.2.4.6.2. Bounded Context Database Design Diagram</h4></div>
+
+
+<div id="4.2.1."><h4>4.2.5. Bounded Context: &lt;Routine Scheduling&gt;</h4></div>
+<div id="4.2.1.1."><h4>4.2.5.1. Domain Layer</h4></div>
+<div id="4.2.1.2."><h4>4.2.5.2. Interface Layer</h4></div>
+<div id="4.2.1.3."><h4>4.2.5.3. Application Layer</h4></div>
+<div id="4.2.1.4."><h4>4.2.5.4. Infrastructure Layer</h4></div>
+<div id="4.2.1.5."><h4>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
+<div id="4.2.1.6."><h4>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
+<div id="4.2.1.6.1."><h4>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
+<div id="4.2.1.6.2."><h4>4.2.5.6.2. Bounded Context Database Design Diagram</h4></div>
 
 <div id='9.'><h2>Bibliografía</h2></div>
 
