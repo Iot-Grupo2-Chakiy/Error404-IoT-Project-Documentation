@@ -675,8 +675,116 @@ La imagen muestra el escenario ideal de Niños / Padres con niños que sufren de
 <div id="4.1.1."><h4>4.1.1. EventStorming</h4></div>
 <div id="4.1.1.1."><h4>4.1.1.1. Candidate Context Discovery</h4></div>
 <div id="4.1.1.2."><h4>4.1.1.2. Domain Message Flows Modeling</h4></div>
+Este modelo describe el flujo de mensajes entre los diferentes bounded contexts identificados en el proceso de Candidate Context Discovery, permitiendo visualizar la interacción entre contextos y los eventos que los conectan. A continuación se detallan los flujos más relevantes de dominio entre los cinco contextos definidos.
+
+1. Sensor Management → Monitoring & Analysis
+Mensajes:
+
+* Evento: Datos Recibidos Desde Sensor
+* Evento: Sensor Calibrado
+* Evento: Historial Ambiental Actualizado
+
+Descripción:
+Cada vez que se recibe nueva data de los sensores, se emite un evento hacia el contexto de análisis para su evaluación. El historial y la calibración también alimentan el contexto analítico para mejorar la calidad de decisiones.
+
+2. Monitoring & Analysis → Notifications & Alerts
+Mensajes:
+
+* Evento: Condición Ambiental Crítica Detectada
+* Evento: Cambio Ambiental Detectado
+* Evento: Anomalía Detectada En Tiempo Real
+* Comando: Generar Notificación Personalizada
+
+Descripción:
+Cuando se detecta una condición crítica o una anomalía, el sistema lanza eventos que activan alertas y notificaciones hacia el usuario, adaptadas a sus preferencias.
+
+3. Monitoring & Analysis → Automation Engine
+Mensajes:
+
+* Evento: Condición De Activación Cumplida
+* Comando: Ejecutar Automatización
+* Comando: Activar/Desactivar Dispositivo
+
+Descripción:
+Una vez que se verifica una regla de activación (por ejemplo, temperatura > 35°C), se desencadena un comando para ejecutar una automatización correspondiente en los dispositivos conectados.
+
+4. Notifications & Alerts → Routine Scheduling
+Mensajes:
+
+* Evento: Alerta Personalizada Enviada
+* Evento: Preferencias De Notificación Actualizadas
+* Comando: Programar Nueva Rutina En Base A Alerta
+
+Descripción:
+El usuario puede optar por programar una rutina a partir de una alerta recibida. Las preferencias también pueden modificar el comportamiento de ejecución de rutinas o su periodicidad.
+
+5. Routine Scheduling → Automation Engine
+Mensajes:
+
+* Evento: Rutina Ejecutada Por Horario / Ubicación
+* Evento: Servicio De Geolocalización Notificado
+* Comando: Ejecutar Acción Automatizada
+* Comando: Control Manual De Dispositivo
+
+Descripción:
+Cuando llega la hora o el usuario entra a una zona geográfica específica, se dispara la rutina correspondiente y se envía una orden al motor de automatización para realizar una acción.
+
+
+<img src="resources/ElImpactMapping.png"/>
+
+
 <div id="4.1.1.3."><h4>4.1.1.3. Bounded Context Canvases</h4></div>
 <div id="4.1.2."><h4>4.1.2. Context Mapping</h4></div>
+
+Durante el proceso de Context Mapping, el equipo identificó y modeló las relaciones estructurales entre los distintos bounded contexts derivados del análisis de los Domain Events. A partir de esta segmentación, se construyeron mapas contextuales iniciales, guiados por preguntas estratégicas que ayudaron a validar y refinar las decisiones sobre distribución de capacidades. A continuación, se presentan los hallazgos y decisiones principales:
+
+**Bounded Contexts Identificados**
+
+* Sensor Management: Responsable del registro, configuración y monitoreo de sensores ambientales.
+* Monitoring & Analysis: Encargado del procesamiento de datos provenientes de los sensores, incluyendo la detección de anomalías y generación de eventos internos.
+* Notifications & Alerts: Se ocupa de generar y enviar notificaciones a los usuarios, basadas en condiciones relevantes detectadas por el sistema.
+* Automation Engine: Gestiona las acciones automatizadas en respuesta a eventos del entorno, como encender dispositivos o ajustar parámetros ambientales.
+* Routine Scheduling: Permite la creación de rutinas que se activan por horarios o ubicación geográfica, según las preferencias del usuario.
+
+**Preguntas estratégicas consideradas durante el diseño**
+
+¿Qué pasaría si movemos la capacidad de calibración de sensores al contexto de Sensor Management?
+Se decidió integrarla en este contexto, ya que tiene una fuerte relación funcional con la gestión técnica de los sensores.
+
+¿Qué pasaría si descomponemos Notifications & Alerts para formar un nuevo contexto orientado a las preferencias del usuario?
+Se consideró viable crear un nuevo contexto llamado User Preferences, que permita gestionar configuraciones personalizadas de manera aislada.
+
+¿Qué ocurriría si unimos Automation Engine y Routine Scheduling en un solo contexto?
+Se decidió mantenerlos separados debido a que uno está orientado a eventos y el otro a condiciones temporales o espaciales, lo que implica distintas lógicas de activación.
+
+¿Qué pasaría si se crea un contexto independiente de visualización a partir de las capacidades de monitoreo?
+Esta opción fue descartada por el momento, ya que aún no se prioriza la construcción de una interfaz de visualización avanzada.
+
+**Relaciones entre bounded contexts**
+
+* Sensor Management y Monitoring & Analysis
+Relación: Shared Kernel
+Se comparten estructuras y datos base que permiten interpretar correctamente las lecturas del entorno.
+
+* Monitoring & Analysis con Notifications & Alerts
+Relación: Customer-Supplier
+Notifications depende de los eventos que se generan en el análisis para operar.
+
+* Automation Engine con Sensor Management
+Relación: Conformist
+Automation utiliza los datos del contexto de sensores tal como se generan, sin necesidad de transformar la información.
+
+* User Preferences con Interfaces externas (aplicación, API)
+Relación: Anticorruption Layer
+Se plantea esta separación para evitar acoplamientos directos con modelos externos o cambios en otras plataformas.
+
+**Reflexiones del proceso**
+
+* La separación de responsabilidades facilita que cada parte del sistema evolucione sin afectar directamente a los demás.
+* Se mejora la modularidad del diseño y se reduce el acoplamiento entre componentes.
+* Algunas decisiones sobre fusiones o divisiones de contextos quedaron documentadas para futuras revisiones, a medida que el sistema crezca.
+* Se definieron zonas críticas donde será importante asegurar contratos bien establecidos entre contextos, especialmente en el intercambio de eventos.
+
 <div id="4.1.3."><h4>4.1.3. Software Architecture</h4></div>
 <div id="4.1.3.1."><h4>4.1.3.1. Software Architecture System Landscape Diagram</h4></div>
 <div id="4.1.3.2."><h4>4.1.3.2. Software Architecture Context Level Diagrams</h4></div>
