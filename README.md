@@ -702,7 +702,7 @@ Mensajes:
 Descripción:
 Cuando se detecta una condición crítica o una anomalía, el sistema lanza eventos que activan alertas y notificaciones hacia el usuario, adaptadas a sus preferencias.
 
-3. Monitoring & Analysis → Automation Engine
+3. Monitoring & Analysis → Automation Management
 Mensajes:
 
 * Evento: Condición De Activación Cumplida
@@ -722,7 +722,7 @@ Mensajes:
 Descripción:
 El usuario puede optar por programar una rutina a partir de una alerta recibida. Las preferencias también pueden modificar el comportamiento de ejecución de rutinas o su periodicidad.
 
-5. Routine Scheduling → Automation Engine
+5. Routine Scheduling → Automation Management
 Mensajes:
 
 * Evento: Rutina Ejecutada Por Horario / Ubicación
@@ -747,7 +747,7 @@ Durante el proceso de Context Mapping, el equipo identificó y modeló las relac
 * Sensor Management: Responsable del registro, configuración y monitoreo de sensores ambientales.
 * Monitoring & Analysis: Encargado del procesamiento de datos provenientes de los sensores, incluyendo la detección de anomalías y generación de eventos internos.
 * Notifications & Alerts: Se ocupa de generar y enviar notificaciones a los usuarios, basadas en condiciones relevantes detectadas por el sistema.
-* Automation Engine: Gestiona las acciones automatizadas en respuesta a eventos del entorno, como encender dispositivos o ajustar parámetros ambientales.
+* Automation Management: Gestiona las acciones automatizadas en respuesta a eventos del entorno, como encender dispositivos o ajustar parámetros ambientales.
 * Routine Scheduling: Permite la creación de rutinas que se activan por horarios o ubicación geográfica, según las preferencias del usuario.
 
 **Preguntas estratégicas consideradas durante el diseño**
@@ -758,7 +758,7 @@ Se decidió integrarla en este contexto, ya que tiene una fuerte relación funci
 ¿Qué pasaría si descomponemos Notifications & Alerts para formar un nuevo contexto orientado a las preferencias del usuario?
 Se consideró viable crear un nuevo contexto llamado User Preferences, que permita gestionar configuraciones personalizadas de manera aislada.
 
-¿Qué ocurriría si unimos Automation Engine y Routine Scheduling en un solo contexto?
+¿Qué ocurriría si unimos Automation Management y Routine Scheduling en un solo contexto?
 Se decidió mantenerlos separados debido a que uno está orientado a eventos y el otro a condiciones temporales o espaciales, lo que implica distintas lógicas de activación.
 
 ¿Qué pasaría si se crea un contexto independiente de visualización a partir de las capacidades de monitoreo?
@@ -774,7 +774,7 @@ Se comparten estructuras y datos base que permiten interpretar correctamente las
 Relación: Customer-Supplier
 Notifications depende de los eventos que se generan en el análisis para operar.
 
-* Automation Engine con Sensor Management
+* Automation Management con Sensor Management
 Relación: Conformist
 Automation utiliza los datos del contexto de sensores tal como se generan, sin necesidad de transformar la información.
 
