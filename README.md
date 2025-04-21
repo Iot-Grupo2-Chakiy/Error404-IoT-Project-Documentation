@@ -673,10 +673,16 @@ La imagen muestra el escenario ideal de Niños / Padres con niños que sufren de
 
 <div id="4.1."><h3>4.1. Strategic-Level Domain-Driven Design</h3></div>
 <div id="4.1.1."><h4>4.1.1. EventStorming</h4></div>
+
+<img src="resources/EventStormingRelated/DomainEvents.jpg"/>
+
+<img src="resources/EventStormingRelated/EventStormingDos.jpg"/>
+
 <div id="4.1.1.1."><h4>4.1.1.1. Candidate Context Discovery</h4></div>
 A partir del EventStorming realizado, descubrimos los 5 BC (Bounded context) principales de nuestro producto, siendo estos relacionados con la parte IoT, automatización de estos así como los posibles procesos manuales que pueden ocurrir dentro de la aplicación y como se relacionan con el negocio, lo que es importante mencionar es que estos BC están relacionados entre sí y es posible que unos usen funcionalidades de otros.
 
-<img src="resources/tdvianada.png"/>
+<img src="resources/EventStormingRelated/BoundedContextSeparados.jpg"/>
+
 
 <div id="4.1.1.2."><h4>4.1.1.2. Domain Message Flows Modeling</h4></div>
 Este modelo describe el flujo de mensajes entre los diferentes bounded contexts identificados en el proceso de Candidate Context Discovery, permitiendo visualizar la interacción entre contextos y los eventos que los conectan. A continuación se detallan los flujos más relevantes de dominio entre los cinco contextos definidos.
@@ -734,7 +740,7 @@ Descripción:
 Cuando llega la hora o el usuario entra a una zona geográfica específica, se dispara la rutina correspondiente y se envía una orden al motor de automatización para realizar una acción.
 
 
-<img src="resources/tdvianada.png"/>
+<img src="resources/EventStormingRelated/DomainMessagesFlowMOdelling.jpg"/>
 
 
 <div id="4.1.1.3."><h4>4.1.1.3. Bounded Context Canvases</h4></div>
@@ -809,7 +815,7 @@ Se plantea esta separación para evitar acoplamientos directos con modelos exter
 <div id="4.1.3."><h4>4.1.3. Software Architecture</h4></div>
 <div id="4.1.3.1."><h4>4.1.3.1. Software Architecture System Landscape Diagram</h4></div>
 
-<img src="resources/tdvianada.png"/>
+<img src="resources/C4/System%20Context%20-%20Chaki'y.png"/>
 
 <div id="4.1.3.2."><h4>4.1.3.2. Software Architecture Context Level Diagrams</h4></div>
 <div id="4.1.3.3."><h4>4.1.3.3. Software Architecture Container Level Diagrams</h4></div>
