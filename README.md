@@ -676,7 +676,7 @@ La imagen muestra el escenario ideal de Niños / Padres con niños que sufren de
 <div id="4.1.1.1."><h4>4.1.1.1. Candidate Context Discovery</h4></div>
 A partir del EventStorming realizado, descubrimos los 5 BC (Bounded context) principales de nuestro producto, siendo estos relacionados con la parte IoT, automatización de estos así como los posibles procesos manuales que pueden ocurrir dentro de la aplicación y como se relacionan con el negocio, lo que es importante mencionar es que estos BC están relacionados entre sí y es posible que unos usen funcionalidades de otros.
 
-<img src="resources/ElImpactMapping.png"/>
+<img src="resources/tdvianada.png"/>
 
 <div id="4.1.1.2."><h4>4.1.1.2. Domain Message Flows Modeling</h4></div>
 Este modelo describe el flujo de mensajes entre los diferentes bounded contexts identificados en el proceso de Candidate Context Discovery, permitiendo visualizar la interacción entre contextos y los eventos que los conectan. A continuación se detallan los flujos más relevantes de dominio entre los cinco contextos definidos.
@@ -734,10 +734,27 @@ Descripción:
 Cuando llega la hora o el usuario entra a una zona geográfica específica, se dispara la rutina correspondiente y se envía una orden al motor de automatización para realizar una acción.
 
 
-<img src="resources/ElImpactMapping.png"/>
+<img src="resources/tdvianada.png"/>
 
 
 <div id="4.1.1.3."><h4>4.1.1.3. Bounded Context Canvases</h4></div>
+
+* **Automation Management**
+  <img src="resources/tdvianada.png"/>
+
+* **Routine Scheduling**
+  <img src="resources/tdvianada.png"/>
+
+* **Monitoring & Analysis**
+  <img src="resources/tdvianada.png"/>
+
+* **Notifications & Alerts**
+  <img src="resources/tdvianada.png"/>
+
+* **Sensor Management**
+<img src="resources/tdvianada.png"/>
+
+
 <div id="4.1.2."><h4>4.1.2. Context Mapping</h4></div>
 
 Durante el proceso de Context Mapping, el equipo identificó y modeló las relaciones estructurales entre los distintos bounded contexts derivados del análisis de los Domain Events. A partir de esta segmentación, se construyeron mapas contextuales iniciales, guiados por preguntas estratégicas que ayudaron a validar y refinar las decisiones sobre distribución de capacidades. A continuación, se presentan los hallazgos y decisiones principales:
@@ -791,6 +808,9 @@ Se plantea esta separación para evitar acoplamientos directos con modelos exter
 
 <div id="4.1.3."><h4>4.1.3. Software Architecture</h4></div>
 <div id="4.1.3.1."><h4>4.1.3.1. Software Architecture System Landscape Diagram</h4></div>
+
+<img src="resources/tdvianada.png"/>
+
 <div id="4.1.3.2."><h4>4.1.3.2. Software Architecture Context Level Diagrams</h4></div>
 <div id="4.1.3.3."><h4>4.1.3.3. Software Architecture Container Level Diagrams</h4></div>
 <div id="4.1.3.4."><h4>4.1.3.4. Software Architecture Deployment Diagrams</h4></div>
