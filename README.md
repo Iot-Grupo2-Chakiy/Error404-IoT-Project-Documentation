@@ -351,12 +351,14 @@ En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas so
 |Departamento|Ica, Ica|
 |<img src="resources/interviewsPhotos/rodrigopisconti.png">|Rodrigo Pisconti, un joven de 20 años que sufrió de asma durante su niñez, actualmente sigue siendo sensible a factores ambientales como la humedad y el polvo. Aunque sus síntomas se han reducido, aún experimenta molestias respiratorias varias veces al mes. Usa un deshumidificador y medidores manuales de ambiente, pero no cuenta con tecnología automatizada. Mostró interés en una herramienta que le permita monitorear y controlar el ambiente de su hogar de forma preventiva. Destaca la importancia de la simplicidad, confiabilidad y automatización. Rodrigo se mostró dispuesto a integrar dispositivos inteligentes y pagar por una solución como Chaki’y si mejora su bienestar.|
 |Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EQ7Z-iPKJpNMiwI9G_hAp3gBT6usQq9D6iSu4Ut-Hm2ADg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=L2Kz8N]|
+
 |Nombre entrevistado|Gian Sánchez|
 |Edad|25 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/gianSanchez.png">|Gian Sánchez, de 25 años, padece asma desde los 14. Aunque al inicio sus síntomas eran leves, con el tiempo se han intensificado, especialmente durante la limpieza o en ambientes laborales donde no se conoce su condición. Para manejar sus síntomas, usa inhalador, toma medicación diaria y evita ambientes con polvo o humo. Actualmente utiliza un deshumidificador y un purificador de aire en su dormitorio, pero aun así experimenta crisis respiratorias dos o tres veces al mes, y episodios más severos entre tres y cuatro veces al año, generalmente relacionados con la contaminación o cambios bruscos de clima.Le pareció muy interesante la propuesta de Chaki’y, ya que considera que el monitoreo y la automatización del ambiente serían de gran ayuda. Comenta que muchas veces no percibe los cambios en el entorno hasta que aparecen los síntomas, por lo que valora recibir notificaciones y que el sistema actúe automáticamente. Está dispuesto a usar una aplicación móvil para este fin, siempre que sea confiable, fácil de usar y configurable. Además, señaló que estaría dispuesto a invertir en una herramienta como Chaki’y si contribuye a mejorar su calidad de vida.|
 |Duración entrevista: 00:00-05:03 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EV_ilPU91yROjMKC-qI-TboB3_K0sWgu7Wch7xwNJ05GFA?e=uP9ivv]|
-|Nombre entrevistado|Bryan Cruz|
+
+|Nombre entrevistado|Brian Cruz|
 |-|-|
 |Edad|22 años|
 |Departamento|Lima, Lima|
@@ -1105,6 +1107,7 @@ Estado (enum: Activa, Atendida, Descartada)
 
 
 <div id="4.2.1.5."><h4>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
+
 <div id="4.2.1.6."><h4>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
 Esta sección profundiza en la implementación de los componentes del bounded context de "Notifications & Alerts" , presentando diagramas que muestran la estructura de clases y el diseño de la base de datos respectivo a este bounded context.
 
