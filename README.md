@@ -975,7 +975,7 @@ La Capa de Infraestructura de Sensor Management implementa los detalles técnico
 
 <div id="4.2.1.6."><h4>4.2.1.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
 
-Esta sección profundiza en la implementación de los componentes del bounded context de Sensor Management, presentando diagramas que muestran la estructura de clases y el diseño de la base de datos.
+Esta sección profundiza en la implementación de los componentes del bounded context de Sensor Management, presentando diagramas que muestran la estructura de clases y el diseño de la base de datos respectivo a este bounded context.
 
 <div id="4.2.1.6.1."><h4>4.2.1.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
 
@@ -992,16 +992,122 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 <div id="4.2.1.4."><h4>4.2.2.4. Infrastructure Layer</h4></div>
 <div id="4.2.1.5."><h4>4.2.2.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
 <div id="4.2.1.6."><h4>4.2.2.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
+
 <div id="4.2.1.6.1."><h4>4.2.2.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
 <div id="4.2.1.6.2."><h4>4.2.2.6.2. Bounded Context Database Design Diagram</h4></div>
 
 <div id="4.2.1."><h4>4.2.3. Bounded Context: &lt;Notifications & Alerts&gt;</h4></div>
 <div id="4.2.1.1."><h4>4.2.3.1. Domain Layer</h4></div>
+
+**Entidades (Entities)**
+Alerta
+AlertaId (Identificador único, Raíz del Agregado)
+SensorId (opcional): Puede estar vinculada a un sensor específico
+Tipo (enum: Critica, Informativa, Advertencia)
+Mensaje (string): Texto descriptivo de la alerta
+FechaHoraGeneracion (DateTime)
+Estado (enum: Activa, Atendida, Descartada)
+
+**Métodos:**
+
+* MarcarComoAtendida()
+* Descartar()
+* Notificacion
+* NotificacionId
+* UsuarioId
+* AlertaId
+* Canal (enum: Push, Email, SonidoLocal)
+* FechaHoraEnvio
+* EstadoEnvio (enum: Enviada, Fallida, Pendiente)
+
+**Objetos de Valor (Value Objects)**
+
+* AlertaId: GUID encapsulado.
+* NotificacionId: GUID encapsulado.
+* MensajeAlerta: Valida longitud y contenido de texto.
+* CanalEnvio: Enum fuerte para validar canales soportados.
+
+**Agregado**
+
+* Alerta como Agregado raíz.
+* La entidad Notificacion puede gestionarse como parte de un flujo orquestado, pero no pertenece directamente al agregado Alerta.
+* Servicios de Dominio
+* GeneradorDeAlertasDomainService
+* GenerarAlerta(sensorId, tipo, mensaje) → Alerta
+* ValidarCondicionesDeAlerta(sensorData) → bool
+
 <div id="4.2.1.2."><h4>4.2.3.2. Interface Layer</h4></div>
+
+**Manejadores de Comandos**
+
+* **GenerarAlertaCommandHandler**
+
+* Crea una instancia de Alerta
+* La persiste usando IAlertaRepository
+* Publica AlertaGeneradaEvent
+
+* **EnviarNotificacionCommandHandler**
+
+* Usa INotificacionService para enviar por el canal adecuado
+* Registra el estado de envío
+
+**Manejadores de Eventos de Dominio**
+
+* **AlertaGeneradaEventHandler**
+
+* Reacciona a AlertaGeneradaEvent
+* Genera y distribuye notificaciones vinculadas
+
+**Servicios de Aplicación**
+
+* **NotificationsService**
+* CrearYEnviarAlerta(GenerarAlertaDTO)
+* MarcarAlertaComoAtendida(AlertaId)
+* ReintentarEnvioNotificacionesFallidas()
+
 <div id="4.2.1.3."><h4>4.2.3.3. Application Layer</h4></div>
+
+**Controladores API**
+
+* **NotificacionesController**
+
+* GET /api/alertas
+* POST /api/alertas
+* PUT /api/alertas/{id}/atendida
+* GET /api/notificaciones
+
+* **Webhooks**
+
+* POST /webhook/alertas: Puede recibir eventos críticos de otros contextos.
+
+
 <div id="4.2.1.4."><h4>4.2.3.4. Infrastructure Layer</h4></div>
+
+**Repositorios**
+
+* **AlertaRepository**
+
+* Implementa IAlertaRepository: GetById, Save, GetAll
+
+* **NotificacionRepository**
+
+* Implementa INotificacionRepository
+
+**Adaptadores de Envío**
+
+* **PushNotificationAdapter**
+
+* EnviarNotificacion(notificacionDTO)
+
+* **EmailAdapter**
+
+* EnviarCorreo(destinatario, asunto, mensaje)
+
+
 <div id="4.2.1.5."><h4>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
 <div id="4.2.1.6."><h4>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
+Esta sección profundiza en la implementación de los componentes del bounded context de "Notifications & Alerts" , presentando diagramas que muestran la estructura de clases y el diseño de la base de datos respectivo a este bounded context.
+
 <div id="4.2.1.6.1."><h4>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
 <div id="4.2.1.6.2."><h4>4.2.3.6.2. Bounded Context Database Design Diagram</h4></div>
 
