@@ -346,23 +346,18 @@ En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas so
 ***Adultos que sufren de asma o problemas respiratorios***
 
 |Nombre entrevistado|Rodrigo Pisconti|
-|:-:|:-:|
+|-|-|
 |Edad|20 años|
 |Departamento|Ica, Ica|
 |<img src="resources/interviewsPhotos/rodrigopisconti.png">|Rodrigo Pisconti, un joven de 20 años que sufrió de asma durante su niñez, actualmente sigue siendo sensible a factores ambientales como la humedad y el polvo. Aunque sus síntomas se han reducido, aún experimenta molestias respiratorias varias veces al mes. Usa un deshumidificador y medidores manuales de ambiente, pero no cuenta con tecnología automatizada. Mostró interés en una herramienta que le permita monitorear y controlar el ambiente de su hogar de forma preventiva. Destaca la importancia de la simplicidad, confiabilidad y automatización. Rodrigo se mostró dispuesto a integrar dispositivos inteligentes y pagar por una solución como Chaki’y si mejora su bienestar.|
 |Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EQ7Z-iPKJpNMiwI9G_hAp3gBT6usQq9D6iSu4Ut-Hm2ADg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=L2Kz8N]|
-
-
 |Nombre entrevistado|Gian Sánchez|
-|:-:|:-:|
 |Edad|25 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/gianSanchez.png">|Gian Sánchez, de 25 años, padece asma desde los 14. Aunque al inicio sus síntomas eran leves, con el tiempo se han intensificado, especialmente durante la limpieza o en ambientes laborales donde no se conoce su condición. Para manejar sus síntomas, usa inhalador, toma medicación diaria y evita ambientes con polvo o humo. Actualmente utiliza un deshumidificador y un purificador de aire en su dormitorio, pero aun así experimenta crisis respiratorias dos o tres veces al mes, y episodios más severos entre tres y cuatro veces al año, generalmente relacionados con la contaminación o cambios bruscos de clima.Le pareció muy interesante la propuesta de Chaki’y, ya que considera que el monitoreo y la automatización del ambiente serían de gran ayuda. Comenta que muchas veces no percibe los cambios en el entorno hasta que aparecen los síntomas, por lo que valora recibir notificaciones y que el sistema actúe automáticamente. Está dispuesto a usar una aplicación móvil para este fin, siempre que sea confiable, fácil de usar y configurable. Además, señaló que estaría dispuesto a invertir en una herramienta como Chaki’y si contribuye a mejorar su calidad de vida.|
 |Duración entrevista: 00:00-05:03 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EV_ilPU91yROjMKC-qI-TboB3_K0sWgu7Wch7xwNJ05GFA?e=uP9ivv]|
-
-
 |Nombre entrevistado|Bryan Cruz|
-|:-:|:-:|
+|-|-|
 |Edad|22 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/bryancruz.png">|Brian es un estudiante universitario de 22 años, nos comenta que sufre de problemas de respiratorios desde niño como el asma, sin embargo a medido que fue creciendo solo le quedaron secuelas de este así que aún debe tomar sus prevenciones, nos cuenta que al vivir con una agenda ajetreada entre trabajo y estudio, hay veces en las que debe descansar en su hogar y debe prender manualmente su deshumidificador cada vez que llega del trabajo/estudio, al mencionarle sobre Chaki'y, este nos menciona que una solución así podría ser útil y que entiende que podría ser algo costoso por el tema de la tecnología IoT con la que cuenta, pero que alegremente estaría dispuesto a usarla |
@@ -371,21 +366,21 @@ En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas so
 ***Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez***
 
 |Nombre entrevistado|Carla Cachis|
-|:-:|:-:|
+|-|-|
 |Edad|28 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/carlacachis.png">|Carla Cachis, una señorita de 28 años, nos cuenta su experiencia cuando era niña y sufrió de asma. Ella nos contó que sus padres se lo detectaron a los 4 años, desde entonces sus padres tomaban precauciones para poder evitar que este fuera a más. Hacían uso de deshumidificadores y los dispositivos que tenían en esos años; cabe comentar que la oferta era escaza. Nos comenta que si estaría interesada en poder contar con un aplicativo, que pueda darte la información del porcentaje de humedad en tu hogar mediante notificaciones y que la aplicación sea gratuita, pero que su costo esté incluido en los productos y sensores |
-|Duración entrevista: 00:00-09:47    |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EU5EjdDTp9pGhGoEzsWx5FkBvXFCrdoFIzZ6YdkzQH4doQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KIQu3Y]|
+|Duración entrevista:     |Duración entrevista: 00:00-09:47    |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EU5EjdDTp9pGhGoEzsWx5FkBvXFCrdoFIzZ6YdkzQH4doQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KIQu3Y]|
 
 |Nombre entrevistado|Fernando Daniel|
-|:-:|:-:|
-|Edad|20 años|
+|-|-|
+|Edad|21 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/fernandoDaniel.png">|Fernando Daniel nos comenta que en su niñez sufría de crisis asmáticas las cuales sus padres trataban de calmar llevandolo al hospital, al vivir en una zona seca por provincia nos comenta que sus padres compraron un humidificador con el fin de salvaguardar su integridad, sin embargo el problema que presentaban es que por su corta edad, cuando Fernando se encontraba en casa solo o con familiares que no conocían de su condición, no podía preparar un lugar seguro para él por el desconocimiento de esta herramienta, actualmente nos comenta que tiene tíos los cuales tienen hijos con problemas respiratorios similares y que hasta el día de hoy siguen sufriendo ese problema que en caso no se encuentren ellos no saben que hacer más que llevar al niño al hospital para que se estabilice, al comentarle del producto, responde asertivamente con que si bien algunas personas pueden considerar invasiva esta aplicación porque capaz no estén tan familiarizados con tecnología IoT, puede ser muy útil si es que promocionada adecuadamente y es algo que recomendaría a sus familiares para que cuide mejor a sus hijos|
 |Duración entrevista:     |URL: []|
 
 |Nombre entrevistado|Daniel Valverde|
-|:-:|:-:|
+|-|-|
 |Edad|22 años|
 |Departamento|Lima, Lima|
 ||Daniel Valverde comenta que en su infancia solía presentar crisis asmáticas de vez en cuando, por lo que sus padres estaban constantemente al tanto de un posible ataque de asma. Las pocas veces que se le presentó una crisis asmática sus padres tuvieron que llevarlo al hospital y llegar hasta el punto de ser nebulizado para controlarlo y que su preocupación se agraviase por un cuadro bien fuerte de asma. Daniel nos comenta que a pesar de dichos problemas respiratorios, nunca consideró adecuar la condición del aire que respiraba en su casa, y debido a que vivía en un lugar con una altura considerable y seca, tenía la percepción que esos problemas no eran causados por la condición de aire con la que vivía. Considera que haber contado con un dispositivo tecnológico de IoT le hubiera ayudado a controlar de mejor manera sus problemas respiratorios y no tuviese que haber recurrido a instancias extremas, como ser hospitalizado, para que lo maneje adecuadamente. |
@@ -763,7 +758,7 @@ Cuando llega la hora o el usuario entra a una zona geográfica específica, se d
   <img src="resources/tdvianada.png"/>
 
 * **Sensor Management**
-<img src="resources/tdvianada.png"/>
+<img src="resources/boundedContextCanvases/sensorManagement.png"/>
 
 
 <div id="4.1.2."><h4>4.1.2. Context Mapping</h4></div>
@@ -828,14 +823,167 @@ Se plantea esta separación para evitar acoplamientos directos con modelos exter
 
 <div id="4.2."><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
 <div id="4.2.1."><h4>4.2.1. Bounded Context: &lt;Sensor Management&gt;</h4></div>
+
+Este bounded context se encarga de la gestión completa de los sensores ambientales dentro del sistema Chaki'y. Sus responsabilidades principales incluyen el registro de nuevos sensores, la configuración de sus parámetros, la recepción y validación inicial de los datos que envían, y mantener el estado actualizado de los sensores.
+
 <div id="4.2.1.1."><h4>4.2.1.1. Domain Layer</h4></div>
+
+La Capa de Dominio del bounded context de Sensor Management contiene las clases que representan el corazón del negocio relacionado con los sensores y las reglas que rigen su comportamiento y los datos que generan.
+
+- Entidades (Entities):
+  - Sensor: Representa un dispositivo físico o lógico que mide una o más variables ambientales. Un sensor tiene una identidad única a lo largo del tiempo.
+    - Propósito: Modelar un sensor individual con su estado y configuración.
+    - Atributos:
+      - SensorId (Identificador único, Raíz del Agregado)
+      - Nombre (string): Nombre asignado por el usuario (ej. "Sensor Sala Principal").
+      - Tipo (enum: Temperatura, Humedad, CalidadAire, Combinado): Especifica qué mide el sensor.
+      - Estado (enum: Activo, Inactivo, Error, NecesitaCalibracion): Estado operativo actual.
+      - UbicacionId (Valor Objeto UbicacionId): Referencia a la ubicación física donde se encuentra el sensor.
+      - FechaRegistro (DateTime): Momento en que el sensor fue registrado en el sistema.
+      - Configuracion (Valor Objeto ConfiguracionSensor): Configuración específica del sensor (ej. intervalo de envío de datos, umbrales de alerta a nivel de dominio si los hubiera).
+
+    - Métodos:
+      - AsignarUbicacion(UbicacionId): Cambia la ubicación del sensor.
+      - ActualizarEstado(Estado): Modifica el estado operativo del sensor.
+      - AplicarConfiguracion(ConfiguracionSensor): Actualiza la configuración del sensor.
+      - MarcarComoNecesitaCalibracion(): Cambia el estado a NecesitaCalibracion.
+
+- Objetos de Valor (Value Objects):
+  - SensorId: Representa el identificador único de un sensor de manera segura y con validación de formato si aplica.
+    - Propósito: Encapsular el identificador del sensor.
+    - Atributos: Valor (string o GUID).
+  - UbicacionId: Referencia a la ubicación (Habitación) donde se encuentra el sensor. Este UbicacionId podría ser la Raíz de Agregado en otro Bounded Context (ej. "Location Management").
+    - Propósito: Encapsular el identificador de la ubicación.
+    - Atributos: Valor (string o GUID).
+  - LecturaAmbientalData: Representa los datos brutos de una lectura de sensor en un momento específico.
+    - Propósito: Encapsular un conjunto de mediciones de un sensor.
+    - Atributos:
+      - SensorId (Valor Objeto SensorId)
+      - FechaHora (DateTime)
+      - Temperatura (decimal, opcional)
+      - Humedad (decimal, opcional)
+      - CalidadAireIndice (decimal, opcional)
+      - Contaminantes (Diccionario<string, decimal>, opcional): Para contaminantes específicos como PM2.5, CO2, VOCs.
+  - ConfiguracionSensor: Representa los parámetros de configuración de un sensor.
+    - Propósito: Encapsular los ajustes de un sensor.
+    - Atributos:
+      - IntervaloEnvioDatosSegundos (int)
+      - UmbralHumedadCritica (decimal, opcional)
+      - UmbralCalidadAireCritica (decimal, opcional)
+      - OffsetCalibracion (decimal, opcional): Valor de ajuste para la calibración.
+
+- Agregados (Aggregates):
+  - Sensor (como Raíz del Agregado): En este bounded context, el Sensor puede ser la Raíz del Agregado más obvia. Las LecturaAmbientalData podrían considerarse temporalmente asociadas al sensor al ser recibidas antes de ser procesadas por otros contextos. Sin embargo, dado que las lecturas son principalmente datos enviados por el sensor y procesados por otro contexto (Monitoring & Analysis), Sensor solo como Entidad y gestionado por un Repositorio podría ser suficiente, con las lecturas manejadas por separado. Si hubiera reglas de negocio que siempre involucren a un Sensor y sus lecturas recientes de manera transaccional consistente dentro de este contexto, entonces el Sensor sería la Raíz. Para simplicidad inicial, consideraremos Sensor como una Entidad clave gestionada por un Repositorio. Sensor (como Raíz del Agregado): En este bounded context, el Sensor puede ser la Raíz del Agregado más obvia. Las LecturaAmbientalData podrían considerarse temporalmente asociadas al sensor al ser recibidas antes de ser procesadas por otros contextos. Sin embargo, dado que las lecturas son principalmente datos enviados por el sensor y procesados por otro contexto (Monitoring & Analysis), Sensor solo como Entidad y gestionado por un Repositorio podría ser suficiente, con las lecturas manejadas por separado. Si hubiera reglas de negocio que siempre involucren a un Sensor y sus lecturas recientes de manera transaccional consistente dentro de este contexto, entonces el Sensor sería la Raíz. Para simplicidad inicial, consideraremos Sensor como una Entidad clave gestionada por un Repositorio.
+
+- Servicios de Dominio (Domain Services):
+  - ServicioValidacionLecturaDomain: Contiene la lógica de validación de dominio para asegurar que los datos recibidos del sensor son coherentes o cumplen con ciertas reglas básicas antes de ser propagados.
+    - Propósito: Validar la integridad y coherencia de los datos de lectura a nivel de dominio.
+    - Métodos:
+      - EsLecturaValida(LecturaAmbientalData): Retorna un booleano indicando si la lectura es válida.
+      - AplicarOffsetCalibracion(LecturaAmbientalData, ConfiguracionSensor): Aplica el ajuste de calibración a una lectura.
+
+- Interfaces de Repositorios (Repository Interfaces): Definen los contratos para acceder y persistir objetos del dominio Sensor Management.
+  - ISensorRepository: Permite obtener y guardar entidades Sensor.
+    - Propósito: Abstraer el acceso a la persistencia de sensores.
+    - Métodos:
+      - GetById(SensorId): Busca un sensor por su ID.
+      - Save(Sensor): Guarda o actualiza un sensor.
+      - GetAll(): Obtiene todos los sensores.
+      - GetByUbicacionId(UbicacionId): Obtiene sensores por ubicación.
+
 <div id="4.2.1.2."><h4>4.2.1.2. Interface Layer</h4></div>
+
+La Capa de Interfaz (o Presentación) del bounded context de Sensor Management se encarga de la comunicación con el mundo exterior, recibiendo peticiones y enviando respuestas. En un sistema IoT, esto incluye interfaces para recibir datos de los dispositivos físicos.
+
+- Controladores/Endpoints (Controllers/Endpoints):
+  - SensoresController (para API externa/Gateway): Expone funcionalidades para que las aplicaciones cliente (web/móvil) gestionen sensores.
+    - Propósito: Proveer una interfaz RESTful para la gestión de sensores por parte del usuario.
+    - Endpoints (ejemplos REST):
+      - POST /api/sensores: Registrar un nuevo sensor.
+      - GET /api/sensores/{sensorId}: Obtener detalles de un sensor.
+      - PUT /api/sensores/{sensorId}/ubicacion: Actualizar la ubicación de un sensor.
+      - PUT /api/sensores/{sensorId}/configuracion: Actualizar la configuración de un sensor.
+      - GET /api/sensores: Obtener lista de todos los sensores.
+      - DELETE /api/sensores/{sensorId}: Eliminar un sensor.
+  - WebhookSensoresController (para recepción de datos de dispositivos IoT): Un endpoint diseñado para recibir datos directamente de los sensores o de una plataforma IoT intermedia.
+    - Propósito: Actuar como punto de entrada para los datos de telemetría de los sensores.
+    - Endpoint (ejemplo):
+      - POST /webhook/sensores/data: Recibe un payload con LecturaAmbientalData u otro formato de datos del dispositivo.
+- Consumidores de Mensajes (Message Consumers):
+  - SensorDataConsumer (si se usa un Message Broker para datos de sensores): Escucha mensajes en una cola o tópico donde los dispositivos IoT (o un gateway/hub) publican las lecturas.
+  - Propósito: Procesar asincrónicamente los datos crudos recibidos de los sensores.
+  - Método: HandleMessage(SensorDataMessage): Procesa un mensaje de datos de sensor recibido del broker.
+
 <div id="4.2.1.3."><h4>4.2.1.3. Application Layer</h4></div>
+
+La Capa de Aplicación de Sensor Management contiene la lógica que orquesta los objetos de la Capa de Dominio para llevar a cabo los casos de uso del negocio. Maneja transacciones y coordina operaciones, pero no contiene reglas de negocio del dominio.
+
+- Manejadores de Comandos (Command Handlers): Procesan comandos que representan intenciones del usuario o del sistema.
+  - RegistrarSensorCommandHandler: Maneja el comando para registrar un nuevo sensor.
+    - Propósito: Orquestar la creación y guardado de una nueva entidad Sensor.
+    - Métodos: Handle(RegistrarSensorCommand):
+      1. Recibe los datos del comando.
+      2. Crea una nueva entidad Sensor.
+      3. Usa el ISensorRepository para guardar la entidad Sensor.
+      4. Publica un Evento de Dominio (ej. SensorRegistradoEvent).
+  - ActualizarConfiguracionSensorCommandHandler: Maneja el comando para actualizar la configuración de un sensor.
+    - Propósito: Orquestar la actualización de la configuración de un sensor existente.
+    - Métodos: Handle(ActualizarConfiguracionSensorCommand):
+      1. Recupera la entidad Sensor usando ISensorRepository.
+      2. Llama al método AplicarConfiguracion() en la entidad Sensor.
+      3. Usa el ISensorRepository para guardar la entidad Sensor modificada.
+      4. Publica un Evento de Dominio (ej. ConfiguracionSensorActualizadaEvent).
+- Manejadores de Eventos de Dominio (Domain Event Handlers): Reaccionan a eventos que ocurrieron en el dominio. Aunque muchos eventos del dominio Sensor Management serían consumidos por otros bounded contexts (ej. Monitoring & Analysis), podría haber manejadores internos.
+  - SensorRegistradoEventHandler (interno, ejemplo): Podría realizar alguna acción interna tras el registro, como notificar a un servicio de infraestructura para iniciar la comunicación con el dispositivo físico.
+    - Propósito: Reaccionar internamente al registro de un sensor.
+    - Métodos: Handle(SensorRegistradoEvent): Podría enviar un comando a la Capa de Infraestructura para inicializar la conexión o configuración inicial del dispositivo físico.
+- Servicios de Aplicación (Application Services): Coordinan el flujo de trabajo para casos de uso más complejos que pueden involucrar múltiples comandos o consultas.
+  - SensorManagementService: Un servicio que expone operaciones de alto nivel a la Capa de Interfaz, utilizando los manejadores de comandos y repositorios.
+    - Propósito: Proveer la API de la Capa de Aplicación a la Capa de Interfaz.
+    - Métodos:
+      - RegistrarNuevoSensor(comando): Delega al RegistrarSensorCommandHandler.
+      - ObtenerDetallesSensor(query): Usa el ISensorRepository.
+      - ActualizarConfiguracionSensor(comando): Delega al ActualizarConfiguracionSensorCommandHandler.
+
 <div id="4.2.1.4."><h4>4.2.1.4. Infrastructure Layer</h4></div>
+
+La Capa de Infraestructura de Sensor Management implementa los detalles técnicos necesarios para que el dominio funcione. Incluye la comunicación con bases de datos, servicios externos, y la interacción directa con los dispositivos IoT.
+
+- Implementaciones de Repositorios (Repository Implementations):
+  - SensorRepository (Implementación de ISensorRepository): Implementa la interfaz ISensorRepository utilizando una tecnología de base de datos específica (ej. Entity Framework con SQL Server, un cliente de base de datos NoSQL).
+    - Propósito: Proporcionar acceso concreto a la persistencia de entidades Sensor.
+    - Métodos: Implementación de GetById, Save, GetAll, GetByUbicacionId utilizando la API de la base de datos.
+- Adaptadores de Comunicación con Dispositivos (Device Communication Adapters): Componentes que se comunican directamente con los sensores IoT o plataformas intermedias (ej. un broker MQTT, un gateway IoT).
+  - MqttSensorAdapter: Un adaptador que se suscribe a tópicos MQTT para recibir datos de sensores y/o publicar comandos a los sensores si la comunicación es bidireccional.
+    - Propósito: Interactuar directamente con la infraestructura de mensajería IoT.
+    - Métodos: Conectar(), SuscribirATopico(topico), OnMessageReceived(mensaje), PublicarComando(comando, topico). El método OnMessageReceived parsearía el mensaje y podría generar un Evento de Dominio o enviar un Comando a la Capa de Aplicación para procesar la lectura.
+  - SensorApiHttpClient: Si los sensores o el gateway exponen una API HTTP para enviar datos o recibir comandos.
+    - Propósito: Comunicarse con los sensores a través de HTTP.
+    - Métodos: EnviarConfiguracion(sensorId, configuracion), SolicitarEstado(sensorId).
+- Servicios Externos (External Services): Clientes para interactuar con otros servicios o sistemas.
+  - EventBusPublisher (o MessageBrokerClient): Un cliente para publicar Eventos de Dominio generados en la Capa de Aplicación a un bus de eventos o broker de mensajes para que otros bounded contexts los consuman.
+    - Propósito: Permitir la comunicación asíncrona con otros contextos.
+    - Métodos: Publish(DomainEvent).
+- Otros Componentes de Infraestructura:
+  - DatabaseContext (para ORM como Entity Framework): La configuración y manejo del contexto de base de datos si se usa una base de datos relacional.
+  - ConfiguracionAppSettings: Carga de configuración desde archivos o variables de entorno.
+  - LoggingService: Implementación de un servicio de logging.
+
 <div id="4.2.1.5."><h4>4.2.1.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
+
+<img src="resources/C4/componentDiagramsSensorManagement.png"/>
+
 <div id="4.2.1.6."><h4>4.2.1.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
+
+Esta sección profundiza en la implementación de los componentes del bounded context de Sensor Management, presentando diagramas que muestran la estructura de clases y el diseño de la base de datos.
+
 <div id="4.2.1.6.1."><h4>4.2.1.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
+
+<img src="resources/classDiagrams/classDiagramSensorManagement.png"/>
+
 <div id="4.2.1.6.2."><h4>4.2.1.6.2. Bounded Context Database Design Diagram</h4></div>
+
+
 
 <div id="4.2.1."><h4>4.2.2. Bounded Context: &lt;Monitoring & Analysis&gt;</h4></div>
 <div id="4.2.1.1."><h4>4.2.2.1. Domain Layer</h4></div>
