@@ -742,7 +742,6 @@ Descripción:
 Cuando llega la hora o el usuario entra a una zona geográfica específica, se dispara la rutina correspondiente y se envía una orden al motor de automatización para realizar una acción.
 
 
-<img src="resources/EventStormingRelated/DomainMessagesFlowMOdelling.jpg"/>
 
 
 <div id="4.1.1.3."><h4>4.1.1.3. Bounded Context Canvases</h4></div>
@@ -813,6 +812,9 @@ Se plantea esta separación para evitar acoplamientos directos con modelos exter
 * Se mejora la modularidad del diseño y se reduce el acoplamiento entre componentes.
 * Algunas decisiones sobre fusiones o divisiones de contextos quedaron documentadas para futuras revisiones, a medida que el sistema crezca.
 * Se definieron zonas críticas donde será importante asegurar contratos bien establecidos entre contextos, especialmente en el intercambio de eventos.
+
+<img src="resources/EventStormingRelated/DomainMessagesFlowMOdelling.jpg"/>
+
 
 <div id="4.1.3."><h4>4.1.3. Software Architecture</h4></div>
 <div id="4.1.3.1."><h4>4.1.3.1. Software Architecture System Landscape Diagram</h4></div>
