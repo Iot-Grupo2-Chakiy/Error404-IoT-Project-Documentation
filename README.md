@@ -4,8 +4,8 @@
 <h4 style="text-align: center;"> Ingeniería de Software </h4>
 <h4 style="text-align: center;"> Desarrollo de Soluciones IoT </h4>
 <h4 style="text-align: center;"> Ciclo 2025-10 </h4>
-<h4 style="text-align: center;"> Código del Curso:  </h4>
-<h4 style="text-align: center;"> NRC:  </h4>
+<h4 style="text-align: center;"> Código del Curso: 1ASI0572 </h4>
+<h4 style="text-align: center;"> NRC: 2952 </h4>
 <h4 style="text-align: center;"> Docente: León Baca, Marco Antonio </h4>
 <h4 style="text-align: center;"> Startup:  Error 404 </h4>
 <h4 style="text-align: center;"> Producto: Chaki'y  </h4>
@@ -742,7 +742,6 @@ Descripción:
 Cuando llega la hora o el usuario entra a una zona geográfica específica, se dispara la rutina correspondiente y se envía una orden al motor de automatización para realizar una acción.
 
 
-<img src="resources/EventStormingRelated/DomainMessagesFlowMOdelling.jpg"/>
 
 
 <div id="4.1.1.3."><h4>4.1.1.3. Bounded Context Canvases</h4></div>
@@ -813,6 +812,9 @@ Se plantea esta separación para evitar acoplamientos directos con modelos exter
 * Se mejora la modularidad del diseño y se reduce el acoplamiento entre componentes.
 * Algunas decisiones sobre fusiones o divisiones de contextos quedaron documentadas para futuras revisiones, a medida que el sistema crezca.
 * Se definieron zonas críticas donde será importante asegurar contratos bien establecidos entre contextos, especialmente en el intercambio de eventos.
+
+<img src="resources/EventStormingRelated/DomainMessagesFlowMOdelling.jpg"/>
+
 
 <div id="4.1.3."><h4>4.1.3. Software Architecture</h4></div>
 <div id="4.1.3.1."><h4>4.1.3.1. Software Architecture System Landscape Diagram</h4></div>
@@ -1318,15 +1320,218 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 <div id="4.2.1.6.2."><h4>4.2.4.6.2. Bounded Context Database Design Diagram</h4></div>
 
 
-<div id="4.2.1."><h4>4.2.5. Bounded Context: &lt;Routine Scheduling&gt;</h4></div>
-<div id="4.2.1.1."><h4>4.2.5.1. Domain Layer</h4></div>
-<div id="4.2.1.2."><h4>4.2.5.2. Interface Layer</h4></div>
-<div id="4.2.1.3."><h4>4.2.5.3. Application Layer</h4></div>
-<div id="4.2.1.4."><h4>4.2.5.4. Infrastructure Layer</h4></div>
-<div id="4.2.1.5."><h4>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
-<div id="4.2.1.6."><h4>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
-<div id="4.2.1.6.1."><h4>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
-<div id="4.2.1.6.2."><h4>4.2.5.6.2. Bounded Context Database Design Diagram</h4></div>
+<div id="4.2.5."><h4>4.2.5. Bounded Context: &lt;Routine Scheduling&gt;</h4></div>
+
+Este bounded context se encarga de definir, almacenar y ejecutar rutinas automáticas configuradas por el usuario, activadas por condiciones de horario o ubicación. Su responsabilidad principal es monitorear estos activadores y, cuando se cumplen, notificar a otros contextos (Automation Management) para que realicen las acciones asociadas, utilizando un mecanismo de persistencia subyacente que se basa en una estructura como las tablas `Rutinas` y `AccionesRutina`.
+
+<div id="4.2.5.1."><h4>4.2.5.1. Domain Layer</h4></div>
+
+La Capa de Dominio de Routine Scheduling contiene las abstracciones y lógica pura que representan las rutinas, sus activadores y acciones, y las reglas para determinar su ejecución, libre de detalles de implementación técnica o de persistencia específica a nivel de columna. Esta capa modela los conceptos del dominio.
+
+**Entidades (Entities)**
+
+* Rutina: Representa una rutina automática configurable por el usuario.
+    * Propósito: Modelar una rutina individual como un agregado, conteniendo su configuración y acciones.
+    * Atributos:
+        * RutinaId (Valor Objeto `RutinaId`, Raíz del Agregado)
+        * Nombre (string): Nombre asignado por el usuario.
+        * HoraInicio (tipo que represente hora del día).
+        * HoraFin (tipo que represente hora del día).
+        * DiasSemana (colección de tipos que representen días de la semana).
+        * UsuarioId (Valor Objeto `UsuarioId`): Referencia al usuario propietario.
+        * Acciones (Lista de Valor Objeto `AccionRutina`): Colección de acciones asociadas a esta rutina.
+        * EstaHabilitada (booleano): Indica si la rutina está activa.
+        * TipoActivador (tipo que represente enumeración {Horario, Ubicacion}): Define qué tipo de condición la activa.
+    * Métodos:
+        * ActualizarConfiguracionHorario(HoraInicio, HoraFin, DiasSemana)
+        * AgregarAccion(AccionRutina)
+        * RemoverAccion(AccionRutinaId)
+        * EsHoraDeEjecutar(PuntoEnElTiempo horaActual): Verifica si es hora de ejecutar una rutina de horario.
+        * Habilitar()/Deshabilitar()
+        * ObtenerAcciones(): Retorna la lista de acciones.
+
+**Objetos de Valor (Value Objects)**
+
+* RutinaId: Tipo inmutable para el ID de Rutina.
+    * Propósito: Encapsular el identificador de la rutina con semántica.
+    * Atributos: Valor (entero). (Podría ser string o GUID dependiendo de la estrategia de IDs).
+* UsuarioId: Tipo inmutable para el ID de Usuario.
+    * Propósito: Encapsular el identificador del usuario.
+    * Atributos: Valor (entero).
+* DispositivoId: Tipo inmutable para el ID de Dispositivo.
+    * Propósito: Encapsular el identificador del dispositivo objetivo de una acción.
+    * Atributos: Valor (entero).
+* AccionRutinaId: Tipo inmutable para el ID de Acción de Rutina.
+    * Propósito: Encapsular el identificador de una acción específica dentro de una rutina.
+    * Atributos: Valor (entero).
+* AccionRutina: Tipo inmutable que representa una acción configurada dentro de una rutina.
+    * Propósito: Encapsular qué acción se realiza en qué dispositivo con qué valor.
+    * Atributos:
+        * AccionId (Valor Objeto `AccionRutinaId`)
+        * Comando (string o tipo enumerado): El tipo de acción (ej. Encender, Apagar).
+        * Valor (valor decimal, opcional): Parámetro para el comando (ej. Nivel=3).
+        * DispositivoId (Valor Objeto `DispositivoId`): El dispositivo objetivo de esta acción.
+* ConfiguracionActivador: Tipo inmutable. Basado en la persistencia disponible, principalmente para activadores de horario.
+    * Propósito: Encapsular la configuración del activador (horario).
+    * Atributos: HoraInicio, HoraFin, DiasSemana. (Atributos para ubicación si se gestionan).
+
+**Agregados (Aggregates)**
+
+* Rutina (como Raíz del Agregado): La entidad `Rutina` es la raíz. La lista de `AccionRutina`s es parte del estado de la `Rutina` y se gestiona como una unidad transaccional.
+
+**Servicios de Dominio (Domain Services)**
+
+* ServicioEvaluadorActivadorDomain: Interfaz conceptual y su implementación.
+    * Propósito: Contiene la lógica para determinar si una rutina particular debe ejecutarse en un momento dado, basándose en su configuración de activador.
+    * Métodos:
+        * EvaluarActivadorHorario(Rutina rutinaHorario, PuntoEnElTiempo horaActual): Retorna un booleano indicando si la rutina por horario debe ejecutarse ahora.
+        * EvaluarActivadorUbicacion(Rutina rutinaUbicacion, Geolocalizacion ubicacionActual, DisponibilidadServicioGeolocalizacion estadoGeolocalizacion): Retorna un booleano si la rutina por ubicación debe ejecutarse (si aplica activadores de ubicación).
+
+**Interfaces de Repositorios (Repository Interfaces)**
+
+* IRutinaRepository: Interfaces que definen contratos para acceder a agregados `Rutina`, abstraídos de la persistencia concreta.
+    * Propósito: Permitir la carga y guardado de agregados `Rutina` completos, incluyendo sus `AccionesRutina`.
+    * Métodos:
+        * GetById(RutinaId): Carga una rutina por su ID.
+        * Save(Rutina): Guarda o actualiza una rutina.
+        * FindActiveBySchedule(): Obtiene rutinas de horario activas.
+        * FindActiveByLocationForUser(UsuarioId usuarioId): Obtiene rutinas por ubicación activas para un usuario (si aplica).
+
+* **Eventos de Dominio (Domain Events):** Tipos inmutables que representan hechos pasados en el dominio Routine Scheduling que otros contextos necesitan conocer.
+    * `RutinaEjecutadaPorHorarioEvent`: Señala que una rutina con activador de horario debe ejecutarse.
+    * `RutinaEjecutadaPorUbicacionEvent`: Señala que una rutina con activador de ubicación debe ejecutarse (si aplica).
+    * Propósito: Notificar a Automation Management para que procese las acciones de la rutina.
+    * Atributos: `RutinaId rutinaId`, `UsuarioId usuarioId`, `PuntoEnElTiempo fechaHoraEjecucion`, `Lista<Valor Objeto AccionRutina> accionesConfiguradas`.
+
+<div id="4.2.5.2."><h4>4.2.5.2. Interface Layer</h4></div>
+
+La Capa de Interfaz utiliza adaptadores (Consumidores de Mensajes, Endpoints) para recibir señales externas (ticks de horario, geolocalización, peticiones API de gestión de rutinas) y adaptadores (Publicadores de Eventos) para enviar notificaciones de ejecución de rutinas, independientemente de la tecnología específica de comunicación o protocolo de API.
+
+**Consumidores de Mensajes (Message Consumers)**
+
+* HorarioTickConsumer: Componente que escucha mensajes de un broker o sistema de mensajería. Deserializa el mensaje y envía un comando a la Capa de Aplicación.
+    * Propósito: Recibir señales de tiempo para activar la evaluación de rutinas por horario.
+    * Método: ManejadorDeMensaje(mensajeDeTick): Crea y envía un `EvaluarRutinasPorHorarioCommand`.
+* GeolocalizacionActualizadaConsumer: Componente que escucha mensajes de actualización de geolocalización.
+    * Propósito: Recibir actualizaciones de ubicación para activar la evaluación de rutinas por ubicación.
+    * Método: ManejadorDeMensaje(mensajeGeolocalizacion): Crea y envía un `EvaluarRutinasPorUbicacionCommand`.
+* EstadoServicioGeolocalizacionConsumer: Componente que escucha mensajes sobre el estado del servicio de geolocalización.
+
+**Publicadores de Eventos (Event Publishers)**
+
+* RutinaEjecutadaEventPublisher: Componente que publica los eventos `RutinaEjecutadaPorHorarioEvent` y `RutinaEjecutadaPorUbicacionEvent` a un broker o bus de eventos.
+    * Propósito: Enviar eventos que desencadenen acciones en Automation Management.
+    * Métodos: Publicar(EventoDominio evento).
+
+**Controladores/Endpoints API**
+
+* **RutinasController:** Controlador API que maneja las peticiones relacionadas con la gestión de rutinas por parte de un usuario a través de una interfaz (web/móvil).
+    * Propósito: Proveer una interfaz para crear, listar y gestionar rutinas.
+    * Endpoints (ejemplos RESTful):
+        * **`POST /api/rutinas`**: Crea una nueva rutina.
+            * *Recibe:* Datos de la nueva rutina (nombre, usuarioId, configuración, acciones).
+            * *Acción:* Envía un comando a la Capa de Aplicación (ej. `CrearRutinaCommand`).
+        * **`GET /api/rutinas`**: Lista las rutinas (posiblemente filtradas por usuario).
+            * *Recibe:* Parámetros de consulta (ej. id de usuario).
+            * *Acción:* Envía una consulta a la Capa de Aplicación o usa un servicio de consulta para obtener los datos y retornarlos.
+        * `GET /api/rutinas/{rutinaId}`: Obtiene los detalles de una rutina específica.
+            * *Recibe:* El ID de la rutina.
+            * *Acción:* Envía una consulta para obtener los detalles de la rutina.
+        * `PUT /api/rutinas/{rutinaId}`: Actualiza una rutina existente.
+            * *Recibe:* El ID de la rutina y los datos actualizados.
+            * *Acción:* Envía un comando a la Capa de Aplicación (ej. `ActualizarRutinaCommand`).
+        * `DELETE /api/rutinas/{rutinaId}`: Elimina una rutina.
+            * *Recibe:* El ID de la rutina.
+            * *Acción:* Envía un comando a la Capa de Aplicación (ej. `EliminarRutinaCommand`).
+
+<div id="4.2.5.3."><h4>4.2.5.3. Application Layer</h4></div>
+
+La Capa de Aplicación contiene la lógica de orquestación. Recibe comandos de la Capa de Interfaz (iniciados por ticks, actualizaciones de geolocalización o peticiones API) o consultas, coordina los objetos del dominio y los repositorios para ejecutar los casos de uso (evaluar/ejecutar rutinas, crear/actualizar/eliminar rutinas, listar/obtener rutinas). No contiene reglas de negocio complejas.
+
+**Manejadores de Comandos (Command Handlers)**
+
+* EvaluarRutinasPorHorarioCommandHandler: Manejador para `EvaluarRutinasPorHorarioCommand`.
+    * Propósito: Orquestar la carga de rutinas de horario, su evaluación y la publicación de eventos de ejecución.
+    * Método: Handle(EvaluarRutinasPorHorarioCommand command): Usa `IRutinaRepository`, `ServicioEvaluadorActivadorDomain`, `RutinaEjecutadaEventPublisher`.
+* EvaluarRutinasPorUbicacionCommandHandler: Manejador para `EvaluarRutinasPorUbicacionCommand` (si aplica).
+* **CrearRutinaCommandHandler**: Manejador para `CrearRutinaCommand`.
+    * Propósito: Orquestar la creación y persistencia de una nueva rutina.
+    * Método: Handle(CrearRutinaCommand command):
+        * Recibe los datos de la nueva rutina desde el comando.
+        * Crea una nueva instancia de la entidad `Rutina` (agregado).
+        * Usa `IRutinaRepository` para guardar (`Save`) la nueva rutina en la base de datos.
+        * (Opcional) Publica un evento de dominio (`RutinaCreadaEvent`).
+* **ActualizarRutinaCommandHandler**: Manejador para `ActualizarRutinaCommand`.
+    * Propósito: Orquestar la actualización de una rutina existente.
+    * Method: Handle(ActualizarRutinaCommand command):
+        * Recibe el ID de la rutina y los datos actualizados desde el comando.
+        * Usa `IRutinaRepository` para cargar (`GetById`) la rutina existente.
+        * Llama a los métodos de la entidad `Rutina` para aplicar los cambios.
+        * Usa `IRutinaRepository` para guardar (`Save`) la rutina modificada.
+        * (Opcional) Publica un evento de dominio (`RutinaActualizadaEvent`).
+* **EliminarRutinaCommandHandler**: Manejador para `EliminarRutinaCommand`.
+    * Propósito: Orquestar la eliminación de una rutina.
+    * Method: Handle(EliminarRutinaCommand command):
+        * Recibe el ID de la rutina.
+        * (Opcional) Usa `IRutinaRepository` para cargar la rutina para validaciones.
+        * Usa `IRutinaRepository` para eliminar la rutina.
+        * (Opcional) Publica un evento de dominio (`RutinaEliminadaEvent`).
+
+**Manejadores de Consultas (Query Handlers) o Servicios de Consulta (Query Services)**
+
+* **ConsultarRutinasQueryHandler** / **RoutineQueryService**: Manejador o servicio para listar u obtener rutinas.
+    * Propósito: Obtener datos de rutinas para presentación en la interfaz.
+    * Métodos:
+        * Handle(ListarRutinasQuery query) / `Lista<RutinaDTO> listarRutinas(UsuarioId usuarioId)`: Usa `IRutinaRepository` (o un repositorio de consulta separado) para obtener una lista de rutinas (posiblemente mapeadas a DTOs).
+        * Handle(GetRutinaByIdQuery query) / `RutinaDTO obtenerRutinaPorId(RutinaId rutinaId)`: Usa `IRutinaRepository` (o repositorio de consulta) para obtener una rutina específica por ID (mapeada a DTO).
+
+**Servicios de Aplicación (Application Services)**
+
+* RoutineSchedulingAppService: Componente que expone la funcionalidad de la capa de aplicación, a menudo delegando a los manejadores de comandos o servicios de consulta.
+    * Propósito: Proveer la API de la capa de aplicación.
+    * Métodos: `procesarTickHorario()`, `procesarActualizacionGeolocalizacion(...)`, **`crearRutina(CrearRutinaCommand command)`** (delega al manejador), **`actualizarRutina(ActualizarRutinaCommand command)`** (delega al manejador), **`eliminarRutina(EliminarRutinaCommand command)`** (delega al manejador).
+
+<div id="4.2.5.4."><h4>4.2.5.4. Infrastructure Layer</h4></div>
+
+La Capa de Infraestructura implementa los detalles técnicos para persistir las rutinas, recibir los triggers de tiempo/ubicación y publicar los eventos de ejecución, utilizando librerías o frameworks específicos de la tecnología elegida (no especificada aquí), interactuando con una estructura de base de datos relacional que conceptualmente incluye tablas como `Rutinas` y `AccionesRutina`.
+
+**Implementaciones de Repositorios (Repository Implementations)**
+
+* RutinaRepository (Implementación de `IRutinaRepository`): Implementa el acceso a datos para el agregado `Rutina` utilizando una tecnología ORM o de acceso a DB relacional, mapeando los objetos de dominio a la estructura de la base de datos. Maneja la carga y el guardado transaccional del agregado, incluyendo sus acciones asociadas.
+    * Propósito: Proporcionar la implementación concreta del acceso a datos para el agregado `Rutina`.
+    * Métodos: Implementación de `GetById` (que carga rutina y acciones), `Save` (que guarda rutina y acciones), `FindActiveBySchedule`, etc.
+
+**Implementaciones de Comunicación (Messaging Implementations)**
+
+* HorarioTickConsumerImpl: Implementación concreta del consumidor de mensajes de horario.
+* GeolocalizacionUpdatedConsumerImpl: Implementación concreta del consumidor de mensajes de geolocalización.
+* RutinaEjecutadaEventPublisherImpl: Implementación concreta del publicador de eventos de ejecución de rutinas.
+
+**Otros Componentes de Infraestructura**
+
+* Contexto de Base de Datos (configurado para acceder a la estructura de datos).
+* Clientes de conexión al broker de mensajes.
+* Mappers entre la estructura de la DB y los objetos de dominio (`Rutina`, `AccionRutina`).
+* Utilidades de logging.
+* Componentes de configuración.
+
+<div id="4.2.5.5."><h4>4.2.5.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
+
+<img src="resources/C4/routineSchedulingComponentDiagram.png"/>
+
+<div id="4.2.5.6."><h4>4.2.5.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
+Esta sección presenta diagramas que profundizan en la estructura del código y el diseño de la base de datos específico para el bounded context de Routine Scheduling, alineados con el esquema proporcionado, pero sin mencionar un lenguaje específico.
+
+<div id="4.2.5.6.1."><h4>4.2.5.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
+
+
+<img src="resources/classDiagrams/routineSchedulingClassDiagram.png"/>
+
+<div id="4.2.5.6.2."><h4>4.2.5.6.2. Bounded Context Database Design Diagram</h4></div>
+
+
+<img src="resources/databaseDiagrams/databaseDiagramRoutineScheduling.png"/>
+
 
 <div id='9.'><h2>Bibliografía</h2></div>
 
