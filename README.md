@@ -30,7 +30,7 @@
 
 ## Project Report Collaboration Insights
 
-URL del repositorio del proyecto: [https://github.com/upc-pre-202401-si730-ws53-Error-404]
+URL del repositorio del proyecto: [https://github.com/Iot-Grupo2-Chakiy]
 
 ## Contenido 
 1. [**Capítulo I: Introducción.**](#1.) <br>
@@ -1148,4 +1148,6 @@ Science Magazine. (2020). Digital health adoption in emerging countries: A syste
 
 
 <div id='10.'><h2>Anexos</h2></div>
+
+Entrevistas: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]
 
