@@ -350,20 +350,20 @@ En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas so
 |Edad|20 años|
 |Departamento|Ica, Ica|
 |<img src="resources/interviewsPhotos/rodrigopisconti.png">|Rodrigo Pisconti, un joven de 20 años que sufrió de asma durante su niñez, actualmente sigue siendo sensible a factores ambientales como la humedad y el polvo. Aunque sus síntomas se han reducido, aún experimenta molestias respiratorias varias veces al mes. Usa un deshumidificador y medidores manuales de ambiente, pero no cuenta con tecnología automatizada. Mostró interés en una herramienta que le permita monitorear y controlar el ambiente de su hogar de forma preventiva. Destaca la importancia de la simplicidad, confiabilidad y automatización. Rodrigo se mostró dispuesto a integrar dispositivos inteligentes y pagar por una solución como Chaki’y si mejora su bienestar.|
-|Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211817_upc_edu_pe/EQ7Z-iPKJpNMiwI9G_hAp3gBT6usQq9D6iSu4Ut-Hm2ADg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=L2Kz8N]|
+|Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]|
 
 |Nombre entrevistado|Gian Sánchez|
 |Edad|25 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/gianSanchez.png">|Gian Sánchez, de 25 años, padece asma desde los 14. Aunque al inicio sus síntomas eran leves, con el tiempo se han intensificado, especialmente durante la limpieza o en ambientes laborales donde no se conoce su condición. Para manejar sus síntomas, usa inhalador, toma medicación diaria y evita ambientes con polvo o humo. Actualmente utiliza un deshumidificador y un purificador de aire en su dormitorio, pero aun así experimenta crisis respiratorias dos o tres veces al mes, y episodios más severos entre tres y cuatro veces al año, generalmente relacionados con la contaminación o cambios bruscos de clima.Le pareció muy interesante la propuesta de Chaki’y, ya que considera que el monitoreo y la automatización del ambiente serían de gran ayuda. Comenta que muchas veces no percibe los cambios en el entorno hasta que aparecen los síntomas, por lo que valora recibir notificaciones y que el sistema actúe automáticamente. Está dispuesto a usar una aplicación móvil para este fin, siempre que sea confiable, fácil de usar y configurable. Además, señaló que estaría dispuesto a invertir en una herramienta como Chaki’y si contribuye a mejorar su calidad de vida.|
-|Duración entrevista: 00:00-05:03 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EV_ilPU91yROjMKC-qI-TboB3_K0sWgu7Wch7xwNJ05GFA?e=uP9ivv]|
+|Duración entrevista: 00:00-05:03 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]|
 
 |Nombre entrevistado|Brian Cruz|
 |-|-|
 |Edad|22 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/bryancruz.png">|Brian es un estudiante universitario de 22 años, nos comenta que sufre de problemas de respiratorios desde niño como el asma, sin embargo a medido que fue creciendo solo le quedaron secuelas de este así que aún debe tomar sus prevenciones, nos cuenta que al vivir con una agenda ajetreada entre trabajo y estudio, hay veces en las que debe descansar en su hogar y debe prender manualmente su deshumidificador cada vez que llega del trabajo/estudio, al mencionarle sobre Chaki'y, este nos menciona que una solución así podría ser útil y que entiende que podría ser algo costoso por el tema de la tecnología IoT con la que cuenta, pero que alegremente estaría dispuesto a usarla |
-|Duración entrevista:     |URL: []|
+|Duración entrevista:     |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]|
 
 ***Niños/Padres con niños que sufren de asma o personas que sufrieron de asma en su niñez***
 
@@ -372,21 +372,21 @@ En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas so
 |Edad|28 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/carlacachis.png">|Carla Cachis, una señorita de 28 años, nos cuenta su experiencia cuando era niña y sufrió de asma. Ella nos contó que sus padres se lo detectaron a los 4 años, desde entonces sus padres tomaban precauciones para poder evitar que este fuera a más. Hacían uso de deshumidificadores y los dispositivos que tenían en esos años; cabe comentar que la oferta era escaza. Nos comenta que si estaría interesada en poder contar con un aplicativo, que pueda darte la información del porcentaje de humedad en tu hogar mediante notificaciones y que la aplicación sea gratuita, pero que su costo esté incluido en los productos y sensores |
-|Duración entrevista:     |Duración entrevista: 00:00-09:47    |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210846_upc_edu_pe/EU5EjdDTp9pGhGoEzsWx5FkBvXFCrdoFIzZ6YdkzQH4doQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KIQu3Y]|
+|Duración entrevista:     |Duración entrevista: 00:00-09:47    |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]|
 
 |Nombre entrevistado|Fernando Daniel|
 |-|-|
 |Edad|21 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/fernandoDaniel.png">|Fernando Daniel nos comenta que en su niñez sufría de crisis asmáticas las cuales sus padres trataban de calmar llevandolo al hospital, al vivir en una zona seca por provincia nos comenta que sus padres compraron un humidificador con el fin de salvaguardar su integridad, sin embargo el problema que presentaban es que por su corta edad, cuando Fernando se encontraba en casa solo o con familiares que no conocían de su condición, no podía preparar un lugar seguro para él por el desconocimiento de esta herramienta, actualmente nos comenta que tiene tíos los cuales tienen hijos con problemas respiratorios similares y que hasta el día de hoy siguen sufriendo ese problema que en caso no se encuentren ellos no saben que hacer más que llevar al niño al hospital para que se estabilice, al comentarle del producto, responde asertivamente con que si bien algunas personas pueden considerar invasiva esta aplicación porque capaz no estén tan familiarizados con tecnología IoT, puede ser muy útil si es que promocionada adecuadamente y es algo que recomendaría a sus familiares para que cuide mejor a sus hijos|
-|Duración entrevista:     |URL: []|
+|Duración entrevista:     |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]|
 
 |Nombre entrevistado|Daniel Valverde|
 |-|-|
 |Edad|22 años|
 |Departamento|Lima, Lima|
 ||Daniel Valverde comenta que en su infancia solía presentar crisis asmáticas de vez en cuando, por lo que sus padres estaban constantemente al tanto de un posible ataque de asma. Las pocas veces que se le presentó una crisis asmática sus padres tuvieron que llevarlo al hospital y llegar hasta el punto de ser nebulizado para controlarlo y que su preocupación se agraviase por un cuadro bien fuerte de asma. Daniel nos comenta que a pesar de dichos problemas respiratorios, nunca consideró adecuar la condición del aire que respiraba en su casa, y debido a que vivía en un lugar con una altura considerable y seca, tenía la percepción que esos problemas no eran causados por la condición de aire con la que vivía. Considera que haber contado con un dispositivo tecnológico de IoT le hubiera ayudado a controlar de mejor manera sus problemas respiratorios y no tuviese que haber recurrido a instancias extremas, como ser hospitalizado, para que lo maneje adecuadamente. |
-|Duración entrevista:     |URL: []|
+|Duración entrevista:     |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]|
 
 
 <div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas</h4></div>
