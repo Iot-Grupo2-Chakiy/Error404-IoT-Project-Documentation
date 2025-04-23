@@ -4,8 +4,8 @@
 <h4 style="text-align: center;"> Ingeniería de Software </h4>
 <h4 style="text-align: center;"> Desarrollo de Soluciones IoT </h4>
 <h4 style="text-align: center;"> Ciclo 2025-10 </h4>
-<h4 style="text-align: center;"> Código del Curso:  </h4>
-<h4 style="text-align: center;"> NRC:  </h4>
+<h4 style="text-align: center;"> Código del Curso: 1ASI0572 </h4>
+<h4 style="text-align: center;"> NRC: 2952 </h4>
 <h4 style="text-align: center;"> Docente: León Baca, Marco Antonio </h4>
 <h4 style="text-align: center;"> Startup:  Error 404 </h4>
 <h4 style="text-align: center;"> Producto: Chaki'y  </h4>
