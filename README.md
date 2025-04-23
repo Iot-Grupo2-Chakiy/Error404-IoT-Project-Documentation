@@ -1117,6 +1117,8 @@ La Capa de Infraestructura de Notifications & Alerts implementa los detalles té
 
 <div id="4.2.1.5."><h4>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
 
+<img src='resources/C4/ChakiyNotificationsAndAlertsComponents.png'/>
+
 <div id="4.2.1.6."><h4>4.2.3.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
 Esta sección profundiza en la implementación de los componentes del bounded context de "Notifications & Alerts" , presentando diagramas que muestran la estructura de clases y el diseño de la base de datos respectivo a este bounded context.
 
