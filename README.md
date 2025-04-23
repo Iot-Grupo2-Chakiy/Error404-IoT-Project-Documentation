@@ -1001,109 +1001,118 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 <div id="4.2.1."><h4>4.2.3. Bounded Context: &lt;Notifications & Alerts&gt;</h4></div>
 <div id="4.2.1.1."><h4>4.2.3.1. Domain Layer</h4></div>
 
+La Capa de Dominio del bounded context de Notifications & Alerts contiene las clases que representan el corazón del negocio relacionado con los sensores y las reglas que rigen su comportamiento y los datos que generan.
+
 **Entidades (Entities)**
-Alerta
-AlertaId (Identificador único, Raíz del Agregado)
-SensorId (opcional): Puede estar vinculada a un sensor específico
-Tipo (enum: Critica, Informativa, Advertencia)
-Mensaje (string): Texto descriptivo de la alerta
-FechaHoraGeneracion (DateTime)
-Estado (enum: Activa, Atendida, Descartada)
+  * Alerta
+  * AlertaId (Identificador único, Raíz del Agregado)
+  * SensorId (opcional): Puede estar vinculada a un sensor específico
+  * Tipo (enum: Critica, Informativa, Advertencia)
+  * Mensaje (string): Texto descriptivo de la alerta
+  * FechaHoraGeneracion (DateTime)
+  * Estado (enum: Activa, Atendida, Descartada)
 
 **Métodos:**
 
-* MarcarComoAtendida()
-* Descartar()
-* Notificacion
-* NotificacionId
-* UsuarioId
-* AlertaId
-* Canal (enum: Push, Email, SonidoLocal)
-* FechaHoraEnvio
-* EstadoEnvio (enum: Enviada, Fallida, Pendiente)
+  * MarcarComoAtendida()
+  * Descartar()
+  * Notificacion
+  * NotificacionId
+  * UsuarioId
+  * AlertaId
+  * Canal (enum: Push, Email, SonidoLocal)
+  * FechaHoraEnvio
+  * EstadoEnvio (enum: Enviada, Fallida, Pendiente)
 
 **Objetos de Valor (Value Objects)**
 
-* AlertaId: GUID encapsulado.
-* NotificacionId: GUID encapsulado.
-* MensajeAlerta: Valida longitud y contenido de texto.
-* CanalEnvio: Enum fuerte para validar canales soportados.
+  * AlertaId: GUID encapsulado.
+  * NotificacionId: GUID encapsulado.
+  * MensajeAlerta: Valida longitud y contenido de texto.
+  * CanalEnvio: Enum fuerte para validar canales soportados.
 
 **Agregado**
 
-* Alerta como Agregado raíz.
-* La entidad Notificacion puede gestionarse como parte de un flujo orquestado, pero no pertenece directamente al agregado Alerta.
-* Servicios de Dominio
-* GeneradorDeAlertasDomainService
-* GenerarAlerta(sensorId, tipo, mensaje) → Alerta
-* ValidarCondicionesDeAlerta(sensorData) → bool
+  * Alerta como Agregado raíz.
+  * La entidad Notificacion puede gestionarse como parte de un flujo orquestado, pero no pertenece directamente al agregado Alerta.
+  * Servicios de Dominio
+  * GeneradorDeAlertasDomainService
+  * GenerarAlerta(sensorId, tipo, mensaje) → Alerta
+  * ValidarCondicionesDeAlerta(sensorData) → bool
 
 <div id="4.2.1.2."><h4>4.2.3.2. Interface Layer</h4></div>
 
+La Capa de Interfaz (o Presentación) del bounded context de Notifications & Alerts se encarga de la comunicación con el mundo exterior, recibiendo peticiones y enviando respuestas. En un sistema IoT, esto incluye interfaces para recibir datos de los dispositivos físicos.
+
 **Manejadores de Comandos**
 
-* **GenerarAlertaCommandHandler**
+  * **GenerarAlertaCommandHandler**
 
-* Crea una instancia de Alerta
-* La persiste usando IAlertaRepository
-* Publica AlertaGeneradaEvent
+    * Crea una instancia de Alerta
+    * La persiste usando IAlertaRepository
+    * Publica AlertaGeneradaEvent
 
-* **EnviarNotificacionCommandHandler**
+  * **EnviarNotificacionCommandHandler**
 
-* Usa INotificacionService para enviar por el canal adecuado
-* Registra el estado de envío
+    * Usa INotificacionService para enviar por el canal adecuado
+    * Registra el estado de envío
 
 **Manejadores de Eventos de Dominio**
 
-* **AlertaGeneradaEventHandler**
+  * **AlertaGeneradaEventHandler**
 
-* Reacciona a AlertaGeneradaEvent
-* Genera y distribuye notificaciones vinculadas
+    * Reacciona a AlertaGeneradaEvent
+    * Genera y distribuye notificaciones vinculadas
 
 **Servicios de Aplicación**
 
-* **NotificationsService**
-* CrearYEnviarAlerta(GenerarAlertaDTO)
-* MarcarAlertaComoAtendida(AlertaId)
-* ReintentarEnvioNotificacionesFallidas()
+  * **NotificationsService**
+    
+    * CrearYEnviarAlerta(GenerarAlertaDTO)
+    * MarcarAlertaComoAtendida(AlertaId)
+    * ReintentarEnvioNotificacionesFallidas()
 
 <div id="4.2.1.3."><h4>4.2.3.3. Application Layer</h4></div>
 
+La Capa de Aplicación de Notifications & Alerts contiene la lógica que orquesta los objetos de la Capa de Dominio para llevar a cabo los casos de uso del negocio. Maneja transacciones y coordina operaciones, pero no contiene reglas de negocio del dominio.
+
 **Controladores API**
 
-* **NotificacionesController**
+  * **NotificacionesController**
 
-* GET /api/alertas
-* POST /api/alertas
-* PUT /api/alertas/{id}/atendida
-* GET /api/notificaciones
+    * GET /api/alertas
+    * POST /api/alertas
+    * PUT /api/alertas/{id}/atendida
+    * GET /api/notificaciones
 
-* **Webhooks**
+  * **Webhooks**
 
-* POST /webhook/alertas: Puede recibir eventos críticos de otros contextos.
+    * POST /webhook/alertas: Puede recibir eventos críticos de otros contextos.
 
 
 <div id="4.2.1.4."><h4>4.2.3.4. Infrastructure Layer</h4></div>
 
+La Capa de Infraestructura de Notifications & Alerts implementa los detalles técnicos necesarios para que el dominio funcione. Incluye la comunicación con bases de datos, servicios externos, y la interacción directa con los dispositivos IoT.
+
 **Repositorios**
 
-* **AlertaRepository**
+  * **AlertaRepository**
 
-* Implementa IAlertaRepository: GetById, Save, GetAll
+    * Implementa IAlertaRepository: GetById, Save, GetAll
 
-* **NotificacionRepository**
+  * **NotificacionRepository**
 
-* Implementa INotificacionRepository
+    * Implementa INotificacionRepository
 
 **Adaptadores de Envío**
 
-* **PushNotificationAdapter**
+  * **PushNotificationAdapter**
 
-* EnviarNotificacion(notificacionDTO)
+    * EnviarNotificacion(notificacionDTO)
 
-* **EmailAdapter**
+  * **EmailAdapter**
 
-* EnviarCorreo(destinatario, asunto, mensaje)
+    * EnviarCorreo(destinatario, asunto, mensaje)
 
 
 <div id="4.2.1.5."><h4>4.2.3.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
