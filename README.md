@@ -1113,7 +1113,7 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="4.2.1.6.1."><h4>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
 
-<img src='resources/DiagramaClasesMonitoringAlerts.jpg'/>
+<img src='resources/classDiagrams/DiagramaClasesMonitoringAlerts.jpg'/>
 
 <div id="4.2.1.6.2."><h4>4.2.3.6.2. Bounded Context Database Design Diagram</h4></div>
 
