@@ -754,7 +754,7 @@ Cuando llega la hora o el usuario entra a una zona geográfica específica, se d
   <img src="resources/tdvianada.png"/>
 
 * **Monitoring & Analysis**
-  <img src="resources/tdvianada.png"/>
+  <img src="resources\boundedContextCanvases\Monitoring.jpg"/>
 
 * **Notifications & Alerts**
   <img src="resources/tdvianada.png"/>
@@ -817,11 +817,27 @@ Se plantea esta separación para evitar acoplamientos directos con modelos exter
 <div id="4.1.3."><h4>4.1.3. Software Architecture</h4></div>
 <div id="4.1.3.1."><h4>4.1.3.1. Software Architecture System Landscape Diagram</h4></div>
 
-<img src="resources/C4/System%20Context%20-%20Chaki'y.png"/>
+<img src="resources/C4/landscape.png"/>
+
+Este diagrama proporciona una visión clara de los límites del sistema, sus componentes principales y cómo interactúan tanto con los usuarios como con sistemas externos, facilitando la comprensión de la arquitectura general del sistema Chaki'y.
 
 <div id="4.1.3.2."><h4>4.1.3.2. Software Architecture Context Level Diagrams</h4></div>
+
+<img src="resources/C4/context.png"/>
+
+Muestra una visión general del sistema Chaki'y, identificando dos tipos de usuarios principales (adultos con problemas respiratorios y tutores/padres), y la interacción con sistemas externos como Google Weather API, Servicio de Email y Sistema Médico opcional. Define claramente los límites del sistema y sus interfaces externas.
+
 <div id="4.1.3.3."><h4>4.1.3.3. Software Architecture Container Level Diagrams</h4></div>
+
+<img src="resources/C4/container.png"/>
+
+Presenta una vista detallada de todos los componentes internos del sistema, incluyendo servicios de administración, monitoreo, reportes, alertas y configuración. Muestra las relaciones entre estos componentes y el flujo de datos, revelando la arquitectura funcional completa.
+
 <div id="4.1.3.4."><h4>4.1.3.4. Software Architecture Deployment Diagrams</h4></div>
+
+<img src="resources/C4/deployment.png"/>
+
+Visualiza la infraestructura física donde se implementarán los componentes del software, organizados en ambientes como Cloud (servicios web, bases de datos, mensajería), Edge (dispositivos en el hogar del usuario, sensores, actuadores) y Mobile. Muestra las relaciones técnicas entre componentes y los protocolos de comunicación utilizados.
 
 <div id="4.2."><h3>4.2. Tactical-Level Domain-Driven Design</h3></div>
 <div id="4.2.1."><h4>4.2.1. Bounded Context: &lt;Sensor Management&gt;</h4></div>
@@ -989,13 +1005,175 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="4.2.1."><h4>4.2.2. Bounded Context: &lt;Monitoring & Analysis&gt;</h4></div>
 <div id="4.2.1.1."><h4>4.2.2.1. Domain Layer</h4></div>
+
+# Capa de Dominio - Bounded Context: Monitoring & Analysis
+
+La Capa de Dominio del bounded context de Monitoring & Analysis contiene las clases que representan el núcleo del negocio relacionado con el procesamiento de datos ambientales y la detección de condiciones críticas.
+
+## Entidades (Entities)
+
+### AnálisisAmbiental
+* **AnálisisId** (Identificador único, Raíz del Agregado)
+* **SensorId** (referencia al sensor origen)
+* **FechaHora** (DateTime)
+* **TipoAnálisis** (enum: TiempoReal, Histórico, Anomalía)
+* **Resultados** (colección de Valor Objeto ResultadoMétrica)
+* **Estado** (enum: Procesado, Pendiente, Error)
+
+**Métodos:**
+* AgregarResultado(ResultadoMétrica)
+* MarcarComoProcesado()
+* MarcarComoError()
+
+### ReglaDetección
+* **ReglaId** (Identificador único)
+* **Nombre** (string)
+* **Descripción** (string)
+* **Condición** (string o expresión lógica)
+* **Severidad** (enum: Baja, Media, Alta, Crítica)
+* **Habilitada** (bool)
+
+**Métodos:**
+* EvaluarCondición(datosSensor)
+* Habilitar()/Deshabilitar()
+
+## Objetos de Valor (Value Objects)
+
+### ResultadoMétrica
+* **TipoMétrica** (enum: Temperatura, Humedad, CalidadAire)
+* **Valor** (decimal)
+* **Unidad** (string)
+* **EstáEnRango** (bool)
+
+### DatosSensor
+* **SensorId**
+* **FechaHora**
+* **Valores** (diccionario de TipoMétrica:valor)
+
+### UmbralDetección
+* **TipoMétrica**
+* **ValorMínimo**
+* **ValorMáximo**
+* **Severidad**
+
+## Agregados
+
+### AnálisisAmbiental como Agregado raíz
+* Contiene ResultadoMétrica como parte del agregado
+* Las ReglaDetección son entidades separadas
+
+## Servicios de Dominio
+
+### ServicioDetecciónAnomalías
+* DetectarAnomalías(DatosSensor datos) → AnálisisAmbiental
+* EvaluarReglas(DatosSensor datos) → List<ReglaDetección>
+
+### ServicioProcesamientoDatos
+* ProcesarDatosCrudos(DatosSensor crudos) → DatosSensor validados
+* CalcularTendencias(List<DatosSensor> historial) → ResultadoMétrica
+
+## Interfaces de Repositorios
+
+### IAnálisisRepository
+* GetById(AnálisisId)
+* Save(AnálisisAmbiental)
+* GetBySensorId(SensorId, rangoTemporal)
+* GetAnálisisPendientes()
+
+### IReglaRepository
+* GetAll()
+* GetHabilitadas()
+* Save(ReglaDetección)
+
 <div id="4.2.1.2."><h4>4.2.2.2. Interface Layer</h4></div>
+
+## Controladores/Endpoints
+
+### AnálisisController (API REST)
+* **POST** `/api/análisis/procesar`: Endpoint para recibir datos de sensores
+* **GET** `/api/análisis/{id}`: Obtener un análisis específico
+* **GET** `/api/análisis/sensor/{sensorId}`: Obtener análisis por sensor
+
+### ReglasController (API REST)
+* **GET** `/api/reglas`: Listar todas las reglas
+* **POST** `/api/reglas`: Crear nueva regla
+* **PUT** `/api/reglas/{id}`: Actualizar regla existente
+
+## Consumidores de Mensajes
+
+### SensorDataConsumer
+* Suscrito a cola/tópico de datos de sensores
+* Procesa mensajes y genera comandos para la capa de aplicación
+
 <div id="4.2.1.3."><h4>4.2.2.3. Application Layer</h4></div>
+
+## Manejadores de Comandos
+
+### ProcesarDatosSensorCommandHandler
+* Recibe datos crudos del sensor
+* Valida y transforma los datos
+* Invoca servicios de dominio para análisis
+* Persiste resultados
+* Publica eventos de dominio
+
+### EvaluarReglasCommandHandler
+* Obtiene reglas habilitadas
+* Evalúa condiciones contra datos de sensor
+* Genera eventos cuando se cumplen reglas
+
+## Manejadores de Eventos de Dominio
+
+### DatosProcesadosEventHandler
+* Reacciona a eventos de datos procesados
+* Puede disparar análisis adicionales
+
+## Servicios de Aplicación
+
+### MonitoringAppService
+* ProcesarDatosSensor(datos)
+* ObtenerAnálisisRecientes(sensorId)
+* AdministrarReglasDetección()
+
 <div id="4.2.1.4."><h4>4.2.2.4. Infrastructure Layer</h4></div>
+
+## Implementaciones de Repositorios
+
+### AnálisisRepository
+* Implementa IAnálisisRepository usando Entity Framework
+* Mapea objetos de dominio a tablas de base de datos
+
+### ReglaRepository
+* Implementa IReglaRepository
+* Almacena y recupera reglas de detección
+
+## Adaptadores de Procesamiento
+
+### RealTimeProcessingAdapter
+* Implementa procesamiento en tiempo real
+* Se integra con sistemas de streaming como Kafka
+
+### BatchProcessingAdapter
+* Implementa procesamiento por lotes
+* Para análisis históricos y tendencias
+
+## Servicios Externos
+
+### EventBusPublisher
+* Publica eventos a message broker
+* Eventos como "AnomalíaDetectada", "CondiciónCríticaEncontrada"
+
 <div id="4.2.1.5."><h4>4.2.2.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
+
+<img src="resources\C4\bdMonitoring.png"/>
+
 <div id="4.2.1.6."><h4>4.2.2.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
 
+Esta sección profundiza en la implementación de los componentes del bounded context de Monitoring & Analysis, presentando diagramas que muestran la estructura de clases y el diseño de la base de datos respectivo a este bounded context.
+
 <div id="4.2.1.6.1."><h4>4.2.2.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
+
+<img src="resources\classDiagrams\classdiagramMonitoring.png"/>
+
 <div id="4.2.1.6.2."><h4>4.2.2.6.2. Bounded Context Database Design Diagram</h4></div>
 
 <div id="4.2.1."><h4>4.2.3. Bounded Context: &lt;Notifications & Alerts&gt;</h4></div>
