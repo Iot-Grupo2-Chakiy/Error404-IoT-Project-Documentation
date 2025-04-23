@@ -1112,6 +1112,9 @@ Estado (enum: Activa, Atendida, Descartada)
 Esta sección profundiza en la implementación de los componentes del bounded context de "Notifications & Alerts" , presentando diagramas que muestran la estructura de clases y el diseño de la base de datos respectivo a este bounded context.
 
 <div id="4.2.1.6.1."><h4>4.2.3.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
+
+<img src='resources/DiagramaClasesMonitoringAlerts.jpg'/>
+
 <div id="4.2.1.6.2."><h4>4.2.3.6.2. Bounded Context Database Design Diagram</h4></div>
 
 
