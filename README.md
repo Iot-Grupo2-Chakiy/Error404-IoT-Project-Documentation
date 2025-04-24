@@ -1310,10 +1310,120 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 
 <div id="4.2.1."><h4>4.2.4. Bounded Context: &lt;Automation Management&gt;</h4></div>
+
+El bounded context es encargado de accionar los dispositivos IoT según lo haya requerido los usuarios, basándose en las condiciones ambientales detectadas o rutinas que hayan sido programadas. A la vez, permite aplicar las reglas de automatización establecidas, por lo que acá es donde se da la mayor interacción con el usuario.
+
+
 <div id="4.2.1.1."><h4>4.2.4.1. Domain Layer</h4></div>
+
+El Domain layer de este Bounded Context tiene las clases y servicios encargados de accionar los dispositivos asignados a evaluar las variables definidas por el usuario
+
+#### Entidades (Entities)
+
+- **ReglaAutomatizacion**
+  - `ReglaAutomatizacionId` (GUID)
+  - `Nombre` (string)
+  - `TipoDisparador` (enum: CondicionAmbiental, RutinaHorario, RutinaUbicacion)
+  - `Condicion` (Value Object `CondicionDeAccion`)
+  - `Accion` (Value Object `AccionDispositivo`)
+  - `Estado` (enum: Activa, Inactiva)
+
+  **Métodos:**
+  - `EsDisparadaPor(evento: Evento): boolean`
+  - `EjecutarAccion(): ComandoDispositivo`
+
+- **ManualOverrideRequest**
+  - `UsuarioId` (GUID)
+  - `DispositivoId` (GUID)
+  - `TipoAccion` (string)
+
+#### ValueObjects
+
+- **CondicionDeAccion**
+  - `Tipo` (string)
+  - `Umbral` (decimal)
+  - `Operador` (string)
+
+- **AccionDispositivo**
+  - `DispositivoId` (GUID)
+  - `TipoAccion` (enum: Encender, Apagar)
+
+#### Aggregate
+
+- `ReglaAutomatizacion` actúa como raíz del agregado.
+
+#### Domain Services
+
+- **ServicioEjecucionAutomatizacion**
+  - `ProcesarEventoDisparo(evento: Evento)`
+  - `EjecutarAccion(accion: AccionDispositivo)`
+
 <div id="4.2.1.2."><h4>4.2.4.2. Interface Layer</h4></div>
+
+La Capa de Interfaz permite gestionar las reglas de automatización y recibir eventos disparadores provenientes de otros contextos.
+
+#### Command Handlers
+
+- **CrearReglaAutomatizacionCommandHandler**
+  - Crea una nueva instancia de `ReglaAutomatizacion` y la guarda en el repositorio.
+
+- **ActualizarReglaAutomatizacionCommandHandler**
+  - Actualiza una regla existente.
+
+#### Manejadores de Eventos de Dominio (Domain Event Handlers)
+
+- **EventoDisparoDetectadoHandler**
+  - Reacciona a eventos como `CondicionDeActivacionCumplida` o `RutinaEjecutada`.
+  - Evalúa las reglas activas y ejecuta la acción correspondiente si aplica.
+
+#### Application Services
+
+- **AutomationService**
+  - `CrearRegla(dto: CrearReglaDTO)`
+  - `EjecutarAccionesDesdeEvento(triggerEvent: Evento)`
+  - `RegistrarAccionManual(override: ManualOverrideRequest)`
+
 <div id="4.2.1.3."><h4>4.2.4.3. Application Layer</h4></div>
+
+Opera la lógica de automatización entre las capas que tienen contacto directo
+
+#### Controladores API
+
+- **ReglasAutomatizacionController**
+  - `GET /api/reglas-automatizacion`
+  - `POST /api/reglas-automatizacion`
+  - `PUT /api/reglas-automatizacion/{id}`
+  - `DELETE /api/reglas-automatizacion/{id}`
+
+#### Webhooks
+
+- `POST /webhook/eventos-disparo`: Recibe eventos desde Monitoring & Analysis o Routine Scheduling.
+
 <div id="4.2.1.4."><h4>4.2.4.4. Infrastructure Layer</h4></div>
+
+Implementa detalles técnicos de ejecución de comandos sobre dispositivos.
+
+#### Repositorios
+
+- **ReglaAutomatizacionRepository** (implementa `IReglaAutomatizacionRepository`)
+  - `GetById`, `Save`, `GetReglasActivasPorEvento`
+
+#### Adaptadores de Dispositivos IoT
+
+- **IoTDeviceCommandSender**
+  - `EnviarComando(dispositivoId: GUID, tipoAccion: string)`
+
+#### Clientes de Servicios Externos
+
+- **SistemaDeConfiguracionCliente**
+  - `ConsultarConfiguracion(dispositivoId: GUID)`
+  - `ValidarCondicionesEjecutables(rule: ReglaAutomatizacion)`
+
+#### Otros
+
+- **AppSettingsProvider**: Carga configuraciones del entorno
+- **LoggerService**: Registro de logs
+
 <div id="4.2.1.5."><h4>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
 <div id="4.2.1.6."><h4>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
 <div id="4.2.1.6.1."><h4>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
