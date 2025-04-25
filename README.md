@@ -25,6 +25,7 @@
 | 06/04/2024 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
 | 06/04/2024 | 1.0     |  Sebastian Cachis  | Desarrollo de Hypothesis Statements y UX Canvas |
 | 07/04/2024 | 1.0     |  Elias Yauri  | Desarrollo del Registro de entrevistas |
+| 07/04/2024 | 1.0     |  Amner Llamo  | Desarrollo de las User Stories |
 | 17/04/2024 | 1.0     |  Diego Cantoral | Desarrollo del Impact Mapping y Product Backlog |
 
 
@@ -351,13 +352,11 @@ En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas so
 |Departamento|Ica, Ica|
 |<img src="resources/interviewsPhotos/rodrigopisconti.png">|Rodrigo Pisconti, un joven de 20 años que sufrió de asma durante su niñez, actualmente sigue siendo sensible a factores ambientales como la humedad y el polvo. Aunque sus síntomas se han reducido, aún experimenta molestias respiratorias varias veces al mes. Usa un deshumidificador y medidores manuales de ambiente, pero no cuenta con tecnología automatizada. Mostró interés en una herramienta que le permita monitorear y controlar el ambiente de su hogar de forma preventiva. Destaca la importancia de la simplicidad, confiabilidad y automatización. Rodrigo se mostró dispuesto a integrar dispositivos inteligentes y pagar por una solución como Chaki’y si mejora su bienestar.|
 |Duración entrevista: 00:00-05:38 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]|
-
 |Nombre entrevistado|Gian Sánchez|
 |Edad|25 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/gianSanchez.png">|Gian Sánchez, de 25 años, padece asma desde los 14. Aunque al inicio sus síntomas eran leves, con el tiempo se han intensificado, especialmente durante la limpieza o en ambientes laborales donde no se conoce su condición. Para manejar sus síntomas, usa inhalador, toma medicación diaria y evita ambientes con polvo o humo. Actualmente utiliza un deshumidificador y un purificador de aire en su dormitorio, pero aun así experimenta crisis respiratorias dos o tres veces al mes, y episodios más severos entre tres y cuatro veces al año, generalmente relacionados con la contaminación o cambios bruscos de clima.Le pareció muy interesante la propuesta de Chaki’y, ya que considera que el monitoreo y la automatización del ambiente serían de gran ayuda. Comenta que muchas veces no percibe los cambios en el entorno hasta que aparecen los síntomas, por lo que valora recibir notificaciones y que el sistema actúe automáticamente. Está dispuesto a usar una aplicación móvil para este fin, siempre que sea confiable, fácil de usar y configurable. Además, señaló que estaría dispuesto a invertir en una herramienta como Chaki’y si contribuye a mejorar su calidad de vida.|
 |Duración entrevista: 05:38-10:41 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]|
-
 |Nombre entrevistado|Brian Cruz|
 |-|-|
 |Edad|22 años|
@@ -373,14 +372,12 @@ En cuanto a las tácticas, Chaki'y debería centrarse en campañas educativas so
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/carlacachis.png">|Carla Cachis, una señorita de 28 años, nos cuenta su experiencia cuando era niña y sufrió de asma. Ella nos contó que sus padres se lo detectaron a los 4 años, desde entonces sus padres tomaban precauciones para poder evitar que este fuera a más. Hacían uso de deshumidificadores y los dispositivos que tenían en esos años; cabe comentar que la oferta era escaza. Nos comenta que si estaría interesada en poder contar con un aplicativo, que pueda darte la información del porcentaje de humedad en tu hogar mediante notificaciones y que la aplicación sea gratuita, pero que su costo esté incluido en los productos y sensores |
 |Duración entrevista:  19:22 - 29:10   |Duración entrevista: 00:00-09:47    |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]|
-
 |Nombre entrevistado|Fernando Daniel|
 |-|-|
 |Edad|21 años|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/FernandoEntrevista.png">|Fernando Daniel nos comenta que en su niñez sufría de crisis asmáticas las cuales sus padres trataban de calmar llevandolo al hospital, al vivir en una zona seca por provincia nos comenta que sus padres compraron un humidificador con el fin de salvaguardar su integridad, sin embargo el problema que presentaban es que por su corta edad, cuando Fernando se encontraba en casa solo o con familiares que no conocían de su condición, no podía preparar un lugar seguro para él por el desconocimiento de esta herramienta, actualmente nos comenta que tiene tíos los cuales tienen hijos con problemas respiratorios similares y que hasta el día de hoy siguen sufriendo ese problema que en caso no se encuentren ellos no saben que hacer más que llevar al niño al hospital para que se estabilice, al comentarle del producto, responde asertivamente con que si bien algunas personas pueden considerar invasiva esta aplicación porque capaz no estén tan familiarizados con tecnología IoT, puede ser muy útil si es que promocionada adecuadamente y es algo que recomendaría a sus familiares para que cuide mejor a sus hijos|
 |Duración entrevista: 29:10 - 41:58     |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]|
-
 |Nombre entrevistado|Daniel Valverde|
 |:-:|:-:|
 |Edad|22 años|
@@ -1310,13 +1307,129 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 
 <div id="4.2.1."><h4>4.2.4. Bounded Context: &lt;Automation Management&gt;</h4></div>
+
+El bounded context es encargado de accionar los dispositivos IoT según lo haya requerido los usuarios, basándose en las condiciones ambientales detectadas o rutinas que hayan sido programadas. A la vez, permite aplicar las reglas de automatización establecidas, por lo que acá es donde se da la mayor interacción con el usuario.
+
+
 <div id="4.2.1.1."><h4>4.2.4.1. Domain Layer</h4></div>
+
+El Domain layer de este Bounded Context tiene las clases y servicios encargados de accionar los dispositivos asignados a evaluar las variables definidas por el usuario
+
+#### Entidades (Entities)
+
+- **ReglaAutomatizacion**
+  - `ReglaAutomatizacionId` (GUID)
+  - `Nombre` (string)
+  - `TipoDisparador` (enum: CondicionAmbiental, RutinaHorario, RutinaUbicacion)
+  - `Condicion` (Value Object `CondicionDeAccion`)
+  - `Accion` (Value Object `AccionDispositivo`)
+  - `Estado` (enum: Activa, Inactiva)
+
+  **Métodos:**
+  - `EsDisparadaPor(evento: Evento): boolean`
+  - `EjecutarAccion(): ComandoDispositivo`
+
+- **ManualOverrideRequest**
+  - `UsuarioId` (GUID)
+  - `DispositivoId` (GUID)
+  - `TipoAccion` (string)
+
+#### ValueObjects
+
+- **CondicionDeAccion**
+  - `Tipo` (string)
+  - `Umbral` (decimal)
+  - `Operador` (string)
+
+- **AccionDispositivo**
+  - `DispositivoId` (GUID)
+  - `TipoAccion` (enum: Encender, Apagar)
+
+#### Aggregate
+
+- `ReglaAutomatizacion` actúa como raíz del agregado.
+
+#### Domain Services
+
+- **ServicioEjecucionAutomatizacion**
+  - `ProcesarEventoDisparo(evento: Evento)`
+  - `EjecutarAccion(accion: AccionDispositivo)`
+
 <div id="4.2.1.2."><h4>4.2.4.2. Interface Layer</h4></div>
+
+La Capa de Interfaz permite gestionar las reglas de automatización y recibir eventos disparadores provenientes de otros contextos.
+
+#### Command Handlers
+
+- **CrearReglaAutomatizacionCommandHandler**
+  - Crea una nueva instancia de `ReglaAutomatizacion` y la guarda en el repositorio.
+
+- **ActualizarReglaAutomatizacionCommandHandler**
+  - Actualiza una regla existente.
+
+#### Manejadores de Eventos de Dominio (Domain Event Handlers)
+
+- **EventoDisparoDetectadoHandler**
+  - Reacciona a eventos como `CondicionDeActivacionCumplida` o `RutinaEjecutada`.
+  - Evalúa las reglas activas y ejecuta la acción correspondiente si aplica.
+
+#### Application Services
+
+- **AutomationService**
+  - `CrearRegla(dto: CrearReglaDTO)`
+  - `EjecutarAccionesDesdeEvento(triggerEvent: Evento)`
+  - `RegistrarAccionManual(override: ManualOverrideRequest)`
+
 <div id="4.2.1.3."><h4>4.2.4.3. Application Layer</h4></div>
+
+Opera la lógica de automatización entre las capas que tienen contacto directo
+
+#### Controladores API
+
+- **ReglasAutomatizacionController**
+  - `GET /api/reglas-automatizacion`
+  - `POST /api/reglas-automatizacion`
+  - `PUT /api/reglas-automatizacion/{id}`
+  - `DELETE /api/reglas-automatizacion/{id}`
+
+#### Webhooks
+
+- `POST /webhook/eventos-disparo`: Recibe eventos desde Monitoring & Analysis o Routine Scheduling.
+
 <div id="4.2.1.4."><h4>4.2.4.4. Infrastructure Layer</h4></div>
+
+Implementa detalles técnicos de ejecución de comandos sobre dispositivos.
+
+#### Repositorios
+
+- **ReglaAutomatizacionRepository** (implementa `IReglaAutomatizacionRepository`)
+  - `GetById`, `Save`, `GetReglasActivasPorEvento`
+
+#### Adaptadores de Dispositivos IoT
+
+- **IoTDeviceCommandSender**
+  - `EnviarComando(dispositivoId: GUID, tipoAccion: string)`
+
+#### Clientes de Servicios Externos
+
+- **SistemaDeConfiguracionCliente**
+  - `ConsultarConfiguracion(dispositivoId: GUID)`
+  - `ValidarCondicionesEjecutables(rule: ReglaAutomatizacion)`
+
+#### Otros
+
+- **AppSettingsProvider**: Carga configuraciones del entorno
+- **LoggerService**: Registro de logs
+
 <div id="4.2.1.5."><h4>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
+
+<img src="resources/DBAutomation.png"/>
+
 <div id="4.2.1.6."><h4>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
 <div id="4.2.1.6.1."><h4>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
+
+<img src="resources/LayerClassDiagramAutomation.png"/>
+
 <div id="4.2.1.6.2."><h4>4.2.4.6.2. Bounded Context Database Design Diagram</h4></div>
 
 
