@@ -819,7 +819,7 @@ Se plantea esta separación para evitar acoplamientos directos con modelos exter
 * Algunas decisiones sobre fusiones o divisiones de contextos quedaron documentadas para futuras revisiones, a medida que el sistema crezca.
 * Se definieron zonas críticas donde será importante asegurar contratos bien establecidos entre contextos, especialmente en el intercambio de eventos.
 
-<img src="resources/EventStormingRelated/contextMapping.jpg"/>
+<img src="resources/EventStormingRelated/ContextMapping.jpg"/>
 
 
 <div id="4.1.3."><h4>4.1.3. Software Architecture</h4></div>
