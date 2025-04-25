@@ -34,6 +34,8 @@
 
 **TB1**
 
+ <img src="resources/teamMembersPhotos/paoloPhoto.jpg"/>  
+ 
 URL del repositorio del proyecto: [https://github.com/Iot-Grupo2-Chakiy]
 
 ## Contenido 
