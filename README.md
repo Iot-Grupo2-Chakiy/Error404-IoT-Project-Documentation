@@ -701,61 +701,13 @@ A partir del EventStorming realizado, descubrimos los 5 BC (Bounded context) pri
 
 
 <div id="4.1.1.2."><h4>4.1.1.2. Domain Message Flows Modeling</h4></div>
-Este modelo describe el flujo de mensajes entre los diferentes bounded contexts identificados en el proceso de Candidate Context Discovery, permitiendo visualizar la interacción entre contextos y los eventos que los conectan. A continuación se detallan los flujos más relevantes de dominio entre los cinco contextos definidos.
+Este modelo describe el flujo de mensajes entre los diferentes bounded contexts identificados en el proceso de Candidate Context Discovery, permitiendo visualizar la interacción entre contextos y los eventos que los conectan. A continuación se detallan los escenarios más relevantes de dominio entre los cinco contextos definidos.
 
-1. Sensor Management → Monitoring & Analysis
-Mensajes:
+<img src='resources/ScenarioUno.png'/>
 
-* Evento: Datos Recibidos Desde Sensor
-* Evento: Sensor Calibrado
-* Evento: Historial Ambiental Actualizado
+<img src='resources/ScenarioDos.png'/>
 
-Descripción:
-Cada vez que se recibe nueva data de los sensores, se emite un evento hacia el contexto de análisis para su evaluación. El historial y la calibración también alimentan el contexto analítico para mejorar la calidad de decisiones.
-
-2. Monitoring & Analysis → Notifications & Alerts
-Mensajes:
-
-* Evento: Condición Ambiental Crítica Detectada
-* Evento: Cambio Ambiental Detectado
-* Evento: Anomalía Detectada En Tiempo Real
-* Comando: Generar Notificación Personalizada
-
-Descripción:
-Cuando se detecta una condición crítica o una anomalía, el sistema lanza eventos que activan alertas y notificaciones hacia el usuario, adaptadas a sus preferencias.
-
-3. Monitoring & Analysis → Automation Management
-Mensajes:
-
-* Evento: Condición De Activación Cumplida
-* Comando: Ejecutar Automatización
-* Comando: Activar/Desactivar Dispositivo
-
-Descripción:
-Una vez que se verifica una regla de activación (por ejemplo, temperatura > 35°C), se desencadena un comando para ejecutar una automatización correspondiente en los dispositivos conectados.
-
-4. Notifications & Alerts → Routine Scheduling
-Mensajes:
-
-* Evento: Alerta Personalizada Enviada
-* Evento: Preferencias De Notificación Actualizadas
-* Comando: Programar Nueva Rutina En Base A Alerta
-
-Descripción:
-El usuario puede optar por programar una rutina a partir de una alerta recibida. Las preferencias también pueden modificar el comportamiento de ejecución de rutinas o su periodicidad.
-
-5. Routine Scheduling → Automation Management
-Mensajes:
-
-* Evento: Rutina Ejecutada Por Horario / Ubicación
-* Evento: Servicio De Geolocalización Notificado
-* Comando: Ejecutar Acción Automatizada
-* Comando: Control Manual De Dispositivo
-
-Descripción:
-Cuando llega la hora o el usuario entra a una zona geográfica específica, se dispara la rutina correspondiente y se envía una orden al motor de automatización para realizar una acción.
-
-
+<img src='resources/ScenarioTres.png'/>
 
 
 <div id="4.1.1.3."><h4>4.1.1.3. Bounded Context Canvases</h4></div>
