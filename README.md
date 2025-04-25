@@ -1426,12 +1426,12 @@ Implementa detalles técnicos de ejecución de comandos sobre dispositivos.
 
 <div id="4.2.1.5."><h4>4.2.4.5. Bounded Context Software Architecture Component Level Diagrams</h4></div>
 
-<img src="resources/classDiagrams/DBAutomation.png"/>
+<img src="resources/DBAutomation.png"/>
 
 <div id="4.2.1.6."><h4>4.2.4.6. Bounded Context Software Architecture Code Level Diagrams</h4></div>
 <div id="4.2.1.6.1."><h4>4.2.4.6.1. Bounded Context Domain Layer Class Diagrams</h4></div>
 
-<img src="resources/classDiagrams/LayerClassDiagramAutomation.png"/>
+<img src="resources/LayerClassDiagramAutomation.png"/>
 
 <div id="4.2.1.6.2."><h4>4.2.4.6.2. Bounded Context Database Design Diagram</h4></div>
 
