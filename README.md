@@ -1690,7 +1690,7 @@ Science Magazine. (2020). Digital health adoption in emerging countries: A syste
 
 <div id='10.'><h2>Anexos</h2></div>
 
-TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/Edk4Yk9Yi4ZGiArhgghgQkoBaG3d_aIVWgAZsoiwQFGtgQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wvwY6A]
+TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EfP3NwdH3uNNq9MxIi_dtyIBywtB86kBlccKT-U-dcndyQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FoSI5P]
 
 Entrevistas: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]
 
