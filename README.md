@@ -1014,6 +1014,13 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="4.2.1.6.2."><h4>4.2.1.6.2. Bounded Context Database Design Diagram</h4></div>
 
+Imagen completa de la base de datos con todos los bounded context:
+
+
+<img src="resources/databaseDiagrams/CompleteDatabase.png"/>
+
+**BC SensorManagement Database:**
+
 <img src="resources/databaseDiagrams/SensorManagementSection.jpg"/>
 
 <div id="4.2.1."><h4>4.2.2. Bounded Context: &lt;Monitoring & Analysis&gt;</h4></div>
