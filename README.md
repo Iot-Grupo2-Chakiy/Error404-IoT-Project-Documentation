@@ -741,11 +741,11 @@ A partir del EventStorming realizado, descubrimos los 5 BC (Bounded context) pri
 <div id="4.1.1.2."><h4>4.1.1.2. Domain Message Flows Modeling</h4></div>
 Este modelo describe el flujo de mensajes entre los diferentes bounded contexts identificados en el proceso de Candidate Context Discovery, permitiendo visualizar la interacción entre contextos y los eventos que los conectan. A continuación se detallan los escenarios más relevantes de dominio entre los cinco contextos definidos.
 
-<img src='resources/ScenarioUno.png'/>
+<img src='resources/ScenarioUno.jpg'/>
 
-<img src='resources/ScenarioDos.png'/>
+<img src='resources/ScenarioDos.jpg'/>
 
-<img src='resources/ScenarioTres.png'/>
+<img src='resources/ScenarioTres.jpg'/>
 
 
 <div id="4.1.1.3."><h4>4.1.1.3. Bounded Context Canvases</h4></div>
@@ -817,7 +817,7 @@ Se plantea esta separación para evitar acoplamientos directos con modelos exter
 * Algunas decisiones sobre fusiones o divisiones de contextos quedaron documentadas para futuras revisiones, a medida que el sistema crezca.
 * Se definieron zonas críticas donde será importante asegurar contratos bien establecidos entre contextos, especialmente en el intercambio de eventos.
 
-<img src="resources/EventStormingRelated/DomainMessagesFlowMOdelling.jpg"/>
+<img src="resources/EventStormingRelated/contextMapping.jpg"/>
 
 
 <div id="4.1.3."><h4>4.1.3. Software Architecture</h4></div>
