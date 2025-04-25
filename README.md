@@ -23,13 +23,16 @@
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
 | 06/04/2024 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
-| 06/04/2024 | 1.0     |  Sebastian Cachis  | Desarrollo de Hypothesis Statements y UX Canvas |
-| 07/04/2024 | 1.0     |  Elias Yauri  | Desarrollo del Registro de entrevistas |
-| 07/04/2024 | 1.0     |  Amner Llamo  | Desarrollo de las User Stories |
-| 17/04/2024 | 1.0     |  Diego Cantoral | Desarrollo del Impact Mapping y Product Backlog |
+| 06/04/2024 | 1.1     |  Sebastian Cachis  | Desarrollo de Hypothesis Statements y UX Canvas |
+| 07/04/2024 | 1.2     |  Elias Yauri  | Desarrollo del Registro de entrevistas |
+| 07/04/2024 | 1.3     |  Amner Llamo  | Desarrollo de las User Stories |
+| 17/04/2024 | 1.4     |  Diego Cantoral | Desarrollo del Impact Mapping y Product Backlog |
+| 24/04/2024 | 1.5     |  Guillen Luna,Paolo César; Yauri Paucar, Elias ; Llamo Sánchez, Amner; Cantoral Paredes, Diego André; Cachis Gonzales, Sebastian Nicolas | Desarrollo completo del capítulo 4 de forma colaborativa, creando los diagramas C4 de cada uno de los bounded context acorde a las necesidades que el sistema podría requerir |
 
 
 ## Project Report Collaboration Insights
+
+**TB1**
 
 URL del repositorio del proyecto: [https://github.com/Iot-Grupo2-Chakiy]
 
