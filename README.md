@@ -79,7 +79,7 @@ URL del repositorio del proyecto: [https://github.com/Iot-Grupo2-Chakiy]
 4.1.3.3. [Software Architecture Container Level Diagrams](#4.1.3.3.)<br>
 4.1.3.4. [Software Architecture Deployment Diagrams](#4.1.3.4.)<br>
 4.2. [***Tactical-Level Domain-Driven Design***](#4.2.)<br>
-4.2.1. [Bounded Context: &lt;Bounded Context Name&gt;](#4.2.1.)<br>
+4.2.1. [Bounded Context: &lt;Sensor Management&gt;](#4.2.1.)<br>
 4.2.1.1. [Domain Layer](#4.2.1.1.)<br>
 4.2.1.2. [Interface Layer](#4.2.1.2.)<br>
 4.2.1.3. [Application Layer](#4.2.1.3.)<br>
@@ -88,7 +88,42 @@ URL del repositorio del proyecto: [https://github.com/Iot-Grupo2-Chakiy]
 4.2.1.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.1.6.)<br>
 4.2.1.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.1.6.1.)<br>
 4.2.1.6.2. [Bounded Context Database Design Diagram](#4.2.1.6.2.)<br>
-
+4.2.2. [Bounded Context: &lt;Monitoring & Analysis&gt;](#4.2.1.)<br>
+4.2.2.1. [Domain Layer](#4.2.1.1.)<br>
+4.2.2.2. [Interface Layer](#4.2.1.2.)<br>
+4.2.2.3. [Application Layer](#4.2.1.3.)<br>
+4.2.2.4. [Infrastructure Layer](#4.2.1.4.)<br>
+4.2.2.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.1.5.)<br>
+4.2.2.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.1.6.)<br>
+4.2.2.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.1.6.1.)<br>
+4.2.2.6.2. [Bounded Context Database Design Diagram](#4.2.1.6.2.)<br>
+4.2.3. [Bounded Context: &lt;Notifications & Alerts&gt;](#4.2.1.)<br>
+4.2.3.1. [Domain Layer](#4.2.1.1.)<br>
+4.2.3.2. [Interface Layer](#4.2.1.2.)<br>
+4.2.3.3. [Application Layer](#4.2.1.3.)<br>
+4.2.3.4. [Infrastructure Layer](#4.2.1.4.)<br>
+4.2.3.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.1.5.)<br>
+4.2.3.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.1.6.)<br>
+4.2.3.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.1.6.1.)<br>
+4.2.3.6.2. [Bounded Context Database Design Diagram](#4.2.1.6.2.)<br>
+4.2.4. [Bounded Context: &lt;Automation Management&gt;](#4.2.1.)<br>
+4.2.4.1. [Domain Layer](#4.2.1.1.)<br>
+4.2.4.2. [Interface Layer](#4.2.1.2.)<br>
+4.2.4.3. [Application Layer](#4.2.1.3.)<br>
+4.2.4.4. [Infrastructure Layer](#4.2.1.4.)<br>
+4.2.4.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.1.5.)<br>
+4.2.4.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.1.6.)<br>
+4.2.4.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.1.6.1.)<br>
+4.2.4.6.2. [Bounded Context Database Design Diagram](#4.2.1.6.2.)<br>
+4.2.5. [Bounded Context: &lt;Routine Scheduling&gt;](#4.2.1.)<br>
+4.2.5.1. [Domain Layer](#4.2.1.1.)<br>
+4.2.5.2. [Interface Layer](#4.2.1.2.)<br>
+4.2.5.3. [Application Layer](#4.2.1.3.)<br>
+4.2.5.4. [Infrastructure Layer](#4.2.1.4.)<br>
+4.2.5.5. [Bounded Context Software Architecture Component Level Diagrams](#4.2.1.5.)<br>
+4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.1.6.)<br>
+4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.1.6.1.)<br>
+4.2.5.6.2. [Bounded Context Database Design Diagram](#4.2.1.6.2.)<br>
 
 8. [**Conclusiones**](#8.)<br>
 9. [**Bibliografía**](#9.)<br>
@@ -110,8 +145,8 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta|**Guillen Luna, Paolo César:** <br> **TB1:**  <br> **Yauri Paucar, Elias:** <br> **TB1:**  <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:**  <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:**  <br>||
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|**Guillen Luna, Paolo César:** <br> **TB1:**  <br> **Yauri Paucar, Elias:** <br> **TB1:**  <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:**  <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:**  <br>||
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta|**Guillen Luna, Paolo César:** <br> **TB1:**  Me encargue de manejar las actividades de cada integrantes de mi grupo, separando las secciones del trabajo de forma uniforme para cumplir de forma adecuada y coherente esta primera entrega <br> **Yauri Paucar, Elias:** <br> **TB1:** Coordiné con mis compañeros para darle coherencia a nuestro trabajo y realizar cada sección de forma acorde a los requisitos de nuestra solución  <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  Me encargué de realizar entrevistas a ciertos segmentos de nuestra solución a partir de las preguntas y colaboración de mi equipo pude obtener resultados acordes a esta primera entrega <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:** Me encargué de hablar con mi equipo de forma periódica con mi equipo para ver el avance del trabajo y apoyar siempre en lo que se necesitaba, donde aporté en secciones del event storming principalmente. <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:**  Me encargue de la dirección fundamental del primer capítulo del trabajo a partir de una organización con mi equipo para la elección del tema, además de realizar las preguntas que haríamos en nuestras entrevistas. <br>|**TB1:** Concluyendo la primera entrega todo el equipo a partir de una colaboración adecuada logramos comunicarnos para obtener un MVP (Minimum Viable Product) para esta primera entrega.|
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|**Guillen Luna, Paolo César:** <br> **TB1:** Me encargué de proponer una estructura de planificación semanal con objetivos claros y alcanzables, revisando los avances de todos de forma constante y fomentando la participación equitativa  <br> **Yauri Paucar, Elias:** <br> **TB1:** Coordiné reuniones para revisar el cumplimiento de metas semanales, asegurándome de que todos los integrantes tuvieran el mismo nivel de participación e inclusión en la toma de decisiones. <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  Aporté en la definición de metas para las entrevistas, asegurando que todos los puntos de vista fueran considerados y equilibrando las tareas entre los integrantes. <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:** Me involucré activamente en la organización del backlog y en la planificación con SCRUM, promoviendo la inclusión de todos en cada etapa del desarrollo.  <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:** Proporcioné apoyo en la creación del cronograma de trabajo, permitiendo que cada tarea estuviera alineada con nuestras metas y asegurando que todos pudieran participar sin barreras.  <br>| **TB1:** Al finalizar esta primera entrega se concluye que el crear un entorno donde todos trabajen sin importar las diferencias es esencial, en un proyecto de software de este calibre es importante trabajar de forma conjunta sin importar diferencias, esto nos apoyamos con la metodología de trabajo ágil llamada SCRUM lo que nos ayudó a organizar las tareas para este primer entregable|
 
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
