@@ -841,7 +841,7 @@ Muestra una visión general del sistema Chaki'y, identificando dos tipos de usua
 
 Presenta una vista detallada de todos los componentes internos del sistema, incluyendo servicios de administración, monitoreo, reportes, alertas y configuración. Muestra las relaciones entre estos componentes y el flujo de datos, revelando la arquitectura funcional completa.
 
-[Diagrama Container](https://www.plantuml.com/plantuml/dsvg/dLNDSjis4BxhAL2sCxMdYTbCVj9q9ZEnP2LnQcKKIwcFcYMvef20M1O0RIkTFaoFFVIKMwzwiG8WBTEmoQhsmICiTx_lM-nYzvKse4nL23PQmMV-_PezP2EI1hX4nOuuv0gAmU0RBbDHPSXMnfJwvpXMS76GSxEgaagZIcq4IdEGKX6N0gG3VAXD9dWIZvuyd3hJnyb9N80sgAnfiUKuAAtlO62u4NYRcIr9RPNDrZRQYZdCih70mXBE8T-B2fugqgZEUOhH0_QTNa69BySyNvaPpp2RkVFUllsIv2CIf5v6towNB-1nwhoNbd9hzN_HViYGWO44T0jzj1PSPgXkmJvBdYMxmXQKSD42dVZp4Rf40k17MVO87kqAV879DUeP9aD55_gMsATFu4SRlICcNXfK4iGry7lAGfa_FNxn59vtGWwcg3J9FSWgOUW1Ypxg2XGdLXiYQwazWAKaMQaeiGf0CuMwv0eCMMTjWHeSKrbB2yQVFGfa2kE9---HLlmJQVyBvH9LWHbaU0CMjDDNTzXYI9NCGAttj3zRm1btF-2g5QDzzlk0CNRTi7lspXTGbjRti1GyXPHllafsvYiHdIAa9ZwKUIN02poM1jKIlZ0RnafGmAew1-qkpq2kN_egxWSiTSlSGJJPV3tdOil5teFXvnY_5fKnU9EoyAvTh3L3GnomGyaNEHYyWBMZdnwpD_N9uSzAnMNEHeAgh6sVLj8Gs_mZUKeiGuRIACYWvhSOBUxMI-vIK9dLel5mdFuNzxY7bR7GLnVIKZJ3j5BShDaFxDtPt7sOWCHFBcYRFripZRbroo3hqXD8qIWrgGunC_yHTKl6aCYuunlKnYbqRhfnOySqtv6s8CaDESGEwadjW1Hms_H_WULdSEP3kVbJSCsr2yZ0a6PG91mjYS2UWeIre08C9zbT4U_mfIb9_rqep0LuGH34xIP7ak5BdlO9Uj-usAEyipPZURxvsxk2G6N0zOKCWdPlLgCNpUPmGeQWqI4V-UkUpnpVd1UeKyjrDFHb4GMaAA5mbQ2wGHH7pGmM9QcRjMcWx-WGuBARUAguJ7a9mhzDqYPNEFjmuawrGm6eZV9F8YMvv7cbWZhqKAFMaECYKVGPbNjfjO4DlS7dM4AwmkjM755HoUqOSyC1cMvgzhzkcvDf3QTc03KFAtAxwk2JhWabNZeolmyohalItF1pwd-5Vsotm_ZIs6aFPeLg0ILtP4IvG7PM6zrGYvhvk7rU1HeaHMBpDUTfEx7jNjrlusC1N7HqyTXzYzh6sMG-hUTfsApzB0LcrjVoX6jkildBVg6ePQeHl80Lrtvb2jIig3qrswFIaOBOlvDrS8fYk_UlT-L7xPlWxNm-dLcljbEzYBhz_BAliVfz-g6ytnQalU5ygsWh1c8_5w0kvJOuFXtFvWrHpN1_30zo8p3OTB-YyeLb4Auv3-Hb10Yt5jHKqUMQAVojGcrqNsXhoTmdlBKPxXFUDF7E01uXp3QSWYU8yLYdYYVeGjyT3KSDTnXvSsmtCKnWQYe5-Z-2EPcRnJUA1BJ7Z4UOV9ZFuxRyuCP38Qr6yXqKohWh_DOmdbQ9S2s4voWR23-6sLIHePH43rXxu8LQEhevR8B-ejJxFyWh0Ed8oo9KwQe_BuyMD5QtA5OgNA92cV9GKWT8EB3zQxzZ7aTkLlSYtJ-zTk_jNlqGPd4Qx8LmeXrBWxbg5lRLrFSzSF8yVlts-DG1lKAPLONu5m00)
+[Diagrama Container](https://www.plantuml.com/plantuml/dsvg/dLNDSjis4BxhAL2sCxMdYTbCVj9q9ZEnP2LnQcKKIwcFcYMvef20M1O0RIkTFaoFFVIKMwzwiG8WBTEmoQhsmICiTx_lM-nYzvKse4nL23PQmMV-_PezP2EI1hX4nOuuv0gAmU0RBbDHPSXMnfJwvpXMS76GSxEgaagZIcq4IdEGKX6N0gG3VAXD9dWIZvuyd3hJnyb9N80sgAnfiUKuAAtlO62u4NYRcIr9RPNDrZRQYZdCih70mXBE8T-B2fugqgZEUOhH0_QTNa69BySyNvaPpp2RkVFUllsIv2CIf5v6towNB-1nwhoNbd9hzN_HViYGWO44T0jzj1PSPgXkmJvBdYMxmXQKSD42dVZp4Rf40k17MVO87kqAV879DUeP9aD55_gMsATFu4SRlICcNXfK4iGry7lAGfa_FNxn59vtGWwcg3J9FSWgOUW1Ypxg2XGdLXiYQwazWAKaMQaeiGf0CuMwv0eCMMTjWHeSKrbB2yQVFGfa2kE9---HLlmJQVyBvH9LWHbaU0CMjDDNTzXYI9NCGAttj3zRm1btF-2g5QDzzlk0CNRTi7lspXTGbjRti1GyXPHllafsvYiHdIAa9ZwKUIN02poM1jKIlZ0RnafGmAew1-qkpq2kN_egxWSiTSlSGJJPV3tdOil5teFXvnY_5fKnU9EoyAvTh3L3GnomGyaNEHYyWBMZdnwpD_N9uSzAnMNEHeAgh6sVLj8Gs_mZUKeiGuRIACYWvhSOBUxMI-vIK9dLel5mdFuNzxY7bR7GLnVIKZJ3j5BShDaFxDtPt7sOWCHFBcYRFripZRbroo3hqXD8qIWrgGunC_yHTKl6aCYuunlKnYbqRhfnOySqtv6s8CaD  ESGEwadjW1Hms_H_WULdSEP3kVbJSCsr2yZ0a6PG91mjYS2UWeIre08C9zbT4U_mfIb9_rqep0LuGH34xIP7ak5BdlO9Uj-usAEyipPZURxvsxk2G6N0zOKCWdPlLgCNpUPmGeQWqI4V-UkUpnpVd1UeKyjrDFHb4GMaAA5mbQ2wGHH7pGmM9QcRjMcWx-WGuBARUAguJ7a9mhzDqYPNEFjmuawrGm6eZV9F8YMvv7cbWZhqKAFMaECYKVGPbNjfjO4DlS7dM4AwmkjM755HoUqOSyC1cMvgzhzkcvDf3QTc03KFAtAxwk2JhWabNZeolmyohalItF1pwd-5Vsotm_ZIs6aFPeLg0ILtP4IvG7PM6zrGYvhvk7rU1HeaHMBpDUTfEx7jNjrlusC1N7HqyTXzYzh6sMG-hUTfsApzB0LcrjVoX6jkildBVg6ePQeHl80Lrtvb2jIig3qrswFIaOBOlvDrS8fYk_UlT-L7xPlWxNm-dLcljbEzYBhz_BAliVfz-g6ytnQalU5ygsWh1c8_5w0kvJOuFXtFvWrHpN1_30zo8p3OTB-YyeLb4Auv3-Hb10Yt5jHKqUMQAVojGcrqNsXhoTmdlBKPxXFUDF7E01uXp3QSWYU8yLYdYYVeGjyT3KSDTnXvSsmtCKnWQYe5-Z-2EPcRnJUA1BJ7Z4UOV9ZFuxRyuCP38Qr6yXqKohWh_DOmdbQ9S2s4voWR23-6sLIHePH43rXxu8LQEhevR8B-ejJxFyWh0Ed8oo9KwQe_BuyMD5QtA5OgNA92cV9GKWT8EB3zQxzZ7aTkLlSYtJ-zTk_jNlqGPd4Qx8LmeXrBWxbg5lRLrFSzSF8yVlts-DG1lKAPLONu5m00)
 
 
 <div id="4.1.3.4."><h4>4.1.3.4. Software Architecture Deployment Diagrams</h4></div>
@@ -1014,12 +1014,13 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="4.2.1.6.2."><h4>4.2.1.6.2. Bounded Context Database Design Diagram</h4></div>
 
+<img src="resources/database-img/DBSensorManagement.png"/>
 
 
 <div id="4.2.1."><h4>4.2.2. Bounded Context: &lt;Monitoring & Analysis&gt;</h4></div>
 <div id="4.2.1.1."><h4>4.2.2.1. Domain Layer</h4></div>
 
-# Capa de Dominio - Bounded Context: Monitoring & Analysis
+### Capa de Dominio - Bounded Context: Monitoring & Analysis
 
 La Capa de Dominio del bounded context de Monitoring & Analysis contiene las clases que representan el núcleo del negocio relacionado con el procesamiento de datos ambientales y la detección de condiciones críticas.
 
@@ -1189,6 +1190,8 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="4.2.1.6.2."><h4>4.2.2.6.2. Bounded Context Database Design Diagram</h4></div>
 
+<img src="resources/database-img/DBMonitoringAnalysis.png"/>
+
 <div id="4.2.1."><h4>4.2.3. Bounded Context: &lt;Notifications & Alerts&gt;</h4></div>
 <div id="4.2.1.1."><h4>4.2.3.1. Domain Layer</h4></div>
 
@@ -1319,6 +1322,8 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="4.2.1.6.2."><h4>4.2.3.6.2. Bounded Context Database Design Diagram</h4></div>
 
+<img src="resources/database-img/DBNotificationsAlerts.png"/>
+
 
 <div id="4.2.1."><h4>4.2.4. Bounded Context: &lt;Automation Management&gt;</h4></div>
 
@@ -1446,6 +1451,7 @@ Implementa detalles técnicos de ejecución de comandos sobre dispositivos.
 
 <div id="4.2.1.6.2."><h4>4.2.4.6.2. Bounded Context Database Design Diagram</h4></div>
 
+<img src="resources/database-img/DBAutomationManagement.png"/>
 
 <div id="4.2.5."><h4>4.2.5. Bounded Context: &lt;Routine Scheduling&gt;</h4></div>
 
@@ -1657,8 +1663,7 @@ Esta sección presenta diagramas que profundizan en la estructura del código y 
 <div id="4.2.5.6.2."><h4>4.2.5.6.2. Bounded Context Database Design Diagram</h4></div>
 
 
-<img src="resources/databaseDiagrams/databaseDiagramRoutineScheduling.png"/>
-
+<img src="resources/database-img/DBRoutineScheduling.png"/>
 
 <div id='9.'><h2>Bibliografía</h2></div>
 
