@@ -744,16 +744,16 @@ Cuando llega la hora o el usuario entra a una zona geográfica específica, se d
 <div id="4.1.1.3."><h4>4.1.1.3. Bounded Context Canvases</h4></div>
 
 * **Automation Management**
-  <img src="resources/tdvianada.png"/>
+  <img src="resources/boundedContextCanvases/AutomationManagement.png"/>
 
 * **Routine Scheduling**
-  <img src="resources/tdvianada.png"/>
+  <img src="resources/boundedContextCanvases/RoutineScheduling.png"/>
 
 * **Monitoring & Analysis**
   <img src="resources\boundedContextCanvases\Monitoring.jpg"/>
 
 * **Notifications & Alerts**
-  <img src="resources/tdvianada.png"/>
+  <img src="resources/boundedContextCanvases/NotificationsAlerts.png"/>
 
 * **Sensor Management**
 <img src="resources/boundedContextCanvases/sensorManagement.png"/>
