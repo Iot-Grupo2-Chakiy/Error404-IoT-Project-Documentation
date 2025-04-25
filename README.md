@@ -110,8 +110,8 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta|||
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|||
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta|**Guillen Luna, Paolo César:** <br> **TB1:**  <br> **Yauri Paucar, Elias:** <br> **TB1:**  <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:**  <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:**  <br>||
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|**Guillen Luna, Paolo César:** <br> **TB1:**  <br> **Yauri Paucar, Elias:** <br> **TB1:**  <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:**  <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:**  <br>||
 
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
