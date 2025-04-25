@@ -169,6 +169,9 @@ Para lograrlo, desarrollamos plataformas y dispositivos inteligentes basados en 
 
 **Visión:** . Error 404 aspira a convertirse en una startup referente en soluciones tecnológicas aplicadas a la vida cotidiana, reconocida por su capacidad de innovación, su impacto social positivo y su compromiso con una tecnología centrada en las personas.
 
+**Logo de la solución**
+<img src='resources/ChakiyLogo.svg'/
+
 <div id='1.1.2.'><h4> 1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
 |                                                                                                                                                                                                          Descripción de los perfiles de los integrantes del equipo                                                                                                                                                                                                           |                                                              Foto del integrante                                                              |
