@@ -1671,6 +1671,12 @@ Esta sección presenta diagramas que profundizan en la estructura del código y 
 
 <img src="resources/database-img/DBRoutineScheduling.png"/>
 
+
+<div id='8.'><h2>Conclusiones</h2></div>
+
+**TB1:** Se concluye tras este entregable que plantear un proyecto y de buena manera desde el inicio es esencial, el hecho de iniciar un proyecto IoT planificando la estructura que va a seguir, su diseño, base de datos y requisitos que va a necesitar es algo esencial, puesto que se incurrirían en gastos materiales si es que el sistema se plantea de forma érronea, además del hecho de contar con un equipo, manejarlo y repartir las tareas fue algo esencial para un entregable exitoso.
+
+
 <div id='9.'><h2>Bibliografía</h2></div>
 
 Organización Mundial de la Salud (OMS). (2021). Asma. Recuperado de [https://www.who.int/es/news-room/fact-sheets/detail/asthma]
