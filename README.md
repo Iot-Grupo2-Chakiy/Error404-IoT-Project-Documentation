@@ -1014,14 +1014,10 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="4.2.1.6.2."><h4>4.2.1.6.2. Bounded Context Database Design Diagram</h4></div>
 
-Imagen completa de la base de datos con todos los bounded context:
-
-
-<img src="resources/databaseDiagrams/CompleteDatabase.png"/>
+<img src="resources/database-img/CompleteDatabase.svg"/>
 
 **BC SensorManagement Database:**
 
-<img src="resources/databaseDiagrams/SensorManagementSection.jpg"/>
 <img src="resources/database-img/DBSensorManagement.png"/>
 
 
@@ -1198,8 +1194,6 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="4.2.1.6.2."><h4>4.2.2.6.2. Bounded Context Database Design Diagram</h4></div>
 
-<img src="resources/databaseDiagrams/MonitoringAnalysisSection.jpg"/>
-
 <img src="resources/database-img/DBMonitoringAnalysis.png"/>
 
 <div id="4.2.1."><h4>4.2.3. Bounded Context: &lt;Notifications & Alerts&gt;</h4></div>
@@ -1335,9 +1329,6 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <img src="resources/database-img/DBNotificationsAlerts.png"/>
 
-<img src="resources/databaseDiagrams/NotificationAlerts.jpg"/>
-
-
 <div id="4.2.4."><h4>4.2.4. Bounded Context: &lt;Automation Management&gt;</h4></div>
 
 El bounded context es encargado de accionar los dispositivos IoT según lo haya requerido los usuarios, basándose en las condiciones ambientales detectadas o rutinas que hayan sido programadas. A la vez, permite aplicar las reglas de automatización establecidas, por lo que acá es donde se da la mayor interacción con el usuario.
@@ -1464,7 +1455,6 @@ Implementa detalles técnicos de ejecución de comandos sobre dispositivos.
 
 <div id="4.2.1.6.2."><h4>4.2.4.6.2. Bounded Context Database Design Diagram</h4></div>
 
-<img src="resources/databaseDiagrams/AutomationManagement.jpg"/>
 <img src="resources/database-img/DBAutomationManagement.png"/>
 
 <div id="4.2.5."><h4>4.2.5. Bounded Context: &lt;Routine Scheduling&gt;</h4></div>
@@ -1675,9 +1665,6 @@ Esta sección presenta diagramas que profundizan en la estructura del código y 
 <img src="resources/classDiagrams/routineSchedulingClassDiagram.png"/>
 
 <div id="4.2.5.6.2."><h4>4.2.5.6.2. Bounded Context Database Design Diagram</h4></div>
-
-
-<img src="resources/databaseDiagrams/RoutineScheduling.jpg"/>
 
 <img src="resources/database-img/DBRoutineScheduling.png"/>
 
