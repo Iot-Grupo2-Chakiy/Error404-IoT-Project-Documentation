@@ -1014,6 +1014,14 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="4.2.1.6.2."><h4>4.2.1.6.2. Bounded Context Database Design Diagram</h4></div>
 
+Imagen completa de la base de datos con todos los bounded context:
+
+
+<img src="resources/databaseDiagrams/CompleteDatabase.png"/>
+
+**BC SensorManagement Database:**
+
+<img src="resources/databaseDiagrams/SensorManagementSection.jpg"/>
 <img src="resources/database-img/DBSensorManagement.png"/>
 
 
@@ -1190,6 +1198,8 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <div id="4.2.1.6.2."><h4>4.2.2.6.2. Bounded Context Database Design Diagram</h4></div>
 
+<img src="resources/databaseDiagrams/MonitoringAnalysisSection.jpg"/>
+
 <img src="resources/database-img/DBMonitoringAnalysis.png"/>
 
 <div id="4.2.1."><h4>4.2.3. Bounded Context: &lt;Notifications & Alerts&gt;</h4></div>
@@ -1320,17 +1330,20 @@ Esta sección profundiza en la implementación de los componentes del bounded co
 
 <img src='resources/classDiagrams/DiagramaClasesMonitoringAlerts.jpg'/>
 
+<div id="4.2.3.6.2."><h4>4.2.3.6.2. Bounded Context Database Design Diagram</h4></div>
 <div id="4.2.1.6.2."><h4>4.2.3.6.2. Bounded Context Database Design Diagram</h4></div>
 
 <img src="resources/database-img/DBNotificationsAlerts.png"/>
 
+<img src="resources/databaseDiagrams/NotificationAlerts.jpg"/>
 
-<div id="4.2.1."><h4>4.2.4. Bounded Context: &lt;Automation Management&gt;</h4></div>
+
+<div id="4.2.4."><h4>4.2.4. Bounded Context: &lt;Automation Management&gt;</h4></div>
 
 El bounded context es encargado de accionar los dispositivos IoT según lo haya requerido los usuarios, basándose en las condiciones ambientales detectadas o rutinas que hayan sido programadas. A la vez, permite aplicar las reglas de automatización establecidas, por lo que acá es donde se da la mayor interacción con el usuario.
 
 
-<div id="4.2.1.1."><h4>4.2.4.1. Domain Layer</h4></div>
+<div id="4.2.4.1."><h4>4.2.4.1. Domain Layer</h4></div>
 
 El Domain layer de este Bounded Context tiene las clases y servicios encargados de accionar los dispositivos asignados a evaluar las variables definidas por el usuario
 
@@ -1451,6 +1464,7 @@ Implementa detalles técnicos de ejecución de comandos sobre dispositivos.
 
 <div id="4.2.1.6.2."><h4>4.2.4.6.2. Bounded Context Database Design Diagram</h4></div>
 
+<img src="resources/databaseDiagrams/AutomationManagement.jpg"/>
 <img src="resources/database-img/DBAutomationManagement.png"/>
 
 <div id="4.2.5."><h4>4.2.5. Bounded Context: &lt;Routine Scheduling&gt;</h4></div>
@@ -1663,6 +1677,8 @@ Esta sección presenta diagramas que profundizan en la estructura del código y 
 <div id="4.2.5.6.2."><h4>4.2.5.6.2. Bounded Context Database Design Diagram</h4></div>
 
 
+<img src="resources/databaseDiagrams/RoutineScheduling.jpg"/>
+
 <img src="resources/database-img/DBRoutineScheduling.png"/>
 
 <div id='9.'><h2>Bibliografía</h2></div>
@@ -1677,6 +1693,8 @@ Science Magazine. (2020). Digital health adoption in emerging countries: A syste
 
 
 <div id='10.'><h2>Anexos</h2></div>
+
+TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EQxqfD69o_NFjY9CwEsmo94BPjH3vqoLyBvHAM_DY2xV-A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=W7W7yR]
 
 Entrevistas: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]
 
