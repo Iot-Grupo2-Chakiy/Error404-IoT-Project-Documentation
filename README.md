@@ -25,6 +25,7 @@
 | 06/04/2024 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
 | 06/04/2024 | 1.0     |  Sebastian Cachis  | Desarrollo de Hypothesis Statements y UX Canvas |
 | 07/04/2024 | 1.0     |  Elias Yauri  | Desarrollo del Registro de entrevistas |
+| 07/04/2024 | 1.0     |  Elias Yauri  | Desarrollo de las User Stories |
 | 17/04/2024 | 1.0     |  Diego Cantoral | Desarrollo del Impact Mapping y Product Backlog |
 
 
