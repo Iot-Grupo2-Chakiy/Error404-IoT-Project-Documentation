@@ -181,8 +181,6 @@ establecen objetivos, planifican tareas y cumplen objetivos.
 En el siguiente cuadro se describe las acciones realizadas y enunciados de 
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 
-
-
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
 |Trabaja en equipo para proporcionar liderazgo en forma conjunta|**Guillen Luna, Paolo César:** <br> **TB1:**  Me encargue de manejar las actividades de cada integrantes de mi grupo, separando las secciones del trabajo de forma uniforme para cumplir de forma adecuada y coherente esta primera entrega <br> **Yauri Paucar, Elias:** <br> **TB1:** Coordiné con mis compañeros para darle coherencia a nuestro trabajo y realizar cada sección de forma acorde a los requisitos de nuestra solución  <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  Me encargué de realizar entrevistas a ciertos segmentos de nuestra solución a partir de las preguntas y colaboración de mi equipo pude obtener resultados acordes a esta primera entrega <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:** Me encargué de hablar con mi equipo de forma periódica con mi equipo para ver el avance del trabajo y apoyar siempre en lo que se necesitaba, donde aporté en secciones del event storming principalmente. <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:**  Me encargue de la dirección fundamental del primer capítulo del trabajo a partir de una organización con mi equipo para la elección del tema, además de realizar las preguntas que haríamos en nuestras entrevistas. <br>|**TB1:** Concluyendo la primera entrega todo el equipo a partir de una colaboración adecuada logramos comunicarnos para obtener un MVP (Minimum Viable Product) para esta primera entrega.|
@@ -1736,13 +1734,45 @@ Esta sección presenta diagramas que profundizan en la estructura del código y 
 
 <div id='5.4.1.'><h4> 5.4.1. Applications Wireframes</h4></div>
 
-<div id='5.4.2.'><h4> 5.4.2. Applications Wireframes</h4></div>
+<div id='5.4.2.'><h4> 5.4.2. Applications Wireflow Diagrams</h4></div>
 
-<div id='5.4.3.'><h4> 5.4.3. Applications Wireframes</h4></div>
+<div id='5.4.3.'><h4> 5.4.3. Applications Mock-ups</h4></div>
 
-<div id='5.4.4.'><h4> 5.4.4. Applications Wireframes</h4></div>
+<div id='5.4.4.'><h4> 5.4.4. Applications User Flow Diagrams</h4></div>
 
 <div id='5.5.'><h3> 5.5 Applications Prototyping</h3></div>
+
+<div id='6.'><h2>Capítulo VI: Product Implementation, Validation & Deployment</h2></div>
+
+<div id='6.1.'><h3> 6.1 Software Configuration Management</h3></div>
+
+<div id='6.1.1.'><h4> 6.1.1. Software Development Environment Configuration</h4></div>
+
+<div id='6.1.2.'><h4> 6.1.2. Source Code Management</h4></div>
+
+<div id='6.1.3.'><h4> 6.1.3. Source Code Style Guide & Conventions</h4></div>
+
+<div id='6.1.4.'><h4> 6.1.4. Software Deployment Configuration</h4></div>
+
+<div id='6.2.'><h3> 6.2 Sprint 1</h3></div>
+
+<div id='6.2.1.'><h4> 6.2.1. Sprint Planning 1</h4></div>
+
+<div id='6.2.2.'><h4> 6.2.2. Aspect Leaders and Collaborators</h4></div>
+
+<div id='6.2.3.'><h4> 6.2.3. Sprint Backlog 1</h4></div>
+
+<div id='6.2.4.'><h4> 6.2.4. Development Evidence for Sprint Review</h4></div>
+
+<div id='6.2.5.'><h4> 6.2.5. Testing Suite Evidence for Sprint Review</h4></div>
+
+<div id='6.2.6.'><h4> 6.2.6. Execution Evidence for Sprint Review</h4></div>
+
+<div id='6.2.7.'><h4> 6.2.7. Services Documentation Evidence for Sprint Review</h4></div>
+
+<div id='6.2.8.'><h4> 6.2.8. Software Deployment Evidence for Sprint Review</h4></div>
+
+<div id='6.2.9.'><h4> 6.2.9. Team Collaboration Insights during Sprint</h4></div>
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
