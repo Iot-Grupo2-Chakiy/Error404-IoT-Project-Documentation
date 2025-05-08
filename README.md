@@ -129,7 +129,42 @@ URL del repositorio del proyecto: [https://github.com/Iot-Grupo2-Chakiy]
 4.2.5.6. [Bounded Context Software Architecture Code Level Diagrams](#4.2.1.6.)<br>
 4.2.5.6.1. [Bounded Context Domain Layer Class Diagrams](#4.2.1.6.1.)<br>
 4.2.5.6.2. [Bounded Context Database Design Diagram](#4.2.1.6.2.)<br>
-
+5. [**Capítulo V: Solution UI/UX Design.**](#5.) <br>
+5.1. [***Style Guidelines***](#5.1.) <br>
+5.1.1. [General Style Guidelines](#5.1.1.)<br>
+5.1.2.[Web, Mobile and IoT Style Guidelines](#5.1.2.)<br>
+5.2. [***Information Architecture***](#5.2.)<br>
+5.2.1. [Organization Systems](#5.2.1.)<br>
+5.2.2. [Labeling Systems](#5.2.2.)<br>
+5.2.3. [SEO Tags and Meta Tags](#5.2.3.)<br>
+5.2.4. [Searching Systems](#5.2.4.)<br>
+5.2.5. [Navigation Systems](#5.2.5.)<br>
+5.3. [***Landing Page UI Design***](#5.3.)<br>
+5.3.1. [Landing Page Wireframe](#5.3.1.)<br>
+5.3.2. [Landing Page Mock-up](#5.3.2.)<br>
+5.4. [***Applications UX/UI Design***](#5.4.)<br>
+5.4.1. [Applications Wireframes](#5.4.1.)<br>
+5.4.2. [Applications Wireflow Diagrams](#5.4.2.)<br>
+5.4.3. [Applications Mock-ups](#5.4.3.)<br>
+5.4.4. [Applications User Flow Diagrams](#5.4.4.)<br>
+5.5. [***Applications Prototyping***](#5.5.)<br>
+6. [**Capítulo VI: Product Implementation, Validation & Deployment.**](#6.) <br>
+6.1. [***Software Configuration Management***](#6.1.) <br>
+6.1.1. [Software Development Environment Configuration](#6.1.1.)<br>
+6.1.2.[Source Code Management](#6.1.2.)<br>
+6.1.3.[Source Code Style Guide & Conventions](#6.1.3.)<br>
+6.1.4.[Software Deployment Configuration](#6.1.4.)<br>
+6.2. [***Landing Page, Services & Applications Implementation***](#5.2.)<br>
+6.2.1. [Sprint 1](#6.2.1.)<br>
+6.2.1.1. [Sprint Planning 1](#6.2.1.1.)<br>
+6.2.1.2. [Aspect Leaders and Collaborators](#6.2.1.2.)<br>
+6.2.1.3. [Sprint Backlog 1](#6.2.1.3.)<br>
+6.2.1.4. [Development Evidence for Sprint Review](#6.2.1.4.)<br>
+6.2.1.5. [Testing Suite Evidence for Sprint Review](#6.2.1.5.)<br>
+6.2.1.6. [Execution Evidence for Sprint Review](#6.2.1.6.)<br>
+6.2.1.7. [Services Documentation Evidence for Sprint Review](#6.2.1.7.)<br>
+6.2.1.8. [Software Deployment Evidence for Sprint Review](#6.2.1.8.)<br>
+6.2.1.9. [Team Collaboration Insights during Sprint](#6.2.1.9.)<br>
 8. [**Conclusiones**](#8.)<br>
 9. [**Bibliografía**](#9.)<br>
 10. [**Anexos**](#10.)<br>
@@ -1671,11 +1706,47 @@ Esta sección presenta diagramas que profundizan en la estructura del código y 
 
 <img src="resources/database-img/DBRoutineScheduling.png"/>
 
+<div id='5.'><h2>Capítulo V: Solution UI/UX Design</h2></div>
+
+<div id='5.1.'><h3> 5.1 Style Guidelines</h3></div>
+
+<div id='5.1.1.'><h4> 5.1.1. General Style Guidelines</h4></div>
+
+<div id='5.1.2.'><h4> 5.1.2. Web, Mobile and IoT Style Guidelines</h4></div>
+
+<div id='5.2.'><h3> 5.2 Information Architecture</h3></div>
+
+<div id='5.2.1.'><h4> 5.2.1. Organization Systems</h4></div>
+
+<div id='5.2.2.'><h4> 5.2.2. Labeling Systems</h4></div>
+
+<div id='5.2.3.'><h4> 5.2.3. SEO Tags and Meta Tags</h4></div>
+
+<div id='5.2.4.'><h4> 5.2.4. Searching Systems</h4></div>
+
+<div id='5.2.5.'><h4> 5.2.5. Navigation Systems</h4></div>
+
+<div id='5.3.'><h3> 5.3 Landing Page UI Design</h3></div>
+
+<div id='5.3.1.'><h4> 5.3.1. Landing Page Wireframe</h4></div>
+
+<div id='5.3.2.'><h4> 5.3.2. Landing Page Mock-up</h4></div>
+
+<div id='5.4.'><h3> 5.4 Applications UX/UI Design</h3></div>
+
+<div id='5.4.1.'><h4> 5.4.1. Applications Wireframes</h4></div>
+
+<div id='5.4.2.'><h4> 5.4.2. Applications Wireframes</h4></div>
+
+<div id='5.4.3.'><h4> 5.4.3. Applications Wireframes</h4></div>
+
+<div id='5.4.4.'><h4> 5.4.4. Applications Wireframes</h4></div>
+
+<div id='5.5.'><h3> 5.5 Applications Prototyping</h3></div>
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
 **TB1:** Se concluye tras este entregable que plantear un proyecto y de buena manera desde el inicio es esencial, el hecho de iniciar un proyecto IoT planificando la estructura que va a seguir, su diseño, base de datos y requisitos que va a necesitar es algo esencial, puesto que se incurrirían en gastos materiales si es que el sistema se plantea de forma érronea, además del hecho de contar con un equipo, manejarlo y repartir las tareas fue algo esencial para un entregable exitoso.
-
 
 <div id='9.'><h2>Bibliografía</h2></div>
 
