@@ -1710,17 +1710,201 @@ Esta sección presenta diagramas que profundizan en la estructura del código y 
 
 <div id='5.1.1.'><h4> 5.1.1. General Style Guidelines</h4></div>
 
+**Branding y Logo**
+
+Las Directrices Generales de Estilo de "Chaki'y" sientan las bases para una identidad visual y comunicacional unificada y reconocible en todos nuestros productos. Estas directrices se han desarrollado considerando los principios de claridad, accesibilidad y confianza, fundamentales para una solución que busca mejorar la calidad de vida de personas con afecciones respiratorias. Aunque no partimos de un Design System preexistente complejo, tomaremos inspiración de sistemas establecidos como Material Design para ciertos patrones de interacción y componentes, adaptándolos a las necesidades específicas de "Chaki'y".
+
+Logotipo de la Startup
+
+<img src="resources/chapter-5/error404logo.png"/>
+
+Logotipo del producto
+
+<img src="resources/chapter-5/chakiy-logo.png"/>
+
+**Colores**
+
+La paleta cromática de "Chaki'y" se fundamenta en la creación de una interfaz que inspire calma y confianza, elementos esenciales para una aplicación de cuidado respiratorio. El Azul Sereno como color primario, junto con el Blanco Puro, establece un ambiente de profesionalismo médico y claridad, evocando la pureza del aire. Los colores secundarios, como el Verde Menta Suave y el Gris Azulado Claro, introducen matices de bienestar y tecnología sutil, respectivamente, apoyando la jerarquía visual sin sobrecargar. Finalmente, la selección de colores de texto, principalmente el Gris Oscuro Frío sobre fondos claros y el blanco sobre oscuros, prioriza la máxima legibilidad y confort visual, asegurando que la información crítica sea siempre accesible y fácil de comprender por el usuario.
+
+<img src="resources/chapter-5/colors.png"/>
+
+**Tipografía**
+
+Escoger la tipografía adecuada puede ser un problema, esta no debe ser invasiva y debe ser coherente para el usuario, puesto que es lo que va a estar presente todo el tiempo para este. Siendo uno de nuestros objetivos que la aplicación tenga un estilo minimalista, el tipo de letra "Poppins" fue lo más indicado, en estilos Medium, Regular, SemiBold y Bold.
+
+<img src="resources/chapter-5/font.png"/>
+
+**Spacing**
+
+Estaríamos estableciendo márgenes y un espaciado uniforme a lo largo del desarrollo de la interfaz de la aplicación para garantizar una experiencia de usuario consistente y agradable. Además, este se ajustaría según el tamaño del dispositivo en el cual se estaría mostrando.
+
 <div id='5.1.2.'><h4> 5.1.2. Web, Mobile and IoT Style Guidelines</h4></div>
+
+Para garantizar una experiencia de usuario coherente y efectiva en "Chaki'y", se establecen los siguientes estándares visuales y de interacción específicos para cada plataforma. Estos lineamientos aplican la identidad visual general, incluyendo la tipografía "Poppins" y la paleta de colores definida (azul sereno, verde menta y grises fríos), al diseño de interfaces web responsivas, aplicaciones móviles nativas y la presentación de datos y controles de IoT.
+
+**Responsive Web Interfaces**
+
+La interfaz web de "Chaki'y" se diseñará con un enfoque "mobile-first", asegurando una adaptación fluida a todos los tamaños de pantalla mediante un sistema de cuadrícula flexible (ej. 12 columnas) y breakpoints bien definidos. La navegación principal se transformará de barras superiores o laterales en escritorio a menús compactos (tipo hamburguesa) en dispositivos móviles, optimizando el espacio. Se utilizarán componentes modulares tipo "tarjeta" para presentar información de sensores, facilitando su reorganización responsiva. Las interacciones serán directas, con retroalimentación visual clara (estados hover/active) para mantener la claridad y el estilo minimalista.
+
+**Mobile Application Interfaces**
+
+Las aplicaciones móviles nativas seguirán las directrices de diseño de cada plataforma (Material Design en Android) para asegurar una experiencia familiar, integrando la estética de "Chaki'y". La navegación principal se basará en patrones nativos como barras de pestañas inferiores. Se priorizarán componentes y gestos táctiles estándar para una interacción intuitiva y un rendimiento óptimo. Las notificaciones push serán concisas y accionables, respetando las convenciones de cada sistema operativo.
+
+**IoT Application User Interface**
+
+La presentación de datos de los dispositivos IoT dentro de las interfaces web y móvil se centrará en la claridad y la rápida comprensión. Los historiales de sensores se visualizarán mediante gráficos de líneas o barras limpios y legibles, utilizando colores de la paleta para diferenciar datos y asegurar contraste. Los valores en tiempo real se mostrarán con indicadores prominentes (iconos, números grandes) y cambios de color según los umbrales de estado (óptimo, advertencia, crítico). El control de dispositivos (encender/apagar) se realizará mediante interruptores (toggles) o botones claramente etiquetados, con confirmación visual inmediata de la acción.
 
 <div id='5.2.'><h3> 5.2 Information Architecture</h3></div>
 
+Una Arquitectura de la Información (AI) bien definida es fundamental para que los usuarios de "Chaki'y" puedan navegar por nuestras plataformas (Landing Page, aplicación web y aplicación móvil) de manera intuitiva, encontrar la información que necesitan sin esfuerzo y utilizar la funcionalidad del producto con facilidad. Las decisiones tomadas en esta sección se basan en la comprensión de nuestros segmentos de usuarios (adultos con asma y padres/cuidadores), sus tareas principales (identificadas en el User Task Matrix) y sus objetivos al interactuar con nuestra solución. El objetivo principal es estructurar el contenido y las funciones de forma lógica y predecible, minimizando la carga cognitiva y promoviendo una experiencia de usuario satisfactoria y eficiente. A continuación, se detallarán las decisiones específicas sobre los sistemas de organización, etiquetado, navegación y búsqueda que darán forma a la AI de "Chaki'y".
+
 <div id='5.2.1.'><h4> 5.2.1. Organization Systems</h4></div>
+
+La organización del contenido y las funcionalidades dentro de "Chaki'y" se ha diseñado para ser intuitiva y eficiente, permitiendo a los usuarios acceder rápidamente a la información y herramientas relevantes para el manejo de su salud respiratoria o la de sus dependientes. Se aplicarán diferentes sistemas de organización y esquemas de categorización según la naturaleza de la información y el contexto de uso, tanto en la Landing Page como en las aplicaciones web y móvil.
+
+**Organización Visual del Contenido**
+
+- **Organización Jerárquica (Visual Hierarchy)**: Este será el sistema de organización visual predominante en la mayoría de las interfaces de "Chaki'y". Se utilizará para estructurar las pantallas principales, menús de navegación y la presentación de datos complejos. Por ejemplo, en el dashboard principal de la aplicación, la información más crítica (como alertas activas o el estado general de la calidad del aire) se presentará con mayor prominencia visual (tamaño, color, posición) que los datos históricos o las opciones de configuración menos frecuentes. La tipografía "Poppins" con sus diferentes pesos (Bold, SemiBold) y la escala tipográfica definida serán cruciales para establecer esta jerarquía visual de manera clara.
+- **Organización Secuencial (Step-by-Step)**: Se aplicará en procesos que requieren una serie de pasos definidos para completarse. Esto es fundamental para guiar al usuario de forma clara y reducir errores. Ejemplos incluyen el proceso de configuración inicial de un nuevo sensor, la creación de una rutina de automatización personalizada o el flujo para configurar umbrales de alerta. En estos casos, se usarán indicadores de progreso (steppers) o una secuencia clara de pantallas para guiar al usuario.
+- **Organización Matricial**: Aunque menos frecuente, podría utilizarse de forma sutil para comparar características o planes si "Chaki'y" ofreciera diferentes niveles de servicio en la Landing Page o en una sección de "Actualizar Plan" dentro de la aplicación. También podría aplicarse internamente para la gestión de múltiples sensores en una vista tabular si el usuario tiene muchos dispositivos, permitiendo ordenar o filtrar por diferentes criterios (ubicación, tipo de sensor).
+
+**Esquemas de Categorización de Contenido**
+
+- **Por Tópicos (Topical)**: Este será el esquema principal para organizar las secciones de la aplicación. Por ejemplo, la navegación principal podría dividirse en tópicos como "Monitoreo en Tiempo Real", "Historial y Análisis", "Alertas", "Automatización" y "Configuración". Dentro de la Landing Page, la información también se organizará por temas relevantes para los visitantes (Características, Beneficios, Testimonios, Precios).
+- **Cronológico (Chronological)**: Esencial para la presentación de datos históricos de los sensores (temperatura, humedad, calidad del aire) y para el registro de eventos (como alertas generadas o activaciones automáticas de dispositivos). Los usuarios podrán ver gráficos y listas de eventos ordenados por fecha y hora.
+- **Según Audiencia (Audience-Specific)**: Aunque "Chaki'y" tiene dos segmentos principales (adultos con asma y padres/cuidadores), la funcionalidad central es en gran medida compartida. Sin embargo, la Landing Page podría tener secciones o mensajes ligeramente diferenciados para atraer a cada grupo. Dentro de la aplicación, más que una categorización estructural por audiencia, se ofrecerán opciones de personalización que se adapten a las necesidades individuales (ej. configurar alertas para un niño vs. para uno mismo). No se prevé una división estricta de la interfaz por audiencia, sino una adaptabilidad a través de la configuración.
+- **Alfabético (Alphabetical)**: Se utilizará de forma secundaria para listas largas donde no prime otro criterio de ordenación más lógico, por ejemplo, si hubiera una lista de dispositivos para seleccionar en una configuración avanzada o una lista de términos en un glosario (si se incluyese).
 
 <div id='5.2.2.'><h4> 5.2.2. Labeling Systems</h4></div>
 
+El sistema de etiquetado de "Chaki'y" se ha diseñado con un enfoque en la simplicidad, la claridad y la consistencia para asegurar que los visitantes y usuarios comprendan rápidamente el propósito de cada elemento de la interfaz y puedan navegar con confianza. Se priorizarán etiquetas concisas (con el mínimo número de palabras necesario) y un lenguaje familiar, evitando la el uso de vocabulario coloquial y buscando siempre la coherencia con el "Ubiquitous Language" definido para el proyecto.
+
+**Principios Clave del Sistema de Etiquetado**
+
+1. **Claridad y Precisión**: Las etiquetas describirán de forma inequívoca la función o el contenido al que se refieren. Se buscará un lenguaje directo y comprensible para nuestros segmentos de usuarios.
+2. **Concisión**: Se utilizará el menor número de palabras posible sin sacrificar la claridad. Por ejemplo, en lugar de "Ver el historial detallado de las mediciones del sensor", se podría usar "Ver Historial" o "Detalles del Sensor".
+3. **Consistencia**: La misma etiqueta se utilizará para referirse a la misma función o tipo de información a lo largo de todas las plataformas (Landing Page, web app, mobile app). Por ejemplo, si "Configuración" se usa en el menú principal, no se usará "Ajustes" en otra parte para una función similar.
+4. **Familiaridad**: Siempre que sea posible, se utilizarán términos que sean comunes y fácilmente reconocibles por los usuarios, basándose en convenciones estándar de aplicaciones web y móviles.
+5. **Orientación a la Acción (para botones y enlaces)**: Las etiquetas de los botones y enlaces indicarán claramente la acción que se realizará al interactuar con ellos (ej. "Guardar Cambios", "Activar Alerta", "Ver Gráfico").
+
+**Ejemplos de Etiquetado y Asociaciones Clave**
+
+A continuación, se presentan ejemplos de etiquetas principales que se utilizarán para representar conjuntos de información y las asociaciones que se buscan establecer en la mente del usuario
+
+- Navegación Principal (Aplicaciones)
+  - **"Inicio" / "Dashboard"**: Representa la pantalla principal con un resumen del estado actual y accesos directos. Asociación: Visión general, estado actual.
+  - **"Sensores" / "Dispositivos"**: Acceso a la lista y gestión de los sensores/dispositivos conectados. Asociación: Control y configuración de hardware.
+  - **"Historial"**: Visualización de datos históricos de los sensores. Asociación: Análisis de tendencias, datos pasados.
+  - **"Alertas"**: Gestión y visualización de alertas configuradas y recibidas. Asociación: Notificaciones importantes, seguridad.
+  - **"Rutinas" / "Automatización"**: Configuración de reglas de automatización. Asociación: Acciones automáticas, personalización avanzada.
+  - **"Configuración" / "Ajustes"**: Acceso a las configuraciones generales de la cuenta y la aplicación. Asociación: Preferencias personales, gestión de cuenta.
+  - **"Ayuda" / "Soporte"**: Acceso a documentación, FAQs o contacto. Asociación: Asistencia, resolución de dudas.
+
+- Landing Page
+  - **"Características"**: Describe las funcionalidades clave de Chaki'y. Asociación: Qué hace el producto.
+  - **"Beneficios"**: Explica cómo Chaki'y mejora la vida del usuario. Asociación: Por qué necesito el producto.
+  - **"Cómo Funciona"**: Una explicación simple del sistema. Asociación: Facilidad de uso, tecnología.
+  - **"Testimonios"**: Opiniones de otros usuarios. Asociación: Prueba social, confianza.
+"Planes" / "Precios" (si aplica): Información sobre modelos de suscripción. Asociación: Costo, opciones de servicio.
+  - **"Contacto"**: Formas de comunicarse con el equipo de Chaki'y. Asociación: Soporte, consultas.
+
+- Etiquetas de Acciones Comunes
+  - **"Guardar"**: Para confirmar cambios.
+  - **"Cancelar"**: Para descartar cambios o cerrar un modal/diálogo.
+  - **"Editar"**: Para modificar información existente.
+  - **"Añadir Nuevo" / "+"**: Para crear un nuevo elemento (ej. nueva alerta, nuevo sensor).
+  - **"Ver Detalles" / "Más Información"**: Para acceder a una vista más completa.
+
+- Etiquetado de Datos de Sensores
+  - Se usarán términos claros como "Temperatura", "Humedad", "Calidad del Aire".
+  - Las unidades de medida (ej. °C, %) se mostrarán siempre junto al valor.
+  - Los estados (ej. "Óptimo", "Alto", "Bajo", "Crítico") se etiquetarán de forma consistente.
+
 <div id='5.2.3.'><h4> 5.2.3. SEO Tags and Meta Tags</h4></div>
 
+Para asegurar la visibilidad de "Chaki'y" en los motores de búsqueda (SEO) y mejorar su descubrimiento en las tiendas de aplicaciones (ASO), se definirán cuidadosamente las etiquetas y metadatos para nuestras plataformas digitales. Esto incluye la Landing Page, las páginas principales de la aplicación web y la información para las tiendas de aplicaciones móviles.
+
+**SEO Tags y Meta Tags (Landing Page y Aplicación Web)**
+
+Se implementarán las siguientes meta etiquetas en el head de las páginas HTML correspondientes.
+
+1. Landing Page Principal de "Chaki'y"
+
+```html
+<title>: Chaki'y | Solución Inteligente para el Cuidado Respiratorio y Control Ambiental
+
+<meta name="description" content="Error404 - Soluciones IoT para mejorar la calidad de vida. Descubre Chaki'y, nuestra solución para un ambiente saludable.">
+<meta name="keywords" content="Error404, Chaki'y, IoT, tecnología, salud, calidad de vida, ambiente saludable">
+<meta name="author" content="Error404 Team">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Chaki'y - Solución Inteligente para el Cuidado Respiratorio y Control Ambiental">
+<meta property="og:description" content="Error404 - Soluciones IoT para mejorar la calidad de vida. Descubre Chaki'y, nuestra solución para un ambiente saludable.">
+```
+2. Página Principal de la Aplicación Web (Dashboard - una vez el usuario ha iniciado sesión):
+* Aunque el SEO es menos crítico para las páginas internas de una aplicación tras el login, un título claro sigue siendo importante para la experiencia del usuario y los marcadores.
+```html
+  <title>: Dashboard | Chaki'y - Control Ambiental
+  * Justificación: Identifica claramente la sección y el producto.
+  * <meta name="robots" content="noindex, nofollow"> 
+  ```
+* Justificación: Generalmente, las páginas internas de una aplicación no deben ser indexadas por los motores de búsqueda.
+
+**ASO (App Store Optimization) Elements (Aplicación Móvil "Chaki'y")**
+
+Para la publicación en tiendas de aplicaciones como Google Play Store y Apple App Store, se utilizarán los siguientes elementos
+
+- **App Title (Título de la App)**
+  - **Valor**: Chaki'y: Control Ambiental y Salud Respiratoria
+  - **Justificación**: Claro, incluye el nombre y palabras clave principales.
+- **App Keywords (Palabras Clave)**
+  - **Valores**: asma, alergias, respiratorio, calidad aire, humedad, IoT, sensor, ambiente, hogar, salud, bienestar, Chaki'y, monitoreo ambiental, cuidado pulmonar.
+  - **Justificación**: Términos que los usuarios buscarían para encontrar una solución como Chaki'y.
+- **App Subtitle (Subtítulo - si la tienda lo permite)**
+  - **Valor**: Monitorea y mejora el aire de tu hogar con IoT.
+  - **Justificación**: Breve descripción que complementa el título y destaca el beneficio/tecnología.
+- App Description
+  - **Valor**:
+  ¡Transforma tu hogar en un oasis de aire puro con Chaki'y! 
+
+  Chaki'y es tu asistente inteligente para el cuidado respiratorio, diseñado especialmente para personas con asma, alergias y cualquiera que busque un ambiente más saludable. Nuestra aplicación se conecta con sensores IoT para monitorear en tiempo real la temperatura, humedad y calidad del aire en tus espacios.
+
+  Características Principales:
+  * Monitoreo Continuo: Accede a datos precisos de tu ambiente 24/7.
+  * Alertas Inteligentes: Recibe notificaciones instantáneas ante condiciones desfavorables.
+  * Historial Detallado: Analiza tendencias y comprende los factores que afectan tu salud.
+  * Control de Dispositivos: Automatiza tus deshumidificadores o purificadores.
+  * Recomendaciones Personalizadas: Consejos para mantener un ambiente óptimo.
+
+  Ideal para:
+  * Personas con asma y otras afecciones respiratorias.
+  * Padres preocupados por la calidad del aire para sus hijos.
+  * Cualquiera que desee un hogar más saludable y confortable.
+
+  ¡Descarga Chaki'y y empieza a respirar mejor hoy mismo!
+
 <div id='5.2.4.'><h4> 5.2.4. Searching Systems</h4></div>
+
+Para facilitar a los usuarios de "Chaki'y" el acceso rápido a información específica dentro del volumen de datos que la aplicación puede generar (como historiales de sensores, listas de alertas o configuraciones), se implementarán sistemas de búsqueda y filtrado intuitivos. El objetivo es minimizar el tiempo que el usuario invierte en encontrar lo que necesita y evitar que se sienta perdido o abrumado por la cantidad de información disponible.
+
+**Principios de los Sistemas de Búsqueda en "Chaki'y"**
+
+1. **Accesibilidad**: Las funciones de búsqueda y filtro estarán claramente visibles y accesibles en las secciones donde sean relevantes.
+2. **Relevancia**: Los resultados de búsqueda se priorizarán por relevancia, mostrando primero la información que más probablemente coincida con la intención del usuario.
+3. **Rapidez**: El sistema de búsqueda estará optimizado para ofrecer resultados de manera rápida.
+4. **Claridad en los Resultados**: Los resultados se presentarán de forma organizada y fácil de escanear, destacando los términos de búsqueda si es aplicable.
+
+**En Secciones con Datos Históricos (Historial de Sensores, Registro de Alertas)**
+
+- Se ofrecerán mecanismos para delimitar la visualización de datos por periodos de tiempo, permitiendo al usuario enfocarse en rangos de fechas específicos ("última semana", "mes específico") mediante selectores intuitivos.
+- Cuando existan múltiples fuentes de datos (varios sensores o tipos de alertas), se habilitarán opciones para filtrar la información según su origen o categoría relevante (por sensor específico, por tipo de alerta como "crítica" o "informativa").
+- Se considera la posibilidad de una búsqueda por palabras clave en descripciones o mensajes de texto (el contenido de las alertas) para facilitar la localización de eventos específicos.
+- Presentación de Resultados: Las vistas de datos, como gráficos o listas, se actualizarán dinámicamente para reflejar los criterios de búsqueda o filtros aplicados, presentando la información de manera clara y concisa.
+
+**En Secciones de Gestión de Elementos (Lista de Rutinas de Automatización, Lista de Dispositivos Configurados)**
+
+- Si el número de elementos gestionados por el usuario se vuelve considerable, se implementará una funcionalidad de búsqueda por nombre o identificador para localizar rápidamente un elemento específico.
+- Se explorará la utilidad de filtros basados en las propiedades principales de estos elementos (ej. filtrar rutinas por el tipo de acción que realizan, o dispositivos por su ubicación asignada).
+- Presentación de Resultados: Las listas se reducirán para mostrar solo los elementos que coincidan con la búsqueda o los filtros, manteniendo una presentación ordenada.
 
 <div id='5.2.5.'><h4> 5.2.5. Navigation Systems</h4></div>
 
@@ -1728,7 +1912,15 @@ Esta sección presenta diagramas que profundizan en la estructura del código y 
 
 <div id='5.3.1.'><h4> 5.3.1. Landing Page Wireframe</h4></div>
 
+<img src="resources/chapter-5/landing-wireframe.png"/>
+
+<img src="resources/chapter-5/landing-wireframe-movil.png"/>
+
 <div id='5.3.2.'><h4> 5.3.2. Landing Page Mock-up</h4></div>
+
+<img src="resources/chapter-5/landing-mockup.png"/>
+
+<img src="resources/chapter-5/landing-mockup-movil.png"/>
 
 <div id='5.4.'><h3> 5.4 Applications UX/UI Design</h3></div>
 
