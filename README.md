@@ -1913,6 +1913,17 @@ Para facilitar a los usuarios de "Chaki'y" el acceso rápido a información espe
 
 <div id='5.2.5.'><h4> 5.2.5. Navigation Systems</h4></div>
 
+El sistema de navegación de "Chaki'y" está diseñado para proporcionar una experiencia fluida y consistente a lo largo de todas las plataformas disponibles (landing page, aplicación web y aplicación móvil). Se prioriza la simplicidad, la familiaridad con patrones de navegación comunes, y el acceso rápido a las funciones clave que los usuarios necesitan en cada contexto.
+
+Principios del Sistema de Navegación
+
+Consistencia Multiplataforma: La estructura general de navegación mantiene elementos comunes entre la web app y la aplicación móvil, asegurando que los usuarios puedan trasladar sus conocimientos entre plataformas sin fricciones.
+
+* Acceso Prioritario a Funciones Críticas: Se prioriza el acceso rápido a funciones centrales como el monitoreo en tiempo real, alertas, historial y configuración.
+* Minimización de la Carga Cognitiva: Se evita la sobrecarga visual o funcional presentando solo los elementos necesarios en cada vista.
+* Adaptabilidad Contextual: La navegación se adapta al dispositivo y contexto de uso (ej. menú lateral desplegable en mobile, navegación fija en desktop).
+
+
 <div id='5.3.'><h3> 5.3 Landing Page UI Design</h3></div>
 
 <div id='5.3.1.'><h4> 5.3.1. Landing Page Wireframe</h4></div>
