@@ -2787,6 +2787,8 @@ Gherkin Syntax: https://cucumber.io/docs/gherkin/reference/
 <img src='resources/Spint1Backlog/5.png'/>
 <img src='resources/Spint1Backlog/6.png'/>
 
+Execution Video Evidence: https://acortar.link/unx0in
+
 <div id='6.2.7.'><h4> 6.2.7. Services Documentation Evidence for Sprint Review</h4></div>
 
 Durante este sprint se avanzó con la implementación de los endpoints necesarios para los Bounded Contexts relacionados a **routines**, **dispositivos IoT** y **logs de auditoría**. A continuación, se describen los endpoints habilitados para cada uno de estos, destacando su funcionalidad principal y las operaciones CRUD habilitadas:
@@ -2863,4 +2865,8 @@ LandingPage: [https://chakiy.netlify.app/]
 Frontend: [https://chakys-frontend.web.app/]
 
 Backend: [https://chakiyiotsupermain-aqd8ephjbra0e5bf.canadacentral-01.azurewebsites.net/api/v1/iot-devices]
+
+TP: [https://acortar.link/p0n06B]
+
+Execution Evidence: [https://acortar.link/unx0in]
 
