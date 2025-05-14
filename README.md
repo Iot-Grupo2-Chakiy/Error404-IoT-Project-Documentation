@@ -2207,12 +2207,252 @@ Para el despliegue del backend de la API del producto **Chaki'y**, utilizamos **
 8. Cada vez que se hace un `push` a la rama principal del repositorio, Azure reconstruye y despliega automáticamente la última versión del backend en producción.
     
 <div id='6.2.'><h3> 6.2 Sprint 1</h3></div>
-
 <div id='6.2.1.'><h4> 6.2.1. Sprint Planning 1</h4></div>
+
+<table>
+    <thead>
+        <tr>
+            <td>Sprint #</td>
+            <td>Sprint 1</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sprint Planning Background</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Date</td>
+            <td>01/05/2022</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>21:00 hrs</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Google Meet</td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td>Error 404 Team</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Guillen Luna, Paolo César / Cachis Gonzales, Sebastian Nicolas / Llamo Sánchez, Amner Levi / Cantoral Paredes, Diego André / Elias Yauri Paucar</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Review Summary</td>
+            <td>Al ser el primer sprint, no se cuenta con una revisión de sprint anterior. El enfoque estuvo en construir la base visual del sistema.</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Retrospective Summary</td>
+            <td>El equipo destacó la importancia de una mejor distribución de tareas y control de tiempos. Se acordó mejorar la organización del trabajo colaborativo y optimizar la comunicación.</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sprint Goal & User Stories</td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Goal</td>
+            <td>Diseñar la estructura visual de la aplicación mediante la landing page y vistas principales, además de iniciar la implementación de funcionalidades clave como el CRUD de dispositivos IoT y control de estos (por ahora en frontend)</td>
+        </tr>
+        <tr>
+            <td>Sprint 1 Velocity</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>15</td>
+        </tr>
+    </tbody>
+</table>
+
 
 <div id='6.2.2.'><h4> 6.2.2. Aspect Leaders and Collaborators</h4></div>
 
+Durante el Sprint 1, los aspectos abordados por el equipo se relacionaron con la visualización en tiempo real de condiciones ambientales (humedad, calidad del aire), control y automatización de dispositivos, creación de rutinas personalizadas, y diseño de interfaces de usuario funcionales. Para asegurar una mejor colaboración y comunicación, se asignaron roles de líder (L) y colaborador (C) por aspecto, de acuerdo a la participación activa y responsabilidad en cada funcionalidad implementada.
+
+<table>
+  <thead>
+    <tr>
+      <th>Team Member<br>(Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>Monitoreo Ambiental</th>
+      <th>Automatización y Rutinas</th>
+      <th>Control Manual</th>
+      <th>Interfaz de Usuario</th>
+      <th>Notificaciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Guillen Luna, Paolo César</td>
+      <td>GrandProgTest</td>
+      <td>L</td>
+      <td>C</td>
+      <td></td>
+      <td>C</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cachis Gonzales, Sebastian Nicolas</td>
+      <td>Dark7YT</td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td>C</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cantoral Paredes, Diego André</td>
+      <td>diegocantoralp</td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td>C</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Llamo Sánchez, Amner Levi</td>
+      <td>AmnerL</td>
+      <td></td>
+      <td>C</td>
+      <td>L</td>
+      <td></td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Elias Yauri Paucar</td>
+      <td>EliasYP</td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td>C</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
 <div id='6.2.3.'><h4> 6.2.3. Sprint Backlog 1</h4></div>
+
+Durante este primer sprint, el equipo se enfocó en construir las bases visuales y funcionales de Chaki’y, nuestra aplicación orientada a mejorar la calidad de vida de personas con afecciones respiratorias mediante tecnologías IoT. El trabajo se centró principalmente en el diseño e implementación inicial del frontend de la plataforma, asegurando que los componentes esenciales comenzaran a tomar forma.
+
+Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976406f2daab6cce27af1f889e806280B520/chakiy-productbacklog
+
+<table>
+  <thead>
+    <tr>
+      <td>Sprint #:</td>
+      <td colspan="7">Sprint 1</td>
+    </tr>
+    <tr>
+      <td colspan="2">User Story</td>
+      <td colspan="6">Work-Item / Task</td>
+    </tr>
+    <tr>
+      <td>ID</td>
+      <td>Title</td>
+      <td>ID</td>
+      <td>Title</td>
+      <td>Description</td>
+      <td>Estimation (Hours)</td>
+      <td>Assigned to</td>
+      <td>Status (To-Do/In-Process/To-Review/Done)</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US02</td>
+      <td>Visualización de humedad en tiempo real</td>
+      <td>01</td>
+      <td>Desarrollar componente de humedad</td>
+      <td>Crear módulo que muestre el nivel de humedad actual en la habitación del usuario</td>
+      <td>4</td>
+      <td>Guillen Luna, Paolo César</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Visualización de calidad del aire en tiempo real</td>
+      <td>02</td>
+      <td>Implementar módulo de calidad del aire</td>
+      <td>Mostrar el valor actual de calidad del aire en una tarjeta visible para el usuario</td>
+      <td>4</td>
+      <td>Cachis Gonzales, Sebastian Nicolas</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td>Configuración de rangos para automatización</td>
+      <td>03</td>
+      <td>Configurar parámetros para automatización</td>
+      <td>Permitir al usuario definir rangos de temperatura y humedad para activar dispositivos</td>
+      <td>5</td>
+      <td>Cantoral Paredes, Diego André</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td>Control manual de dispositivos</td>
+      <td>04</td>
+      <td>Agregar botones de control manual</td>
+      <td>Permitir al usuario encender o apagar manualmente los dispositivos desde la app</td>
+      <td>4</td>
+      <td>Llamo Sánchez, Amner Levi</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US19</td>
+      <td>Creación de rutinas personalizadas</td>
+      <td>05</td>
+      <td>Interfaz para crear rutinas</td>
+      <td>El usuario podrá configurar rutinas automáticas como "preparar habitación antes de llegar"</td>
+      <td>5</td>
+      <td>Elias Yauri Paucar</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Desactivación temporal de automatización</td>
+      <td>06</td>
+      <td>Botón de desactivación temporal</td>
+      <td>Permitir al usuario pausar temporalmente la automatización de un dispositivo</td>
+      <td>3</td>
+      <td>Guillen Luna, Paolo César</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Vista general de condiciones ambientales</td>
+      <td>07</td>
+      <td>Resumen de condiciones ambientales</td>
+      <td>Mostrar una vista consolidada de temperatura, humedad y calidad del aire</td>
+      <td>5</td>
+      <td>Cachis Gonzales, Sebastian Nicolas</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>US17</td>
+      <td>Programación de horarios para dispositivos</td>
+      <td>08</td>
+      <td>Definir programación horaria</td>
+      <td>Permitir configurar horarios de encendido/apagado del purificador</td>
+      <td>5</td>
+      <td>Cantoral Paredes, Diego André</td>
+      <td>In-Process</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Notificaciones push</td>
+      <td>09</td>
+      <td>Implementar notificaciones push</td>
+      <td>Enviar notificaciones al móvil incluso cuando la app esté cerrada</td>
+      <td>4</td>
+      <td>Llamo Sánchez, Amner Levi</td>
+      <td>In-Process</td>
+    </tr>
+  </tbody>
+</table>
 
 <div id='6.2.4.'><h4> 6.2.4. Development Evidence for Sprint Review</h4></div>
 
