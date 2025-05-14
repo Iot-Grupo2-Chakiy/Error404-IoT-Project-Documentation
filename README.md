@@ -1,6 +1,6 @@
 <h1 style="text-align: center;"> Informe del TF  </h1>
 <h2 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h2>
-<img src="resources/UPCPng.png" width=50%" style="text-align: center;"/>
+<img src="resources/UPCPng.png" width="50%" style="display: block; margin: 0 auto;" />
 <h4 style="text-align: center;"> Ingeniería de Software </h4>
 <h4 style="text-align: center;"> Desarrollo de Soluciones IoT </h4>
 <h4 style="text-align: center;"> Ciclo 2025-10 </h4>
