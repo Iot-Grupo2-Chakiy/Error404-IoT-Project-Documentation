@@ -2071,19 +2071,19 @@ Se ha utilizado Github para alojar los distintos repositorios creados por los mi
     <tbody>
         <tr>
             <td>Link Landing Page:</td>
-            <td></td>
+            <td>https://github.com/Iot-Grupo2-Chakiy/Chakiy-LandingPage</td>
         </tr>
         <tr>
             <td>Link Web Services: </td>
-            <td></td>
+            <td>https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API</td>
         </tr>
         <tr>
             <td>Link Front Web Applications: </td>
-            <td></td>
+            <td>https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front</td>
         </tr>
         <tr>
             <td>Link Mobile Applications: </td>
-            <td></td>
+            <td>**TBD**</td>
         </tr>
     </tbody>
 </table>
