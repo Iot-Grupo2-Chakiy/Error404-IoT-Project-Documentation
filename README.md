@@ -22,12 +22,17 @@
 ## Registro de versiones del informe
 |   Fecha    | Versión |      Autor      |                                 Descripción de modificación                                 |
 |:----------:|:-------:|:---------------:|:-------------------------------------------------------------------------------------------:|
-| 06/04/2024 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
-| 06/04/2024 | 1.1     |  Sebastian Cachis  | Desarrollo de Hypothesis Statements y UX Canvas |
-| 07/04/2024 | 1.2     |  Elias Yauri  | Desarrollo del Registro de entrevistas |
-| 07/04/2024 | 1.3     |  Amner Llamo  | Desarrollo de las User Stories |
-| 17/04/2024 | 1.4     |  Diego Cantoral | Desarrollo del Impact Mapping y Product Backlog |
-| 24/04/2024 | 1.5     |  Guillen Luna,Paolo César; Yauri Paucar, Elias ; Llamo Sánchez, Amner; Cantoral Paredes, Diego André; Cachis Gonzales, Sebastian Nicolas | Desarrollo completo del capítulo 4 de forma colaborativa, creando los diagramas C4 de cada uno de los bounded context acorde a las necesidades que el sistema podría requerir |
+| 06/04/2025 | 1.0     |  Guillen Paolo  | Creación del documento de trabajo en formato markdown junto al realizamiento de la carátula |
+| 06/04/2025 | 1.1     |  Sebastian Cachis  | Desarrollo de Hypothesis Statements y UX Canvas |
+| 07/04/2025 | 1.2     |  Elias Yauri  | Desarrollo del Registro de entrevistas |
+| 07/04/2025 | 1.3     |  Amner Llamo  | Desarrollo de las User Stories |
+| 17/04/2025 | 1.4     |  Diego Cantoral | Desarrollo del Impact Mapping y Product Backlog |
+| 24/04/2025 | 1.5     |  Guillen Luna,Paolo César; Yauri Paucar, Elias ; Llamo Sánchez, Amner; Cantoral Paredes, Diego André; Cachis Gonzales, Sebastian Nicolas | Desarrollo completo del capítulo 4 de forma colaborativa, creando los diagramas C4 de cada uno de los bounded context acorde a las necesidades que el sistema podría requerir |
+| 31/04/2025 | 1.6     |  Guillen Paolo | Desarrollo del backend (documentación y desarrollo) |
+| 05/05/2025 | 1.7     |  Cachis Sebastian | Desarrollo del landing page y plasmarlo en un despliegue |
+| 07/05/2025 | 1.8     |  Llamo Amner | Desarrollo del bounded context de rutinas dentro del backend y conexión con el front |
+| 09/05/2025 | 1.9     |  Yauri, Elias; Cantoral Diego | Desarrollo del frontend finalizado y documentación de servicios |
+| 14/05/2025 | 2.0     |  Guillen Luna,Paolo César; Yauri Paucar, Elias ; Llamo Sánchez, Amner; Cantoral Paredes, Diego André; Cachis Gonzales, Sebastian Nicolas | Desarrollo completo del capítulo 5 y 6 de forma colaborativa con productos desplegados en un ambiente seguro, así como documentación adecuada de estos |
 
 
 ## Project Report Collaboration Insights
@@ -183,8 +188,8 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta|**Guillen Luna, Paolo César:** <br> **TB1:**  Me encargue de manejar las actividades de cada integrantes de mi grupo, separando las secciones del trabajo de forma uniforme para cumplir de forma adecuada y coherente esta primera entrega <br> **Yauri Paucar, Elias:** <br> **TB1:** Coordiné con mis compañeros para darle coherencia a nuestro trabajo y realizar cada sección de forma acorde a los requisitos de nuestra solución  <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  Me encargué de realizar entrevistas a ciertos segmentos de nuestra solución a partir de las preguntas y colaboración de mi equipo pude obtener resultados acordes a esta primera entrega <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:** Me encargué de hablar con mi equipo de forma periódica con mi equipo para ver el avance del trabajo y apoyar siempre en lo que se necesitaba, donde aporté en secciones del event storming principalmente. <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:**  Me encargue de la dirección fundamental del primer capítulo del trabajo a partir de una organización con mi equipo para la elección del tema, además de realizar las preguntas que haríamos en nuestras entrevistas. <br>|**TB1:** Concluyendo la primera entrega todo el equipo a partir de una colaboración adecuada logramos comunicarnos para obtener un MVP (Minimum Viable Product) para esta primera entrega.|
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|**Guillen Luna, Paolo César:** <br> **TB1:** Me encargué de proponer una estructura de planificación semanal con objetivos claros y alcanzables, revisando los avances de todos de forma constante y fomentando la participación equitativa  <br> **Yauri Paucar, Elias:** <br> **TB1:** Coordiné reuniones para revisar el cumplimiento de metas semanales, asegurándome de que todos los integrantes tuvieran el mismo nivel de participación e inclusión en la toma de decisiones. <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  Aporté en la definición de metas para las entrevistas, asegurando que todos los puntos de vista fueran considerados y equilibrando las tareas entre los integrantes. <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:** Me involucré activamente en la organización del backlog y en la planificación con SCRUM, promoviendo la inclusión de todos en cada etapa del desarrollo.  <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:** Proporcioné apoyo en la creación del cronograma de trabajo, permitiendo que cada tarea estuviera alineada con nuestras metas y asegurando que todos pudieran participar sin barreras.  <br>| **TB1:** Al finalizar esta primera entrega se concluye que el crear un entorno donde todos trabajen sin importar las diferencias es esencial, en un proyecto de software de este calibre es importante trabajar de forma conjunta sin importar diferencias, esto nos apoyamos con la metodología de trabajo ágil llamada SCRUM lo que nos ayudó a organizar las tareas para este primer entregable|
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta|**Guillen Luna, Paolo César:** <br> **TB1:**  Me encargue de manejar las actividades de cada integrantes de mi grupo, separando las secciones del trabajo de forma uniforme para cumplir de forma adecuada y coherente esta primera entrega <br>  <br> **TP:** Asumí la responsabilidad de liderar el desarrollo del módulo de *Audit Trail*, implementando los endpoints necesarios para la consulta de logs del sistema (`LogController`). Además, organicé la documentación técnica del módulo.  <br> **Yauri Paucar, Elias:** <br> **TB1:** Coordiné con mis compañeros para darle coherencia a nuestro trabajo y realizar cada sección de forma acorde a los requisitos de nuestra solución  <br> <br> **TP:** Participé en la integración de los diferentes BC, asegurando que el diseño de las rutas REST fuera coherente. También coordiné las sesiones de revisión técnica para validar el cumplimiento de los requerimientos. <br>  **Cantoral Paredes, Diego André:** <br> **TB1:**  Me encargué de realizar entrevistas a ciertos segmentos de nuestra solución a partir de las preguntas y colaboración de mi equipo pude obtener resultados acordes a esta primera entrega <br> <br> **TP:** Me encargué del desarrollo del controlador de *Rutinas* (`RoutineController`) y de su lógica de negocio. Implementé todas las operaciones CRUD asegurando una estructura clara en la gestión de rutinas. <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:** Me encargué de hablar con mi equipo de forma periódica con mi equipo para ver el avance del trabajo y apoyar siempre en lo que se necesitaba, donde aporté en secciones del event storming principalmente. <br>  <br> **TP:** Lideré el desarrollo del controlador para el módulo de *IoT* (`IoTDeviceController`), incluyendo operaciones GET, POST y PATCH para el manejo de dispositivos. Aseguré la correcta manipulación del estado de los dispositivos. <br>  **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:**  Me encargue de la dirección fundamental del primer capítulo del trabajo a partir de una organización con mi equipo para la elección del tema, además de realizar las preguntas que haríamos en nuestras entrevistas. <br> <br> **TP:** Supervisé el diseño general del sistema y ayudé a estandarizar la implementación de endpoints entre módulos. Aporté en la definición de la estructura RESTful y en el testing de los controladores desarrollados asíc omo ayudar en el desarrollo del landing page.|**TB1:** Concluyendo la primera entrega todo el equipo a partir de una colaboración adecuada logramos comunicarnos para obtener un MVP (Minimum Viable Product) para esta primera entrega. **TP:** El liderazgo distribuido fue fundamental para abordar los distintos BC (Audit Trail, Rutinas, IoT). La división del trabajo basada en competencias permitió que cada miembro aportara liderazgo técnico en su módulo, asegurando una entrega funcional y coherente. |
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|**Guillen Luna, Paolo César:** <br> **TB1:** Me encargué de proponer una estructura de planificación semanal con objetivos claros y alcanzables, revisando los avances de todos de forma constante y fomentando la participación equitativa  <br> <br> **TP:** Coordiné el cronograma de desarrollo para el módulo de logs y validé las integraciones del mismo con los demás servicios. Me aseguré de que todos tuvieran acceso a los recursos comunes y a la base de datos simulada. <br> **Yauri Paucar, Elias:** <br> **TB1:** Coordiné reuniones para revisar el cumplimiento de metas semanales, asegurándome de que todos los integrantes tuvieran el mismo nivel de participación e inclusión en la toma de decisiones. <br> **TP:** Fomenté la colaboración entre equipos durante las sesiones de planificación, garantizando que todas las tareas estuvieran alineadas al objetivo de obtener un MVP técnico del sistema completo. <br> <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  Aporté en la definición de metas para las entrevistas, asegurando que todos los puntos de vista fueran considerados y equilibrando las tareas entre los integrantes. <br> <br> **TP:** Participé en la planificación de los sprints e hice seguimiento al cumplimiento de los endpoints de Rutinas, trabajando junto a mis compañeros para resolver errores y realizar pruebas conjuntas. <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:** Me involucré activamente en la organización del backlog y en la planificación con SCRUM, promoviendo la inclusión de todos en cada etapa del desarrollo.  <br> **TP:** Mantuve reuniones de sincronización para coordinar la lógica de estado de los dispositivos IoT con el resto del equipo. Establecí metas internas para garantizar que el controlador PATCH funcionara correctamente. <br> <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:** Proporcioné apoyo en la creación del cronograma de trabajo, permitiendo que cada tarea estuviera alineada con nuestras metas y asegurando que todos pudieran participar sin barreras.  <br> <br> **TP:** Propuse una plantilla común para los controladores REST, promoviendo un entorno de trabajo estandarizado y facilitando la integración entre los módulos. <br> | **TB1:** Al finalizar esta primera entrega se concluye que el crear un entorno donde todos trabajen sin importar las diferencias es esencial, en un proyecto de software de este calibre es importante trabajar de forma conjunta sin importar diferencias, esto nos apoyamos con la metodología de trabajo ágil llamada SCRUM lo que nos ayudó a organizar las tareas para este primer entregable **TP:** La planificación colaborativa fue clave para este entregable. Se lograron cumplir los objetivos gracias a una adecuada distribución de tareas y al uso de metodologías ágiles, especialmente SCRUM. Cada integrante respetó los acuerdos establecidos, lo que permitió completar la implementación técnica de los módulos en tiempo y forma. |
 
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
@@ -2337,6 +2342,8 @@ Durante el Sprint 1, los aspectos abordados por el equipo se relacionaron con la
 
 Durante este primer sprint, el equipo se enfocó en construir las bases visuales y funcionales de Chaki’y, nuestra aplicación orientada a mejorar la calidad de vida de personas con afecciones respiratorias mediante tecnologías IoT. El trabajo se centró principalmente en el diseño e implementación inicial del frontend de la plataforma, asegurando que los componentes esenciales comenzaran a tomar forma.
 
+<img src='resources/Spint1Backlog/1.png'/>
+
 Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976406f2daab6cce27af1f889e806280B520/chakiy-productbacklog
 
 <table>
@@ -2456,15 +2463,69 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
 
 <div id='6.2.4.'><h4> 6.2.4. Development Evidence for Sprint Review</h4></div>
 
+| Repository | Branch | CommitID | Commit Message | Commit Message Body | Commited on (Date) |
+| :--: | :--: | :--: | :--:  |   :--: |  :--: |
+|||| |  |  |
+|||| |  |  |
+|||| |  |  |
+|||| |  |  |
+|||| |  |  |
+|||| |  |  |
+|||| |  |  |
+|||| |  |  |
+
 <div id='6.2.5.'><h4> 6.2.5. Testing Suite Evidence for Sprint Review</h4></div>
+
+Al finalizar la landing page y la aplicación web (de forma parcial), ya se pudo planificar sobre que tipos de pruebas hacer. Sin embargo con el fin de la documentación más formal, la sección "Testing" se centro en la implementación de los archivos feature siguiendo la sintaxis de Gherkin.  Estos features están basados en los user stories especificados para este sprint.
+
+| Repository | Branch | CommitID | Commit Message | Commit Message Body | Commited on (Date) |
+| :--: | :--: | :--: | :--:  |   :--: |  :--: |
+||||||14/05/2025|
+
+Gherkin Syntax: https://cucumber.io/docs/gherkin/reference/
+
 
 <div id='6.2.6.'><h4> 6.2.6. Execution Evidence for Sprint Review</h4></div>
 
+ Se adjuntan evidencias de lo ejecutado para este sprint, entre estas evidencias se encuentra ejecución del front conecta con el backend en un ambiente local y la landing page de Chaki'y
+ 
+<img src='resources/Spint1Backlog/2.png'/>
+<img src='resources/Spint1Backlog/3.png'/>
+<img src='resources/Spint1Backlog/4.png'/>
+<img src='resources/Spint1Backlog/5.png'/>
+<img src='resources/Spint1Backlog/6.png'/>
+
 <div id='6.2.7.'><h4> 6.2.7. Services Documentation Evidence for Sprint Review</h4></div>
 
+Durante este sprint se avanzó con la implementación de los endpoints necesarios para los Bounded Contexts relacionados a **routines**, **dispositivos IoT** y **logs de auditoría**. A continuación, se describen los endpoints habilitados para cada uno de estos, destacando su funcionalidad principal y las operaciones CRUD habilitadas:
+
+| **Endpoint** | **Detalles** |
+|--------------|--------------|
+| **/api/v1/routine** | Se implementaron los endpoints necesarios para manejar las rutinas personalizadas definidas por el usuario. Incluyen funcionalidades completas de **CRUD**, permitiendo crear, visualizar, actualizar y eliminar rutinas. Este módulo es central para la automatización y personalización del comportamiento del sistema según las preferencias del usuario. |
+| **/api/v1/routine/{id}** | Permite consultar, actualizar o eliminar una rutina específica mediante su identificador. Es clave para operaciones precisas en la gestión de rutinas específicas ya creadas. |
+| **/api/v1/iot-devices** | Permite registrar un nuevo dispositivo IoT en el sistema y obtener el listado completo de dispositivos registrados. Se implementaron los endpoints correspondientes a **creación** y **lectura**, orientados a mantener actualizada la infraestructura IoT del hogar del usuario. |
+| **/api/v1/iot-devices/{id}** | Permite recuperar la información de un dispositivo específico. Esta funcionalidad es útil para mostrar el estado detallado de un dispositivo dentro del sistema. |
+| **/api/v1/iot-devices/{id}/estado** | Se desarrolló un endpoint específico para actualizar el estado de un dispositivo IoT de forma individual. Esto permite al usuario ejercer **control manual**, habilitando o deshabilitando dispositivos desde la interfaz de usuario. |
+| **/log** | Se habilitaron endpoints de solo lectura para consultar el historial de eventos o acciones registradas en el sistema, cumpliendo la funcionalidad de **auditoría**. Se pueden obtener todos los registros disponibles. |
+| **/log/{id}** | Permite obtener un log específico a partir de su identificador. Este endpoint facilita el rastreo puntual de acciones o cambios realizados por el sistema o los usuarios, y es esencial para la trazabilidad. |
+
+
 <div id='6.2.8.'><h4> 6.2.8. Software Deployment Evidence for Sprint Review</h4></div>
+A continuacion se muestra el frontned parcialmente realizado, agarrando información del backend y de una api externa del clima, así como información en lo que respecta a una landing page completada para su primera versión.
+
+
+<img src='resources/Spint1Backlog/7.png'/>
+<img src='resources/Spint1Backlog/8.png'/>
 
 <div id='6.2.9.'><h4> 6.2.9. Team Collaboration Insights during Sprint</h4></div>
+
+|**Alumno**|**Actividad**|
+|:--:|:--:|
+|Guillen Luna, Paolo César|Desarrollo de secciones rellacionadas a IoT en el backend|
+|Cantoral Paredes, Diego André|Encargado de asegurar la calidad del frontend y backend|
+|Llamo Sánchez, Amner Levi|Desarrollo del backend y frontend relacionado al bounded context de IoT (por ahora en front)|
+|Yauri Paucar, Elias|Implementación de servicios al front|
+|Cachis, Sebastian|Desplegar servicios de frontend y backend|
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
