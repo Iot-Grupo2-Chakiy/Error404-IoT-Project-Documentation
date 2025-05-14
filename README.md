@@ -1939,13 +1939,273 @@ Para facilitar a los usuarios de "Chaki'y" el acceso rápido a información espe
 <div id='6.1.'><h3> 6.1 Software Configuration Management</h3></div>
 
 <div id='6.1.1.'><h4> 6.1.1. Software Development Environment Configuration</h4></div>
+Para la organizacion del proyecto necesitabamos una planificación en cuanto a tareas asignadas, un punto de reunión y un repositorio donde trabajaramos en conjunto cada avance del proyecto, es por esto que elegimos las siguientes herramientas:
+
+* Centro de organización de trabajo: Github
+    
+* Planificación de tareas: Trello
+    
+* Reuniones con el equipo: Google Meet
+    
+**Requirements Management**
+
+Para realizar las actividades del proyecto necesitábamos designarlas a cada integrante del grupo en caso de revisión o cambios, esta lista de asignaciones fue realizada en Trello, esto por la faclidad que ofrece al trabajar con proyectos con metodologías ágiles como bien podrías ser el nuestro:
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://www.trello.com/</td>
+        </tr>
+    </tbody>
+</table>
+
+**Product UX/UI Design**
+
+Para el diseño de los wireframe y mockups donde se incluye el diseño móvil y web, se utilizó Figma, esto porque ofrece una gran variedad de opciones, además de ser la plataforma que más herramientas para trabajar como equipo:
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://www.figma.com/</td>
+        </tr>
+    </tbody>
+</table>
+
+**Software Development**
+
+La herramienta para la implementación del proyecto fue **IntelliJ IDEA Community Edition**, **VSCode** y **Android Studio**. Estos fueron nuestros entornos de desarrollo integrados (IDEs) elegidos para trabajar en distintas capas del proyecto:
+
+- **IntelliJ IDEA** fue utilizado para el desarrollo del backend con **Java**, aprovechando **Spring Boot** y **Lombok** para reducir código repetitivo.
+- **VSCode** se utilizó para la edición de HTML, CSS y documentación del proyecto.
+- **Android Studio** fue usado para el desarrollo de la aplicación móvil en **Kotlin**, por ser un lenguaje moderno, seguro y conciso, con una integración nativa en Android.
+
+| Recurso | Enlace |
+|--------|--------|
+| IntelliJ IDEA | https://www.jetbrains.com/idea/ |
+| VSCode | https://code.visualstudio.com/docs |
+| Android Studio | https://developer.android.com/studio |
+| Kotlin | https://kotlinlang.org/ |
+
+HTML(HyperText Markup Language): El lenguaje base de etiquetado para aplicaciones web sera empleado en este proyecto.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://www.w3schools.com/html/html5_syntax.asp</td>
+        </tr>
+    </tbody>
+</table>
+
+CSS (Cascading Style Sheets): Viene de la mano con HTML, Cascade Style Sheets maneja el diseño de las aplicaciones web.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://www.w3schools.com/css/css_intro.asp</td>
+        </tr>
+    </tbody>
+</table>
+
+**Software Testing**
+
+Gherkin es un sistema de etiquetado utilizado para detallar como se comporta el software de manera legible.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://cucumber.io/docs/gherkin/</td>
+        </tr>
+    </tbody>
+</table>
+
+**Software Deployment**
+
+Se ha utilizado Github para desplegar la landing page con Github Pages:
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://pages.github.com/</td>
+        </tr>
+    </tbody>
+</table>
+
+**Software Documentation**
+
+Se ha utilizado Github para alojar los distintos repositorios creados por los miembros del equipo para la colaboración en tiempo real mientras se codifican distintas áreas del proyecto.
+
+<table>
+    <tbody>
+        <tr>
+            <td>Link de referencia: </td>
+            <td>https://github.com/</td>
+        </tr>
+    </tbody>
+</table>
 
 <div id='6.1.2.'><h4> 6.1.2. Source Code Management</h4></div>
 
+<table>
+    <tbody>
+        <tr>
+            <td>Link Landing Page:</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Link Web Services: </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Link Front Web Applications: </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Link Mobile Applications: </td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+**Flujo de trabajo GitFlow**
+
+<img src="https://nvie.com/img/git-model@2x.png" width="60%" alt="Ejemplo flujo de Gitflow"/>
+
+Usaremos el flujo de trabajo planteado por Vincent Driessen en "A successful Git branching model" con los siguientes parámetros:
+ * Una rama de producción.
+ * Una rama de pruebas.
+ * Una rama en la que se solucionen los bugs rapidamente y vuelvan a producción.
+ * Ramas de features a implementar.
+ * Cada cambio en producción debe establecerse como una nueva versión.
+ * Para este proyecto en concreto consideramos que los cambios en la rama de producción y de pruebas deben tener autorización de un compa­ñero de equipo.
+   
+Teniendo en cuenta la información anterior nos inclinamos por este tipo de organización en los branches:
+* **Main branch:** Esta rama esta destinada a la producción de la aplicación, cada cambio deberá tener autorización de un compañero de equipo para evitar cambios sin verificar.
+* **Hotfix branch:** En esta rama se incluirán todas las versiones que poseen errores identificados y que con cada arreglo de este se despliegue otra vez a Main Branch además de implementarla en lo que será Develop Branch.
+* **Release branch:** Esta rama se utilizará para una previa a lo que será el Main Branch, aquí se seguirá de cerca a la aplicación en otros ambientes en busca de bugs.
+* **Develop branch:** Esta rama está destinada a las constantes implementaciones en caliente de los features, 
+* **Features branch:** Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
+
+Con cada deployment de la aplicación debe establecerse como una nueva versión.
+
 <div id='6.1.3.'><h4> 6.1.3. Source Code Style Guide & Conventions</h4></div>
+# Buenas Prácticas de Desarrollo
+
+Usaremos buenas prácticas en cuanto al código de manera que sea coherente y sostenible.
+
+**HTML**
+* Cada etiqueta, id, nombre y clase será nombrada usando lowercase.
+* Utilizar UTF-8.
+* Redacción en inglés.
+* En cada referencia a un archivo, colocar el tipo de archivo (.css, .ts).
+* Terminar cada etiqueta con `/>`.
+
+**CSS**
+* Width del body al 100%.
+* En cuanto a las imágenes, especificar el ancho (`width`) de acuerdo a la etiqueta padre.
+* Cada etiqueta, nombre y clase será nombrada de acuerdo al propósito y clasificación del elemento.
+* Separación de palabras con un guion `-`.
+* Margin y padding en `"*"` con valor de `0`.
+
+**TypeScript**
+* Usar notación `camelCase` para nombrar variables y funciones (por ejemplo, `getUserData`).
+* Preferir la declaración de funciones con `const` o `let` en lugar de `var`.
+* Siempre usar punto y coma (`;`) para finalizar las declaraciones.
+* Aplicar la estructura ES6+ para declarar clases, interfaces y módulos.
+* Utilizar espacios de 2 o 4 caracteres para la indentación, pero mantenerla constante en todo el código.
+* Colocar llaves `{}` en la misma línea que el encabezado de la función o declaración (por ejemplo, `if (condition) { ... }`).
+* Usar comentarios para explicar partes complejas del código y mantener la documentación del código actualizada.
+* Tipar explícitamente donde sea necesario y usar `any` solo como último recurso.
+
+**Java con Spring Boot y Lombok**
+* Usar `PascalCase` para nombres de clases y métodos (por ejemplo, `CustomerAccount`).
+* Usar `camelCase` para nombres de variables y parámetros (por ejemplo, `customerName`).
+* Terminar todas las sentencias con punto y coma (`;`).
+* Declarar variables antes de su uso y preferir `var` (desde Java 10) para la inferencia de tipo cuando el tipo es evidente.
+* Colocar llaves `{}` en la misma línea que el encabezado de clase, método o declaración (por ejemplo, `public class Example { ... }`).
+* Utilizar espacios de 4 caracteres para la indentación y mantener consistencia en todo el código.
+* Usar anotaciones de Lombok (`@Getter`, `@Setter`, `@Builder`, etc.) para evitar boilerplate innecesario.
+* Documentar clases, métodos y propiedades usando JavaDoc estándar.
+* Aplicar convenciones de nombres consistentes y evitar nombres ambiguos o genéricos para las variables.
+* Estructurar paquetes por funcionalidad y respetar el principio de separación de responsabilidades.
+
+**Base de Datos**
+* Usar nombres descriptivos y claros para tablas y columnas.
+* Utilizar `snake_case` para nombres de tablas y columnas (por ejemplo, `user_accounts` para tablas y `user_id` para columnas).
+* Establecer claves primarias con el nombre del tipo de objeto seguido de `_id` (por ejemplo, `user_id`).
+* Usar singular para el nombre de tablas, ya que representa el tipo de entidad (por ejemplo, `product` en lugar de `products`).
+* Definir claves foráneas siguiendo la convención `{tabla_referenciada}_id` (por ejemplo, `user_id` para una relación entre tablas).
+* Nombrar índices y restricciones de forma clara, siguiendo la estructura `{tabla}_{columna}_index` para índices y `{tabla}_{columna}_fk` para claves foráneas.
+* Evitar nombres ambiguos o genéricos y preferir nombres que describan claramente la función del objeto.
+
+**Commit Conventions**
+Para las convenciones de commit, se utilizarán las convenciones básicas, es decir:
+ `git commit -m "<message>" -m"<description">`
+
 
 <div id='6.1.4.'><h4> 6.1.4. Software Deployment Configuration</h4></div>
 
+
+### Landing Page deployment:
+
+Con el fin de desplegar nuestra landing page en github pages, es necesaria contar con requisitos diversos como: 
+
+* Una cuenta personal
+* Repositorio del cual cargar los documentos 
+* Tener permisos del repositorio 
+
+Una vez se cuente con estos requisitos se podrá realizar un correcto despliegue de la landing page. Siguiendo los siguientes pasos se haría el despliegue.
+
+1. Ir a nuestra organización de github. 
+2. Elegir el repositorio donde se encuentra nuestra landing page. 
+3. Dirigirse al apartado de 'Settings'
+4. Seleccionar el apartado 'Pages' del menú lateral izquierdo.
+5. En la sección 'Branch', elegimos nuestra rama main y el folder /(root)
+6. Una vez hecho el paso anterior debería verse en la sección branch que diga que la nuestro sito de Github Pages está siendo construido.
+
+### Frontend-Web-Application Deployment
+
+Con el fin de poder desplegar nuestro fronten web application es necesario contar con requisitos similares a los mencionados para el despliegue de la landing page. Sin embargo, aquí se usará una plataforma ajena a github, llamada Firebase, que es excelente para el tema de despliegues de aplicaciones web con el fin de mostrar su uso.
+
+**Link de Firebase:** https://firebase.google.com
+
+A continuación se presentarán la serie de pasos a seguir: 
+
+1. Usar npm run build en el terminal del proyecto que vamos a desplegar, esto con el fin de prepararlo para este.
+2. Una vez realizado deberiamos de poder ver una carpeta "dist" en nuestro proyecto
+3. Posteriormente en el ide, en su terminal nos logeamos a lo que es firebase con firebase login, el cual en mi caso ya lo hice.
+4. Una vez logeado, seguimos con el comando de firebase init.
+5. Le damos que (Y) a que estamos listos para proceder.
+6. Una vez terminado todos los procesos y haber elegido ">( ) Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys   "
+7. Debemos de elegir la carpeta de nuestro proyecto que se va a desplegar al browser, siendo esta la direccion en nuestro caso: "dist"
+8. Tendríamos visualizar que la inicialización de Firebase se completo.
+9. Quedaría los ultimos pasos el cual es el despliegue, esto se realiza con el comando "firebase deploy"
+
+
+### Backend-Web-Application Deployment
+
+Para el despliegue del backend de la API del producto **Chaki'y**, utilizamos **Azure Web Apps** con integración directa a **GitHub**, lo que nos permite realizar un **despliegue automático** (CI/CD) sin necesidad de intervención manual ni uso de contenedores Docker.
+
+**Azure Web Apps** proporciona una plataforma como servicio (PaaS) que permite alojar y ejecutar aplicaciones Java de forma eficiente, gestionando automáticamente aspectos como escalabilidad, disponibilidad y mantenimiento.
+
+**Link de Azure**: [https://azure.microsoft.com/es-es/get-started/azure-portal](https://azure.microsoft.com/es-es/get-started/azure-portal)
+
+#### Pasos realizados:
+
+1. Se configuró el proyecto backend en **Spring Boot**, listo para ser ejecutado como aplicación web (`.jar`) compatible con Azure.
+2. Se creó una base de datos en **Azure Database for MySQL** para persistencia de datos de la API.
+3. Se subió el proyecto a un repositorio en **GitHub**.
+4. En el portal de **Azure**, se creó una **Web App** desde el servicio "App Services".
+5. Durante la creación de la Web App, se seleccionó la opción de **despliegue continuo** desde **GitHub**.
+6. Se vinculó el repositorio correspondiente y se configuró la rama principal (`main` o `master`) como origen del despliegue.
+7. Azure Web Apps detecta automáticamente el tipo de aplicación (Java) y realiza el build y despliegue desde el repositorio.
+8. Cada vez que se hace un `push` a la rama principal del repositorio, Azure reconstruye y despliega automáticamente la última versión del backend en producción.
+    
 <div id='6.2.'><h3> 6.2 Sprint 1</h3></div>
 
 <div id='6.2.1.'><h4> 6.2.1. Sprint Planning 1</h4></div>
