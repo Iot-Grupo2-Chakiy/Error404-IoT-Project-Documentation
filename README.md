@@ -1913,6 +1913,17 @@ Para facilitar a los usuarios de "Chaki'y" el acceso rápido a información espe
 
 <div id='5.2.5.'><h4> 5.2.5. Navigation Systems</h4></div>
 
+El sistema de navegación de "Chaki'y" está diseñado para proporcionar una experiencia fluida y consistente a lo largo de todas las plataformas disponibles (landing page, aplicación web y aplicación móvil). Se prioriza la simplicidad, la familiaridad con patrones de navegación comunes, y el acceso rápido a las funciones clave que los usuarios necesitan en cada contexto.
+
+Principios del Sistema de Navegación
+
+Consistencia Multiplataforma: La estructura general de navegación mantiene elementos comunes entre la web app y la aplicación móvil, asegurando que los usuarios puedan trasladar sus conocimientos entre plataformas sin fricciones.
+
+* Acceso Prioritario a Funciones Críticas: Se prioriza el acceso rápido a funciones centrales como el monitoreo en tiempo real, alertas, historial y configuración.
+* Minimización de la Carga Cognitiva: Se evita la sobrecarga visual o funcional presentando solo los elementos necesarios en cada vista.
+* Adaptabilidad Contextual: La navegación se adapta al dispositivo y contexto de uso (ej. menú lateral desplegable en mobile, navegación fija en desktop).
+
+
 <div id='5.3.'><h3> 5.3 Landing Page UI Design</h3></div>
 
 <div id='5.3.1.'><h4> 5.3.1. Landing Page Wireframe</h4></div>
@@ -2323,19 +2334,19 @@ Se ha utilizado Github para alojar los distintos repositorios creados por los mi
     <tbody>
         <tr>
             <td>Link Landing Page:</td>
-            <td></td>
+            <td>https://github.com/Iot-Grupo2-Chakiy/Chakiy-LandingPage</td>
         </tr>
         <tr>
             <td>Link Web Services: </td>
-            <td></td>
+            <td>https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API</td>
         </tr>
         <tr>
             <td>Link Front Web Applications: </td>
-            <td></td>
+            <td>https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front</td>
         </tr>
         <tr>
             <td>Link Mobile Applications: </td>
-            <td></td>
+            <td>**TBD**</td>
         </tr>
     </tbody>
 </table>
@@ -2728,14 +2739,26 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
 
 | Repository | Branch | CommitID | Commit Message | Commit Message Body | Commited on (Date) |
 | :--: | :--: | :--: | :--:  |   :--: |  :--: |
-|||| |  |  |
-|||| |  |  |
-|||| |  |  |
-|||| |  |  |
-|||| |  |  |
-|||| |  |  |
-|||| |  |  |
-|||| |  |  |
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|075673974beca768ac36b8a97de4ea1b265706a5|first commit|first commit|Apr 20, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|413cbc22519ed5c8e537221e1f70a568a7bda428|feat: initial commit|feat: initial commit|May 12, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|ad0b129e188a8968831356d2c2cc0fe718800a7e|fix: current project structure|fix: current project structure|May 12, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|4dd39d104cef1eeaf20fdd56a4b31aaebad9a6c6|fix: current project structure|fix: current project structure|May 12, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|37d07884ad87ade34767fec12bfbb31d60477bab|fix: iot,routine,audit trail main structure added, left to do notifications,weather info|fix: iot,routine,audit trail main structure added, left to do notifications,weather info|May 13, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|607c5494279e4167c4c0e7675ea2089fb69b779a|fix: iot,routine,audit trail, notification main structure, left to do weather related|fix: iot,routine,audit trail, notification main structure, left to do weather related|May 13, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|aa3f0db52751efc5070eb78a184c064488f6f9f9|feat: project can be started normally|feat: project can be started normally|May 13, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|56a5d114910caea2dca72da272594dd5856c1b9d|feat: fixed main bcs|feat: fixed main bcs|May 13, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|14906b6eaca0e056a3f7d5d24f4e7315b214bded|feat: new controllers info|feat: new controllers info|May 13, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|16fcedd1be811a91a0ccaa11e46cee5973deb106|add routine and log bc|add routine and log bc|May 13, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|961ce0c8d0bb1fa851a568f98273e7a2e53142e8|front and back connection of routines|front and back connection of routines|May 14, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|961ce0c8d0bb1fa851a568f98273e7a2e53142e8|front and back connection of routines|front and back connection of routines|May 14, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|35fbff7108aef48948a88514a25486db5130f50c|Merge pull request #1 from Iot-Grupo2-Chakiy/feature/routines-bc|Merge pull request #1 from Iot-Grupo2-Chakiy/feature/routines-bc|May 14, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|7ebcd7d931e72c336de2dac152700906568c91bc|feat: createIoTDevice|feat: createIoTDevice|May 14, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|f3d6c1175b3e97c1260c6e372b6ca774fe20bb96|Merge pull request #2 from Iot-Grupo2-Chakiy/feat/connecting-back-with-front|Merge pull request #2 from Iot-Grupo2-Chakiy/feat/connecting-back-with-front|May 14, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|6a10373a34769dc4c97925edcc4e533c26d7b93f|feat: updateIndiivudlaEstado and gets added|feat: updateIndiivudlaEstado and gets added|May 14, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|29736a56c4cae91a096b0ee52b62f4b028dac12d|feat: connection with sql server in azure|feat: connection with sql server in azure|May 14, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|4e7efa5714ab8851604f46e083560c2145a27e34|feat: updated java version|feat: updated java version|May 14, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|0f623d594c7ee6c5a4584e66573a9b821cb92773|Add or update the Azure App Service build and deployment workflow config|Add or update the Azure App Service build and deployment workflow config|May 14, 2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|7cd44df0a2fb13f9e1dd6efdf6f5223ba39a0c08|Update WebConfig.java|Update WebConfig.java|May 14, 2025|
 
 <div id='6.2.5.'><h4> 6.2.5. Testing Suite Evidence for Sprint Review</h4></div>
 
@@ -2810,4 +2833,10 @@ Science Magazine. (2020). Digital health adoption in emerging countries: A syste
 TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EfP3NwdH3uNNq9MxIi_dtyIBywtB86kBlccKT-U-dcndyQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FoSI5P]
 
 Entrevistas: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EZqPk9U6F3lOpU7ug6LkzagBSg0eIYig1s75ae5wlq_9zQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YEqaMj]
+
+LandingPage: [https://chakiy.netlify.app/]
+
+Frontend: [https://chakys-frontend.web.app/]
+
+Backend: [https://chakiyiotsupermain-aqd8ephjbra0e5bf.canadacentral-01.azurewebsites.net/api/v1/iot-devices]
 
