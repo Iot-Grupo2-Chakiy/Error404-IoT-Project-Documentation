@@ -40,7 +40,13 @@
 **TB1**
 
  <img src="resources/InsightsTB1.png"/>  
+
  
+**TP**
+
+<img src='resources/Spint1Backlog/13.png'/>
+<img src='resources/Spint1Backlog/14.png'/>
+
 URL del repositorio del proyecto: [https://github.com/Iot-Grupo2-Chakiy]
 
 ## Contenido 
@@ -2766,7 +2772,7 @@ Al finalizar la landing page y la aplicación web (de forma parcial), ya se pudo
 
 | Repository | Branch | CommitID | Commit Message | Commit Message Body | Commited on (Date) |
 | :--: | :--: | :--: | :--:  |   :--: |  :--: |
-||||||14/05/2025|
+|https://github.com/Iot-Grupo2-Chakiy/Chakiy-LandingPage|main|57197b9|Gherkin tests related to sprint 1||14/05/2025|
 
 Gherkin Syntax: https://cucumber.io/docs/gherkin/reference/
 
@@ -2780,6 +2786,8 @@ Gherkin Syntax: https://cucumber.io/docs/gherkin/reference/
 <img src='resources/Spint1Backlog/4.png'/>
 <img src='resources/Spint1Backlog/5.png'/>
 <img src='resources/Spint1Backlog/6.png'/>
+
+Execution Video Evidence: https://acortar.link/unx0in
 
 <div id='6.2.7.'><h4> 6.2.7. Services Documentation Evidence for Sprint Review</h4></div>
 
@@ -2799,9 +2807,18 @@ Durante este sprint se avanzó con la implementación de los endpoints necesario
 <div id='6.2.8.'><h4> 6.2.8. Software Deployment Evidence for Sprint Review</h4></div>
 A continuacion se muestra el frontned parcialmente realizado, agarrando información del backend y de una api externa del clima, así como información en lo que respecta a una landing page completada para su primera versión.
 
-
+**Landing Page**
 <img src='resources/Spint1Backlog/7.png'/>
 <img src='resources/Spint1Backlog/8.png'/>
+
+**Frontend Web Application**
+<img src='resources/Spint1Backlog/9.png'/>
+<img src='resources/Spint1Backlog/10.png'/>
+
+
+**Backend (API)**
+<img src='resources/Spint1Backlog/11.png'/>
+<img src='resources/Spint1Backlog/12.png'/>
 
 <div id='6.2.9.'><h4> 6.2.9. Team Collaboration Insights during Sprint</h4></div>
 
@@ -2812,6 +2829,15 @@ A continuacion se muestra el frontned parcialmente realizado, agarrando informac
 |Llamo Sánchez, Amner Levi|Desarrollo del backend y frontend relacionado al bounded context de IoT (por ahora en front)|
 |Yauri Paucar, Elias|Implementación de servicios al front|
 |Cachis, Sebastian|Desplegar servicios de frontend y backend|
+
+**Landing Page:**
+<img src='resources/Spint1Backlog/2.png'/>
+
+**Frontend Web Application:**
+<img src='resources/Spint1Backlog/6.png'/>
+
+**Backend(API Resftul):**
+<img src='resources/Spint1Backlog/5.png'/>
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
@@ -2839,4 +2865,8 @@ LandingPage: [https://chakiy.netlify.app/]
 Frontend: [https://chakys-frontend.web.app/]
 
 Backend: [https://chakiyiotsupermain-aqd8ephjbra0e5bf.canadacentral-01.azurewebsites.net/api/v1/iot-devices]
+
+TP: [https://acortar.link/p0n06B]
+
+Execution Evidence: [https://acortar.link/unx0in]
 
