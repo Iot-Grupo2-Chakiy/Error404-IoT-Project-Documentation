@@ -176,6 +176,21 @@ URL del repositorio del proyecto: [https://github.com/Iot-Grupo2-Chakiy]
 6.2.1.7. [Services Documentation Evidence for Sprint Review](#6.2.1.7.)<br>
 6.2.1.8. [Software Deployment Evidence for Sprint Review](#6.2.1.8.)<br>
 6.2.1.9. [Team Collaboration Insights during Sprint](#6.2.1.9.)<br>
+6.2.2. [Sprint 2](#6.2.2.)<br>
+6.2.2.1. [Sprint Planning 2](#6.2.2.1.)<br>
+6.2.2.2. [Aspect Leaders and Collaborators](#6.2.2.2.)<br>
+6.2.2.3. [Sprint Backlog 2](#6.2.2.3.)<br>
+6.2.2.4. [Development Evidence for Sprint Review](#6.2.2.4.)<br>
+6.2.2.5. [Testing Suite Evidence for Sprint Review](#6.2.2.5.)<br>
+6.2.2.6. [Execution Evidence for Sprint Review](#6.2.2.6.)<br>
+6.2.2.7. [Services Documentation Evidence for Sprint Review](#6.2.2.7.)<br>
+6.2.2.8. [Software Deployment Evidence for Sprint Review](#6.2.2.8.)<br>
+6.2.2.9. [Team Collaboration Insights during Sprint](#6.2.2.9.)<br>
+6.3. [***Validation Interviews***](#6.3.)<br>
+6.3.1. [Diseño de Entrevistas](#6.3.1.)<br>
+6.3.2. [Registro de Entrevistas](#6.3.2.)<br>
+6.3.3. [Evaluaciones según heurísticas](#6.3.3.)<br>
+6.4. [***Video About-the-Product.***](#6.4.)<br>
 8. [**Conclusiones**](#8.)<br>
 9. [**Bibliografía**](#9.)<br>
 10. [**Anexos**](#10.)<br>
@@ -2491,8 +2506,8 @@ Para el despliegue del backend de la API del producto **Chaki'y**, utilizamos **
 7. Azure Web Apps detecta automáticamente el tipo de aplicación (Java) y realiza el build y despliegue desde el repositorio.
 8. Cada vez que se hace un `push` a la rama principal del repositorio, Azure reconstruye y despliega automáticamente la última versión del backend en producción.
     
-<div id='6.2.'><h3> 6.2 Sprint 1</h3></div>
-<div id='6.2.1.'><h4> 6.2.1. Sprint Planning 1</h4></div>
+<div id='6.2.1.'><h3> 6.2.1. Sprint 1</h3></div>
+<div id='6.2.1.1.'><h4> 6.2.1.1. Sprint Planning 1</h4></div>
 
 <table>
     <thead>
@@ -2552,7 +2567,7 @@ Para el despliegue del backend de la API del producto **Chaki'y**, utilizamos **
 </table>
 
 
-<div id='6.2.2.'><h4> 6.2.2. Aspect Leaders and Collaborators</h4></div>
+<div id='6.2.1.2.'><h4> 6.2.1.2. Aspect Leaders and Collaborators</h4></div>
 
 Durante el Sprint 1, los aspectos abordados por el equipo se relacionaron con la visualización en tiempo real de condiciones ambientales (humedad, calidad del aire), control y automatización de dispositivos, creación de rutinas personalizadas, y diseño de interfaces de usuario funcionales. Para asegurar una mejor colaboración y comunicación, se asignaron roles de líder (L) y colaborador (C) por aspecto, de acuerdo a la participación activa y responsabilidad en cada funcionalidad implementada.
 
@@ -2618,7 +2633,7 @@ Durante el Sprint 1, los aspectos abordados por el equipo se relacionaron con la
 </table>
 
 
-<div id='6.2.3.'><h4> 6.2.3. Sprint Backlog 1</h4></div>
+<div id='6.2.1.3.'><h4> 6.2.1.3. Sprint Backlog 1</h4></div>
 
 Durante este primer sprint, el equipo se enfocó en construir las bases visuales y funcionales de Chaki’y, nuestra aplicación orientada a mejorar la calidad de vida de personas con afecciones respiratorias mediante tecnologías IoT. El trabajo se centró principalmente en el diseño e implementación inicial del frontend de la plataforma, asegurando que los componentes esenciales comenzaran a tomar forma.
 
@@ -2741,7 +2756,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
   </tbody>
 </table>
 
-<div id='6.2.4.'><h4> 6.2.4. Development Evidence for Sprint Review</h4></div>
+<div id='6.2.1.4.'><h4> 6.2.1.4. Development Evidence for Sprint Review</h4></div>
 
 | Repository | Branch | CommitID | Commit Message | Commit Message Body | Commited on (Date) |
 | :--: | :--: | :--: | :--:  |   :--: |  :--: |
@@ -2766,7 +2781,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
 |https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|0f623d594c7ee6c5a4584e66573a9b821cb92773|Add or update the Azure App Service build and deployment workflow config|Add or update the Azure App Service build and deployment workflow config|May 14, 2025|
 |https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API|main|7cd44df0a2fb13f9e1dd6efdf6f5223ba39a0c08|Update WebConfig.java|Update WebConfig.java|May 14, 2025|
 
-<div id='6.2.5.'><h4> 6.2.5. Testing Suite Evidence for Sprint Review</h4></div>
+<div id='6.2.1.5.'><h4> 6.2.1.5. Testing Suite Evidence for Sprint Review</h4></div>
 
 Al finalizar la landing page y la aplicación web (de forma parcial), ya se pudo planificar sobre que tipos de pruebas hacer. Sin embargo con el fin de la documentación más formal, la sección "Testing" se centro en la implementación de los archivos feature siguiendo la sintaxis de Gherkin.  Estos features están basados en los user stories especificados para este sprint.
 
@@ -2777,7 +2792,7 @@ Al finalizar la landing page y la aplicación web (de forma parcial), ya se pudo
 Gherkin Syntax: https://cucumber.io/docs/gherkin/reference/
 
 
-<div id='6.2.6.'><h4> 6.2.6. Execution Evidence for Sprint Review</h4></div>
+<div id='6.2.1.6.'><h4> 6.2.1.6. Execution Evidence for Sprint Review</h4></div>
 
  Se adjuntan evidencias de lo ejecutado para este sprint, entre estas evidencias se encuentra ejecución del front conecta con el backend en un ambiente local y la landing page de Chaki'y
  
@@ -2789,7 +2804,7 @@ Gherkin Syntax: https://cucumber.io/docs/gherkin/reference/
 
 Execution Video Evidence: https://acortar.link/unx0in
 
-<div id='6.2.7.'><h4> 6.2.7. Services Documentation Evidence for Sprint Review</h4></div>
+<div id='6.2.1.7.'><h4> 6.2.1.7. Services Documentation Evidence for Sprint Review</h4></div>
 
 Durante este sprint se avanzó con la implementación de los endpoints necesarios para los Bounded Contexts relacionados a **routines**, **dispositivos IoT** y **logs de auditoría**. A continuación, se describen los endpoints habilitados para cada uno de estos, destacando su funcionalidad principal y las operaciones CRUD habilitadas:
 
@@ -2804,7 +2819,7 @@ Durante este sprint se avanzó con la implementación de los endpoints necesario
 | **/log/{id}** | Permite obtener un log específico a partir de su identificador. Este endpoint facilita el rastreo puntual de acciones o cambios realizados por el sistema o los usuarios, y es esencial para la trazabilidad. |
 
 
-<div id='6.2.8.'><h4> 6.2.8. Software Deployment Evidence for Sprint Review</h4></div>
+<div id='6.2.1.8.'><h4> 6.2.1.8. Software Deployment Evidence for Sprint Review</h4></div>
 A continuacion se muestra el frontned parcialmente realizado, agarrando información del backend y de una api externa del clima, así como información en lo que respecta a una landing page completada para su primera versión.
 
 **Landing Page**
@@ -2820,7 +2835,7 @@ A continuacion se muestra el frontned parcialmente realizado, agarrando informac
 <img src='resources/Spint1Backlog/11.png'/>
 <img src='resources/Spint1Backlog/12.png'/>
 
-<div id='6.2.9.'><h4> 6.2.9. Team Collaboration Insights during Sprint</h4></div>
+<div id='6.2.1.9.'><h4> 6.2.1.9. Team Collaboration Insights during Sprint</h4></div>
 
 |**Alumno**|**Actividad**|
 |:--:|:--:|
@@ -2838,6 +2853,22 @@ A continuacion se muestra el frontned parcialmente realizado, agarrando informac
 
 **Backend(API Resftul):**
 <img src='resources/Spint1Backlog/5.png'/>
+
+<div id='6.2.2.'><h3> 6.2.2. Sprint 2</h3></div>
+<div id='6.2.2.1.'><h4> 6.2.2.1. Sprint Planning 2</h4></div>
+<div id='6.2.2.2.'><h4> 6.2.2.2. Aspect Leaders and Collaborators</h4></div>
+<div id='6.2.2.3.'><h4> 6.2.2.3. Sprint Backlog 2</h4></div>
+<div id='6.2.2.4.'><h4> 6.2.2.4. Development Evidence for Sprint Review</h4></div>
+<div id='6.2.2.5.'><h4> 6.2.2.5. Testing Suite Evidence for Sprint Review</h4></div>
+<div id='6.2.2.6.'><h4> 6.2.2.6. Execution Evidence for Sprint Review</h4></div>
+<div id='6.2.2.7.'><h4> 6.2.2.7. Services Documentation Evidence for Sprint Review</h4></div>
+<div id='6.2.2.8.'><h4> 6.2.2.8. Software Deployment Evidence for Sprint Review</h4></div>
+<div id='6.2.2.9.'><h4> 6.2.2.9. Team Collaboration Insights during Sprint</h4></div>
+<div id='6.3.'><h3> 6.3. Validation Interviews</h3></div>
+<div id='6.3.1.'><h4> 6.3.1. Diseño de Entrevistas</h4></div>
+<div id='6.3.2.'><h4> 6.3.2. Registro de Entrevistas</h4></div>
+<div id='6.3.3.'><h4> 6.3.3. Evaluaciones según heurísticas</h4></div>
+<div id='6.4.'><h3> 6.4. Video About-the-Product</h3></div>
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
