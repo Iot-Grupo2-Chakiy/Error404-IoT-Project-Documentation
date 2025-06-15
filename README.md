@@ -2856,7 +2856,149 @@ A continuacion se muestra el frontned parcialmente realizado, agarrando informac
 
 <div id='6.2.2.'><h3> 6.2.2. Sprint 2</h3></div>
 <div id='6.2.2.1.'><h4> 6.2.2.1. Sprint Planning 2</h4></div>
+Durante el Sprint Planning 2, el equipo se enfocó en completar el ecosistema tecnológico de Chaki'y mediante el desarrollo de las aplicaciones Edge y Embedded, así como finalizar las funcionalidades pendientes del backend, aplicación web y móvil. Este segundo sprint marca la transición hacia un sistema IoT completamente funcional y desplegable.
+
+El Sprint Goal definido para esta iteración es:
+
+**Sprint Goal:** 
+"Our focus is on delivering a complete IoT ecosystem including Edge Applications for local data processing, Embedded Applications for sensor hardware integration, and finalizing all backend services and frontend applications. We believe it delivers a fully functional smart home environmental monitoring system to adults with respiratory conditions and parents caring for asthmatic children. This will be confirmed when users can successfully deploy physical sensors, process data locally via edge computing, and interact seamlessly through web and mobile interfaces with real-time environmental control."
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><strong>Sprint Planning Background</strong></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025-05-20</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>02:00 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Virtual Meeting - Google Meet</td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td>Guillen Luna, Paolo César</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Guillen Luna, Paolo César / Yauri Paucar, Elias / Llamo Sánchez, Amner Levi / Cantoral Paredes, Diego André / Cachis Gonzales, Sebastian Nicolas</td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Goal</td>
+            <td>Desarrollar aplicaciones Edge para procesamiento local de datos, aplicaciones Embedded para integración con hardware de sensores, y completar todas las funcionalidades restantes del backend, aplicación web y móvil para entregar un ecosistema IoT completamente funcional.</td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Velocity</td>
+            <td>42 Story Points</td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>42</td>
+        </tr>
+    </tbody>
+</table>
+
+**Aspectos clave del Sprint 2:**
+
+1. **Desarrollo de Edge Applications:** Se implementó el procesamiento local de datos en dispositivos edge para reducir latencia y mejorar la confiabilidad del sistema, permitiendo respuestas inmediatas ante condiciones críticas.
+
+2. **Implementación de Embedded Applications:** Se desarrolló el firmware y software embebido para la integración directa con sensores ambientales (temperatura, humedad, calidad del aire) y actuadores (deshumidificadores, purificadores).
+
+3. **Finalización del Backend:** Se completaron todos los bounded contexts restantes, incluyendo el sistema de notificaciones, monitoreo y análisis avanzado, con integración completa entre todos los microservicios.
+
+4. **Completar Aplicación Web:** Se finalizaron todas las funcionalidades de la aplicación web, incluyendo dashboards avanzados, configuración completa de dispositivos y rutinas, y sistema de alertas en tiempo real.
+
+5. **Desarrollo de Aplicación Móvil:** Se implementó completamente la aplicación móvil nativa con todas las funcionalidades del sistema, optimizada para notificaciones push y control remoto.
+
+6. **Integración de Ecosistema Completo:** Se aseguró la comunicación fluida entre todas las capas: sensores embebidos → edge computing → backend cloud → aplicaciones frontend, creando un sistema IoT end-to-end funcional.
+
+El equipo se comprometió a entregar un producto completamente funcional que permita a los usuarios implementar físicamente el sistema Chaki'y en sus hogares, con monitoreo ambiental real, procesamiento de datos local y en la nube, y control completo a través de interfaces web y móvil.
 <div id='6.2.2.2.'><h4> 6.2.2.2. Aspect Leaders and Collaborators</h4></div>
+
+Durante el Sprint 2, el equipo se enfocó en completar el ecosistema tecnológico de Chaki'y, abordando aspectos críticos que incluyen el desarrollo de aplicaciones Edge para procesamiento local, aplicaciones Embedded para integración con hardware, finalización de bounded contexts del backend, completar la aplicación web con funcionalidades avanzadas, desarrollo de la aplicación móvil, y la integración completa del ecosistema IoT. Para asegurar una colaboración efectiva y responsabilidades claras, se asignaron roles de líder (L) y colaborador (C) por aspecto, considerando la experiencia técnica de cada miembro y su participación activa en las funcionalidades implementadas durante este sprint.
+
+<table>
+  <thead>
+    <tr>
+      <th>Team Member<br>(Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>Edge Applications</th>
+      <th>Embedded Applications</th>
+      <th>Backend Completion</th>
+      <th>Web App Enhancement</th>
+      <th>Mobile Development</th>
+      <th>IoT Integration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Guillen Luna, Paolo César</td>
+      <td>GrandProgTest</td>
+      <td>L</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td></td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Cachis Gonzales, Sebastian Nicolas</td>
+      <td>Dark7YT</td>
+      <td>C</td>
+      <td></td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Cantoral Paredes, Diego André</td>
+      <td>diegocantoralp</td>
+      <td></td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Llamo Sánchez, Amner Levi</td>
+      <td>AmnerL</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Elias Yauri Paucar</td>
+      <td>EliasYP</td>
+      <td></td>
+      <td></td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+</table>
+
+
 <div id='6.2.2.3.'><h4> 6.2.2.3. Sprint Backlog 2</h4></div>
 <div id='6.2.2.4.'><h4> 6.2.2.4. Development Evidence for Sprint Review</h4></div>
 <div id='6.2.2.5.'><h4> 6.2.2.5. Testing Suite Evidence for Sprint Review</h4></div>
@@ -2864,8 +3006,120 @@ A continuacion se muestra el frontned parcialmente realizado, agarrando informac
 <div id='6.2.2.7.'><h4> 6.2.2.7. Services Documentation Evidence for Sprint Review</h4></div>
 <div id='6.2.2.8.'><h4> 6.2.2.8. Software Deployment Evidence for Sprint Review</h4></div>
 <div id='6.2.2.9.'><h4> 6.2.2.9. Team Collaboration Insights during Sprint</h4></div>
+
 <div id='6.3.'><h3> 6.3. Validation Interviews</h3></div>
 <div id='6.3.1.'><h4> 6.3.1. Diseño de Entrevistas</h4></div>
+
+En esta sección se establecen los elementos clave para validar la funcionalidad implementada durante el Sprint 2 de Chaki'y, incluyendo tanto el Landing Page como las aplicaciones web desarrolladas. El objetivo es evaluar la usabilidad, comprensión y efectividad de las funcionalidades implementadas con usuarios reales de nuestros segmentos objetivo.
+
+### Objetivos de Validación
+
+**Objetivo Principal:** Validar que las funcionalidades implementadas en el Sprint 2 cumplan con las expectativas y necesidades de los usuarios objetivo, identificando áreas de mejora para futuras iteraciones.
+
+**Objetivos Específicos:**
+- Evaluar la usabilidad del Landing Page para atraer y convertir visitantes
+- Validar la interfaz de usuario de la aplicación web y su facilidad de uso
+- Comprobar que los user flows principales sean intuitivos y eficientes
+- Identificar problemas de navegación o confusiones en el diseño
+- Recopilar feedback sobre las funcionalidades de monitoreo ambiental y control de dispositivos
+
+### Segmentos de Usuario a Validar
+
+**Segmento 1: Adultos que sufren de asma o problemas respiratorios**
+- Rango de edad: 20-45 años
+- Experiencia con tecnología: Básica a intermedia
+- Motivación principal: Control personal del ambiente para mejorar su salud respiratoria
+
+**Segmento 2: Padres/cuidadores de niños con asma**
+- Rango de edad: 25-50 años
+- Experiencia con tecnología: Básica a intermedia
+- Motivación principal: Proteger la salud respiratoria de sus hijos
+
+### Elementos a Validar
+
+#### Landing Page
+- **Claridad del mensaje de valor:** ¿El usuario comprende qué es Chaki'y y cómo le ayuda?
+- **Call-to-action:** ¿Es clara la invitación a registrarse o conocer más?
+- **Diseño visual:** ¿El diseño transmite confianza y profesionalismo médico?
+- **Información relevante:** ¿Las características y beneficios son comprensibles?
+
+#### Aplicación Web
+- **Dashboard principal:** Visualización de condiciones ambientales en tiempo real
+- **Gestión de dispositivos:** Agregar, editar y controlar dispositivos IoT
+- **Configuración de rutinas:** Crear y administrar rutinas automatizadas
+- **Historial de datos:** Consultar registros históricos de eventos y lecturas
+
+### User Flows de Validación
+
+#### User Flow 1: Primer contacto con Chaki'y (Landing Page)
+1. **Punto de inicio:** Usuario llega al Landing Page
+2. **Tareas a evaluar:**
+   - Comprender qué es Chaki'y en los primeros 30 segundos
+   - Identificar si el producto es relevante para su situación
+   - Encontrar información sobre características y beneficios
+   - Localizar forma de contacto o registro
+
+#### User Flow 2: Monitoreo ambiental en tiempo real
+1. **Punto de inicio:** Dashboard de la aplicación
+2. **Tareas a evaluar:**
+   - Interpretar las lecturas de temperatura, humedad y calidad del aire
+   - Identificar si las condiciones están en rangos saludables
+   - Acceder a información detallada de un sensor específico
+   - Comprender el estado general del sistema
+
+#### User Flow 3: Gestión de dispositivos IoT
+1. **Punto de inicio:** Sección de dispositivos
+2. **Tareas a evaluar:**
+   - Visualizar lista de dispositivos existentes
+   - Agregar un nuevo dispositivo al sistema
+   - Editar configuración de un dispositivo existente
+   - Activar/desactivar un dispositivo manualmente
+
+#### User Flow 4: Configuración de rutinas automatizadas
+1. **Punto de inicio:** Sección de rutinas
+2. **Tareas a evaluar:**
+   - Crear una rutina nueva con horario específico
+   - Configurar una acción automática basada en condiciones ambientales
+   - Editar una rutina existente
+   - Activar/desactivar rutinas
+
+#### User Flow 5: Consulta de historial
+1. **Punto de inicio:** Sección de historial
+2. **Tareas a evaluar:**
+   - Revisar eventos recientes del sistema
+   - Filtrar historial por dispositivo o fecha
+   - Acceder a detalles específicos de un evento
+   - Comprender patrones en los datos históricos
+
+### Preguntas Guía para las Entrevistas
+
+#### Preguntas Generales
+1. ¿Cuál es tu primera impresión sobre Chaki'y?
+2. ¿Consideras que este producto sería útil para tu situación personal?
+3. ¿Qué tan fácil te resulta navegar por la aplicación?
+4. ¿Hay algo que te confunde o no entiendes claramente?
+
+#### Preguntas Específicas por Funcionalidad
+**Landing Page:**
+- ¿Entiendes claramente qué problema soluciona Chaki'y?
+- ¿Te sientes motivado a conocer más sobre el producto?
+- ¿El diseño te transmite confianza?
+
+**Monitoreo Ambiental:**
+- ¿Los datos mostrados son claros y comprensibles?
+- ¿Puedes identificar rápidamente si hay algún problema ambiental?
+- ¿Te ayudarían estos datos a tomar decisiones sobre tu salud?
+
+**Control de Dispositivos:**
+- ¿Te resulta intuitivo agregar un nuevo dispositivo?
+- ¿El control manual de dispositivos es claro?
+- ¿Confiarías en que el sistema maneje tus dispositivos automáticamente?
+
+**Rutinas:**
+- ¿Entiendes el concepto de rutinas automatizadas?
+- ¿Te resulta fácil configurar una rutina nueva?
+- ¿Qué tipo de rutinas te serían más útiles?
+
 <div id='6.3.2.'><h4> 6.3.2. Registro de Entrevistas</h4></div>
 <div id='6.3.3.'><h4> 6.3.3. Evaluaciones según heurísticas</h4></div>
 <div id='6.4.'><h3> 6.4. Video About-the-Product</h3></div>
