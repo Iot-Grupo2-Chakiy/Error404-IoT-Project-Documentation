@@ -3610,6 +3610,12 @@ En esta sección se establecen los elementos clave para validar la funcionalidad
 |<img src="resources/interviewsPhotos/gianSanchez.png">||
 |Duración entrevista:  |URL: []|
 
+|Nombre entrevistado| Josue Valverde|
+|-|-|
+|Edad| 23 |
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/entrevistaJosue2.jpg">| |
+|Duración entrevista: |URL: [[Entrevista ‐ Josue Valverde.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f568_upc_edu_pe/EVuXC-dZKiJIpueVBcbAqmsBZNnrHM92rQKVG927Z_cZ-w?e=3BTVg9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]| 
 
 |Nombre entrevistado| |
 |-|-|
