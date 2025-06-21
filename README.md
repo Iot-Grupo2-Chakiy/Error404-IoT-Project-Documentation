@@ -2645,11 +2645,11 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
   <thead>
     <tr>
       <td>Sprint #:</td>
-      <td colspan="7">Sprint 1</td>
+      <td colspan="8">Sprint 1</td>
     </tr>
     <tr>
       <td colspan="2">User Story</td>
-      <td colspan="6">Work-Item / Task</td>
+      <td colspan="7">Work-Item / Task</td>
     </tr>
     <tr>
       <td>ID</td>
@@ -2660,6 +2660,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>Estimation (Hours)</td>
       <td>Assigned to</td>
       <td>Status (To-Do/In-Process/To-Review/Done)</td>
+      <td>Sub-Tasks</td>
     </tr>
   </thead>
   <tbody>
@@ -2672,6 +2673,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>4</td>
       <td>Guillen Luna, Paolo César</td>
       <td>Done</td>
+      <td>1. Conectar sensor de humedad<br>2. Renderizar datos en componente UI</td>
     </tr>
     <tr>
       <td>US03</td>
@@ -2682,6 +2684,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>4</td>
       <td>Cachis Gonzales, Sebastian Nicolas</td>
       <td>Done</td>
+      <td>1. Obtener datos del sensor<br>2. Mostrar datos en tarjeta informativa</td>
     </tr>
     <tr>
       <td>US08</td>
@@ -2692,6 +2695,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>5</td>
       <td>Cantoral Paredes, Diego André</td>
       <td>Done</td>
+      <td>1. Crear interfaz de configuración<br>2. Aplicar lógica de activación según parámetros</td>
     </tr>
     <tr>
       <td>US16</td>
@@ -2702,6 +2706,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>4</td>
       <td>Llamo Sánchez, Amner Levi</td>
       <td>Done</td>
+      <td>1. Crear botones en UI<br>2. Conectar botones con dispositivos</td>
     </tr>
     <tr>
       <td>US19</td>
@@ -2712,6 +2717,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>5</td>
       <td>Elias Yauri Paucar</td>
       <td>Done</td>
+      <td>1. Crear formulario de rutina<br>2. Implementar lógica de activación por evento</td>
     </tr>
     <tr>
       <td>US10</td>
@@ -2722,6 +2728,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>3</td>
       <td>Guillen Luna, Paolo César</td>
       <td>Done</td>
+      <td>1. Agregar botón de pausa<br>2. Modificar lógica para desactivar temporalmente</td>
     </tr>
     <tr>
       <td>US04</td>
@@ -2732,6 +2739,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>5</td>
       <td>Cachis Gonzales, Sebastian Nicolas</td>
       <td>In-Process</td>
+      <td>1. Integrar datos de sensores<br>2. Diseñar vista resumen en UI</td>
     </tr>
     <tr>
       <td>US17</td>
@@ -2742,6 +2750,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>5</td>
       <td>Cantoral Paredes, Diego André</td>
       <td>In-Process</td>
+      <td>1. Crear interfaz para horarios<br>2. Implementar lógica de programación</td>
     </tr>
     <tr>
       <td>US15</td>
@@ -2752,6 +2761,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>4</td>
       <td>Llamo Sánchez, Amner Levi</td>
       <td>In-Process</td>
+      <td>1. Configurar servicio de notificaciones<br>2. Diseñar mensajes y eventos disparadores</td>
     </tr>
   </tbody>
 </table>
@@ -3000,10 +3010,402 @@ Durante el Sprint 2, el equipo se enfocó en completar el ecosistema tecnológic
 
 
 <div id='6.2.2.3.'><h4> 6.2.2.3. Sprint Backlog 2</h4></div>
+
+<table>
+  <thead>
+    <tr>
+      <td>Sprint #:</td>
+      <td colspan="8">Sprint 2</td>
+    </tr>
+    <tr>
+      <td colspan="2">User Story</td>
+      <td colspan="7">Work-Item / Task</td>
+    </tr>
+    <tr>
+      <td>ID</td>
+      <td>Title</td>
+      <td>ID</td>
+      <td>Title</td>
+      <td>Description</td>
+      <td>Estimation (Hours)</td>
+      <td>Assigned to</td>
+      <td>Status (To-Do/In-Process/To-Review/Done)</td>
+      <td>Sub-Tasks</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Visualización de temperatura en tiempo real</td>
+      <td>01</td>
+      <td>Implementar visualización de temperatura</td>
+      <td>Mostrar temperatura actual en la interfaz con actualización en tiempo real</td>
+      <td>4</td>
+      <td>Guillen Luna, Paolo César</td>
+      <td>Done</td>
+      <td>1. Conectar con sensor de temperatura<br>2. Crear componente visual con datos actualizados</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Activación automática de purificador de aire</td>
+      <td>02</td>
+      <td>Automatizar purificador según calidad del aire</td>
+      <td>Configurar activación automática cuando calidad del aire sea mala</td>
+      <td>5</td>
+      <td>Cachis Gonzales, Sebastian Nicolas</td>
+      <td>Done</td>
+      <td>1. Definir umbrales de activación<br>2. Integrar con API del purificador</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Activación automática de deshumidificador</td>
+      <td>03</td>
+      <td>Automatizar deshumidificador</td>
+      <td>Encender automáticamente cuando humedad supere umbral</td>
+      <td>5</td>
+      <td>Cantoral Paredes, Diego André</td>
+      <td>Done</td>
+      <td>1. Configurar rangos ideales<br>2. Conectar con dispositivo IoT</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Notificaciones por niveles críticos</td>
+      <td>04</td>
+      <td>Implementar alertas de humedad crítica</td>
+      <td>Enviar notificación cuando humedad alcance niveles peligrosos</td>
+      <td>3</td>
+      <td>Llamo Sánchez, Amner Levi</td>
+      <td>Done</td>
+      <td>1. Definir niveles críticos<br>2. Configurar sistema de notificaciones</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Registro de activaciones automáticas</td>
+      <td>05</td>
+      <td>Historial de activaciones</td>
+      <td>Mostrar registro de cuándo se activaron dispositivos automáticamente</td>
+      <td>4</td>
+      <td>Elias Yauri Paucar</td>
+      <td>Done</td>
+      <td>1. Crear tabla de registros<br>2. Almacenar datos de activaciones</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Notificaciones por niveles críticos de humedad</td>
+      <td>06</td>
+      <td>Alertas de humedad para usuarios asmáticos</td>
+      <td>Notificar cuando humedad salga de rangos seguros</td>
+      <td>3</td>
+      <td>Guillen Luna, Paolo César</td>
+      <td>Done</td>
+      <td>1. Configurar umbrales personalizables<br>2. Implementar notificaciones push</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Alertas por deterioro de calidad del aire</td>
+      <td>07</td>
+      <td>Sistema de alertas de calidad del aire</td>
+      <td>Notificar cuando calidad del aire empeore significativamente</td>
+      <td>4</td>
+      <td>Cachis Gonzales, Sebastian Nicolas</td>
+      <td>Done</td>
+      <td>1. Definir parámetros de deterioro<br>2. Integrar con sistema de notificaciones</td>
+    </tr>
+    <tr>
+      <td>US13</td>
+      <td>Personalización de tipos de alertas</td>
+      <td>08</td>
+      <td>Configuración de preferencias de alertas</td>
+      <td>Permitir seleccionar qué alertas recibir (temperatura/humedad/calidad aire)</td>
+      <td>3</td>
+      <td>Cantoral Paredes, Diego André</td>
+      <td>Done</td>
+      <td>1. Crear interfaz de selección<br>2. Guardar preferencias del usuario</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Configuración de umbrales para notificaciones</td>
+      <td>09</td>
+      <td>Personalizar umbrales de notificaciones</td>
+      <td>Permitir ajustar valores que disparan las notificaciones</td>
+      <td>4</td>
+      <td>Llamo Sánchez, Amner Levi</td>
+      <td>Done</td>
+      <td>1. Diseñar interfaz de ajustes<br>2. Implementar lógica de umbrales personalizados</td>
+    </tr>
+    <tr>
+      <td>US18</td>
+      <td>Ajuste de sensibilidad de sensores y umbrales</td>
+      <td>10</td>
+      <td>Calibración de sensores</td>
+      <td>Permitir ajustar sensibilidad de sensores y umbrales de activación</td>
+      <td>5</td>
+      <td>Elias Yauri Paucar</td>
+      <td>Done</td>
+      <td>1. Crear panel de calibración<br>2. Implementar ajustes personalizados</td>
+    </tr>
+    <tr>
+      <td>US20</td>
+      <td>Personalización de nombres de dispositivos</td>
+      <td>11</td>
+      <td>Renombrar dispositivos y sensores</td>
+      <td>Permitir asignar nombres personalizados a cada elemento</td>
+      <td>3</td>
+      <td>Guillen Luna, Paolo César</td>
+      <td>Done</td>
+      <td>1. Agregar campo de edición<br>2. Mostrar nombres personalizados en UI</td>
+    </tr>
+    <tr>
+      <td>US21</td>
+      <td>Visualización de historial ambiental</td>
+      <td>12</td>
+      <td>Historial de condiciones ambientales</td>
+      <td>Mostrar registro histórico de temperatura, humedad y calidad del aire</td>
+      <td>5</td>
+      <td>Cachis Gonzales, Sebastian Nicolas</td>
+      <td>Done</td>
+      <td>1. Almacenar datos históricos<br>2. Diseñar vista de historial</td>
+    </tr>
+    <tr>
+      <td>US22</td>
+      <td>Visualización de gráficos de tendencias</td>
+      <td>13</td>
+      <td>Gráficos de datos ambientales</td>
+      <td>Mostrar tendencias mediante gráficos interactivos</td>
+      <td>4</td>
+      <td>Cantoral Paredes, Diego André</td>
+      <td>Done</td>
+      <td>1. Integrar librería de gráficos<br>2. Visualizar datos históricos</td>
+    </tr>
+    <tr>
+      <td>TS01</td>
+      <td>API para datos de sensores ambientales</td>
+      <td>01</td>
+      <td>Desarrollar API REST de sensores</td>
+      <td>Crear endpoints para recuperar datos en tiempo real de sensores</td>
+      <td>3</td>
+      <td>Guillen Luna, Paolo César</td>
+      <td>Done</td>
+      <td>1. Definir estructura de endpoints<br>2. Implementar lógica de recuperación de datos</td>
+    </tr>
+    <tr>
+      <td>TS04</td>
+      <td>Servicio de automatización de dispositivos</td>
+      <td>02</td>
+      <td>Implementar motor de automatización</td>
+      <td>Crear servicio que ejecute reglas de automatización basadas en condiciones ambientales</td>
+      <td>5</td>
+      <td>Cachis Gonzales, Sebastian Nicolas</td>
+      <td>Done</td>
+      <td>1. Diseñar sistema de reglas<br>2. Integrar con API de dispositivos</td>
+    </tr>
+    <tr>
+      <td>TS02</td>
+      <td>Sistema de WebSockets para actualización en tiempo real</td>
+      <td>03</td>
+      <td>Implementar WebSocket server</td>
+      <td>Configurar servicio para enviar actualizaciones en tiempo real a los clientes</td>
+      <td>5</td>
+      <td>Cantoral Paredes, Diego André</td>
+      <td>Done</td>
+      <td>1. Configurar servidor WebSocket<br>2. Implementar protocolo de comunicación</td>
+    </tr>
+    <tr>
+      <td>TS06</td>
+      <td>Servicio de notificaciones</td>
+      <td>04</td>
+      <td>Desarrollar sistema de notificaciones push</td>
+      <td>Crear servicio para enviar alertas sobre condiciones críticas</td>
+      <td>3</td>
+      <td>Llamo Sánchez, Amner Levi</td>
+      <td>Done</td>
+      <td>1. Integrar con FCM/APNs<br>2. Diseñar plantillas de notificaciones</td>
+    </tr>
+    <tr>
+      <td>TS05</td>
+      <td>API para CRUD de dispositivos inteligentes</td>
+      <td>05</td>
+      <td>Implementar API de gestión de dispositivos</td>
+      <td>Crear endpoints para administrar dispositivos IoT conectados</td>
+      <td>3</td>
+      <td>Elias Yauri Paucar</td>
+      <td>Done</td>
+      <td>1. Diseñar modelo de datos<br>2. Implementar operaciones CRUD</td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Servicio de programación de rutinas</td>
+      <td>06</td>
+      <td>Desarrollar scheduler de rutinas</td>
+      <td>Implementar servicio para ejecutar acciones basadas en horarios</td>
+      <td>5</td>
+      <td>Guillen Luna, Paolo César</td>
+      <td>Done</td>
+      <td>1. Crear sistema de colas<br>2. Implementar lógica de temporización</td>
+    </tr>
+    <tr>
+      <td>TS10</td>
+      <td>Módulo de configuración de sensibilidad</td>
+      <td>07</td>
+      <td>Implementar calibración de sensores</td>
+      <td>Crear módulo para ajustar sensibilidad y umbrales de sensores</td>
+      <td>3</td>
+      <td>Cachis Gonzales, Sebastian Nicolas</td>
+      <td>Done</td>
+      <td>1. Diseñar interfaz de calibración<br>2. Implementar ajustes de sensibilidad</td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td>Base de datos de series temporales</td>
+      <td>08</td>
+      <td>Configurar TSDB para datos históricos</td>
+      <td>Implementar base de datos optimizada para datos de sensores</td>
+      <td>3</td>
+      <td>Cantoral Paredes, Diego André</td>
+      <td>Done</td>
+      <td>1. Seleccionar e instalar TSDB<br>2. Configurar políticas de retención</td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>API para gestión de habitaciones</td>
+      <td>09</td>
+      <td>Desarrollar API de espacios</td>
+      <td>Crear endpoints para administrar habitaciones y ubicaciones</td>
+      <td>3</td>
+      <td>Llamo Sánchez, Amner Levi</td>
+      <td>Done</td>
+      <td>1. Diseñar modelo de ubicaciones<br>2. Implementar operaciones CRUD</td>
+    </tr>
+    <tr>
+      <td>TS08</td>
+      <td>API para exportación de datos</td>
+      <td>10</td>
+      <td>Implementar exportación de datos</td>
+      <td>Crear endpoints para exportar datos en múltiples formatos</td>
+      <td>3</td>
+      <td>Elias Yauri Paucar</td>
+      <td>Done</td>
+      <td>1. Implementar generación de CSV/JSON<br>2. Crear sistema de compresión</td>
+    </tr>
+    <tr>
+      <td>TS07</td>
+      <td>Almacenamiento seguro de credenciales</td>
+      <td>11</td>
+      <td>Implementar Vault para credenciales</td>
+      <td>Configurar sistema seguro para almacenar credenciales de dispositivos</td>
+      <td>2</td>
+      <td>Guillen Luna, Paolo César</td>
+      <td>Done</td>
+      <td>1. Configurar servicio de vault<br>2. Implementar encriptación</td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Sistema de autenticación y autorización</td>
+      <td>12</td>
+      <td>Implementar Auth con JWT</td>
+      <td>Crear sistema de autenticación seguro basado en tokens</td>
+      <td>5</td>
+      <td>Cachis Gonzales, Sebastian Nicolas</td>
+      <td>Done</td>
+      <td>1. Configurar servicio de tokens<br>2. Implementar middlewares de autorización</td>
+    </tr>
+    <tr>
+      <td>TS12</td>
+      <td>Microservicio de geolocalización</td>
+      <td>13</td>
+      <td>Desarrollar servicio de geofencing</td>
+      <td>Crear microservicio para gestionar ubicación de usuarios</td>
+      <td>5</td>
+      <td>Cantoral Paredes, Diego André</td>
+      <td>Done</td>
+      <td>1. Integrar con APIs de geolocalización<br>2. Implementar geofencing</td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Pipeline de procesamiento en tiempo real</td>
+      <td>14</td>
+      <td>Configurar stream processing</td>
+      <td>Implementar pipeline para analizar datos ambientales en tiempo real</td>
+      <td>5</td>
+      <td>Llamo Sánchez, Amner Levi</td>
+      <td>Done</td>
+      <td>1. Configurar Kafka/Flink<br>2. Implementar lógica de detección de anomalías</td>
+    </tr>
+  </tbody>
+</table>
+
 <div id='6.2.2.4.'><h4> 6.2.2.4. Development Evidence for Sprint Review</h4></div>
+
+Se adjuntan las evidencias de lo progresado a nivel de desarrollo en el sprint: 
+
+| Repository | Branch | CommitID | Commit Message | Commit Message Body | Commited on (Date) |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | b181877 | feat: it needs more communication with the edge api other than that its fine | - | Jun 15, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | 7479x67 | feat: when creating routine it registers in users edge-api | - | Jun 15, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | 5341608 | Merge pull request #5 from lck-Grupo2-Chakly/feat/development-feats | - | Jun 15, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | 4451867 | feat: last things to do, improve routines (add update and delete method) and make this api communicate with the edge one | - | Jun 15, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | 2976696 | Merge pull request #4 from lck-Grupo2-Chakly/feat/lam-profiles | - | Jun 15, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | 721c745 | feat: add lam and profiles | - | Jun 15, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | 5195868 | Merge pull request #3 from lck-Grupo2-Chakly/feat/implementing-automation | - | Jun 14, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | 976316e | feat: currently preparing cloud api for the edge api | - | Jun 14, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | 4064847 | feat: routine new column | - | Jun 9, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | a1b2c3d4 | fix: auth related | - | Jun 20, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | e5f6g7h8 | fix: temporarily deleted notification bd | - | Jun 20, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | i9j0k1l2 | Merge pull request #6 from lot-Grupo2-Chakty/feat/development-feats | - | Jun 18, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Backend-API/commits/main/ | main | m3n4o5p6 | better communication to edge api, it now registers the device in it | - | Jun 17, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front | main | ab12cd3 | update | - | Jun 20, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front | main | cd34ef5 | updated register screen | - | Jun 16, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front | main | ef56gh7 | updated login screen | - | Jun 16, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front | main | gh78ij9 | feat: left to do is implementing iot communication with the embedded application | - | Jun 15, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front | main | ij90kl1 | feat: last things to do, improve audit trail details, improve routines related, and add iam | - | Jun 15, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front | main | kl12mn3 | Merge pull request #3 from Iot-Grupo2-Chakiy/feat/creation-menus | - | Jun 14, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front | main | mn34op5 | feat: better management of services | - | Jun 14, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front | main | op56qr7 | feat: added toggle when creating routine | - | Jun 9, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/MobileAppFlutter/commits/main/ | main | ac45de1 | (feat): added the login screen and features | - | Jun 19, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/MobileAppFlutter/commits/main/ | main | bf67gh2 | feat: devices section is done, aditionally it has connection with the backend api | - | Jun 15, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/MobileAppFlutter/commits/main/ | main | c913jk4 | fix: nav bar is included and currently all sections hardcoded | - | Jun 3, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/MobileAppFlutter/commits/main/ | main | d472lm5 | first commit | - | Jun 2, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Edge-API | main | ed01ab2 | feat: to do is background job and possible synchronization | - | Jun 18, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Edge-API | main | ed02bc3 | feat: left to do background service related to routine and whether device should be drying or not | - | Jun 17, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Edge-API | main | ed03cd4 | feat: to do is background job and possible synchronization | - | Jun 15, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Edge-API | main | ed04de5 | feat: routines added, left to do (add background job and possible synchhronization when offline) | - | Jun 15, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Edge-API | main | ed05ef6 | feat: initial commit related for chakiy adaptarion | - | Jun 14, 2025 |
+| https://github.com/Iot-Grupo2-Chakiy/Chakiy-Edge-API | main | ed06fa7 | first commit | - | Jun 14, 2025 |
+
 <div id='6.2.2.5.'><h4> 6.2.2.5. Testing Suite Evidence for Sprint Review</h4></div>
+Similar a la entrega previa se realizó unas pruebas en formato gherkin, donde se consideró los 10 Us más importantes entornos al negocio
+
+| Repository | Branch | CommitID | Commit Message | Commit Message Body | Commited on (Date) |
+| :--: | :--: | :--: | :--:  |   :--: |  :--: |
+|https://github.com/Iot-Grupo2-Chakiy/Error404-IoT-Project-Documentation|main|53149c9|Readme update with test||14/05/2025|
+
+Gherkin Syntax: https://cucumber.io/docs/gherkin/reference/
+
+
 <div id='6.2.2.6.'><h4> 6.2.2.6. Execution Evidence for Sprint Review</h4></div>
 <div id='6.2.2.7.'><h4> 6.2.2.7. Services Documentation Evidence for Sprint Review</h4></div>
+
+Durante este sprint se implementaron los servicios principales para los módulos de **gestión de dispositivos IoT**, **rutinas automatizadas**, **registros de auditoría** y **manejo de errores**. A continuación se detallan los endpoints implementados:
+
+| **Endpoint** | **Detalles** |
+|--------------|--------------|
+| **POST /api/v1/iot-devices** | Registra un nuevo dispositivo IoT en el sistema. Recibe un JSON con nombre, tipo y estado inicial. Devuelve código 201 (Created) al éxito o 400 (Bad Request) si hay errores de validación. |
+| **GET /api/v1/iot-devices** | Obtiene el listado completo de dispositivos IoT registrados. Retorna un array de dispositivos con sus propiedades técnicas y estado actual (código 200). |
+| **GET /api/v1/iot-devices/{id}** | Recupera la información detallada de un dispositivo específico usando su ID único. Retorna 200 (OK) con los datos o 404 (Not Found) si no existe. |
+| **PATCH /api/v1/iot-devices/{id}/estado** | Actualiza el estado (ON/OFF) de un dispositivo individual. Requiere el ID y nuevo estado en el body. Retorna 204 (No Content) al éxito. |
+| **PATCH /api/v1/iot-devices/{id}/main-device** | Establece un dispositivo como principal (main device) para el usuario. Retorna 200 (OK) o 409 (Conflict) si ya existe un dispositivo principal. |
+| **PUT /api/v1/iot-devices/{id}** | Actualiza todos los campos configurables de un dispositivo. Retorna mensaje de confirmación (200) o error 404 si el dispositivo no existe. |
+| **DELETE /api/v1/iot-devices/{id}** | Elimina permanentemente un dispositivo del sistema. Retorna 204 (No Content) tras eliminación exitosa. |
+| **POST /api/v1/routine** | Crea una nueva rutina automatizada con acciones programadas. Retorna 201 (Created) con la rutina creada o 400 por datos inválidos. |
+| **GET /api/v1/routine** | Lista todas las rutinas configuradas en el sistema. Retorna array con todas las rutinas (200 OK). |
+| **GET /api/v1/routine/{id}** | Obtiene los detalles completos de una rutina específica. Retorna 200 (OK) o 404 si no existe. |
+| **PUT /api/v1/routine/{id}** | Actualiza todos los parámetros de una rutina existente. Retorna la rutina actualizada (200) o error 400. |
+| **DELETE /api/v1/routine/{id}** | Elimina una rutina del sistema. Retorna 204 (No Content) tras eliminación exitosa. |
+| **GET /api/v1/log** | Consulta el historial completo de eventos del sistema. Retorna array ordenado cronológicamente (200 OK). |
+| **GET /api/v1/log/{id}** | Obtiene un registro de auditoría específico con todos sus metadatos. Retorna 200 (OK) o 404 si no existe. |
+
+
+
 <div id='6.2.2.8.'><h4> 6.2.2.8. Software Deployment Evidence for Sprint Review</h4></div>
 <div id='6.2.2.9.'><h4> 6.2.2.9. Team Collaboration Insights during Sprint</h4></div>
 
@@ -3122,11 +3524,15 @@ En esta sección se establecen los elementos clave para validar la funcionalidad
 
 <div id='6.3.2.'><h4> 6.3.2. Registro de Entrevistas</h4></div>
 <div id='6.3.3.'><h4> 6.3.3. Evaluaciones según heurísticas</h4></div>
+
 <div id='6.4.'><h3> 6.4. Video About-the-Product</h3></div>
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
 **TB1:** Se concluye tras este entregable que plantear un proyecto y de buena manera desde el inicio es esencial, el hecho de iniciar un proyecto IoT planificando la estructura que va a seguir, su diseño, base de datos y requisitos que va a necesitar es algo esencial, puesto que se incurrirían en gastos materiales si es que el sistema se plantea de forma érronea, además del hecho de contar con un equipo, manejarlo y repartir las tareas fue algo esencial para un entregable exitoso.
+**TP:** Se concluye tras este entregable que plantear un proyecto de forma adecuada desde el inicio es esencial. Iniciar un sistema IoT con una planificación clara de su estructura, diseño, base de datos y requisitos permite evitar errores costosos, tanto en tiempo como en materiales. Además, contar con un equipo organizado, con roles bien definidos y una distribución efectiva de tareas, fue clave para lograr una primera versión funcional del sistema. Esta base inicial sentó los cimientos para una integración futura entre el backend, frontend y dispositivos.
+**TB2:** Se concluye tras este entregable que el desarrollo iterativo permitió consolidar la aplicación en todos sus módulos, extendiendo lo construido en el TP. A través de los commits realizados, se implementaron funcionalidades claves como pantallas de login y registro, conexión entre frontend y backend, integración con la API de Edge y servicios de automatización. Además, se evidenció una mejora continua en la comunicación entre dispositivos y servicios, así como avances en sincronización en segundo plano. La correcta gestión de versiones, sumada a un trabajo colaborativo constante, fue crucial para alcanzar un sistema robusto, adaptable y preparado para futuras iteraciones.
+
 
 <div id='9.'><h2>Bibliografía</h2></div>
 
