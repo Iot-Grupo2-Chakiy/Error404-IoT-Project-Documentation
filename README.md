@@ -3616,18 +3616,18 @@ En esta sección se establecen los elementos clave para validar la funcionalidad
 
 |Nombre entrevistado| Josue Valverde|
 |-|-|
-|Edad| 23 |
-|Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/entrevistaJosue2.jpg">| |
-|Duración entrevista: |URL: [[Entrevista ‐ Josue Valverde.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f568_upc_edu_pe/EVuXC-dZKiJIpueVBcbAqmsBZNnrHM92rQKVG927Z_cZ-w?e=3BTVg9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]| 
+| **Edad**|25 años|
+|**Departamento**|Lima, Lima|
+|<img src="resources/interviewsPhotos/waltherCachay.png">|Walter, quien ha superado el asma, valora enormemente las herramientas para mejorar la calidad del aire. Le impresionó la medición de temperatura, humedad y calidad del aire, encontrando gran utilidad en estas variables coordinadas y la claridad y facilidad de comprensión de los datos en la aplicación, lo que facilita la identificación de problemas ambientales. El proceso de agregar dispositivos le resultó muy intuitivo y entendió fácilmente tanto el control manual como la automatización de los mismos, confiando plenamente en el sistema. Las rutinas automatizadas le parecieron muy útiles, especialmente las basadas en horarios y rangos de valores específicos, considerándolas de gran ayuda para el bienestar, y finalmente, le agradó saber que no hay un límite de dispositivos.|
+|Duración entrevista: 00:00-10:30 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EdemUWiDGCBMqFMj48zrKSYBGMwQ5KvMLiM1eKvu0TQaSw?e=Et8m1U]|
 
-|Nombre entrevistado| |
+
+|**Nombre entrevistado**|Walther Cachay|
 |-|-|
-|Edad| |
-|Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/BrianEntrevista.png">| |
-|Duración entrevista: |URL: []|
-
+| **Edad**|25 años|
+|**Departamento**|Lima, Lima|
+|<img src="resources/interviewsPhotos/waltherCachay.png">|Walter, quien ha superado el asma, valora enormemente las herramientas para mejorar la calidad del aire. Le impresionó la medición de temperatura, humedad y calidad del aire, encontrando gran utilidad en estas variables coordinadas y la claridad y facilidad de comprensión de los datos en la aplicación, lo que facilita la identificación de problemas ambientales. El proceso de agregar dispositivos le resultó muy intuitivo y entendió fácilmente tanto el control manual como la automatización de los mismos, confiando plenamente en el sistema. Las rutinas automatizadas le parecieron muy útiles, especialmente las basadas en horarios y rangos de valores específicos, considerándolas de gran ayuda para el bienestar, y finalmente, le agradó saber que no hay un límite de dispositivos.|
+|Duración entrevista: 00:00-10:30 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EdemUWiDGCBMqFMj48zrKSYBGMwQ5KvMLiM1eKvu0TQaSw?e=Et8m1U]|
 
 <div id='6.3.3.'><h4> 6.3.3. Evaluaciones según heurísticas</h4></div>
 
