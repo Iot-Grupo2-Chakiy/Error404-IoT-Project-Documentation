@@ -3011,6 +3011,10 @@ Durante el Sprint 2, el equipo se enfocó en completar el ecosistema tecnológic
 
 <div id='6.2.2.3.'><h4> 6.2.2.3. Sprint Backlog 2</h4></div>
 
+Durante este segundo sprint el equipo se enfoco en terminar lo mayor que se pueda de la solución a nivel IoT, se desarrolló el edge api, dispostivo iot, versión móvil y web de la aplicación. Estas historias planteadas en este backlog para esta entrega fue esencial para el cumplimiento adecuado de las metas planteadas para este. 
+
+Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976406f2daab6cce27af1f889e806280B520/chakiy-productbacklog
+
 <table>
   <thead>
     <tr>
@@ -3384,7 +3388,9 @@ Gherkin Syntax: https://cucumber.io/docs/gherkin/reference/
 
 <div id='6.2.2.6.'><h4> 6.2.2.6. Execution Evidence for Sprint Review</h4></div>
 
-Con el fin de mostrar las evidencias del caso y lo desarrollado hasta ahora para esta entrega se adjuntan capturas 
+Con el fin de mostrar las evidencias del caso y lo desarrollado hasta ahora para esta entrega se adjunta la grabación mostrando los avances que se realizaron para esta entrega donde se engloba el **Edge-API**, **Embedded-Application** y **Mobile-App**
+
+
 <div id='6.2.2.7.'><h4> 6.2.2.7. Services Documentation Evidence for Sprint Review</h4></div>
 
 Durante este sprint se implementaron los servicios principales para los módulos de **gestión de dispositivos IoT**, **rutinas automatizadas**, **registros de auditoría** y **manejo de errores**. A continuación se detallan los endpoints implementados:
@@ -3447,10 +3453,37 @@ Se adjuntan las evidencias de despliegue del trabajo realizado para el sprint 2 
 
 <div id='6.2.2.9.'><h4> 6.2.2.9. Team Collaboration Insights during Sprint</h4></div>
 
+|**Alumno**|**Actividad**|
+|:--:|:--:|
+|Guillen Luna, Paolo César|Desarrollo backend|
+|Cantoral Paredes, Diego André|Desarrollo móvil y acoplar backend|
+|Llamo Sánchez, Amner Levi|Desarrollo del informe, backend y secciones iot de aplciacion embebida|
+|Yauri Paucar, Elias|Aplicación embebida|
+|Cachis, Sebastian|Landing page y despliegue de servicios|
+
+
+**Edge-API**
+
+<img src="resources/tb2/insightsSprint/1.png"/>  
+
+**Mobile-APP**
+
+<img src="resources/tb2/insightsSprint/2.png"/>  
+
+**Backend**
+
+<img src="resources/tb2/insightsSprint/3.png"/>  
+
+**Frontend**
+
+<img src="resources/tb2/insightsSprint/4.png"/>  
+
+**Embedded-Application**
+
+<img src="resources/tb2/insightsSprint/5.png"/>  
+
+
 <div id='6.3.'><h3> 6.3. Validation Interviews</h3></div>
-
-
-
 <div id='6.3.1.'><h4> 6.3.1. Diseño de Entrevistas</h4></div>
 
 En esta sección se establecen los elementos clave para validar la funcionalidad implementada durante el Sprint 2 de Chaki'y, incluyendo tanto el Landing Page como las aplicaciones web desarrolladas. El objetivo es evaluar la usabilidad, comprensión y efectividad de las funcionalidades implementadas con usuarios reales de nuestros segmentos objetivo.
