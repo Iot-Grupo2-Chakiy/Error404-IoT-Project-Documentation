@@ -2738,7 +2738,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>Mostrar una vista consolidada de temperatura, humedad y calidad del aire</td>
       <td>5</td>
       <td>Cachis Gonzales, Sebastian Nicolas</td>
-      <td>In-Process</td>
+      <td>Done</td>
       <td>1. Integrar datos de sensores<br>2. Diseñar vista resumen en UI</td>
     </tr>
     <tr>
@@ -2749,7 +2749,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>Permitir configurar horarios de encendido/apagado del purificador</td>
       <td>5</td>
       <td>Cantoral Paredes, Diego André</td>
-      <td>In-Process</td>
+      <td>Done</td>
       <td>1. Crear interfaz para horarios<br>2. Implementar lógica de programación</td>
     </tr>
     <tr>
@@ -2760,7 +2760,7 @@ Link de trello: https://trello.com/invite/b/6823e895159a85efcd68e619/ATTId7ef976
       <td>Enviar notificaciones al móvil incluso cuando la app esté cerrada</td>
       <td>4</td>
       <td>Llamo Sánchez, Amner Levi</td>
-      <td>In-Process</td>
+      <td>Done</td>
       <td>1. Configurar servicio de notificaciones<br>2. Diseñar mensajes y eventos disparadores</td>
     </tr>
   </tbody>
@@ -3383,6 +3383,8 @@ Gherkin Syntax: https://cucumber.io/docs/gherkin/reference/
 
 
 <div id='6.2.2.6.'><h4> 6.2.2.6. Execution Evidence for Sprint Review</h4></div>
+
+Con el fin de mostrar las evidencias del caso y lo desarrollado hasta ahora para esta entrega se adjuntan capturas 
 <div id='6.2.2.7.'><h4> 6.2.2.7. Services Documentation Evidence for Sprint Review</h4></div>
 
 Durante este sprint se implementaron los servicios principales para los módulos de **gestión de dispositivos IoT**, **rutinas automatizadas**, **registros de auditoría** y **manejo de errores**. A continuación se detallan los endpoints implementados:
@@ -3407,6 +3409,42 @@ Durante este sprint se implementaron los servicios principales para los módulos
 
 
 <div id='6.2.2.8.'><h4> 6.2.2.8. Software Deployment Evidence for Sprint Review</h4></div>
+
+Se adjuntan las evidencias de despliegue del trabajo realizado para el sprint 2 y tb2 respectivamente donde se terminó al 80% de la totalidad del trabajo.
+
+**Landing Page**
+<img src="resources/tb2/deploymenteEvidence/1.png"/>  
+<img src="resources/tb2/deploymenteEvidence/2.png"/>  
+<img src="resources/tb2/deploymenteEvidence/3.png"/>
+
+**MobileApp**
+<img src="resources/tb2/screenshotsapp/1.jpg"/>  
+<img src="resources/tb2/screenshotsapp/2.jpg"/>  
+<img src="resources/tb2/screenshotsapp/3.jpg"/>  
+<img src="resources/tb2/screenshotsapp/4.jpg"/>  
+<img src="resources/tb2/screenshotsapp/5.jpg"/>  
+<img src="resources/tb2/screenshotsapp/6.jpg"/>  
+<img src="resources/tb2/screenshotsapp/7.jpg"/>  
+<img src="resources/tb2/screenshotsapp/8.jpg"/>  
+<img src="resources/tb2/screenshotsapp/9.jpg"/>  
+<img src="resources/tb2/screenshotsapp/10.jpg"/>  
+
+
+**WebApp**
+<img src="resources/tb2/deploymenteEvidence/4.png"/>  
+<img src="resources/tb2/deploymenteEvidence/5.png"/>  
+<img src="resources/tb2/deploymenteEvidence/6.png"/>
+
+**EdgeAPI**
+
+<img src="resources/tb2/deploymenteEvidence/8.png"/>  
+<img src="resources/tb2/deploymenteEvidence/9.png"/>  
+
+**EmbeddepApplication**
+
+<img src="resources/tb2/deploymenteEvidence/7.png"/>  
+
+
 <div id='6.2.2.9.'><h4> 6.2.2.9. Team Collaboration Insights during Sprint</h4></div>
 
 <div id='6.3.'><h3> 6.3. Validation Interviews</h3></div>
@@ -3523,7 +3561,70 @@ En esta sección se establecen los elementos clave para validar la funcionalidad
 - ¿Qué tipo de rutinas te serían más útiles?
 
 <div id='6.3.2.'><h4> 6.3.2. Registro de Entrevistas</h4></div>
+
+
+
 <div id='6.3.3.'><h4> 6.3.3. Evaluaciones según heurísticas</h4></div>
+
+## Evaluación Heurística - Chaki’y (Versión Web y Móvil)
+**Propósito:** Detectar problemas de usabilidad en la aplicación IoT Chaki’y que ayuda a regular el ambiente del hogar (temperatura, humedad y calidad del aire), mediante la lista de heurísticas de Nielsen.
+
+
+### Tabla Resumen
+
+| # | Imagen | Problema detectado | Escala de severidad | Heurística/Principio violado |
+|---|--------|----------------------|----------------------|-------------------------------|
+| 1 | Dashboard Web | Los valores numéricos como `89` no indican unidad ni contexto. | 2 | Visibilidad del estado del sistema |
+| 2 | Landing Page Web | No hay un llamado a la acción (CTA) claro para iniciar sesión o registrarse. | 2 | Visibilidad del estado del sistema |
+| 3 | Dispositivos Web | Botones "Editar" y "Eliminar" están demasiado juntos y pueden inducir a error. | 3 | Prevención de errores |
+| 4 | Dispositivos Web - Vista extendida | No se distingue visualmente qué dispositivo es más importante. | 2 | Estética y diseño minimalista |
+| 5 | Dispositivos Móvil | Valores como `0.3°C - 0.1°C` aparecen en orden invertido y confuso. | 2 | Correspondencia entre el sistema y el mundo real |
+
+
+### Problemas Detallados
+
+#### Problema #1 – Visibilidad del estado del sistema  
+**Imagen:**  <img src="resources/tb2/mobileapp/1.png"/>  
+**Descripción:**  
+Los indicadores de temperatura, humedad y calidad del aire muestran un valor numérico `89`, pero sin unidad ni contexto. Esto dificulta la interpretación para el usuario.  
+**Recomendación:**  
+Agregar unidades como `89 %`, `89 °C` o `89 AQI` y un tooltip o etiqueta que aclare qué representa el número.
+
+
+#### Problema #2 – Falta de llamado a la acción (CTA) claro  
+**Imagen:**  <img src="resources/tb2/mobileapp/2.png"/>  
+**Descripción:**  
+Aunque visualmente limpia, la landing page no ofrece una guía clara para el usuario sobre cómo empezar a usar la aplicación. El botón azul tiene poco contraste.  
+**Recomendación:**  
+Reforzar el botón principal con texto como “Comienza ahora” o “Regístrate” y usar colores más contrastantes o animaciones suaves.
+
+
+
+#### Problema #3 – Prevención de errores  
+**Imagen:**  <img src="resources/tb2/mobileapp/3.png"/>  
+**Descripción:**  
+Los botones "Editar", "Eliminar" y "Desactivar" están muy juntos. Esto puede generar clics accidentales, especialmente en pantallas táctiles.  
+**Recomendación:**  
+Separar botones por espaciado, cambiar color del botón “Eliminar” para destacar su función crítica y agregar confirmación antes de ejecutar la acción.
+
+
+
+#### Problema #4 – Estética y diseño minimalista  
+**Imagen:**  <img src="resources/tb2/screenshotsapp/5.jpg"/>  
+**Descripción:**  
+No hay indicaciones visuales de prioridad entre dispositivos ni elementos que resalten cuál es el principal o cuál se actualizó recientemente.  
+**Recomendación:**  
+Aplicar etiquetas como “Principal”, usar colores secundarios para diferenciar estado o prioridad y evitar diseño plano en tarjetas relevantes.
+
+
+
+#### Problema #5 – Correspondencia con el mundo real  
+**Imagen:**  <img src="resources/tb2/screenshotsapp/4.jpg"/>  
+**Descripción:**  
+Los valores de temperatura, humedad y calidad del aire aparecen con rangos invertidos o confusos (ej. `0.3°C - 0.1°C`).  
+**Recomendación:**  
+Asegurar que los valores estén ordenados (`mín - máx`) o mostrar un solo valor promedio. También es ideal agregar íconos con leyendas explicativas para reforzar la interpretación.
+
 
 <div id='6.4.'><h3> 6.4. Video About-the-Product</h3></div>
 
