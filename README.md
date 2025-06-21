@@ -3448,6 +3448,9 @@ Se adjuntan las evidencias de despliegue del trabajo realizado para el sprint 2 
 <div id='6.2.2.9.'><h4> 6.2.2.9. Team Collaboration Insights during Sprint</h4></div>
 
 <div id='6.3.'><h3> 6.3. Validation Interviews</h3></div>
+
+
+
 <div id='6.3.1.'><h4> 6.3.1. Diseño de Entrevistas</h4></div>
 
 En esta sección se establecen los elementos clave para validar la funcionalidad implementada durante el Sprint 2 de Chaki'y, incluyendo tanto el Landing Page como las aplicaciones web desarrolladas. El objetivo es evaluar la usabilidad, comprensión y efectividad de las funcionalidades implementadas con usuarios reales de nuestros segmentos objetivo.
@@ -3562,6 +3565,20 @@ En esta sección se establecen los elementos clave para validar la funcionalidad
 
 <div id='6.3.2.'><h4> 6.3.2. Registro de Entrevistas</h4></div>
 
+
+|Nombre entrevistado||
+|Edad||
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/gianSanchez.png">||
+|Duración entrevista:  |URL: []|
+
+
+|Nombre entrevistado| |
+|-|-|
+|Edad| |
+|Departamento|Lima, Lima|
+|<img src="resources/interviewsPhotos/BrianEntrevista.png">| |
+|Duración entrevista: |URL: []|
 
 
 <div id='6.3.3.'><h4> 6.3.3. Evaluaciones según heurísticas</h4></div>
