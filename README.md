@@ -52,6 +52,9 @@
 <img src='resources/Spint1Backlog/13.png'/>
 <img src='resources/Spint1Backlog/14.png'/>
 
+**TB2**
+<img src='resources/collabInsights/1.png'/>
+
 URL del repositorio del proyecto: [https://github.com/Iot-Grupo2-Chakiy]
 
 ## Contenido 
@@ -3395,6 +3398,7 @@ Gherkin Syntax: https://cucumber.io/docs/gherkin/reference/
 
 Con el fin de mostrar las evidencias del caso y lo desarrollado hasta ahora para esta entrega se adjunta la grabación mostrando los avances que se realizaron para esta entrega donde se engloba el **Edge-API**, **Embedded-Application** y **Mobile-App**
 
+Enlace del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/ESTiW4so34dBrgSOhIBIc7EBAQnT7KPnXfN2r_sER8Kg2Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8uDtQ7]
 
 <div id='6.2.2.7.'><h4> 6.2.2.7. Services Documentation Evidence for Sprint Review</h4></div>
 
@@ -3604,11 +3608,11 @@ En esta sección se establecen los elementos clave para validar la funcionalidad
 <div id='6.3.2.'><h4> 6.3.2. Registro de Entrevistas</h4></div>
 
 
-|Nombre entrevistado||
-|Edad||
+|Nombre entrevistado|Farid Briceño|
+|Edad|21|
 |Departamento|Lima, Lima|
-|<img src="resources/interviewsPhotos/gianSanchez.png">||
-|Duración entrevista:  |URL: []|
+|<img src="resources/interviewsPhotos/entrevistaFarid.png">|Farid nos menciona que la aplicación puede ser útil para familiares que tengan esta situación de enfermedades respiratorias, sin embargo algo que menciona clave es la solución de errores de carga así como la ausencia de lo que es una forma de asociar el dispostivo desde afuera de la aplicación|
+|Duración entrevista: 8 min  |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EQz_n8AKoSxEizrVSsjweIQBU1D6r6ispvLwCdIub63fkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EMR4hT]|
 
 |Nombre entrevistado| Josue Valverde|
 |-|-|
@@ -3721,5 +3725,8 @@ Backend: [https://chakiyiotsupermain-aqd8ephjbra0e5bf.canadacentral-01.azurewebs
 
 TP: [https://acortar.link/p0n06B]
 
-Execution Evidence: [https://acortar.link/unx0in]
+Execution Evidence TB1: [https://acortar.link/unx0in]
 
+TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/Ealuvfk9zjZGoRH5lSmkDogB2zKWx6RCLrNCJmedOxD54g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CgLlp1]
+
+Execution Evidence TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/ESTiW4so34dBrgSOhIBIc7EBAQnT7KPnXfN2r_sER8Kg2Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8uDtQ7]
