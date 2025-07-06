@@ -38,7 +38,11 @@
 | 10/06/2025 | 2.3     | Paolo Guillen   | Desarrollo del Edge API y documentación de este       |
 | 15/06/2025 | 2.4     | Elias Yauri     | Revisión de integración entre módulos (rutinas, IoT, auditoría) y prueba de servicios      |
 | 20/06/2025 | 2.5     | Guillen Luna,Paolo César; Yauri Paucar, Elias ; Llamo Sánchez, Amner; Cantoral Paredes, Diego André; Cachis Gonzales, Sebastian Nicolas | Revisión general del documento para entrega final (TB2), ajustes de estructura y formato |
-
+| 24/06/2025 | 2.6     | Diego Cantoral  | Ensamblaje físico del prototipo IoT y validación funcional de sensores y actuadores         |
+| 27/06/2025 | 2.7     | Elias Yauri     | Optimización de firmware embebido y solución de errores en sensores                         |
+| 30/06/2025 | 2.8     | Amner Llamo     | Validación de la integración entre Edge API y Backend con datos reales                     |
+| 02/07/2025 | 2.9     | Paolo Guillen   | Pruebas de estabilidad del sistema y correcciones generales del backend                    |
+| 06/07/2025 | 3.0     | Guillen Luna,Paolo César; Yauri Paucar, Elias ; Llamo Sánchez, Amner; Cantoral Paredes, Diego André; Cachis Gonzales, Sebastian Nicolas | Conclusión general del Trabajo Final, documentación completa de Sprint 3 y anexos finales  |
 
 ## Project Report Collaboration Insights
 
@@ -194,6 +198,16 @@ URL del repositorio del proyecto: [https://github.com/Iot-Grupo2-Chakiy]
 6.2.2.7. [Services Documentation Evidence for Sprint Review](#6.2.2.7.)<br>
 6.2.2.8. [Software Deployment Evidence for Sprint Review](#6.2.2.8.)<br>
 6.2.2.9. [Team Collaboration Insights during Sprint](#6.2.2.9.)<br>
+6.2.3. [Sprint 3](#6.2.3.)<br>
+6.2.3.1. [Sprint Planning 3](#6.2.3.1.)<br>
+6.2.3.2. [Aspect Leaders and Collaborators](#6.2.3.2.)<br>
+6.2.3.3. [Sprint Backlog 3](#6.2.3.3.)<br>
+6.2.3.4. [Development Evidence for Sprint Review](#6.2.3.4.)<br>
+6.2.3.5. [Testing Suite Evidence for Sprint Review](#6.2.3.5.)<br>
+6.2.3.6. [Execution Evidence for Sprint Review](#6.2.3.6.)<br>
+6.2.3.7. [Services Documentation Evidence for Sprint Review](#6.2.3.7.)<br>
+6.2.3.8. [Software Deployment Evidence for Sprint Review](#6.2.3.8.)<br>
+6.2.3.9. [Team Collaboration Insights during Sprint](#6.2.3.9.)<br>
 6.3. [***Validation Interviews***](#6.3.)<br>
 6.3.1. [Diseño de Entrevistas](#6.3.1.)<br>
 6.3.2. [Registro de Entrevistas](#6.3.2.)<br>
@@ -217,8 +231,10 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta|**Guillen Luna, Paolo César:** <br> **TB1:**  Me encargue de manejar las actividades de cada integrantes de mi grupo, separando las secciones del trabajo de forma uniforme para cumplir de forma adecuada y coherente esta primera entrega <br>  <br> **TP:** Asumí la responsabilidad de liderar el desarrollo del módulo de *Audit Trail*, implementando los endpoints necesarios para la consulta de logs del sistema (`LogController`). Además, organicé la documentación técnica del módulo.  <br> **TB2:** Coordiné el seguimiento del avance del grupo y propuse mejoras en la visualización de logs desde el backend. Participé activamente en testing y revisión de código cruzado. <br>**Yauri Paucar, Elias:** <br> **TB1:** Coordiné con mis compañeros para darle coherencia a nuestro trabajo y realizar cada sección de forma acorde a los requisitos de nuestra solución  <br> <br> **TP:** Participé en la integración de los diferentes BC, asegurando que el diseño de las rutas REST fuera coherente. También coordiné las sesiones de revisión técnica para validar el cumplimiento de los requerimientos. <br>  **TB2:** Me encargué de facilitar la revisión general del sistema, detectando incoherencias en endpoints y coordinando su ajuste. Participé en reuniones de integración con miembros del backend y frontend. <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  Me encargué de realizar entrevistas a ciertos segmentos de nuestra solución a partir de las preguntas y colaboración de mi equipo pude obtener resultados acordes a esta primera entrega <br> <br> **TP:** Me encargué del desarrollo del controlador de *Rutinas* (`RoutineController`) y de su lógica de negocio. Implementé todas las operaciones CRUD asegurando una estructura clara en la gestión de rutinas. <br> <br> **TB2:** Implementé mejoras en el controlador de rutinas incluyendo validaciones, y lideré el testing funcional del módulo. Además, guié a mis compañeros en pruebas de endpoints. <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:** Me encargué de hablar con mi equipo de forma periódica con mi equipo para ver el avance del trabajo y apoyar siempre en lo que se necesitaba, donde aporté en secciones del event storming principalmente. <br>  <br> **TP:** Lideré el desarrollo del controlador para el módulo de *IoT* (`IoTDeviceController`), incluyendo operaciones GET, POST y PATCH para el manejo de dispositivos. Aseguré la correcta manipulación del estado de los dispositivos. <br> **TB2:** Encabecé la mejora del controlador IoT, implementando el manejo del dispositivo principal y el PATCH de estado. También colaboré en la corrección de errores comunes y coordinación de pruebas funcionales. <br> <br>  **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:**  Me encargue de la dirección fundamental del primer capítulo del trabajo a partir de una organización con mi equipo para la elección del tema, además de realizar las preguntas que haríamos en nuestras entrevistas. <br> <br> **TP:** Supervisé el diseño general del sistema y ayudé a estandarizar la implementación de endpoints entre módulos. Aporté en la definición de la estructura RESTful y en el testing de los controladores desarrollados asíc omo ayudar en el desarrollo del landing page. **TB2:** Supervisé la consistencia general del sistema. Aporté en el refinamiento de la landing page y aseguré la cohesión visual entre módulos. Revisé estructuras REST y ofrecí feedback técnico constante. |**TB1:** Concluyendo la primera entrega todo el equipo a partir de una colaboración adecuada logramos comunicarnos para obtener un MVP (Minimum Viable Product) para esta primera entrega. **TP:** El liderazgo distribuido fue fundamental para abordar los distintos BC (Audit Trail, Rutinas, IoT). La división del trabajo basada en competencias permitió que cada miembro aportara liderazgo técnico en su módulo, asegurando una entrega funcional y coherente. **TB2:** El liderazgo fue asumido de forma distribuida y contextual. Cada miembro lideró su módulo asignado, promoviendo el avance técnico sin descuidar la integración grupal. Esto aseguró una entrega sólida, estructurada y funcional en todos sus componentes.  |
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|**Guillen Luna, Paolo César:** <br> **TB1:** Me encargué de proponer una estructura de planificación semanal con objetivos claros y alcanzables, revisando los avances de todos de forma constante y fomentando la participación equitativa  <br> <br> **TP:** Coordiné el cronograma de desarrollo para el módulo de logs y validé las integraciones del mismo con los demás servicios. Me aseguré de que todos tuvieran acceso a los recursos comunes y a la base de datos simulada. <br> **Yauri Paucar, Elias:** <br> **TB1:** Coordiné reuniones para revisar el cumplimiento de metas semanales, asegurándome de que todos los integrantes tuvieran el mismo nivel de participación e inclusión en la toma de decisiones. <br> **TP:** Fomenté la colaboración entre equipos durante las sesiones de planificación, garantizando que todas las tareas estuvieran alineadas al objetivo de obtener un MVP técnico del sistema completo. <br> <br> **TB2:** Me aseguré de que todos tuvieran acceso a recursos clave (base de datos simulada, documentación y dependencias). Organicé las sesiones de avance y validación entre módulos. <br> <br> **TB2:** Propuse entregables semanales por grupo y organicé sesiones de pares para evaluar el avance. Promoví la equidad en la carga de trabajo entre integrantes. <br> <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  Aporté en la definición de metas para las entrevistas, asegurando que todos los puntos de vista fueran considerados y equilibrando las tareas entre los integrantes. <br> <br> **TP:** Participé en la planificación de los sprints e hice seguimiento al cumplimiento de los endpoints de Rutinas, trabajando junto a mis compañeros para resolver errores y realizar pruebas conjuntas. <br> **TB2:** Participé activamente en la planificación ágil de cada sprint. Me encargué de dar seguimiento a los endpoints pendientes del módulo de rutinas y facilitar la comunicación. <br> <br> **TB2:** Participé activamente en la planificación ágil de cada sprint. Me encargué de dar seguimiento a los endpoints pendientes del módulo de rutinas y facilitar la comunicación. <br>  <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:** Me involucré activamente en la organización del backlog y en la planificación con SCRUM, promoviendo la inclusión de todos en cada etapa del desarrollo.  <br> **TP:** Mantuve reuniones de sincronización para coordinar la lógica de estado de los dispositivos IoT con el resto del equipo. Establecí metas internas para garantizar que el controlador PATCH funcionara correctamente. <br> <br> **TB2:** Promoví reuniones técnicas y organizativas, alineando el controlador de IoT con las vistas móviles. Definí metas concretas para cada iteración en mi módulo. <br> <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:** Proporcioné apoyo en la creación del cronograma de trabajo, permitiendo que cada tarea estuviera alineada con nuestras metas y asegurando que todos pudieran participar sin barreras.  <br> <br> **TP:** Propuse una plantilla común para los controladores REST, promoviendo un entorno de trabajo estandarizado y facilitando la integración entre los módulos. <br> <br> **TB2:** Coordiné tareas transversales, como el ajuste de estructura RESTful entre controladores. Propuse mecanismos de retroalimentación grupal. Fomenté la cooperación constante. | **TB1:** Al finalizar esta primera entrega se concluye que el crear un entorno donde todos trabajen sin importar las diferencias es esencial, en un proyecto de software de este calibre es importante trabajar de forma conjunta sin importar diferencias, esto nos apoyamos con la metodología de trabajo ágil llamada SCRUM lo que nos ayudó a organizar las tareas para este primer entregable **TP:** La planificación colaborativa fue clave para este entregable. Se lograron cumplir los objetivos gracias a una adecuada distribución de tareas y al uso de metodologías ágiles, especialmente SCRUM. Cada integrante respetó los acuerdos establecidos, lo que permitió completar la implementación técnica de los módulos en tiempo y forma. **TB2:** El trabajo colaborativo fue clave para alcanzar los objetivos. Mediante planificación y tareas bien distribuidas, el equipo logró integrar todos los módulos funcionalmente. Se evidenció una mejora en la comunicación, coordinación y uso de herramientas ágiles como SCRUM para cumplir los compromisos técnicos y organizativos.  |
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta|**Guillen Luna, Paolo César:** <br> **TB1:**  Me encargue de manejar las actividades de cada integrantes de mi grupo, separando las secciones del trabajo de forma uniforme para cumplir de forma adecuada y coherente esta primera entrega <br>  <br> **TP:** Asumí la responsabilidad de liderar el desarrollo del módulo de *Audit Trail*, implementando los endpoints necesarios para la consulta de logs del sistema (`LogController`). Además, organicé la documentación técnica del módulo.  <br> **TB2:** Coordiné el seguimiento del avance del grupo y propuse mejoras en la visualización de logs desde el backend. Participé activamente en testing y revisión de código cruzado.**TF:** Durante el TF asumí el liderazgo en la resolución de errores técnicos, asegurando la estabilidad del sistema. Coordiné pruebas de estrés, validé la lógica del sistema y facilité la conexión entre componentes backend y frontend. <br>**Yauri Paucar, Elias:** <br> **TB1:** Coordiné con mis compañeros para darle coherencia a nuestro trabajo y realizar cada sección de forma acorde a los requisitos de nuestra solución  <br> <br> **TP:** Participé en la integración de los diferentes BC, asegurando que el diseño de las rutas REST fuera coherente. También coordiné las sesiones de revisión técnica para validar el cumplimiento de los requerimientos. <br>  **TB2:** Me encargué de facilitar la revisión general del sistema, detectando incoherencias en endpoints y coordinando su ajuste. Participé en reuniones de integración con miembros del backend y frontend. <br> **TF:** 	En el TF lideré el ajuste y estabilización del firmware embebido. Aseguré que los sensores respondieran correctamente en el entorno físico real, resolviendo problemas de lectura y reinicios, y contribuyendo al ensamblaje del prototipo. **Cantoral Paredes, Diego André:** <br> **TB1:**  Me encargué de realizar entrevistas a ciertos segmentos de nuestra solución a partir de las preguntas y colaboración de mi equipo pude obtener resultados acordes a esta primera entrega <br> <br> **TP:** Me encargué del desarrollo del controlador de *Rutinas* (`RoutineController`) y de su lógica de negocio. Implementé todas las operaciones CRUD asegurando una estructura clara en la gestión de rutinas. <br> <br> **TB2:** Implementé mejoras en el controlador de rutinas incluyendo validaciones, y lideré el testing funcional del módulo. Además, guié a mis compañeros en pruebas de endpoints. **TF:** Encabecé el ensamblaje físico del dispositivo IoT. Asumí el liderazgo técnico en la integración de sensores y actuadores, asegurando su correcta operación desde el hardware hasta la comunicación con la plataforma. <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:** Me encargué de hablar con mi equipo de forma periódica con mi equipo para ver el avance del trabajo y apoyar siempre en lo que se necesitaba, donde aporté en secciones del event storming principalmente. <br>  <br> **TP:** Lideré el desarrollo del controlador para el módulo de *IoT* (`IoTDeviceController`), incluyendo operaciones GET, POST y PATCH para el manejo de dispositivos. Aseguré la correcta manipulación del estado de los dispositivos. <br> **TB2:** Encabecé la mejora del controlador IoT, implementando el manejo del dispositivo principal y el PATCH de estado. También colaboré en la corrección de errores comunes y coordinación de pruebas funcionales. <br> <br> **TF:** Lideré las pruebas de integración entre el dispositivo físico, la Edge API y el sistema completo. Aseguré que los datos fluyeran correctamente desde los sensores hasta el frontend, validando un ecosistema funcional. **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:**  Me encargue de la dirección fundamental del primer capítulo del trabajo a partir de una organización con mi equipo para la elección del tema, además de realizar las preguntas que haríamos en nuestras entrevistas. <br> <br> **TP:** Supervisé el diseño general del sistema y ayudé a estandarizar la implementación de endpoints entre módulos. Aporté en la definición de la estructura RESTful y en el testing de los controladores desarrollados asíc omo ayudar en el desarrollo del landing page. **TB2:** Supervisé la consistencia general del sistema. Aporté en el refinamiento de la landing page y aseguré la cohesión visual entre módulos. Revisé estructuras REST y ofrecí feedback técnico constante. **TF:** Asumí un rol de liderazgo transversal en la validación visual y funcional del sistema. Me aseguré de que tanto la app web como la móvil reflejaran correctamente los datos del prototipo, colaborando en pruebas y revisión UI. |**TB1:** Concluyendo la primera entrega todo el equipo a partir de una colaboración adecuada logramos comunicarnos para obtener un MVP (Minimum Viable Product) para esta primera entrega. **TP:** El liderazgo distribuido fue fundamental para abordar los distintos BC (Audit Trail, Rutinas, IoT). La división del trabajo basada en competencias permitió que cada miembro aportara liderazgo técnico en su módulo, asegurando una entrega funcional y coherente. **TB2:** El liderazgo fue asumido de forma distribuida y contextual. Cada miembro lideró su módulo asignado, promoviendo el avance técnico sin descuidar la integración grupal. Esto aseguró una entrega sólida, estructurada y funcional en todos sus componentes. **TF:** Durante el Trabajo Final, el equipo demostró un liderazgo distribuido y contextual. Cada miembro asumió responsabilidades clave en los módulos que dominaba, liderando desde la técnica o la coordinación según correspondía. Este enfoque permitió avanzar paralelamente en la construcción del prototipo físico, la corrección de errores críticos y la validación de la integración entre capas (embebido, edge, backend y frontend). El liderazgo no se concentró en una sola persona, sino que fue ejercido de forma natural y efectiva según las necesidades del sistema. Esto consolidó un producto final funcional, cohesionado y de alto valor técnico. |
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.|**Guillen Luna, Paolo César:** <br> **TB1:** Me encargué de proponer una estructura de planificación semanal con objetivos claros y alcanzables, revisando los avances de todos de forma constante y fomentando la participación equitativa  <br> <br> **TP:** Coordiné el cronograma de desarrollo para el módulo de logs y validé las integraciones del mismo con los demás servicios. Me aseguré de que todos tuvieran acceso a los recursos comunes y a la base de datos simulada. <br> **TF:** Fomenté la colaboración constante durante el testing del sistema. Establecí rutinas de revisión de errores y coordiné con los demás integrantes para que todos los módulos interactuaran de manera robusta. **Yauri Paucar, Elias:** <br> **TB1:** Coordiné reuniones para revisar el cumplimiento de metas semanales, asegurándome de que todos los integrantes tuvieran el mismo nivel de participación e inclusión en la toma de decisiones. <br> **TP:** Fomenté la colaboración entre equipos durante las sesiones de planificación, garantizando que todas las tareas estuvieran alineadas al objetivo de obtener un MVP técnico del sistema completo. <br> <br> **TB2:** Me aseguré de que todos tuvieran acceso a recursos clave (base de datos simulada, documentación y dependencias). Organicé las sesiones de avance y validación entre módulos. <br> <br> **TB2:** Propuse entregables semanales por grupo y organicé sesiones de pares para evaluar el avance. Promoví la equidad en la carga de trabajo entre integrantes. <br> **TF:** Promoví un entorno de trabajo coordinado durante la validación embebida, facilitando ajustes en tiempo real y apoyando a quienes integraban el sistema desde otras capas, como edge o backend. <br> **Cantoral Paredes, Diego André:** <br> **TB1:**  Aporté en la definición de metas para las entrevistas, asegurando que todos los puntos de vista fueran considerados y equilibrando las tareas entre los integrantes. <br> <br> **TP:** Participé en la planificación de los sprints e hice seguimiento al cumplimiento de los endpoints de Rutinas, trabajando junto a mis compañeros para resolver errores y realizar pruebas conjuntas. <br> **TB2:** Participé activamente en la planificación ágil de cada sprint. Me encargué de dar seguimiento a los endpoints pendientes del módulo de rutinas y facilitar la comunicación. <br> **TF:** Organicé sesiones presenciales y virtuales para el ensamblaje del prototipo. Aporté planificación concreta desde la perspectiva de hardware y aseguré una ejecución ordenada del armado del sistema físico.  <br> **Llamo Sánchez, Amner Levi:** <br> **TB1:** Me involucré activamente en la organización del backlog y en la planificación con SCRUM, promoviendo la inclusión de todos en cada etapa del desarrollo.  <br> **TP:** Mantuve reuniones de sincronización para coordinar la lógica de estado de los dispositivos IoT con el resto del equipo. Establecí metas internas para garantizar que el controlador PATCH funcionara correctamente. <br> <br> **TB2:** Promoví reuniones técnicas y organizativas, alineando el controlador de IoT con las vistas móviles. Definí metas concretas para cada iteración en mi módulo. <br> **TF:** A través de pruebas integradas, ayudé a organizar metas iterativas para comprobar el funcionamiento del ecosistema completo. Establecí pruebas claras y objetivos concretos en la validación técnica.
+ <br> **Sebastian Nicolas, Cachis Gonzales:** <br> **TB1:** Proporcioné apoyo en la creación del cronograma de trabajo, permitiendo que cada tarea estuviera alineada con nuestras metas y asegurando que todos pudieran participar sin barreras.  <br> <br> **TP:** Propuse una plantilla común para los controladores REST, promoviendo un entorno de trabajo estandarizado y facilitando la integración entre los módulos. <br> <br> **TB2:** Coordiné tareas transversales, como el ajuste de estructura RESTful entre controladores. Propuse mecanismos de retroalimentación grupal. Fomenté la cooperación constante. **TF:** Propuse tareas colaborativas enfocadas en validar la experiencia del usuario final. Coordiné con los miembros que desarrollaban la interfaz para asegurar un flujo de datos coherente y accesible visualmente.
+ | **TB1:** Al finalizar esta primera entrega se concluye que el crear un entorno donde todos trabajen sin importar las diferencias es esencial, en un proyecto de software de este calibre es importante trabajar de forma conjunta sin importar diferencias, esto nos apoyamos con la metodología de trabajo ágil llamada SCRUM lo que nos ayudó a organizar las tareas para este primer entregable **TP:** La planificación colaborativa fue clave para este entregable. Se lograron cumplir los objetivos gracias a una adecuada distribución de tareas y al uso de metodologías ágiles, especialmente SCRUM. Cada integrante respetó los acuerdos establecidos, lo que permitió completar la implementación técnica de los módulos en tiempo y forma. **TB2:** El trabajo colaborativo fue clave para alcanzar los objetivos. Mediante planificación y tareas bien distribuidas, el equipo logró integrar todos los módulos funcionalmente. Se evidenció una mejora en la comunicación, coordinación y uso de herramientas ágiles como SCRUM para cumplir los compromisos técnicos y organizativos. **TF:** El equipo logró establecer un entorno colaborativo basado en el respeto, la planificación ágil y la constante retroalimentación. Se promovió la inclusión activa de todos los integrantes en decisiones clave, asignación de tareas y solución de problemas. La planificación de objetivos concretos por iteraciones y la organización de sesiones técnicas permitieron cumplir los entregables del sprint de forma estructurada. Esta dinámica de trabajo evidenció madurez organizacional y técnica, permitiendo ensamblar, probar y estabilizar el prototipo IoT en condiciones reales. La colaboración transversal fue clave para alcanzar los objetivos del TF. |
 
 
 <div id='1.'><h2>Capítulo I: Introducción</h2></div>
@@ -3491,11 +3507,241 @@ Se adjuntan las evidencias de despliegue del trabajo realizado para el sprint 2 
 
 <img src="resources/tb2/insightsSprint/5.png"/>  
 
+<div id='6.2.3.'><h3> 6.2.3. Sprint 3</h3></div> 
+<div id='6.2.3.1.'><h4> 6.2.3.1. Sprint Planning 3</h4></div>
+Durante el Sprint Planning 3, el equipo centró sus esfuerzos en el ensamblaje físico del prototipo IoT de Chaki’y, así como en la depuración integral de errores técnicos detectados durante los sprints anteriores. Esta etapa marca la consolidación del producto tangible y funcional, previo a su validación final con usuarios.
+<table>
+<thead>
+<tr><th>Sprint #</th><th>Sprint 3</th></tr>
+</thead>
+<tbody>
+<tr><td colspan="2"><strong>Sprint Planning Background</strong></td></tr>
+<tr><td>Date</td><td>2025-06-24</td></tr>
+<tr><td>Time</td><td>04:00 PM</td></tr>
+<tr><td>Location</td><td>Virtual Meeting - Google Meet</td></tr>
+<tr><td>Prepared By</td><td>Guillen Luna, Paolo César</td></tr>
+<tr><td>Attendees</td><td>Guillen Luna, Paolo César / Yauri Paucar, Elias / Llamo Sánchez, Amner Levi / Cantoral Paredes, Diego André / Cachis Gonzales, Sebastian Nicolas</td></tr>
+<tr><td colspan="2"><strong>Sprint Goal & User Stories</strong></td></tr>
+<tr><td>Sprint 3 Goal</td><td>Fabricar el prototipo IoT funcional con sensores y actuadores reales y resolver errores técnicos detectados para asegurar un sistema estable y testeable.</td></tr>
+<tr><td>Sprint 3 Velocity</td><td>34 Story Points</td></tr>
+<tr><td>Sum of Story Points</td><td>34</td></tr>
+</tbody>
+</table>
+<div id='6.2.3.2.'><h4> 6.2.3.2. Aspect Leaders and Collaborators</h4></div>
+
+<table>
+<thead>
+<tr>
+<th>Team Member<br>(Last Name, First Name)</th>
+<th>GitHub Username</th>
+<th>IoT Physical Assembly</th>
+<th>Bug Fixing</th>
+<th>Integration Testing</th>
+<th>Embedded Adjustments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Guillen Luna, Paolo César</td>
+<td>GrandProgTest</td>
+<td>C</td>
+<td>L</td>
+<td>L</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Cachis Gonzales, Sebastian Nicolas</td>
+<td>Dark7YT</td>
+<td>C</td>
+<td>L</td>
+<td>C</td>
+<td></td>
+</tr>
+<tr>
+<td>Cantoral Paredes, Diego André</td>
+<td>diegocantoralp</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+<tr>
+<td>Llamo Sánchez, Amner Levi</td>
+<td>AmnerL</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+<td>L</td>
+</tr>
+<tr>
+<td>Yauri Paucar, Elias</td>
+<td>EliasYP</td>
+<td>L</td>
+<td>C</td>
+<td>C</td>
+<td>L</td>
+</tr>
+</tbody>
+</table>
+
+<div id='6.2.3.3.'><h4> 6.2.3.3. Sprint Backlog 3</h4></div>
+
+<table>
+<thead>
+<tr>
+<td colspan="2">User Story</td>
+<td colspan="7">Work-Item / Task</td>
+</tr>
+<tr>
+<td>ID</td>
+<td>Title</td>
+<td>ID</td>
+<td>Title</td>
+<td>Description</td>
+<td>Estimation (Hours)</td>
+<td>Assigned to</td>
+<td>Status</td>
+<td>Sub-Tasks</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US31</td>
+<td>Prototipo IoT físico funcional</td>
+<td>01</td>
+<td>Ensamblar prototipo físico</td>
+<td>Montaje de placa base, sensores y actuadores en carcasa</td>
+<td>6</td>
+<td>Cantoral Paredes, Diego André</td>
+<td>Done</td>
+<td>Soldado de sensores / Ensamblaje físico / Cableado interno</td>
+</tr>
+<tr>
+<td>US32</td>
+<td>Corrección de errores críticos</td>
+<td>02</td>
+<td>Debug del sistema web</td>
+<td>Resolver bugs en la visualización y acciones de frontend</td>
+<td>5</td>
+<td>Guillen Luna, Paolo César</td>
+<td>Done</td>
+<td>Revisión de logs / Refactor de funciones / Pruebas locales</td>
+</tr>
+<tr>
+<td>US33</td>
+<td>Depuración de errores embebidos</td>
+<td>03</td>
+<td>Corregir fallas de sensores</td>
+<td>Resolver errores de lectura anómalos y reinicios inesperados</td>
+<td>5</td>
+<td>Yauri Paucar, Elias</td>
+<td>Done</td>
+<td>Monitoreo en serie / Ajuste de delay / Validación de librerías</td>
+</tr>
+<tr>
+<td>US34</td>
+<td>Validación de respuesta con EdgeAPI</td>
+<td>04</td>
+<td>Test de integración completa</td>
+<td>Verificar flujo completo de datos IoT → Edge → Backend → Web</td>
+<td>4</td>
+<td>Llamo Sánchez, Amner Levi</td>
+<td>Done</td>
+<td>Simulación con datos reales / Observación en dashboards</td>
+</tr>
+<tr>
+<td>TS15</td>
+<td>Testing UI Final Web/Mobile</td>
+<td>05</td>
+<td>Pruebas cruzadas web/mobile</td>
+<td>Verificar comportamiento entre ambos frontends con datos reales</td>
+<td>4</td>
+<td>Cachis Gonzales, Sebastian Nicolas</td>
+<td>Done</td>
+<td>Revisión por sección / Verificación de estilos / Comprobación funcional</td>
+</tr>
+<tr>
+<td>TS16</td>
+<td>Mejora de estabilidad embebida</td>
+<td>06</td>
+<td>Optimización de firmware</td>
+<td>Reducir consumo de recursos en aplicación embebida</td>
+<td>5</td>
+<td>Yauri Paucar, Elias</td>
+<td>Done</td>
+<td>Uso eficiente de memoria / Eliminación de polling innecesario</td>
+</tr>
+<tr>
+<td>TS17</td>
+<td>Pruebas de estabilidad</td>
+<td>07</td>
+<td>Test de estrés</td>
+<td>Evaluar estabilidad del sistema con uso continuo por 24h</td>
+<td>5</td>
+<td>Guillen Luna, Paolo César</td>
+<td>Done</td>
+<td>Test de carga / Validación de logs continuos / Detección de fugas</td>
+</tr>
+</tbody>
+</table>
+
+<div id='6.2.3.4.'><h4> 6.2.3.4. Development Evidence for Sprint Review</h4></div>
+| Repository                                                                                                     | Branch | CommitID | Commit Message                                | Date        |
+| -------------------------------------------------------------------------------------------------------------- | ------ | -------- | --------------------------------------------- | ----------- |
+| [https://github.com/Iot-Grupo2-Chakiy/EmbeddedApp](https://github.com/Iot-Grupo2-Chakiy/EmbeddedApp)           | main   | abc1234  | fix: adjusted humidity sensor reads           | Jul 1, 2025 |
+| [https://github.com/Iot-Grupo2-Chakiy/Chakiy-Edge-API](https://github.com/Iot-Grupo2-Chakiy/Chakiy-Edge-API)   | main   | def5678  | feat: improved sync from embedded device      | Jul 2, 2025 |
+| [https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front](https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front)         | main   | ghi9012  | fix: dashboard now updates after each reading | Jul 3, 2025 |
+| [https://github.com/Iot-Grupo2-Chakiy/MobileAppFlutter](https://github.com/Iot-Grupo2-Chakiy/MobileAppFlutter) | main   | jkl3456  | fix: fixed sensor card visual bug             | Jul 3, 2025 |
+
+<div id='6.2.3.5.'><h4> 6.2.3.5. Testing Suite Evidence for Sprint Review</h4></div>
+| Repository                                                                                                                                         | CommitID | Message                                  | Date        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------- | ----------- |
+| [https://github.com/Iot-Grupo2-Chakiy/Error404-IoT-Project-Documentation](https://github.com/Iot-Grupo2-Chakiy/Error404-IoT-Project-Documentation) | 76ac98e  | gherkin tests for final device prototype | Jul 3, 2025 |
+
+<div id='6.2.3.6.'><h4> 6.2.3.6. Execution Evidence for Sprint Review</h4></div>
+Video del funcionamiento del prototipo IoT
+Capturas del prototipo armado
+<img src="resources/tb3/prototype/1.jpg"/>
+<img src="resources/tb3/prototype/2.jpg"/>
+<img src="resources/tb3/prototype/3.jpg"/>
+
+<div id='6.2.3.7.'><h4> 6.2.3.7. Services Documentation Evidence for Sprint Review</h4></div>
+
+Durante este sprint se implementaron los servicios principales para los módulos de **gestión de dispositivos IoT**, **rutinas automatizadas**, **registros de auditoría** y **manejo de errores**. A continuación se detallan los endpoints implementados:
+
+| **Endpoint** | **Detalles** |
+|--------------|--------------|
+| **POST /api/v1/iot-devices** | Registra un nuevo dispositivo IoT en el sistema. Recibe un JSON con nombre, tipo y estado inicial. Devuelve código 201 (Created) al éxito o 400 (Bad Request) si hay errores de validación. |
+| **GET /api/v1/iot-devices** | Obtiene el listado completo de dispositivos IoT registrados. Retorna un array de dispositivos con sus propiedades técnicas y estado actual (código 200). |
+| **GET /api/v1/iot-devices/{id}** | Recupera la información detallada de un dispositivo específico usando su ID único. Retorna 200 (OK) con los datos o 404 (Not Found) si no existe. |
+| **PATCH /api/v1/iot-devices/{id}/estado** | Actualiza el estado (ON/OFF) de un dispositivo individual. Requiere el ID y nuevo estado en el body. Retorna 204 (No Content) al éxito. |
+| **PATCH /api/v1/iot-devices/{id}/main-device** | Establece un dispositivo como principal (main device) para el usuario. Retorna 200 (OK) o 409 (Conflict) si ya existe un dispositivo principal. |
+| **PUT /api/v1/iot-devices/{id}** | Actualiza todos los campos configurables de un dispositivo. Retorna mensaje de confirmación (200) o error 404 si el dispositivo no existe. |
+| **DELETE /api/v1/iot-devices/{id}** | Elimina permanentemente un dispositivo del sistema. Retorna 204 (No Content) tras eliminación exitosa. |
+| **POST /api/v1/routine** | Crea una nueva rutina automatizada con acciones programadas. Retorna 201 (Created) con la rutina creada o 400 por datos inválidos. |
+| **GET /api/v1/routine** | Lista todas las rutinas configuradas en el sistema. Retorna array con todas las rutinas (200 OK). |
+| **GET /api/v1/routine/{id}** | Obtiene los detalles completos de una rutina específica. Retorna 200 (OK) o 404 si no existe. |
+| **PUT /api/v1/routine/{id}** | Actualiza todos los parámetros de una rutina existente. Retorna la rutina actualizada (200) o error 400. |
+| **DELETE /api/v1/routine/{id}** | Elimina una rutina del sistema. Retorna 204 (No Content) tras eliminación exitosa. |
+| **GET /api/v1/log** | Consulta el historial completo de eventos del sistema. Retorna array ordenado cronológicamente (200 OK). |
+| **GET /api/v1/log/{id}** | Obtiene un registro de auditoría específico con todos sus metadatos. Retorna 200 (OK) o 404 si no existe. |
+
+<div id='6.2.3.8.'><h4> 6.2.3.8. Software Deployment Evidence for Sprint Review</h4></div>
+
+No se hicieron cambios al código, más que se desarrollo el prototipo físico.
+
+<div id='6.2.3.9.'><h4> 6.2.3.9. Team Collaboration Insights during Sprint</h4></div>
+| **Alumno**                    | **Actividad**                                     |
+| ----------------------------- | ------------------------------------------------- |
+| Guillen Luna, Paolo César     | Corrección de bugs backend/web                    |
+| Cantoral Paredes, Diego André | Ensamblaje del prototipo físico                   |
+| Llamo Sánchez, Amner Levi     | Pruebas de integración IoT ↔ Edge ↔ Web           |
+| Yauri Paucar, Elias           | Optimización del firmware embebido                |
+| Cachis, Sebastian             | Validación visual y funcional de la app web/móvil |
+
 
 <div id='6.3.'><h3> 6.3. Validation Interviews</h3></div>
 <div id='6.3.1.'><h4> 6.3.1. Diseño de Entrevistas</h4></div>
-
-En esta sección se establecen los elementos clave para validar la funcionalidad implementada durante el Sprint 2 de Chaki'y, incluyendo tanto el Landing Page como las aplicaciones web desarrolladas. El objetivo es evaluar la usabilidad, comprensión y efectividad de las funcionalidades implementadas con usuarios reales de nuestros segmentos objetivo.
 
 ### Objetivos de Validación
 
@@ -3699,7 +3945,7 @@ Asegurar que los valores estén ordenados (`mín - máx`) o mostrar un solo valo
 **TB1:** Se concluye tras este entregable que plantear un proyecto y de buena manera desde el inicio es esencial, el hecho de iniciar un proyecto IoT planificando la estructura que va a seguir, su diseño, base de datos y requisitos que va a necesitar es algo esencial, puesto que se incurrirían en gastos materiales si es que el sistema se plantea de forma érronea, además del hecho de contar con un equipo, manejarlo y repartir las tareas fue algo esencial para un entregable exitoso.
 **TP:** Se concluye tras este entregable que plantear un proyecto de forma adecuada desde el inicio es esencial. Iniciar un sistema IoT con una planificación clara de su estructura, diseño, base de datos y requisitos permite evitar errores costosos, tanto en tiempo como en materiales. Además, contar con un equipo organizado, con roles bien definidos y una distribución efectiva de tareas, fue clave para lograr una primera versión funcional del sistema. Esta base inicial sentó los cimientos para una integración futura entre el backend, frontend y dispositivos.
 **TB2:** Se concluye tras este entregable que el desarrollo iterativo permitió consolidar la aplicación en todos sus módulos, extendiendo lo construido en el TP. A través de los commits realizados, se implementaron funcionalidades claves como pantallas de login y registro, conexión entre frontend y backend, integración con la API de Edge y servicios de automatización. Además, se evidenció una mejora continua en la comunicación entre dispositivos y servicios, así como avances en sincronización en segundo plano. La correcta gestión de versiones, sumada a un trabajo colaborativo constante, fue crucial para alcanzar un sistema robusto, adaptable y preparado para futuras iteraciones.
-
+**TF:** Se concluye que la integración de tecnologías IoT en sistemas inteligentes como el desarrollado fue fundamental para lograr una solución automatizada y eficiente. El trabajo permitió conectar sensores físicos con una plataforma digital capaz de tomar decisiones. La interacción entre backend, frontend y dispositivos físicos se consolidó como el eje central del proyecto, demostrando que el diseño modular, la planificación iterativa y la comunicación entre servicios son claves para el éxito de una solución tecnológica completa y funcional.
 
 <div id='9.'><h2>Bibliografía</h2></div>
 
@@ -3724,6 +3970,8 @@ Frontend: [https://chakys-frontend.web.app/]
 
 Backend: [https://chakiyiotsupermain-aqd8ephjbra0e5bf.canadacentral-01.azurewebsites.net/api/v1/iot-devices]
 
+Wokwi: [https://wokwi.com/projects/433850753944481793]
+
 TP: [https://acortar.link/p0n06B]
 
 Execution Evidence TB1: [https://acortar.link/unx0in]
@@ -3731,3 +3979,4 @@ Execution Evidence TB1: [https://acortar.link/unx0in]
 TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/Ealuvfk9zjZGoRH5lSmkDogB2zKWx6RCLrNCJmedOxD54g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CgLlp1]
 
 Execution Evidence TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/ESTiW4so34dBrgSOhIBIc7EBAQnT7KPnXfN2r_sER8Kg2Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8uDtQ7]
+
