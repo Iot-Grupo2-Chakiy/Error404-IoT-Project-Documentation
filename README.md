@@ -3938,6 +3938,11 @@ Asegurar que los valores estén ordenados (`mín - máx`) o mostrar un solo valo
 
 
 <div id='6.4.'><h3> 6.4. Video About-the-Product</h3></div>
+Se adjunta video relacionado a la promoción del producto y de igual forma en relación al equipo:
+
+**Enlace Video About The Product:** []
+**Enlace Video About The Team:** []
+
 
 <div id='8.'><h2>Conclusiones</h2></div>
 
