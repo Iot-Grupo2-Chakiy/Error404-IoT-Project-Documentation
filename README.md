@@ -3701,9 +3701,8 @@ Durante el Sprint Planning 3, el equipo centró sus esfuerzos en el ensamblaje f
 <div id='6.2.3.6.'><h4> 6.2.3.6. Execution Evidence for Sprint Review</h4></div>
 Video del funcionamiento del prototipo IoT
 Capturas del prototipo armado
-<img src="resources/tb3/prototype/1.jpg"/>
-<img src="resources/tb3/prototype/2.jpg"/>
-<img src="resources/tb3/prototype/3.jpg"/>
+<img src="resources/tb3/1.jpg"/>
+
 
 <div id='6.2.3.7.'><h4> 6.2.3.7. Services Documentation Evidence for Sprint Review</h4></div>
 
@@ -3859,14 +3858,14 @@ No se hicieron cambios al código, más que se desarrollo el prototipo físico.
 |Edad|21|
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/entrevistaFarid.png">|Farid nos menciona que la aplicación puede ser útil para familiares que tengan esta situación de enfermedades respiratorias, sin embargo algo que menciona clave es la solución de errores de carga así como la ausencia de lo que es una forma de asociar el dispostivo desde afuera de la aplicación|
-|Duración entrevista: 00:00-08:00  |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EQz_n8AKoSxEizrVSsjweIQBU1D6r6ispvLwCdIub63fkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EMR4hT]|
+| Duración entrevista: 00:00-08:00 | URL: [Ver entrevista - Farid Briceño](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/EQz_n8AKoSxEizrVSsjweIQBU1D6r6ispvLwCdIub63fkg?e=EMR4hT) |
 
 |Nombre entrevistado| Josue Valverde|
 |-|-|
 |Edad| 23 |
 |Departamento|Lima, Lima|
 |<img src="resources/interviewsPhotos/entrevistaJosue2.jpg">|Josue destacó el potencial de la herramienta para usuarios jóvenes interesados en la tecnología. Le pareció interesante el enfoque del sistema en el monitoreo ambiental, resaltando la utilidad de contar con datos en tiempo real sobre humedad y calidad del aire. Consideró que la interfaz es amigable, aunque sugirió mejorar la personalización de las notificaciones. Además, valoró que la aplicación sea accesible y sencilla de utilizar para personas sin conocimientos técnicos avanzados. Finalmente, opinó que el componente de automatización mediante rutinas puede mejorar significativamente el confort del hogar, especialmente en temporadas con condiciones ambientales desfavorables.|
-|Duración entrevista: 00:00-09:30 |URL: [[Entrevista ‐ Josue Valverde.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f568_upc_edu_pe/EVuXC-dZKiJIpueVBcbAqmsBZNnrHM92rQKVG927Z_cZ-w?e=3BTVg9&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]| 
+| Duración entrevista: 00:00-09:30 | URL: [Entrevista ‐ Josue Valverde.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f568_upc_edu_pe/EVuXC-dZKiJIpueVBcbAqmsBZNnrHM92rQKVG927Z_cZ-w?e=3BTVg9) |
 
 
 |**Nombre entrevistado**|Walther Cachay|
@@ -3874,7 +3873,7 @@ No se hicieron cambios al código, más que se desarrollo el prototipo físico.
 | **Edad**|25 años|
 |**Departamento**|Lima, Lima|
 |<img src="resources/interviewsPhotos/waltherCachay.png">|Walter, quien ha superado el asma, valora enormemente las herramientas para mejorar la calidad del aire. Le impresionó la medición de temperatura, humedad y calidad del aire, encontrando gran utilidad en estas variables coordinadas y la claridad y facilidad de comprensión de los datos en la aplicación, lo que facilita la identificación de problemas ambientales. El proceso de agregar dispositivos le resultó muy intuitivo y entendió fácilmente tanto el control manual como la automatización de los mismos, confiando plenamente en el sistema. Las rutinas automatizadas le parecieron muy útiles, especialmente las basadas en horarios y rangos de valores específicos, considerándolas de gran ayuda para el bienestar, y finalmente, le agradó saber que no hay un límite de dispositivos.|
-|Duración entrevista: 00:00-10:30 |URL: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EdemUWiDGCBMqFMj48zrKSYBGMwQ5KvMLiM1eKvu0TQaSw?e=Et8m1U]|
+| **Duración entrevista:** 00:00-10:30 | **URL:** [Ver entrevista - Walther Cachay](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c376_upc_edu_pe/EdemUWiDGCBMqFMj48zrKSYBGMwQ5KvMLiM1eKvu0TQaSw?e=Et8m1U) |
 
 <div id='6.3.3.'><h4> 6.3.3. Evaluaciones según heurísticas</h4></div>
 
@@ -3979,4 +3978,6 @@ Execution Evidence TB1: [https://acortar.link/unx0in]
 TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/Ealuvfk9zjZGoRH5lSmkDogB2zKWx6RCLrNCJmedOxD54g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CgLlp1]
 
 Execution Evidence TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/ESTiW4so34dBrgSOhIBIc7EBAQnT7KPnXfN2r_sER8Kg2Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8uDtQ7]
+
+
 
