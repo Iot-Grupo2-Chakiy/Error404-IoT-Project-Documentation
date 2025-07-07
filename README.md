@@ -3941,7 +3941,7 @@ Asegurar que los valores estén ordenados (`mín - máx`) o mostrar un solo valo
 Se adjunta video relacionado a la promoción del producto y de igual forma en relación al equipo:
 
 **Enlace Video About The Product:** [https://youtu.be/Wy0IjF9693Q]
-**Enlace Video About The Team:** []
+**Enlace Video About The Team:** [https://youtu.be/-vt7Enq87Xc]
 
 
 <div id='8.'><h2>Conclusiones</h2></div>
@@ -3974,8 +3974,6 @@ Frontend: [https://chakys-frontend.web.app/]
 
 Backend: [https://chakiyiotsupermain-aqd8ephjbra0e5bf.canadacentral-01.azurewebsites.net/api/v1/iot-devices]
 
-Wokwi: [https://wokwi.com/projects/433850753944481793]
-
 TP: [https://acortar.link/p0n06B]
 
 Execution Evidence TB1: [https://acortar.link/unx0in]
@@ -3984,7 +3982,11 @@ TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/Ea
 
 Execution Evidence TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/ESTiW4so34dBrgSOhIBIc7EBAQnT7KPnXfN2r_sER8Kg2Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8uDtQ7]
 
+Wokwi: [https://wokwi.com/projects/433850753944481793]
+
 About the product: [https://youtu.be/Wy0IjF9693Q]
 
+About the team: [https://youtu.be/-vt7Enq87Xc]
 
+TF: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/Ebj4MYR9nZRDkGdrkGRRTHkBRwx-zNSwU-W-gvsODCw0rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DdUvb7]
 
