@@ -3940,7 +3940,7 @@ Asegurar que los valores estén ordenados (`mín - máx`) o mostrar un solo valo
 <div id='6.4.'><h3> 6.4. Video About-the-Product</h3></div>
 Se adjunta video relacionado a la promoción del producto y de igual forma en relación al equipo:
 
-**Enlace Video About The Product:** []
+**Enlace Video About The Product:** [https://youtu.be/Wy0IjF9693Q]
 **Enlace Video About The Team:** []
 
 
@@ -3983,6 +3983,8 @@ Execution Evidence TB1: [https://acortar.link/unx0in]
 TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/Ealuvfk9zjZGoRH5lSmkDogB2zKWx6RCLrNCJmedOxD54g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CgLlp1]
 
 Execution Evidence TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124343_upc_edu_pe/ESTiW4so34dBrgSOhIBIc7EBAQnT7KPnXfN2r_sER8Kg2Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8uDtQ7]
+
+About the product: [https://youtu.be/Wy0IjF9693Q]
 
 
 
