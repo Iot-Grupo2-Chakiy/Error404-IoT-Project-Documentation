@@ -3509,7 +3509,9 @@ Se adjuntan las evidencias de despliegue del trabajo realizado para el sprint 2 
 
 <div id='6.2.3.'><h3> 6.2.3. Sprint 3</h3></div> 
 <div id='6.2.3.1.'><h4> 6.2.3.1. Sprint Planning 3</h4></div>
+
 Durante el Sprint Planning 3, el equipo centró sus esfuerzos en el ensamblaje físico del prototipo IoT de Chaki’y, así como en la depuración integral de errores técnicos detectados durante los sprints anteriores. Esta etapa marca la consolidación del producto tangible y funcional, previo a su validación final con usuarios.
+
 <table>
 <thead>
 <tr><th>Sprint #</th><th>Sprint 3</th></tr>
@@ -3686,17 +3688,19 @@ Durante el Sprint Planning 3, el equipo centró sus esfuerzos en el ensamblaje f
 </table>
 
 <div id='6.2.3.4.'><h4> 6.2.3.4. Development Evidence for Sprint Review</h4></div>
-| Repository                                                                                                     | Branch | CommitID | Commit Message                                | Date        |
-| -------------------------------------------------------------------------------------------------------------- | ------ | -------- | --------------------------------------------- | ----------- |
-| [https://github.com/Iot-Grupo2-Chakiy/EmbeddedApp](https://github.com/Iot-Grupo2-Chakiy/EmbeddedApp)           | main   | abc1234  | fix: adjusted humidity sensor reads           | Jul 1, 2025 |
-| [https://github.com/Iot-Grupo2-Chakiy/Chakiy-Edge-API](https://github.com/Iot-Grupo2-Chakiy/Chakiy-Edge-API)   | main   | def5678  | feat: improved sync from embedded device      | Jul 2, 2025 |
-| [https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front](https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front)         | main   | ghi9012  | fix: dashboard now updates after each reading | Jul 3, 2025 |
-| [https://github.com/Iot-Grupo2-Chakiy/MobileAppFlutter](https://github.com/Iot-Grupo2-Chakiy/MobileAppFlutter) | main   | jkl3456  | fix: fixed sensor card visual bug             | Jul 3, 2025 |
+
+| Repository | Branch | CommitID | Commit Message | Date |
+|------------|--------|----------|----------------|------|
+| [EmbeddedApp](https://github.com/Iot-Grupo2-Chakiy/EmbeddedApp) | main | abc1234 | fix: adjusted humidity sensor reads | Jul 1, 2025 |
+| [Chakiy-Edge-API](https://github.com/Iot-Grupo2-Chakiy/Chakiy-Edge-API) | main | def5678 | feat: improved sync from embedded device | Jul 2, 2025 |
+| [Chakiy-Front](https://github.com/Iot-Grupo2-Chakiy/Chakiy-Front) | main | ghi9012 | fix: dashboard now updates after each reading | Jul 3, 2025 |
+| [MobileAppFlutter](https://github.com/Iot-Grupo2-Chakiy/MobileAppFlutter) | main | jkl3456 | fix: fixed sensor card visual bug | Jul 3, 2025 |
 
 <div id='6.2.3.5.'><h4> 6.2.3.5. Testing Suite Evidence for Sprint Review</h4></div>
-| Repository                                                                                                                                         | CommitID | Message                                  | Date        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------- | ----------- |
-| [https://github.com/Iot-Grupo2-Chakiy/Error404-IoT-Project-Documentation](https://github.com/Iot-Grupo2-Chakiy/Error404-IoT-Project-Documentation) | 76ac98e  | gherkin tests for final device prototype | Jul 3, 2025 |
+
+| Repository | CommitID | Message | Date |
+|------------|----------|------------------------------------------|------------|
+| [Error404-IoT-Project-Documentation](https://github.com/Iot-Grupo2-Chakiy/Error404-IoT-Project-Documentation) | 76ac98e | gherkin tests for final device prototype | Jul 3, 2025 |
 
 <div id='6.2.3.6.'><h4> 6.2.3.6. Execution Evidence for Sprint Review</h4></div>
 Video del funcionamiento del prototipo IoT
